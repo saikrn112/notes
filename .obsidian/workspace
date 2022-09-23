@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b81f7dd0797f9640",
+        "id": "7326e63261172fb8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Deep Learning/Graph Neural Networks.md",
+            "file": "computer_vision_notes/Lectures/Lecture 8 Deep Learning.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "graph matching",
+                "query": "gaussian mixture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 262.5
   },
   "right": {
     "id": "d814440a20937169",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning/Graph Neural Networks.md",
+                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning/Graph Neural Networks.md",
+                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning/Graph Neural Networks.md"
+                "file": "directed _research/FlowNet Learning Optical flow with CNN.md"
               }
             }
           }
@@ -129,17 +128,48 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b81f7dd0797f9640",
+  "floating": {
+    "id": "e3b57d0d9237430f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "02a205ede27fe342",
+        "type": "window",
+        "children": [
+          {
+            "id": "11578f66b34c80f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "vertical",
+        "x": 2998,
+        "y": 380,
+        "width": 1113,
+        "height": 1138,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "11578f66b34c80f7",
   "lastOpenFiles": [
-    "Deep Learning/Feature Vector.md",
-    "Deep Learning/Graph Neural Networks.md",
-    "directed _research/Graph Matching.md",
-    "directed _research/Graph Theory.md",
-    "directed _research/Complexity and Problem classification.md",
-    "directed _research/Optimation (combinatorial).md",
-    "computer_vision_notes/Lectures/Epipolar Geometry.md",
+    "computer_vision_notes/Lectures/Lecture 8 Deep Learning.md",
+    "directed _research/FlowNet Learning Optical flow with CNN.md",
+    "directed _research/papers/4_flow_net.pdf",
+    "Deep Learning/Deep questions on Deep learning.md",
+    "Linear Algebra/Some fundamentals.md",
     "computer_vision_notes/People.md",
-    "directed _research/DR Tracking.md",
-    "computer_vision_notes/Project 2 Face Swap/Face detection Paper.md"
+    "directed _research/Untitled.md",
+    "computer_vision_notes/Lectures/Lecture 7.md",
+    "Deep Learning/Graph Neural Networks.md",
+    "Deep Learning/Feature Vector.md"
   ]
 }

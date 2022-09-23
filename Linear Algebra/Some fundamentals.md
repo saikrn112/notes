@@ -49,3 +49,6 @@ is it similarity transformation?
 
 ##### Orthogonal Matrix
 $A^{-1} = A^{T}$
+
+Symmetric Matrix
+$A^{T} = A$
