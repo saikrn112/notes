@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "e93ae003356c8c2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "77e1adc9b5e8a7c2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Deep questions on Deep learning.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11546fb64f10a6be",
+    "type": "split",
+    "children": [
+      {
+        "id": "07cfcfded64de123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f69c04c136612fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bf60ad858687b9b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed2c6a0a6a65509b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f788ef5bcb7df395",
+    "type": "split",
+    "children": [
+      {
+        "id": "aac9697bf8e93dab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b494535ddb31cfe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Deep questions on Deep learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a66a8cdbce1d66e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Deep questions on Deep learning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b33887dd9c8487e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9a596d14c20b583b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Deep questions on Deep learning.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "77e1adc9b5e8a7c2",
+  "lastOpenFiles": [
+    "Optimization.md",
+    "Deep questions on Deep learning.md"
+  ]
+}

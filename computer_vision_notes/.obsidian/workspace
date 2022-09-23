@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "be5461a736fd649d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd21eda2549ad552",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "97d8f378b01b0b1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a83579688e60d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d00f5d24a8fda245",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "afbdf635da11cc12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b1a776358c9c99e5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215.5
+  },
+  "right": {
+    "id": "1d6e66ef06e734a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "29148ec5926503f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "847e8daf95698add",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "39dc88971e9d6d10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb19137f7799ae6f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a3f680affb910c61",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bd21eda2549ad552",
+  "lastOpenFiles": [
+    "Panorama Stitching- Brown and Lowe 2007.md",
+    "Phase I.md",
+    "Phase II.md",
+    "Solvers.md",
+    "Probabilistic estimates.md",
+    "random doubts.md",
+    "Pasted image 20220911141946.png",
+    "Loss Functions.md",
+    "Stitching from Project 1.md",
+    "Lectures/Stereo Camera.md"
+  ]
+}
