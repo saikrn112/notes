@@ -2,5 +2,8 @@
   "trashOption": "system",
   "newFileLocation": "current",
   "attachmentFolderPath": "./attachements",
-  "promptDelete": false
+  "promptDelete": false,
+  "showLineNumber": true,
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true
 }

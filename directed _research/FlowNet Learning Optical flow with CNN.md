@@ -27,6 +27,8 @@ layers on top of this correlation layer were predicting `flow`
 Results:
 - 10 image pairs per second on full resolution of Sintel dataset
 
+this is a straightforward encoder-decoder architecture since the contraction part is encoding higher level details and decoder part is expanding back to full image 
+
 ## History
 
 Variational approach - Horn and Schunck 1981 -- dominated fields till 2015
@@ -42,7 +44,7 @@ Deep Matching and DeepFlow  ^f518e4
 - all parameters are set manually instead of learning
 > how is it deep then?
 
-EpicFlow
+EpicFlow ^474bd3
 - more emphasis on quality of sparse matching as matches from [[FlowNet Learning Optical flow with CNN#^f518e4|above]] are merely interpolated to dense flow fields while respecting image boundaries
 >I think what they mean by that is earlier paper focused too much on dense flow fields (as in how each pixel is moving) while this paper focuses on sparse matching of these flow fields? -- TODO confirm
 
@@ -103,7 +105,7 @@ authors want both pooling and dimension shouldnt reduce, so for _refinement_ - a
 >even if they do, it doesnt align with my earlier understanding that reduction in feature map size as the network goes deeper is aiding in network training
 
 authors use upconvolution and concatenation
-- upconvolution
+- upconvolution ^71de6a
 	- essentially, unpooling - extending the feature maps as opposed to pooling, ==is it just padding?==
 	- convolution
 - concatenation
@@ -127,3 +129,86 @@ With these 2 steps, paper is achieving
 >	are they the ones near the input? 
 >	they might be near the input since, they are the ones that find local information from convolutions like edges, corners etc
 
+how is each step increasing the resolution twice? 
+>upconvolution is increasing the size, yes
+>but concatenation is increasing the channel size alone
+
+>[!Image Sizes of Network]
+input     384x512     = 196608
+output  136x320     =  43520
+downsampled rate  =  4.5
+
+and they are repeating this 4 times, resulting in a predicted flow for which the resolution is still 4 times smaller than the input
+>didnt understand what they mean actually
+>	they are basically increasing the size of feature maps after contraction 4 times
+>	but the resulting image is still 4 times less than the actual image
+
+from here they use bilinear upsampling since it is comparitively cheaper and more accurate than adding more deconvolving layers
+>now, how does deconvolution even happen?
+>
+
+Alternatively, instead of upsampling, they tried variational approach without the matching term
+>what is this approach?
+> 	what are they not matching? 
+
+using variational approach
+1. start at 4 times downsampled image output of the network 
+2. coarse to fine scheme with 20 iterations to bring flow field to full resolution
+3. 5 more iterations on full image resolution
+4. additionally compute image boundaries from this [[FlowNet Learning Optical flow with CNN#^f84ad4|paper details]]
+5. respect the detected boundaries by changing the smoothness coefficients to [[FlowNet Learning Optical flow with CNN#^15a650|equation]]
+
+$$\alpha = e^{-\lambda b(x,y)^{k}}$$ ^15a650
+
+paper which they used for computing image boundaries - [link](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.295.579&rep=rep1&type=pdf) ^f84ad4
+
+this approach is more expensive but gives benefits of variational methods to obtain smooth and subpixel accurate flow fields
+
+how does motion blur affect optical flow or any algorithms? 
+how to correct motion blur ? 
+
+
+## Data 
+### Data augumentation
+not only variety of images but also variety of flow fields 
+- same strong geometric transformation to both images of a pair 
+- and additional smaller relative tranformation between the two images
+>we are apply geometric transformation between the both to generalize across the images
+>and then we are applying relative transformation so that network is learning the structure
+
+## Experimental report
+
+- Sintel -- fine tuning of networks and variational refinement of predicted flow fields
+- KITTI 
+- Middlebury
+- Synthetic flying chairs 
+- runtime report
+
+
+#### Loss 
+Endpoint Error (EPE) - standard error measure across optical flow estimation
+euclidean distance between predicted flow _vector_ and ground truth, averaged over all the pixels
+
+
+#### Exploding Gradients
+>what is this problem? thought vanishing gradients is the problem due to chain rule
+>how did they resolve this problem using smaller to larger learning rate?
+
+#### optical color wheel 
+> is the color indicating depth? 
+> 	so background is given different depth and foreground is given different depth? 
+> 	TODO need to confirm this hypothesis
+> 	oh, it's a flow vector encoding wheel
+> 		each color is describing the direction and it's magnitude is determining the strength of the flow
+> on which image do you apply optical flow color changes?
+> 	does it matter? 
+> 	I think we can just take one image and apply how the flow is changing to that
+
+
+upscaling the image dataset helped
+> how ? is upscaling adding any new features?
+> what is fine-tuning and why is it needed to perform for every target dataset?
+
+
+
+Cost Volume

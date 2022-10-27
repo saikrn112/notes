@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7326e63261172fb8",
+        "id": "84129a808ce1e0c6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "computer_vision_notes/Lectures/Lecture 8 Deep Learning.md",
+            "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gaussian mixture",
+                "query": "representation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "d814440a20937169",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
+                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
+                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,59 +118,37 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed _research/FlowNet Learning Optical flow with CNN.md"
+                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md"
               }
             }
+          },
+          {
+            "id": "9d86b89c358c7c40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "floating": {
-    "id": "e3b57d0d9237430f",
-    "type": "floating",
-    "children": [
-      {
-        "id": "02a205ede27fe342",
-        "type": "window",
-        "children": [
-          {
-            "id": "11578f66b34c80f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "directed _research/FlowNet Learning Optical flow with CNN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "direction": "vertical",
-        "x": 2998,
-        "y": 380,
-        "width": 1113,
-        "height": 1138,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "11578f66b34c80f7",
+  "active": "84129a808ce1e0c6",
   "lastOpenFiles": [
-    "computer_vision_notes/Lectures/Lecture 8 Deep Learning.md",
-    "directed _research/FlowNet Learning Optical flow with CNN.md",
-    "directed _research/papers/4_flow_net.pdf",
+    "Math/Set Theory.md",
+    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+    "Math/Linear Algebra/Some fundamentals.md",
+    "Math/Linear Algebra/Rodrigue's rotation formula.md",
     "Deep Learning/Deep questions on Deep learning.md",
-    "Linear Algebra/Some fundamentals.md",
-    "computer_vision_notes/People.md",
-    "directed _research/Untitled.md",
-    "computer_vision_notes/Lectures/Lecture 7.md",
-    "Deep Learning/Graph Neural Networks.md",
-    "Deep Learning/Feature Vector.md"
+    "directed _research/Paper reading template.md",
+    "computer_vision_notes/Project 3 Structure from Motion/Problem Statement.md",
+    "computer_vision_notes/Bundle Adjustment.md",
+    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+    "computer_vision_notes/Lectures/Camera and Image frames.md"
   ]
 }
