@@ -8,36 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ddd3ff2e6b00a18e",
+            "id": "5d47b4484b645936",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "directed _research/Meetings/Lab Meeting 28.10.2022.md",
+                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "67b16aab3a98d268",
+            "id": "6bc2c5ebc44a2649",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "directed _research/Meetings/Lab Meeting 26.10.2022.md",
+                "file": "directed _research/Classification on TPU.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e36f145aa5dbe2fe",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
               }
             }
           },
@@ -52,9 +42,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "314c9c88fe091748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nitin_sanket",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 301.5,
+    "collapsed": true
   },
   "right": {
     "id": "d814440a20937169",
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed _research/Meetings/Lab Meeting 26.10.2022.md",
+                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed _research/Meetings/Lab Meeting 26.10.2022.md",
+                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed _research/Meetings/Lab Meeting 26.10.2022.md"
+                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md"
               }
             }
           },
@@ -179,17 +181,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e36f145aa5dbe2fe",
+  "active": "5d47b4484b645936",
   "lastOpenFiles": [
-    "directed _research/Meetings/Lab Meeting 28.10.2022.md",
     "directed _research/Classification on TPU.md",
-    "directed _research/Meta.md",
-    "directed _research/Untitled.md",
-    "directed _research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md",
-    "directed _research/DR Tracking.md",
+    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+    "computer_vision_notes/Loss Functions.md",
+    "README.md",
+    "computer_vision_notes/Lectures/Lecture 16 NeRF.md",
+    "computer_vision_notes/Lectures/Lecture 15 Bundle Adjustment.md",
     "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "computer_vision_notes/Project 3 Structure from Motion/Questions.md",
-    "directed _research/Weekly Goals/Meta.md",
-    "computer_vision_notes/Lectures/Lecture 12 Get Depth from single image.md"
+    "directed _research/Meetings/Lab Meeting 26.10.2022.md",
+    "directed _research/Meetings/Lab Meeting 28.10.2022.md",
+    "directed _research/Meetings/Untitled.md"
   ]
 }

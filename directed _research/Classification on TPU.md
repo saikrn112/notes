@@ -6,3 +6,8 @@ TODOs
 - [ ] run it on TPU
 	- [ ] convert to tensorRT
 	- [ ] interface with coral
+
+- [ ] get the usb accelerator
+- [ ] connect the coral board rpi to the linux
+- [ ] install the edgetpu compiler 
+- [ ] 

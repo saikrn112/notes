@@ -16,9 +16,38 @@ chierality
 Fundamental matrix $F = K_{IM}^{-T}EK_{CM}^{-1}$
 - it is named that way because, it is a fundamental quantity which is correct in image frame (our source of truth)
 
+$$
+\begin{align}
+u^{T}_{CM}Fu_{IM} = 0\\
+u^{T}_{CM}L_{CM} = 0 \\
+=> L_{CM} = Eu_{IM}
+\end{align}
+$$
+
+$$
+\begin{align}
+Fe_{IM} &= 0\\
+Fe_{CM} &= 0
+\end{align}
+$$
+
 
 SVD cleanup
 
+$E = T_X R$
+if $CM$ is right image and $IM$ is left image
+then left nullspace of $E$ is representing an epipole in $CM$ image
+> that means camera $IM$ is visible in $CM$ @ left nullspace of $E$
+
+following equations demonstrate why
+$$
+\begin{align}
+E &= T_{X}R\\
+T^{T}E &= T^{T}{T_{X}R}\\
+&=0
+\end{align}
+$$
+same is applicable for fundamental matrix $F$
 
 Stereo Rectification 
 
