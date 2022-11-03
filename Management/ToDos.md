@@ -1,0 +1,3 @@
+- [ ] create a base package to pull from for ROS2
+- [ ] move iterm configuration to the git
+	- [ ] 

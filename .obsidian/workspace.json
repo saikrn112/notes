@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+                "file": "directed _research/paper_notes/PWC-Net.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9436c021583e2719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "directed _research/paper_notes/RAFT.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +44,7 @@
             }
           },
           {
-            "id": "f3dc9671b0fe6127",
+            "id": "6516dae5a4004e84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,12 +56,55 @@
             }
           },
           {
-            "id": "314c9c88fe091748",
+            "id": "81e6bfaaab4249ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+                "file": "directed _research/Weekly Goals/Week- 2-28.10.2022-04.11.2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90adee66ce061aff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Docker tutorials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef264100138b4d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/ToDos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "f5f848498385e1c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6522064bec12221",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "directed _research/paper_notes/PWC-Net.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,8 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "right": {
     "id": "d814440a20937169",
@@ -122,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+                "file": "Management/ToDos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+                "file": "Management/ToDos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md"
+                "file": "Management/ToDos.md"
               }
             }
           },
@@ -181,17 +235,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d47b4484b645936",
+  "active": "ef264100138b4d8d",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Management/Docker tutorials.md",
+    "directed _research/Weekly Goals/Week- 2-28.10.2022-04.11.2022.md",
+    "directed _research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md",
     "directed _research/Classification on TPU.md",
     "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
-    "computer_vision_notes/Loss Functions.md",
-    "README.md",
-    "computer_vision_notes/Lectures/Lecture 16 NeRF.md",
-    "computer_vision_notes/Lectures/Lecture 15 Bundle Adjustment.md",
-    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "directed _research/Meetings/Lab Meeting 26.10.2022.md",
-    "directed _research/Meetings/Lab Meeting 28.10.2022.md",
-    "directed _research/Meetings/Untitled.md"
+    "directed _research/paper_notes/PWC-Net.md",
+    "directed _research/paper_notes/RAFT.md",
+    "directed _research/paper_notes/Untitled.md",
+    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md"
   ]
 }
