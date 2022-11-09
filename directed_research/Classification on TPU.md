@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream:directed_research/Classification on TPU.md
 
-=======
->>>>>>> Stashed changes:directed _research/Classification on TPU.md
 ### Resources 
 TPU getting started - [link](https://coral.ai/docs/dev-board/get-started/)
 flashing through USB - [link](https://coral.ai/docs/dev-board/reflash/#flash-a-new-board)

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9e2202faa7383773",
+        "id": "7c8d7a6c5fee15b7",
         "type": "tabs",
         "children": [
           {
-            "id": "5d47b4484b645936",
+            "id": "6624f1933522a20e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6bc2c5ebc44a2649",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "398fec86e8062fc7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "directed_research/Classification on TPU.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 235.5
   },
   "right": {
     "id": "d814440a20937169",
@@ -99,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "directed_research/Classification on TPU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "directed_research/Classification on TPU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "directed_research/Classification on TPU.md"
+              }
             }
           },
           {
@@ -154,17 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "398fec86e8062fc7",
+  "active": "6624f1933522a20e",
   "lastOpenFiles": [
-    "directed _research/Classification on TPU.md",
-    "directed _research/Meetings/11.10.2022.md",
-    "directed _research/Papers to read.md",
-    "directed _research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md",
-    "directed _research/Weekly Goals/Week- 2-28.10.2022-04.11.2022.md",
-    "directed _research/paper_notes/PWC-Net.md",
-    "directed _research/paper_notes/RAFT.md",
-    "Management/Moving Docker images to different location.md",
-    "Management/Moving home partition to another drive.md",
-    "Management/Docker tutorials.md"
+    "directed_research/directed_research_proposal/Semantic_segmentation-aided_visual_odometry_for_ur.pdf",
+    "Management/Vim.md",
+    "Management/Website ideas.md",
+    "Management/ToDos.md",
+    "Management/Infrastructure/cleanup.md",
+    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+    "directed_research/Papers to read.md",
+    "directed_research/Classification on TPU.md",
+    "directed_research/paper_notes/NanoFlowNet.md",
+    "directed_research/FlowNet Learning Optical flow with CNN.md"
   ]
 }
