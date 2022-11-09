@@ -1,4 +1,7 @@
+<<<<<<< Updated upstream:directed_research/Classification on TPU.md
 
+=======
+>>>>>>> Stashed changes:directed _research/Classification on TPU.md
 ### Resources 
 TPU getting started - [link](https://coral.ai/docs/dev-board/get-started/)
 flashing through USB - [link](https://coral.ai/docs/dev-board/reflash/#flash-a-new-board)
@@ -6,9 +9,14 @@ install MDT and run models - [link](https://coral.ai/docs/dev-board/get-started/
 installing tensorflow docker - [link](https://www.tensorflow.org/install/docker)
 
 tensorflow models on edge - [link](https://coral.ai/docs/edgetpu/models-intro/#compatibility-overview)
-NitinSanket's speed tests - [link](https://github.com/NitinJSanket/prg_prgncs)
-
 blog followed for converting the pytorch model - [link](https://towardsdatascience.com/my-journey-in-converting-pytorch-to-tensorflow-lite-d244376beed)
+
+Prof NitinSanket's speed tests - [link](https://github.com/NitinJSanket/prg_prgncs)
+https://github.com/NitinJSanket/prg_prgncs
+https://github.com/NitinJSanket/prg_prgeye/
+https://github.com/prgumd/EVPropNet
+https://github.com/NitinJSanket/prgeyeomni
+
 
 To connect to device 
 ```
@@ -28,6 +36,9 @@ mdt devices
 - [x] run it on TPU
 	- [x] convert to tensorflow lite
 	- [x] interface with coral
+- [ ] check accuracy of the ONNX model if needed after the following two
+- [ ] check accuracy of the tensorflow model 
+- [ ] check accuracy after tflite conversion
 
 3090
 
@@ -35,4 +46,13 @@ mdt devices
 
 1. in this [file](https://github.com/NitinJSanket/prg_prgeye/blob/5780f9755c1da5551074920ce2147a92f623296d/Software/DeepLearning/SpeedTests/CreateNetwork.py) line 72, why are they representing model as 3 times more?
 
->>>>>>> Stashed changes
+
+discussion with Nitin today and yesterday 
+what all did I agree to? 
+so I have his code 
+lots of code 
+so I need to take one of the code and transfer it to TF2 
+and train the classiciation model 
+once that is done I can apply the options 
+
+so for classification I need to take one of his codes from prg eye, prg funcs, prg omni
