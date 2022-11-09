@@ -32,3 +32,8 @@ Longuet Higgins
 
 
 Richard Hartley
+
+Luca Caralone
+Anajoo Kanazawa
+
+Takeo Kanade

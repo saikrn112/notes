@@ -1,3 +1,4 @@
 - [ ] create a base package to pull from for ROS2
 - [ ] move iterm configuration to the git
-	- [ ] 
+- [ ] expand root partition in the drive
+- [ ] somehow get the authy backup
