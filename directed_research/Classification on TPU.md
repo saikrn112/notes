@@ -1,4 +1,4 @@
-
+atible with TensorFlow Lite models only and the model must be compiled for execution on the Edge TPU. For details about how to create a model that's compatible with the E
 ### Resources 
 TPU getting started - [link](https://coral.ai/docs/dev-board/get-started/)
 flashing through USB - [link](https://coral.ai/docs/dev-board/reflash/#flash-a-new-board)
