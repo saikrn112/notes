@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "directed_research/Classification on TPU.md",
+                "file": "computer_vision_notes/Lectures/Lecture 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5353feb4beafe314",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Lectures/Lecture 22.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed_research/Classification on TPU.md",
+                "file": "computer_vision_notes/Lectures/Lecture 22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed_research/Classification on TPU.md",
+                "file": "computer_vision_notes/Lectures/Lecture 22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed_research/Classification on TPU.md"
+                "file": "computer_vision_notes/Lectures/Lecture 22.md"
               }
             }
           },
@@ -144,17 +158,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6624f1933522a20e",
+  "active": "5353feb4beafe314",
   "lastOpenFiles": [
-    "directed_research/typing.md",
+    "computer_vision_notes/People.md",
+    "computer_vision_notes/Lectures/Lecture 22.md",
+    "computer_vision_notes/Lectures/Lecture 7.md",
     "directed_research/Classification on TPU.md",
     "directed_research/directed_research_proposal/Semantic_segmentation-aided_visual_odometry_for_ur.pdf",
     "Management/Vim.md",
     "Management/Website ideas.md",
     "Management/ToDos.md",
     "Management/Infrastructure/cleanup.md",
-    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
-    "directed_research/Papers to read.md",
-    "directed_research/paper_notes/NanoFlowNet.md"
+    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md"
   ]
 }
