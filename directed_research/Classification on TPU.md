@@ -42,7 +42,3 @@ mdt devices
 ### Questions
 
 1. in this [file](https://github.com/NitinJSanket/prg_prgeye/blob/5780f9755c1da5551074920ce2147a92f623296d/Software/DeepLearning/SpeedTests/CreateNetwork.py) line 72, why are they representing model as 3 times more?
-
-I am Sai, currently pursuing master's in Robotics. Prior to this I worked as senior low latency C++ software developer in financial Firm Quantitative brokers. Currently I am doing research with Professor Nitin on Deep optical methods on edge devices which can be deployed on drones. 
-
-
