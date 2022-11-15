@@ -5,11 +5,15 @@
   "autoSaveInterval": 30,
   "autoPushInterval": 0,
   "autoPullInterval": 30,
+<<<<<<< HEAD
   "autoPullOnBoot": false,
+=======
+  "autoPullOnBoot": true,
+>>>>>>> 4986ea4 (vault backup: 2022-11-15 14:02:25)
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
