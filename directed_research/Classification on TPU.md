@@ -43,14 +43,6 @@ mdt devices
 
 1. in this [file](https://github.com/NitinJSanket/prg_prgeye/blob/5780f9755c1da5551074920ce2147a92f623296d/Software/DeepLearning/SpeedTests/CreateNetwork.py) line 72, why are they representing model as 3 times more?
 
+I am Sai, currently pursuing master's in Robotics. Prior to this I worked as senior low latency C++ software developer in financial Firm Quantitative brokers. Currently I am doing research with Professor Nitin on Deep optical methods on edge devices which can be deployed on drones. 
 
-discussion with Nitin today and yesterday 
-what all did I agree to? 
-so I have his code 
-lots of code 
-so I need to take one of the code and transfer it to TF2 
-and train the classiciation model 
-once that is done I can apply the options 
-
-so for classification I need to take one of his codes from prg eye, prg funcs, prg omni
 
