@@ -4,35 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "7c8d7a6c5fee15b7",
+        "id": "9f35a69826131f35",
         "type": "tabs",
         "children": [
           {
-            "id": "6624f1933522a20e",
+            "id": "10ceb64f4c123535",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "directed_research/Classification on TPU.md",
+                "file": "Math/Lie Algebra for robotics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9dc3c589d038c064",
+            "id": "d2b9dba7c98aa827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Inverse Transform Sampling.md",
+                "file": "Math/Jargon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a032acfa2adfeb32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Properties.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Inverse Transform Sampling.md",
+                "file": "Math/Lie Algebra for robotics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Inverse Transform Sampling.md",
+                "file": "Math/Lie Algebra for robotics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Inverse Transform Sampling.md"
+                "file": "Math/Lie Algebra for robotics.md"
               }
             }
           },
@@ -157,17 +168,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9dc3c589d038c064",
+  "active": "10ceb64f4c123535",
   "lastOpenFiles": [
-    "directed_research/Classification on TPU.md",
-    "directed_research/typing.md",
-    "directed_research/directed_research_proposal/Semantic_segmentation-aided_visual_odometry_for_ur.pdf",
-    "Management/Vim.md",
+    "Math/Jargon.md",
+    "Math/Lie Algebra for robotics.md",
+    "Math/Properties.md",
+    "directed_research/Untitled 1.md",
+    "directed_research/Paper reading template.md",
+    "directed_research/Untitled.md",
     "Management/Website ideas.md",
-    "Management/ToDos.md",
-    "Management/Infrastructure/cleanup.md",
-    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
-    "directed_research/Papers to read.md",
-    "directed_research/paper_notes/NanoFlowNet.md"
+    "conflict-files-obsidian-git.md",
+    "computer_vision_notes/Project 4 VIO/MSCKF for VIO.md",
+    "computer_vision_notes/People.md"
   ]
 }
