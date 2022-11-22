@@ -40,3 +40,5 @@ Takeo Kanade
 
 
 Vladlen Kolten
+
+Cyrill Stachniss

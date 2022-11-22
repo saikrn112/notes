@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Management/Website ideas.md",
+                "file": "computer_vision_notes/People.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Properties.md",
+                "file": "computer_vision_notes/Lectures/Lecture 7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72874267c9177732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Lectures/Lecture 23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "&=",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Management/Website ideas.md",
+                "file": "computer_vision_notes/Lectures/Lecture 23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Management/Website ideas.md",
+                "file": "computer_vision_notes/Lectures/Lecture 23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Management/Website ideas.md"
+                "file": "computer_vision_notes/Lectures/Lecture 23.md"
               }
             }
           },
@@ -157,17 +170,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d2b9dba7c98aa827",
+  "active": "72874267c9177732",
   "lastOpenFiles": [
+    "computer_vision_notes/People.md",
+    "computer_vision_notes/Lectures/Lecture 23.md",
+    "computer_vision_notes/Lectures/Lecture 7.md",
+    "Math/Properties.md",
+    "Management/Website ideas.md",
     "Math/Lie Algebra for robotics.md",
     "Math/Jargon.md",
-    "Math/Properties.md",
     "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
     "directed_research/Complexity and Problem classification.md",
-    "directed_research/Untitled 1.md",
-    "directed_research/Paper reading template.md",
-    "directed_research/Untitled.md",
-    "Management/Website ideas.md",
-    "conflict-files-obsidian-git.md"
+    "directed_research/Untitled 1.md"
   ]
 }
