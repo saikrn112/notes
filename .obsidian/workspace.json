@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 23.md",
+                "file": "directed_research/Papers to read.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd4ff4424bb39550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Loss Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "0.4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 23.md",
+                "file": "computer_vision_notes/Loss Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 23.md",
+                "file": "computer_vision_notes/Loss Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 23.md"
+                "file": "computer_vision_notes/Loss Functions.md"
               }
             }
           },
@@ -170,17 +182,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "72874267c9177732",
+  "active": "819fef4452d8fd1f",
   "lastOpenFiles": [
-    "computer_vision_notes/People.md",
-    "computer_vision_notes/Lectures/Lecture 23.md",
-    "computer_vision_notes/Lectures/Lecture 7.md",
-    "Math/Properties.md",
-    "Management/Website ideas.md",
-    "Math/Lie Algebra for robotics.md",
-    "Math/Jargon.md",
     "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "directed_research/Complexity and Problem classification.md",
-    "directed_research/Untitled 1.md"
+    "computer_vision_notes/Loss Functions.md",
+    "directed_research/Papers to read.md",
+    "directed_research/Optical Flow network implementation.md",
+    "directed_research/Optical Flow.md",
+    "directed_research/Classification on TPU.md",
+    "computer_vision_notes/Lectures/Lecture 7.md",
+    "computer_vision_notes/People.md",
+    "directed_research/Weekly Goals/Week- 2-28.10.2022-04.11.2022.md",
+    "directed_research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md"
   ]
 }

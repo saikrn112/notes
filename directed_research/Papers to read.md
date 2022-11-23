@@ -41,6 +41,7 @@ An optical flow paper is marked complete if it address the following challenges 
 - Temporal information
 - Intensity variations?
 - network should generalize well outside of it's training without fine tuning
+- low lighting conditions
 
 To evaluate each Network, we need data which accounts the above problems as benchmarks
 
@@ -59,7 +60,7 @@ any time network object dispartiy
 | [Rotation Avging](https://users.cecs.anu.edu.au/~hartley/Papers/PDF/Hartley-Trumpf:Rotation-averaging:IJCV.pdf)     rotation avging matrix |              |
 | [dual quaternion](https://en.wikipedia.org/wiki/Dual_quaternion)                                                                           |              |
 | [least squares](https://textbooks.math.gatech.edu/ila/least-squares.html)                                                                  |              |
-|                                                                                                                                            |              |
+|  [general and adaptive loss](https://arxiv.org/abs/1701.03077)    (jon barron)                                                                                                                           |              |
 
 
 ---
@@ -95,3 +96,5 @@ Deep Learning for Visual-Inertial Odometry: Estimation of Monocular Camera Ego-M
   
 
 Efficient Deep Visual and Inertial Odometry with Adaptive Visual Modality Selection ([https://arxiv.org/abs/2205.06187](https://arxiv.org/abs/2205.06187 "https://arxiv.org/abs/2205.06187"))
+
+---
