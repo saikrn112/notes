@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/People.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a032acfa2adfeb32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 7.md",
+                "file": "directed_research/Directed research Submission.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7879edae5abdcd79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision_notes/Project 4 VIO/installation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "conference",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +89,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Project 4 VIO/installation.md",
+                "file": "directed_research/Directed research Submission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Project 4 VIO/installation.md",
+                "file": "directed_research/Directed research Submission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Project 4 VIO/installation.md"
+                "file": "directed_research/Directed research Submission.md"
               }
             }
           },
@@ -193,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7879edae5abdcd79",
+  "active": "d2b9dba7c98aa827",
   "lastOpenFiles": [
-    "computer_vision_notes/Loss Functions.md",
-    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "directed_research/Papers to read.md",
-    "directed_research/Optical Flow network implementation.md",
-    "directed_research/Optical Flow.md",
-    "directed_research/Classification on TPU.md",
-    "computer_vision_notes/Lectures/Lecture 7.md",
-    "computer_vision_notes/People.md",
+    "directed_research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md",
     "directed_research/Weekly Goals/Week- 2-28.10.2022-04.11.2022.md",
-    "directed_research/Weekly Goals/Week- 1-25.10.2022-28.10.2022.md"
+    "directed_research/Classification on TPU.md",
+    "directed_research/Complexity and Problem classification.md",
+    "directed_research/Conferences.md",
+    "Math/Graph Matching.md",
+    "Math/Graph Theory.md",
+    "directed_research/Meta.md",
+    "directed_research/Hardware List.md",
+    "directed_research/Optical Flow network implementation.md"
   ]
 }
