@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
+                "file": "Management/Infrastructure/cleanup.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
+                "file": "Management/Infrastructure/cleanup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
+                "file": "Management/Infrastructure/cleanup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md"
+                "file": "Management/Infrastructure/cleanup.md"
               }
             }
           },
@@ -159,6 +159,7 @@
   },
   "active": "0601d7f03bf32d87",
   "lastOpenFiles": [
+    "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
     "computer_vision_notes/People.md",
     "computer_vision_notes/Lectures/Lecture 7.md",
     "computer_vision_notes/Lectures/Lecture 23.md",
@@ -167,7 +168,6 @@
     "Math/Lie Algebra for robotics.md",
     "Math/Jargon.md",
     "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "directed_research/Complexity and Problem classification.md",
-    "directed_research/Untitled 1.md"
+    "directed_research/Complexity and Problem classification.md"
   ]
 }

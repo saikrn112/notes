@@ -10,7 +10,9 @@ rm -rf ~/Library/Application\ Support/Code/CachedData/*
 ```
 
 ### conda clean
+```
 conda clean --all
+```
 
 ### mac purgeable data
 https://appletoolbox.com/how-to-manage-or-delete-purgeable-storage-on-your-mac/
