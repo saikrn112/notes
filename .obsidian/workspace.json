@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Management/Infrastructure/cleanup.md",
+                "file": "computer_vision_notes/Lectures/Lecture 18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eef6dbb87d37d18b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Management/Infrastructure/cleanup.md",
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Management/Infrastructure/cleanup.md",
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Management/Infrastructure/cleanup.md"
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md"
               }
             }
           },
@@ -157,8 +169,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0601d7f03bf32d87",
+  "active": "eef6dbb87d37d18b",
   "lastOpenFiles": [
+    "computer_vision_notes/Lectures/Lecture 18.md",
+    "Management/Infrastructure/cleanup.md",
     "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
     "computer_vision_notes/People.md",
     "computer_vision_notes/Lectures/Lecture 7.md",
@@ -166,8 +180,6 @@
     "Math/Properties.md",
     "Management/Website ideas.md",
     "Math/Lie Algebra for robotics.md",
-    "Math/Jargon.md",
-    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "directed_research/Complexity and Problem classification.md"
+    "Math/Jargon.md"
   ]
 }
