@@ -28,3 +28,17 @@ Depth of field
 - width where it is acceptably sharp from both sides of focal plane
 - more the opening lesser the depth of field 
 - smaller the opening more the depth of field 
+
+Assumptions 
+- infinte depth of field 
+- tiny aperture for acceptable sharpness
+- enough light for good enough shutter speed 
+- always thin lens model 
+
+using blur circle to spoof depth 
+if we know how the blurriness varies with depth of the object, 
+we can sort of estimate the depth of the object based on the image 
+
+
+at focal length if we assume it is a pin hole model 
+let's 
