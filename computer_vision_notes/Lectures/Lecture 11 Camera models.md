@@ -13,8 +13,6 @@ aperture
 - $D = \frac{f}{N}$
 - where, as $N$ increases aperture size decreases 
 
-
-
 blur circle
 - where points outside world plane of focus appear as blur on the image plane
 
@@ -33,12 +31,10 @@ Assumptions
 - infinte depth of field 
 - tiny aperture for acceptable sharpness
 - enough light for good enough shutter speed 
-- always thin lens model 
+- always infitely thin long lens model 
+
+at focal length if we assume it is a pin hole model then we get all those nice properties 
 
 using blur circle to spoof depth 
 if we know how the blurriness varies with depth of the object, 
 we can sort of estimate the depth of the object based on the image 
-
-
-at focal length if we assume it is a pin hole model 
-let's 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
+                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,9 +181,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43eeab3e8c0bbde1",
+  "active": "eef6dbb87d37d18b",
   "lastOpenFiles": [
     "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
+    "computer_vision_notes/Lectures/Assumptions for SFM.md",
     "computer_vision_notes/Lectures/Lecture 18.md",
     "Management/Infrastructure/cleanup.md",
     "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
@@ -191,7 +192,6 @@
     "computer_vision_notes/Lectures/Lecture 7.md",
     "computer_vision_notes/Lectures/Lecture 23.md",
     "Math/Properties.md",
-    "Management/Website ideas.md",
-    "Math/Lie Algebra for robotics.md"
+    "Management/Website ideas.md"
   ]
 }
