@@ -25,31 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 18.md",
+                "file": "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eef6dbb87d37d18b",
+            "id": "63ab33c53dfe906c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43eeab3e8c0bbde1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
+                "file": "computer_vision_notes/Lectures/flex.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
+                "file": "computer_vision_notes/Lectures/flex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
+                "file": "computer_vision_notes/Lectures/flex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md"
+                "file": "computer_vision_notes/Lectures/flex.md"
               }
             }
           },
@@ -181,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eef6dbb87d37d18b",
+  "active": "63ab33c53dfe906c",
   "lastOpenFiles": [
-    "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
-    "computer_vision_notes/Lectures/Assumptions for SFM.md",
-    "computer_vision_notes/Lectures/Lecture 18.md",
-    "Management/Infrastructure/cleanup.md",
     "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
     "computer_vision_notes/People.md",
     "computer_vision_notes/Lectures/Lecture 7.md",
     "computer_vision_notes/Lectures/Lecture 23.md",
     "Math/Properties.md",
-    "Management/Website ideas.md"
+    "Management/Website ideas.md",
+    "Math/Lie Algebra for robotics.md",
+    "Math/Jargon.md",
+    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+    "directed_research/Complexity and Problem classification.md"
   ]
 }
