@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 18.md",
+                "file": "computer_vision_notes/Loss Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "g2o",
+                "query": "begin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md",
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Assumptions for SFM.md"
+                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md"
               }
             }
           },
@@ -181,17 +182,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eef6dbb87d37d18b",
+  "active": "43eeab3e8c0bbde1",
   "lastOpenFiles": [
+    "computer_vision_notes/Loss Functions.md",
+    "Math/Lie Algebra for robotics.md",
+    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
     "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
-    "computer_vision_notes/Lectures/Assumptions for SFM.md",
     "computer_vision_notes/Lectures/Lecture 18.md",
+    "computer_vision_notes/Lectures/Assumptions for SFM.md",
     "Management/Infrastructure/cleanup.md",
     "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
     "computer_vision_notes/People.md",
-    "computer_vision_notes/Lectures/Lecture 7.md",
-    "computer_vision_notes/Lectures/Lecture 23.md",
-    "Math/Properties.md",
-    "Management/Website ideas.md"
+    "computer_vision_notes/Lectures/Lecture 7.md"
   ]
 }
