@@ -28,8 +28,26 @@
                 "source": false
               }
             }
+<<<<<<< HEAD
           }
         ]
+=======
+          },
+          {
+            "id": "748419a41fd6179a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+>>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
       }
     ],
     "direction": "vertical"
@@ -96,7 +114,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "directed_research/papers/9_selfflow.pdf",
+=======
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
+>>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +135,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "directed_research/papers/9_selfflow.pdf",
+=======
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
+>>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +162,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "directed_research/papers/9_selfflow.pdf"
+=======
+                "file": "computer_vision_notes/Lectures/Need to learn.md"
+>>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
               }
             }
           },
@@ -155,11 +185,19 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< HEAD
   "active": "d2b9dba7c98aa827",
   "lastOpenFiles": [
     "directed_research/paper_notes/7_selfflow.pdf.md",
     "directed_research/Papers to read.md",
     "directed_research/paper_notes/Self supervised learning of Optical Flow.md",
+=======
+  "active": "748419a41fd6179a",
+  "lastOpenFiles": [
+    "directed_research/Optical flow intricate details.md",
+    "conflict-files-obsidian-git.md",
+    "directed_research/Optical Flow network implementation.md",
+>>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
     "computer_vision_notes/Lectures/Need to learn.md",
     "directed_research/Directed research Submission.md",
     "directed_research/Submission references.md",
