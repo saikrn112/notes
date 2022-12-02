@@ -11,23 +11,9 @@
             "id": "d2b9dba7c98aa827",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "directed_research/Optical flow intricate details.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0601d7f03bf32d87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computer_vision_notes/Lectures/Need to learn.md",
-                "mode": "source",
-                "source": false
+                "file": "directed_research/papers/9_selfflow.pdf"
               }
             }
           },
@@ -72,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "g2o",
+                "query": "photometric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed_research/Optical flow intricate details.md",
+                "file": "directed_research/papers/9_selfflow.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed_research/Optical flow intricate details.md",
+                "file": "directed_research/papers/9_selfflow.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed_research/Optical flow intricate details.md"
+                "file": "directed_research/papers/9_selfflow.pdf"
               }
             }
           },
@@ -170,15 +157,15 @@
   },
   "active": "d2b9dba7c98aa827",
   "lastOpenFiles": [
+    "directed_research/paper_notes/7_selfflow.pdf.md",
+    "directed_research/Papers to read.md",
+    "directed_research/paper_notes/Self supervised learning of Optical Flow.md",
     "computer_vision_notes/Lectures/Need to learn.md",
+    "directed_research/Directed research Submission.md",
+    "directed_research/Submission references.md",
+    "directed_research/FlowNet Learning Optical flow with CNN.md",
     "directed_research/Optical flow intricate details.md",
     "computer_vision_notes/People.md",
-    "computer_vision_notes/Lectures/flex.md",
-    "computer_vision_notes/Lectures/Lecture 15.2 Factor Graph based SLAM.md",
-    "computer_vision_notes/Lectures/Lecture 7.md",
-    "computer_vision_notes/Lectures/Lecture 23.md",
-    "Math/Properties.md",
-    "Management/Website ideas.md",
-    "Math/Lie Algebra for robotics.md"
+    "computer_vision_notes/Lectures/flex.md"
   ]
 }

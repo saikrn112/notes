@@ -24,4 +24,4 @@ Here are my expectations for your Directed Research Submission:
 
 6.  All these should be submitted by Dec 16, 11:59:59PM on Canvas.
 
-Do let me know if you have any questions.UntitledUntitled
+Do let me know if you have any questions
