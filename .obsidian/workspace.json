@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Need to learn.md",
+                "file": "directed_research/Optical Flow network implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Need to learn.md",
+                "file": "directed_research/Optical Flow network implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Need to learn.md"
+                "file": "directed_research/Optical Flow network implementation.md"
               }
             }
           },
@@ -193,13 +193,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "43eeab3e8c0bbde1",
+  "active": "3c49f78105d95072",
   "lastOpenFiles": [
+    "computer_vision_notes/Lectures/Need to learn.md",
     "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
     "computer_vision_notes/Lectures/Assumptions for SFM.md",
     "directed_research/Optical Flow network implementation.md",
     "conflict-files-obsidian-git.md",
-    "computer_vision_notes/Lectures/Need to learn.md",
     "directed_research/Optical flow intricate details.md",
     "computer_vision_notes/Loss Functions.md",
     "Math/Lie Algebra for robotics.md",

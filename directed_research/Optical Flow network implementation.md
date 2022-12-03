@@ -28,3 +28,6 @@ Loss functions
 - PhotoChab-1 - self supervised Photometric Chabonier loss
 - SSIM-1 - sturcture similarity index loss? 
 - PhotoRobust - 
+
+### Results
+int8 model EPE:79.29372144199442
