@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md",
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md",
+                "file": "computer_vision_notes/Lectures/Need to learn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md"
+                "file": "computer_vision_notes/Lectures/Need to learn.md"
               }
             }
           },
@@ -193,17 +193,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3c49f78105d95072",
+  "active": "43eeab3e8c0bbde1",
   "lastOpenFiles": [
+    "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
+    "computer_vision_notes/Lectures/Assumptions for SFM.md",
+    "directed_research/Optical Flow network implementation.md",
     "conflict-files-obsidian-git.md",
     "computer_vision_notes/Lectures/Need to learn.md",
     "directed_research/Optical flow intricate details.md",
-    "directed_research/Optical Flow network implementation.md",
-    "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
     "computer_vision_notes/Loss Functions.md",
     "Math/Lie Algebra for robotics.md",
     "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "computer_vision_notes/Lectures/Lecture 18.md",
-    "computer_vision_notes/Lectures/Assumptions for SFM.md"
+    "computer_vision_notes/Lectures/Lecture 18.md"
   ]
 }
