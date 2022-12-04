@@ -52,3 +52,31 @@ how to do that?
 how to solve for lambdas $IR$ and $RGB$ 
 can I assume the camera centers as well? 
 
+### Question - 4
+
+road plane would have more granularity 
+fit planes wherever possible on the ground
+check for largest plane 
+
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215159
+
+https://ieeexplore.ieee.org/document/7378662
+
+convert to elevation maps 
+construct navigable terrain based on few filters 
+point density to filter nearby regions
+intensity thresholding
+road consists of two parallel lines 
+and z closer to 0 
+
+
+https://www.mathworks.com/help/lidar/ug/lane-detection-in-3d-lidar-point-cloud.html
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6467419/
+
+refine the search using black points on the road
+and lanes
+
+### Question - 5
+uses pedestrians as stick to calibrate
+https://easychair.org/publications/preprint/sGQh
