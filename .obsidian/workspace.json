@@ -56,12 +56,24 @@
             }
           },
           {
+            "id": "eb4127d259f1d358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Lectures/Lecture 17.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3c49f78105d95072",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md",
+                "file": "computer_vision_notes/Lectures/flex.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md",
+                "file": "computer_vision_notes/Lectures/Lecture 17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md",
+                "file": "computer_vision_notes/Lectures/Lecture 17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "directed_research/Optical Flow network implementation.md"
+                "file": "computer_vision_notes/Lectures/Lecture 17.md"
               }
             }
           },
@@ -193,17 +205,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3c49f78105d95072",
+  "active": "eb4127d259f1d358",
   "lastOpenFiles": [
     "computer_vision_notes/Lectures/Need to learn.md",
+    "computer_vision_notes/Lectures/flex.md",
+    "directed_research/Submission references.md",
+    "directed_research/Optical Flow network implementation.md",
     "computer_vision_notes/Lectures/Lecture 11 Camera models.md",
     "computer_vision_notes/Lectures/Assumptions for SFM.md",
-    "directed_research/Optical Flow network implementation.md",
     "conflict-files-obsidian-git.md",
     "directed_research/Optical flow intricate details.md",
     "computer_vision_notes/Loss Functions.md",
-    "Math/Lie Algebra for robotics.md",
-    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
-    "computer_vision_notes/Lectures/Lecture 18.md"
+    "Math/Lie Algebra for robotics.md"
   ]
 }

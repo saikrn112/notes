@@ -18,3 +18,12 @@ what are some of the cameras used on drones?
 
 spatial transformer network 
 how did we make differentiable DLT layer? 
+
+phase correlation - feature matching if low resolution
+
+rotation and translation from homography
+inverse warp based on fundamental matrix $F$
+
+
+disparity if 2 different focal lengths? 
+- if two cameras have different resolution?
