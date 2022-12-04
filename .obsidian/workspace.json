@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 17.md",
+                "file": "computer_vision_notes/Lectures/Lecture 18.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": ">",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 17.md",
+                "file": "computer_vision_notes/Lectures/Lecture 18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 17.md",
+                "file": "computer_vision_notes/Lectures/Lecture 18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer_vision_notes/Lectures/Lecture 17.md"
+                "file": "computer_vision_notes/Lectures/Lecture 18.md"
               }
             }
           },
@@ -205,8 +206,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eb4127d259f1d358",
+  "active": "819fef4452d8fd1f",
   "lastOpenFiles": [
+    "computer_vision_notes/Lectures/Lecture 17.md",
     "computer_vision_notes/Lectures/Need to learn.md",
     "computer_vision_notes/Lectures/flex.md",
     "directed_research/Submission references.md",
@@ -215,7 +217,6 @@
     "computer_vision_notes/Lectures/Assumptions for SFM.md",
     "conflict-files-obsidian-git.md",
     "directed_research/Optical flow intricate details.md",
-    "computer_vision_notes/Loss Functions.md",
-    "Math/Lie Algebra for robotics.md"
+    "computer_vision_notes/Loss Functions.md"
   ]
 }
