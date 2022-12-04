@@ -1,3 +1,8 @@
+>[!ERROR]
+>need to write in given template
+
+### Question - 1
+
 ellipse fit 
 https://stackoverflow.com/questions/47873759/how-to-fit-a-2d-ellipse-to-given-points
 why we need 5 points 
@@ -18,3 +23,6 @@ https://math.stackexchange.com/questions/2388747/formula-for-ellipse-formed-from
 
 tilted circle
 https://math.stackexchange.com/questions/2388747/formula-for-ellipse-formed-from-projecting-a-tilted-circle-onto-the-xy-plane
+
+### Question - 3
+
