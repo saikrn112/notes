@@ -27,17 +27,17 @@ Loss functions
 - PhotoL1-1 - self supervised Photometric L1 loss
 - PhotoChab-1 - self supervised Photometric Chabonier loss
 - SSIM-1 - sturcture similarity index loss? 
-<<<<<<< Updated upstream
-- PhotoRobust - 
-
-### Results
-int8 model EPE:79.29372144199442
-- PhotoRobust - 
 - PhotoRobust - 
 
 regression using int8
 https://stackoverflow.com/questions/64447009/very-high-error-after-full-integer-quantization-of-a-regression-network
 
+### Results
 
-Canny 
-int8 model 
+Optical Flow Photometric L2 
+int8 model - 79.29372144199442
+full model - 4.709523426622764
+
+Canny Photometric L2 
+int8 model  - 95.6570465117693
+full model - 106.60187255396987
