@@ -6,13 +6,12 @@ horn and schuk
 lucas and kanade 
 upsampling and downsampling 
 - optical flow images in flownet for example 
-<<<<<<< HEAD
+
 how is optical flow interpolated? [[Optical flow intricate details#^8b4152|link]]  
 inverse warping using optical flow [[Optical flow intricate details#^8eb323|link]] -  
 	https://ctim.ulpgc.es/research_works/computing_inverse_optical_flow/
 	https://stackoverflow.com/questions/17459584/opencv-warping-image-based-on-calcopticalflowfarneback
 
-<<<<<<< Updated upstream
 what happens when we apply laplacian, gaussian, sobel to the image? 
 
 what are some of the cameras used on drones? 
@@ -29,12 +28,13 @@ inverse warp based on fundamental matrix $F$
 
 disparity if 2 different focal lengths? 
 - if two cameras have different resolution?
-||||||| constructed merge base
+
 what happens when we apply laplacian, gaussian, sobel to the image? 
-=======
-what happens when we apply laplacian, gaussian, sobel to the image? 
-=======
+
 what are some of the cameras used on drones? 
 - and how does camera model change according to them
->>>>>>> 43bc6fd (vault backup: 2022-12-01 22:54:59)
->>>>>>> Stashed changes
+
+
+convolution transpose and convolution math
+what about biases in conv operator - [[Biases]]
+batch normalization
