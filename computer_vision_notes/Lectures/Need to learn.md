@@ -39,3 +39,5 @@ convolution transpose and convolution math
 what about biases in conv operator - [[Biases]]
 batch normalization
 upconvolution
+
+inverse transform sampling from NeRF

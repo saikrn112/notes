@@ -8,3 +8,7 @@ where
 	$\theta$ is the amount of rotation in right hand rule $v$ incurs
 
 [Rodrigues' rotation formula - Wikipedia](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
+
+
+more rigorous 
+[rodrigues.pdf (duke.edu)](https://courses.cs.duke.edu/fall13/compsci527/notes/rodrigues.pdf)

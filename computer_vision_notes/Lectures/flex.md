@@ -45,6 +45,8 @@ can we do feature matching for disparity?
 depth from optical flow 
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=590045
 
+
+[hons_0608.pdf (canterbury.ac.nz)](https://www.csse.canterbury.ac.nz/research/reports/HonsReps/2006/hons_0608.pdf)
 c. 
 identify common region
 how to do that? 
