@@ -9,3 +9,5 @@ what is it ?
 advantages
 disadvantages
 when to use?
+
+Stronger the activation response, stronger the rememberance
