@@ -32,11 +32,12 @@ Loss functions
 
 ### Results
 int8 model EPE:79.29372144199442
-||||||| constructed merge base
 - PhotoRobust - 
-=======
 - PhotoRobust - 
 
 regression using int8
 https://stackoverflow.com/questions/64447009/very-high-error-after-full-integer-quantization-of-a-regression-network
->>>>>>> Stashed changes
+
+
+Canny 
+int8 model 

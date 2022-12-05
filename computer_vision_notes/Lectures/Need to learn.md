@@ -38,3 +38,4 @@ what are some of the cameras used on drones?
 convolution transpose and convolution math
 what about biases in conv operator - [[Biases]]
 batch normalization
+upconvolution
