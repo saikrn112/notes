@@ -26,7 +26,7 @@ Loss functions
 - SL1-1 - supervised L1 loss
 - PhotoL1-1 - self supervised Photometric L1 loss
 - PhotoChab-1 - self supervised Photometric Chabonier loss
-- SSIM-1 - sturcture similarity index loss? 
+- SSIM-1 - sturcture similarity index loss
 - PhotoRobust - 
 
 regression using int8
