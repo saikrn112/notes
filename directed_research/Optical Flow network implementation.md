@@ -51,4 +51,8 @@ total L1 Mean:9.499303572683623
 total L2 Mean:15.627450042493416
 ```
 
+Training
 ![[Pasted image 20221206035817.png]]
+Prediction
+
+![[Pasted image 20221206055235.png]]
