@@ -38,10 +38,12 @@ Optical Flow Photometric L2
 int8 model - 79.29372144199442
 full model - 4.709523426622764
 
-Canny Photometric L2 
+HSV Photometric L2 
 int8 model  
 total L1 Mean:84.33638314531349
 total L2 Mean:106.72953766401498
+
+![[Pasted image 20221206035817.png]]
 
 full model 
 total L1 Mean:86.50669585256865
