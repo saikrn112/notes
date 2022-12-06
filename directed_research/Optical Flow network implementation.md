@@ -35,16 +35,20 @@ https://stackoverflow.com/questions/64447009/very-high-error-after-full-integer-
 ### Results
 
 Optical Flow Photometric L2 
+```
 int8 model - 79.29372144199442
 full model - 4.709523426622764
+```
 
-HSV Photometric L2 
-int8 model  
-total L1 Mean:84.33638314531349
-total L2 Mean:106.72953766401498
-
-![[Pasted image 20221206035817.png]]
+HSV photometric 
+```
+int 8 model 
+total L1 Mean:9.952038832631455
+total L2 Mean:15.960667593762867
 
 full model 
-total L1 Mean:86.50669585256865
-total L2 Mean:110.5262273568818
+total L1 Mean:9.499303572683623
+total L2 Mean:15.627450042493416
+```
+
+![[Pasted image 20221206035817.png]]
