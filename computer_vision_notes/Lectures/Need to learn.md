@@ -41,3 +41,6 @@ batch normalization
 upconvolution
 
 inverse transform sampling from NeRF
+
+
+why PCA doesnt work 
