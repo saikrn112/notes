@@ -66,3 +66,18 @@ Training
 Prediction
 
 ![[Pasted image 20221206055235.png]]
+
+## Flow Tests
+
+### clipping flow values
+
+histogram of 800 image flows from flying chairs2
+```
+mean_x = -0.2
+mean_y = 0.3
+std_x = 12.9
+std_y = 13.6
+```
+
+histogram -- `OutputStats.ipynb`
+![[Pasted image 20221206215715.png]]
