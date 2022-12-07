@@ -82,3 +82,9 @@ and lanes
 ### Question - 5
 uses pedestrians as stick to calibrate
 https://easychair.org/publications/preprint/sGQh
+
+
+### Question - 7
+from ID we need to get position and velocities at each step 
+because of moving objects, we need to interpolate the optical flow? 
+assuming rigid flow 
