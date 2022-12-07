@@ -10,8 +10,18 @@ https://github.com/NitinJSanket/prgeyeomni
 will try with the CIFAR10 model generated using TF1 again
 check the accuracy of that output
 
+### Dataset
+brief description from official website -- [link](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html)
+2 images 
+2 image object IDs -- ??
+suffix_flow_01 and suffix_flow_10 -- forward and backward flows -- This is of interest
+suffix_occ_01 and suffix_occ_10 -- occlusions 
+suffix_occ_weights_01 and suffix_occ_weights_10 -- ?? 
+suffix_mb_01 and suffix_mb_10 -- motion boundaries 
+suffix_mb_weights_01 and suffix_mb_weights_10 -- motion boundary weights
 
-### implementation details
+
+### Implementation details
 scoping the layer to prevent ugliness
 
 
