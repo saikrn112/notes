@@ -1,9 +1,11 @@
 post rotation multiplication
 affine transformation vs 
 rigid transformation vs 
-aperture problem 
-horn and schuk
-lucas and kanade 
+
+aperture problem - [[Optical flow intricate details]]
+horn and schuk -- [[Optical flow intricate details]]
+lucas and kanade -- [[Optical flow intricate details]]
+
 upsampling and downsampling 
 - optical flow images in flownet for example 
 
@@ -43,5 +45,6 @@ upconvolution
 NeRF
 - inverse transform sampling 
 
-
-why PCA doesnt work 
+what is PCA and how is it related to SVD? 
+why PCA doesnt work in computer vision problems 
+Biliear interpolation
