@@ -26,6 +26,7 @@ Horn and Schunck - resource http://people.csail.mit.edu/bkph/papers/Optical_Flow
 - need to tune the regularization parameter which is used in minimzation equation
 - noise sensitive
 	- sinse it's solved globally, errors in estimation at one part is propagated to all the other parts
+
 Assumptions
 - brightness constancy 
 - smoothness of the flow 

@@ -48,3 +48,5 @@ NeRF
 what is PCA and how is it related to SVD? 
 why PCA doesnt work in computer vision problems 
 Biliear interpolation
+
+homography inverse error -- by Radha

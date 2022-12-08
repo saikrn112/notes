@@ -24,6 +24,11 @@ https://math.stackexchange.com/questions/2388747/formula-for-ellipse-formed-from
 tilted circle
 https://math.stackexchange.com/questions/2388747/formula-for-ellipse-formed-from-projecting-a-tilted-circle-onto-the-xy-plane
 
+
+problem description  - [[rbe549_exam_q1_1.jpeg]]
+problem solution - [[rbe549_exam_q1_2.jpeg]]
+
+
 ### question - 2
 dispartiy vs depth error
 https://www.flir.com/support-center/iis/machine-vision/application-note/stereo-accuracy-and-error-modeling/
