@@ -29,12 +29,13 @@ problem description  - [[rbe549_exam_q1_1.jpeg]]
 problem solution - [[rbe549_exam_q1_2.jpeg]]
 
 
-### question - 2
+### Question - 2
 dispartiy vs depth error
 https://www.flir.com/support-center/iis/machine-vision/application-note/stereo-accuracy-and-error-modeling/
 
 disparity vs x and y error 
 https://robotics.stackexchange.com/questions/19070/disparity-error-to-x-and-y-accuracy
+
 ### Question - 3
 depth is from 1st frame
 http://www.cns.nyu.edu/~david/handouts/motion.pdf
