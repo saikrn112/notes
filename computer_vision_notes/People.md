@@ -42,3 +42,6 @@ Takeo Kanade
 Vladlen Kolten
 
 Cyrill Stachniss
+
+
+Deva Ramanan  - Argo.AI
