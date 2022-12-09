@@ -5,3 +5,4 @@ other resources
 - rodrigues formula - [[Rodrigue's rotation formula]]
 - rodrigues more rigorous - [rodrigues.pdf (duke.edu)](https://courses.cs.duke.edu/fall13/compsci527/notes/rodrigues.pdf)
 
+### Quaternions
