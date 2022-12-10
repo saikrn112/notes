@@ -70,7 +70,6 @@ Prediction
 ## Flow Tests
 
 ### clipping flow values
-
 histogram of 800 image flows from flying chairs2
 ```
 mean_x = -0.2
@@ -79,5 +78,17 @@ std_x = 12.9
 std_y = 13.6
 ```
 
+histogram before and after standardizing 0-255
+![[before_after_hist.png]]
 histogram -- `OutputStats.ipynb`
 ![[Pasted image 20221206215715.png]]
+
+![[clip_sudden_loss_fall.png]]
+
+![[after_full_train.png]]
+
+before flow
+![[before_flow.png]]
+
+
+![[after_standardize_flow.png]]
