@@ -95,3 +95,9 @@ before flow
 
 flow_hsv after 70 epochs with gradeint clip and regularization
 ![[Pasted image 20221210083644.png]]
+
+flow with hsv without scalling 
+SL-1
+200 epochs
+800 images train data
+![[Pasted image 20221210111845.png]]
