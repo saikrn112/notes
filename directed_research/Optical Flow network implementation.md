@@ -101,3 +101,13 @@ SL-1
 200 epochs
 800 images train data
 ![[Pasted image 20221210111845.png]]
+
+
+so photochab has also not worked. 
+what are the next steps? 
+I am trying the model which NJ gave. 
+
+apart from that I can try binning data. I was expecting the HSV thing to work though. 
+why could it not work? 
+UNet is probably thing I can try 
+
