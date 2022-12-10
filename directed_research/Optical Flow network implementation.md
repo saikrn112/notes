@@ -92,3 +92,6 @@ before flow
 
 
 ![[after_standardize_flow.png]]
+
+flow_hsv after 70 epochs with gradeint clip and regularization
+![[Pasted image 20221210083644.png]]
