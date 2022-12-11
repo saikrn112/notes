@@ -41,6 +41,7 @@ convolution transpose and convolution math
 what about biases in conv operator - [[Biases]]
 batch normalization
 upconvolution
+how is non linear function applied in convolutions? 
 
 NeRF
 - inverse transform sampling 
