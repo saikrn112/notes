@@ -115,3 +115,5 @@ implemented UNet architecture
 ![[Pasted image 20221211163144.png]]
 
 implemented only 1 layer since more than one is not working for some reason
+more straight than anything else
+![[Pasted image 20221211175717.png]]
