@@ -111,3 +111,7 @@ apart from that I can try binning data. I was expecting the HSV thing to work th
 why could it not work? 
 UNet is probably thing I can try 
 
+implemented UNet architecture
+![[Pasted image 20221211163144.png]]
+
+implemented only 1 layer since more than one is not working for some reason
