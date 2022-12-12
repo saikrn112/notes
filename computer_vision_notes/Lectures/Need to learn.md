@@ -1,6 +1,4 @@
-post rotation multiplication
-affine transformation vs 
-rigid transformation vs 
+
 
 aperture problem - [[Optical flow intricate details]]
 horn and schuk -- [[Optical flow intricate details]]
@@ -32,23 +30,37 @@ what happens when we apply laplacian, gaussian, sobel to the image?
 what are some of the cameras used on drones? 
 - and how does camera model change according to them
 
-NeRF
-- inverse transform sampling 
-
-what is PCA and how is it related to SVD? 
-why PCA doesnt work in computer vision problems 
 Biliear interpolation
+- what if the indices are falling out of bounds
 
 homography inverse error -- by Radha
-
+- related to reprojection error
 
 #### Deep Learning
 
-convolution transpose and convolution math
+convolution math
+- implementing convolutions efficiently
+- implementing convolution transpose efficiently
+- implementing dialated convolutions
+
 what about biases in conv operator - [[Biases]]
+
 batch normalization
-upconvolution
+
 how is non linear function applied in convolutions? 
+- it is applied per pixel output of the feature map
 
 spatial transformer network 
 how did we make differentiable DLT layer? 
+
+
+#### Math
+what is PCA and how is it related to SVD? 
+why PCA doesnt work in computer vision problems 
+
+NeRF
+- inverse transform sampling 
+
+post rotation multiplication
+affine transformation vs 
+rigid transformation vs 
