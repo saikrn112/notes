@@ -3,6 +3,7 @@
 aperture problem - [[Optical flow intricate details]]
 horn and schuk -- [[Optical flow intricate details]]
 lucas and kanade -- [[Optical flow intricate details]]
+farneback method 
 
 upsampling and downsampling 
 - optical flow images in flownet for example 
