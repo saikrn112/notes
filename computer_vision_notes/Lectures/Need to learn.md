@@ -19,14 +19,10 @@ what happens when we apply laplacian, gaussian, sobel to the image?
 what are some of the cameras used on drones? 
 - and how does camera model change according to them
 
-spatial transformer network 
-how did we make differentiable DLT layer? 
-
 phase correlation - feature matching if low resolution
 
 rotation and translation from homography
 inverse warp based on fundamental matrix $F$
-
 
 disparity if 2 different focal lengths? 
 - if two cameras have different resolution?
@@ -36,13 +32,6 @@ what happens when we apply laplacian, gaussian, sobel to the image?
 what are some of the cameras used on drones? 
 - and how does camera model change according to them
 
-
-convolution transpose and convolution math
-what about biases in conv operator - [[Biases]]
-batch normalization
-upconvolution
-how is non linear function applied in convolutions? 
-
 NeRF
 - inverse transform sampling 
 
@@ -51,3 +40,15 @@ why PCA doesnt work in computer vision problems
 Biliear interpolation
 
 homography inverse error -- by Radha
+
+
+#### Deep Learning
+
+convolution transpose and convolution math
+what about biases in conv operator - [[Biases]]
+batch normalization
+upconvolution
+how is non linear function applied in convolutions? 
+
+spatial transformer network 
+how did we make differentiable DLT layer? 
