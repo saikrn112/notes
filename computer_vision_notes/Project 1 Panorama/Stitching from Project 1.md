@@ -1,8 +1,16 @@
+
+## Problem statement
+
+## corner detection
+using corner harris or Shi- Tomasi corners
+how does any of the above work? 
+how to detect a corner in the first place? 
+
+
 ### Resources
 one resource - [(1) Warping and Blending Images | Image Stitching - YouTube](https://www.youtube.com/watch?v=D9rAOAL12SY)
 
 another book - [Computer Vision: Algorithms and Applications, 2nd ed. (szeliski.org)](http://szeliski.org/Book/)
-
 
 ## Notes from Book CVAA
 
@@ -77,3 +85,6 @@ Better alternative:
 	**simultaneously align** all the images using least squares framework to properly distribute any misregistration errors
 	this process of adjusting pose parameters and 3D point locations for a large collection of overlapping images is called _bundle adjustment_
 	
+
+
+

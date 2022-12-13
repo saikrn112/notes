@@ -48,3 +48,9 @@ any color representation can be used for clustering
 ### Gradients of all these maps
 >[!ERROR]
 >how is different from applying DoG?
+
+
+### Half disk masks
+they are used to compute gradients
+but how are they any different from DoG? 
+in DoG we are just passing through various kernel sizes

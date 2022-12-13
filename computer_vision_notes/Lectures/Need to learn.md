@@ -70,3 +70,5 @@ NeRF
 post rotation multiplication
 affine transformation vs 
 rigid transformation vs 
+
+how is convolution fundamentally different from cross-correlation?
