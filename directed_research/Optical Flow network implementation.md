@@ -126,12 +126,25 @@ more straight than anything else
 
 
 next steps
-- standardize and try the same unet
-- training the unet again with l4 since l3 sucked
-- l4 looks promising in training faster
-- edge quantize the l4 and see how the error is 
 - report
 - pyramidal structure can be tried 
 
 Hashing 
 - learn a hash function (see if a normal NN is able to learn this representation
+
+
+HSV flow without standardization
+```
+total L1 Mean:29.699766159057617
+total L2 Mean:37.74184036254883
+```
+quantized model on CPU
+```
+Time consumed in working:  2.364023447036743
+```
+
+quantized model on TPU
+```
+Time consumed in working:  0.4540226459503174
+```
+

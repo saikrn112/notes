@@ -28,3 +28,23 @@ we are having different scales to identify different thickness of edges
 how are 1st order LM filters fundamentally different from sobel filters? 
 what is the purpose of considering different elongation factor of gaussians? 
 laplacian is more stable but looses direction
+
+### Gabor filters
+they are just human like filters
+these are more than enough and we can throw out the DoG and LM
+
+### Texton Map 
+it's a cluster all the filter responses 
+binning them into 64 groups
+	this doesnt mean that values are going from 0 to 63, rather different values are grouped into 64 categories 
+
+### Brightness Map
+grayscale brightness not color 
+
+### Color Map
+any color representation can be used for clustering
+
+
+### Gradients of all these maps
+>[!ERROR]
+>how is different from applying DoG?
