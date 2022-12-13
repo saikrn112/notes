@@ -80,3 +80,10 @@ equation $Ax = b$ called
 
 **Rank of product of matrices**
 https://math.stackexchange.com/questions/192164/rank-product-of-matrix-compared-to-individual-matrices
+
+
+**Orthonormal Basis** -- [[Convolution.pdf]] #TOREAD
+2 reasons
+1. projection - easier to get individual components (free variables) that are independent of other variables just by using dot product with basis
+2. length - length is as simple as sum of squares of coords
+

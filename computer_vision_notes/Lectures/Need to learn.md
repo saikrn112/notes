@@ -20,6 +20,8 @@ what are some of the cameras used on drones?
 
 phase correlation - feature matching if low resolution
 
+why correlation for pattern matching instead of subtraction
+
 rotation and translation from homography
 inverse warp based on fundamental matrix $F$
 
@@ -36,6 +38,9 @@ Biliear interpolation
 
 homography inverse error -- by Radha
 - related to reprojection error
+
+HSV equations -- [[HSV]]
+
 
 #### Deep Learning
 
