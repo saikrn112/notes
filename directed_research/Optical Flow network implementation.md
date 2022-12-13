@@ -134,5 +134,4 @@ next steps
 - pyramidal structure can be tried 
 
 Hashing 
-- learn a hash function (see if a normal NN is able to learn this representation)
-
+- learn a hash function (see if a normal NN is able to learn this representation
