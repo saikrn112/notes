@@ -14,3 +14,9 @@ phase based autofocus
 
 how is laplacian a high pass filter? 
 sobel is high pass filter in 1D
+
+
+passive computation
+SLMs - spatial light modulator 
+- is this useful for optical flow? 
+
