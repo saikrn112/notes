@@ -116,4 +116,23 @@ implemented UNet architecture
 
 implemented only 1 layer since more than one is not working for some reason
 more straight than anything else
+
 ![[Pasted image 20221211175717.png]]
+
+
+![[loss_unet_l5_32k.png]]
+
+![[unet_l5_32k.png]]
+
+
+next steps
+- standardize and try the same unet
+- training the unet again with l4 since l3 sucked
+- l4 looks promising in training faster
+- edge quantize the l4 and see how the error is 
+- report
+- pyramidal structure can be tried 
+
+Hashing 
+- learn a hash function (see if a normal NN is able to learn this representation)
+

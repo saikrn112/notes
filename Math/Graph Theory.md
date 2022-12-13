@@ -27,6 +27,6 @@ _Graph Theory Definition_:
 
 Related to graph theory is the optimal transport problem of matching
 
-Assignment problem [[Optimation (combinatorial)#^a67c29]]
+Assignment problem [[Optimization (combinatorial)#^a67c29]]
 
 
