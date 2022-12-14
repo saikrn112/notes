@@ -9,3 +9,6 @@ github - https://github.com/saikrn112/OpticalFlowOnTPU/pull/3/files
 
 
 
+resnet lr3
+![[Pasted image 20221214011958.png]]
+

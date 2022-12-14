@@ -9,7 +9,8 @@ compute the intensity gradients on the patch
 	using a sobel or difference of gaussian operators
 	more robust since we are remving the noise
 	
-## 
+## ANMS
+it's called adaptive because it's adaptively determining which are local maximas and suppressing them  
 
 
 ### Resources
