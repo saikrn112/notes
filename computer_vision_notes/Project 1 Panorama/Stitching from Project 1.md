@@ -5,6 +5,11 @@
 using corner harris or Shi- Tomasi corners
 how does any of the above work? 
 how to detect a corner in the first place? 
+compute the intensity gradients on the patch 
+	using a sobel or difference of gaussian operators
+	more robust since we are remving the noise
+	
+## 
 
 
 ### Resources
