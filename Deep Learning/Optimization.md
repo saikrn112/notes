@@ -23,3 +23,11 @@ Newton's Method
 
 Gauss Neton Method 
 
+[Deep Learning Optimizers. SGD with momentum, Adagrad, Adadelta… | by Gunand Mayanglambam | Towards Data Science](https://towardsdatascience.com/deep-learning-optimizers-436171c9e23f)
+
+Gradient Descent
+Stochastic Gradient descent
+Minibatch stochastic gradient descent
+AdaGrad
+Adadelta
+Adam

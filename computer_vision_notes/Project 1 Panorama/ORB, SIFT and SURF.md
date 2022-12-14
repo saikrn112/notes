@@ -23,3 +23,6 @@ ORB uses BRIEF descriptor
 - remember that descriptor is basically encoding the keypoint patch
 - but this encoding based comparison performs poorly with rotation
 	- as in when the same patch is rotated it will not be able to identify
+
+## SIFT
+

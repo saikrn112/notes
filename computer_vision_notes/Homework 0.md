@@ -54,3 +54,7 @@ any color representation can be used for clustering
 they are used to compute gradients
 but how are they any different from DoG? 
 in DoG we are just passing through various kernel sizes
+
+
+
+![[Pasted image 20221214021132.png]]

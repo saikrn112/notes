@@ -1,7 +1,7 @@
 
 ## Problem statement
 
-## corner detection
+### corner detection
 using corner harris or Shi- Tomasi corners
 how does any of the above work? 
 how to detect a corner in the first place? 
@@ -9,8 +9,14 @@ compute the intensity gradients on the patch
 	using a sobel or difference of gaussian operators
 	more robust since we are remving the noise
 	
-## ANMS
+### ANMS
 it's called adaptive because it's adaptively determining which are local maximas and suppressing them  
+
+
+### Feature Matching
+uses david lowe's test. ratio of first and second descriptor distances. if value is less than $\epsilon$ then the descriptor is good otherwise no
+
+
 
 
 ### Resources
