@@ -150,3 +150,6 @@ Time consumed in working:  0.4540226459503174
 
 
 
+flow viz proof
+
+![[Pasted image 20221214194113.png]]
