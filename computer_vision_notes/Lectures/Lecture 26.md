@@ -1,22 +1,6 @@
-pillbox function
 
-convolution is 
-	linear
-	shift invariance
+Event cameras
 
-depth from focus
-- stack a lot of images at different depth
-- focal stack of images
+Spiking neural network 
 
-laplacian based autofocus
-vs 
-phase based autofocus
-
-how is laplacian a high pass filter? 
-sobel is high pass filter in 1D
-
-
-passive computation
-SLMs - spatial light modulator 
-- is this useful for optical flow? 
-
+different from FCN and CNN 
