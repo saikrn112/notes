@@ -14,6 +14,8 @@ inverse warping using optical flow [[Optical flow intricate details#^8eb323|link
 	https://stackoverflow.com/questions/17459584/opencv-warping-image-based-on-calcopticalflowfarneback
 
 what happens when we apply laplacian, gaussian, sobel to the image? 
+standard ways to compare corner features
+standard ways to get descriptor
 
 what are some of the cameras used on drones? 
 - and how does camera model change according to them
