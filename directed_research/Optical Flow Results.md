@@ -24,6 +24,7 @@ we need commands for creating a test result, test values for both full model and
 let's write commands for test result for full model
 and commands for converting to tflite
 ```
+# the following are commands for testing full model
 # resnet row 4 in sheet in turing 2
 python Test.py --NetworkName=Network.ResNet \
 --CheckPointPathFolder=../models/flow_hsv_rnetd1n32lr4/\
@@ -61,6 +62,14 @@ python Test.py --NetowrkName=Network.ResNet \
 ```
 
 
+```
+# 
+python Test.py --NetworkName=Network.ResNet \
+--CheckPointPathFolder=../models/flow_hsv_rnetd1n32lr4/\
+--CheckPointNum=7\
+--NumSubBlocks=2\
+--InitNeurons=32
+```
 
 ```
 # unet row 15 in model in turint 3
