@@ -24,19 +24,46 @@ we need commands for creating a test result, test values for both full model and
 let's write commands for test result for full model
 and commands for converting to tflite
 ```
-# resnet row 4 in sheet
+# resnet row 4 in sheet in turing 2
 python Test.py --NetworkName=Network.ResNet \
 --CheckPointPathFolder=../models/flow_hsv_rnetd1n32lr4/\
 --CheckPointNum=7\
 --NumSubBlocks=2\
 --InitNeurons=32
 
-# resnet row 7 in sheet
+# resnet row 7 in sheet in 3060ti
 python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnetd1n64lr4/\
---CheckPointNum=7\
+--CheckPointPathFolder=../models/flow_hsv_rnet32nlr4d1/\
+--CheckPointNum=317\
+--NumSubBlocks=1\
+--InitNeurons=64
+
+# resnet row 10 in sheet in 3080 
+python Test.py --NetworkName=Network.ResNet \
+--CheckPointPathFolder=../models/flow_hsv_rnet32nlr4/
+--CheckPointNum=33\
 --NumSubBlocks=2\
 --InitNeurons=32
+
+# resnet row 12 in sheet in 3080 
+python Test.py --NetworkName=Network.ResNet \
+--CheckPointPathFolder=../models/flow_hsv_rnetlr4/
+--CheckPointNum=30\ -- TODO
+--NumSubBlocks=3\
+--InitNeurons=32
+
+# resnet row 13 in sheet model is in 3060ti
+python Test.py --NetowrkName=Network.ResNet \
+--CheckPointPathFolder=../models/flow_hsv_rnet64nlr4/
+--CheckPointNum=120\
+--NumSubBlocks=2\
+--InitNeurons=64
+```
+
+
+
+```
+# unet row 15 in model in turint 3
 
 ```
 
