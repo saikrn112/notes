@@ -27,10 +27,34 @@ and commands for converting to tflite
 # the following are commands for testing full model
 # resnet row 4 in sheet in turing 2
 python Test.py --NetworkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/\
---CheckPointNum=11\
---NumSubBlocks=2\
+--CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/ \
+--CheckPointNum=11 \
+--NumSubBlocks=2 \
 --InitNeurons=32
+
+# tflite conversion
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/flow_hsv_rnetd2n32lr4/converted/resnet.tflite \
+--tflite_edge_path=../models/flow_hsv_rnetd2n32lr4/converted/ \
+--tf_model_path=../models/flow_hsv_rnetd2n32lr4/11model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 
+
+# tflite test
+python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
+--ModelName=resnet
+
+# test image collect
+python Test.py --NetworkName=Network.ResNet \
+--CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/ \
+--CheckPointNum=11 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display=True
+
+```
+
+```
 
 # resnet row 7 in sheet in 3060ti
 python Test.py --NetworkName=Network.ResNet \
@@ -80,8 +104,12 @@ python Test.py --NetworkName=Network.ResNet \
 converted to tflite
 ```
 # converted to tflite
-python TFLiteConverter.py --tflite_path=../models/converted/resnet.tflite \
---tflite_edge_path=../models/converted/ \
---tf_model_path=../models/11model.ckpt \
+# resnet row 4 in sheet in turing 2
+
+```
+
+tflite test
+```
+# resnet row 4 in sheet in turing 2
 
 ```
