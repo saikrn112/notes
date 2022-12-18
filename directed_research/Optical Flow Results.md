@@ -52,6 +52,11 @@ python Test.py --NetworkName=Network.ResNet \
 --InitNeurons=32 \
 --Display=True
 
+# test image quant collect
+python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
+--ModelName=resnet \
+--Display=True
+
 
 ```
 
