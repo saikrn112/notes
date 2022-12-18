@@ -53,7 +53,6 @@ python Test.py --NetworkName=Network.ResNet \
 --Display=True
 
 
-
 ```
 
 ```
