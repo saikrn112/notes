@@ -27,35 +27,35 @@ and commands for converting to tflite
 # the following are commands for testing full model
 # resnet row 4 in sheet in turing 2
 python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnetd1n32lr4/\
---CheckPointNum=7\
+--CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/\
+--CheckPointNum=11\
 --NumSubBlocks=2\
 --InitNeurons=32
 
 # resnet row 7 in sheet in 3060ti
 python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnet32nlr4d1/\
+--CheckPointFolder=../models/flow_hsv_rnet32nlr4d1/\
 --CheckPointNum=317\
 --NumSubBlocks=1\
 --InitNeurons=64
 
 # resnet row 10 in sheet in 3080 
 python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnet32nlr4/
+--CheckPointFolder=../models/flow_hsv_rnet32nlr4/
 --CheckPointNum=33\
 --NumSubBlocks=2\
 --InitNeurons=32
 
 # resnet row 12 in sheet in 3080 
 python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnetlr4/
+--CheckPointFolder=../models/flow_hsv_rnetlr4/
 --CheckPointNum=30\ -- TODO
 --NumSubBlocks=3\
 --InitNeurons=32
 
 # resnet row 13 in sheet model is in 3060ti
 python Test.py --NetowrkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnet64nlr4/
+--CheckPointFolder=../models/flow_hsv_rnet64nlr4/
 --CheckPointNum=120\
 --NumSubBlocks=2\
 --InitNeurons=64
@@ -76,3 +76,12 @@ python Test.py --NetworkName=Network.ResNet \
 
 ```
 
+
+converted to tflite
+```
+# converted to tflite
+python TFLiteConverter.py --tflite_path=../models/converted/resnet.tflite \
+--tflite_edge_path=../models/converted/ \
+--tf_model_path=../models/11model.ckpt \
+
+```
