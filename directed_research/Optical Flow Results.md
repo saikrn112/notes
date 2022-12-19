@@ -38,15 +38,11 @@ python Test_new.py \
 
 # tflite conversion
 python TFLiteConverter.py --NetworkName=Network.ResNet \
---tflite_path=../models/flow_hsv_rnetd2n32lr4/converted/resnet.tflite \
+--tflite_path=../models/flow_hsv_rnetd2n32lr4/converted/lite.tflite \
 --tflite_edge_path=../models/flow_hsv_rnetd2n32lr4/converted/ \
 --tf_model_path=../models/flow_hsv_rnetd2n32lr4/11model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 
-
-# tflite test
-python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
---ModelName=resnet
 
 # test image collect
 python Test_new.py \
@@ -58,71 +54,52 @@ python Test_new.py \
 --InitNeurons=32 \
 --Display=True \
 --OnEdge=True
-
-
 ```
 
 ```
+# unet row 11 in 3060
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.UNet \
+--CheckPointFolder=../models/flow_hsv_unet_wo_standard/ \
+--CheckPointNum=34a0 \
+--NumSubBlocks=3 \
+--InitNeurons=32 \
+--Display="" \
+--OnEdge=True
 
-# resnet row 7 in sheet in 3060ti
-python Test.py --NetworkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnet32nlr4d1/\
---CheckPointNum=317\
---NumSubBlocks=1\
+python TFLiteConverter.py \
+--NetworkName=Network.UNet \
+--tflite_path=../models/flow_hsv_unet_wo_standard/converted/lite.tflite \
+--tflite_edge_path=../models/flow_hsv_unet_wo_standard/converted/ \
+--tf_model_path=../models/flow_hsv_unet_wo_standard/34a0model.ckpt \
+--NumSubBlocks=3 \
+--InitNeurons=32 
+```
+
+```
+# resnet row 7 in sheet in turing 2
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/flow_hsv_rnetd2n64lr4/ \
+--CheckPointNum=120 \
+--NumSubBlocks=2 \
+--InitNeurons=64 \
+--Display="" \
+--OnEdge=True
+
+python TFLiteConverter.py \
+--NetworkName=Network.ResNet \
+--tflite_path=../models/flow_hsv_rnetd2n64lr4/converted/lite.tflite \
+--tflite_edge_path=../models/flow_hsv_rnetd2n64lr4/converted/ \
+--tf_model_path=../models/flow_hsv_rnetd2n64lr4/120model.ckpt \
+--NumSubBlocks=2 \
 --InitNeurons=64
-
-# resnet row 10 in sheet in 3080 
-python Test.py --NetworkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnet32nlr4/
---CheckPointNum=33\
---NumSubBlocks=2\
---InitNeurons=32
-
-# resnet row 12 in sheet in 3080 
-python Test.py --NetworkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnetlr4/
---CheckPointNum=30\ -- TODO
---NumSubBlocks=3\
---InitNeurons=32
-
-# resnet row 13 in sheet model is in 3060ti
-python Test.py --NetowrkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnet64nlr4/
---CheckPointNum=120\
---NumSubBlocks=2\
---InitNeurons=64
 ```
 
 
-```
-# 
-python Test.py --NetworkName=Network.ResNet \
---CheckPointPathFolder=../models/flow_hsv_rnetd1n32lr4/\
---CheckPointNum=7\
---NumSubBlocks=2\
---InitNeurons=32
-```
-
-```
-# unet row 15 in model in turint 3
-
-```
-
-
-converted to tflite
-```
-# converted to tflite
-# resnet row 4 in sheet in turing 2
-
-```
-
-tflite test
-```
-# resnet row 4 in sheet in turing 2
-
-```
-
-baseline convert to tflite
+baseline model
 ```
 python TFLiteConverter.py --NetworkName=Network.ResNet \
 --tflite_path=../models/golden/converted/lite.tflite \
@@ -131,5 +108,16 @@ python TFLiteConverter.py --NetworkName=Network.ResNet \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Old=True
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/golden/ \
+--CheckPointNum=49 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old=True \
+--OnEdge=True
 
 ```
