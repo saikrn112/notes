@@ -58,6 +58,16 @@ python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
 --Display=True
 
 
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/ \
+--CheckPointNum=11 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display=True \
+--OnEdge=False
+
 ```
 
 ```
