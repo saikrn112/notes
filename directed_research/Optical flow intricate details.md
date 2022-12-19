@@ -50,3 +50,16 @@ small motion assumption - used in L-K method
 -
 
 how are both HS and LK methods helping in estimating the parallel flow? 
+
+
+2 weeks - 
+- R2 to integer space
+- 
+ball is thrown symmetric
+motion is clustering on optical flow
+
+TA thing 
+
+Lab setup
+
+flow values can be mapped non linear 
