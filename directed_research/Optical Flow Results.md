@@ -26,11 +26,15 @@ and commands for converting to tflite
 ```
 # the following are commands for testing full model
 # resnet row 4 in sheet in turing 2
-python Test.py --NetworkName=Network.ResNet \
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
 --CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/ \
 --CheckPointNum=11 \
 --NumSubBlocks=2 \
---InitNeurons=32
+--InitNeurons=32 \
+--Display="" \
+--OnEdge=True
 
 # tflite conversion
 python TFLiteConverter.py --NetworkName=Network.ResNet \
@@ -45,19 +49,6 @@ python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
 --ModelName=resnet
 
 # test image collect
-python Test.py --NetworkName=Network.ResNet \
---CheckPointFolder=../models/flow_hsv_rnetd2n32lr4/ \
---CheckPointNum=11 \
---NumSubBlocks=2 \
---InitNeurons=32 \
---Display=True
-
-# test image quant collect
-python TestTFLite.py --ModelPath=../models/flow_hsv_rnetd2n32lr4/converted/ \
---ModelName=resnet \
---Display=True
-
-
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.ResNet \
@@ -66,7 +57,8 @@ python Test_new.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Display=True \
---OnEdge=False
+--OnEdge=True
+
 
 ```
 
@@ -127,5 +119,17 @@ converted to tflite
 tflite test
 ```
 # resnet row 4 in sheet in turing 2
+
+```
+
+baseline convert to tflite
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/golden/converted/lite.tflite \
+--tflite_edge_path=../models/golden/converted/ \
+--tf_model_path=../models/golden/49model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Old=True
 
 ```
