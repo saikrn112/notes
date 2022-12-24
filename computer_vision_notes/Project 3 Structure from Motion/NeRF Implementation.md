@@ -1,3 +1,6 @@
+other tensorflow [link](https://pyimagesearch.com/2021/11/24/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-3/)
+pytorch nerf [link]([pytorch nerf - Google Search](https://www.google.com/search?q=pytorch+nerf&oq=pytorch+nerf&aqs=edge..69i57j0i512l2j0i22i30l4j69i60l2.2222j0j4&sourceid=chrome&ie=UTF-8))
+
 colab link - [link](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/nerf.ipynb#scrollTo=xrEM_tS4ImDE)
 first need to understand how to load data 
 how does data look like 
