@@ -22,20 +22,6 @@ SVD
 if $A = U\Sigma V^{*}$ is SVD of $A$ 
 then $A^{+} = V \Sigma^{+} U^{*}$  
 
-##### Eigen Values and Eigen Vectors
-$AV = \lambda V$
-$\lambda$ -- Eigen Value 
-$V$ -- Eigen vector
-- what does this mean physically?
-	 Eigen Vectors are just scaled by eigen values for $A$
-
-simple trick to find these values and vectors 
-$(AV-\lambda IV) = O$
-$|A-\lambda I| = O$
-
-- how is it useful? 
-	- basically eigen vectors are independent axis of the space spanned by $A$
-	- eigen values are just "strength" of these eigen vectors
 
 what does matrix multiplication physically mean? 
 	Matrix multiplication of $A$ with $x$ is generally a combination of rotation and stretching\
