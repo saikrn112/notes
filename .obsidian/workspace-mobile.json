@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "2871cccbb317e782",
+    "type": "split",
+    "children": [
+      {
+        "id": "4798f8e4e78c91ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84129a808ce1e0c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "edd1225a90505ce9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3d6f38d3df6498d8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "7ec7a1ccac2a02f0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "b31b0a53cf0f836a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "01f74e9a374d49e0",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "daa4a3f0d45f693a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8a7c887a20cc2c1d",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "ab939a563b7710f6",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "6ad3f0a1fb043860",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "computer_vision_notes/Project 3 Structure from Motion/NeRF.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "84129a808ce1e0c6",
+  "lastOpenFiles": [
+    "Math/Set Theory.md",
+    "computer_vision_notes/Project 3 Structure from Motion/NeRF.md",
+    "Math/Linear Algebra/Some fundamentals.md",
+    "Math/Linear Algebra/Rodrigue's rotation formula.md",
+    "Deep Learning/Deep questions on Deep learning.md",
+    "directed _research/Paper reading template.md",
+    "computer_vision_notes/Project 3 Structure from Motion/Problem Statement.md",
+    "computer_vision_notes/Bundle Adjustment.md",
+    "computer_vision_notes/Lectures/Lecture 13 Stereo and Epipolar.md",
+    "computer_vision_notes/Lectures/Camera and Image frames.md"
+  ]
+}
