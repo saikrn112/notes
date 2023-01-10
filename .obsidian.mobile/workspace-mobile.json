@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46bc05e1c8bc9c2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deep Learning/Lectures/Lecture 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "Deep Learning/Lectures/Lecture 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "README.md",
+            "file": "Deep Learning/Lectures/Lecture 1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,16 +127,16 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "README.md"
+            "file": "Deep Learning/Lectures/Lecture 1.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
-  "active": "27463229698f8374",
+  "active": "46bc05e1c8bc9c2c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-01-08 18.30.02.excalidraw.md",
-    "README.md"
+    "README.md",
+    "Excalidraw/Drawing 2023-01-08 18.30.02.excalidraw.md"
   ]
 }
