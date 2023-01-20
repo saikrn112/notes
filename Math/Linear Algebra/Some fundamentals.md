@@ -42,6 +42,9 @@ $A^{T} = A$
 ##### Positive Definite matrix
 symmetric matrix where every eigenvalue is positive
 
+**Positive Semi Definite**  ^6ceaa5
+
+
 ##### Lower Upper Decomposition
 converts a square matrix to lower $L$ and upper $U$ triangular matrices
 
@@ -72,4 +75,3 @@ https://math.stackexchange.com/questions/192164/rank-product-of-matrix-compared-
 2 reasons
 1. projection - easier to get individual components (free variables) that are independent of other variables just by using dot product with basis
 2. length - length is as simple as sum of squares of coords
-
