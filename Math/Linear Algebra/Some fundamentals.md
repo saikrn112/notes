@@ -41,9 +41,14 @@ $A^{T} = A$
 
 ##### Positive Definite matrix
 symmetric matrix where every eigenvalue is positive
+$$
+\forall \lambda\text{s} > 0
+$$
 
 **Positive Semi Definite**  ^6ceaa5
-
+$$
+\forall \lambda\text{s} \geq 0
+$$
 
 ##### Lower Upper Decomposition
 converts a square matrix to lower $L$ and upper $U$ triangular matrices
@@ -56,7 +61,7 @@ converts a square matrix to orthogonal matrix $Q$ and upper triangular matrix $R
 
 positive definite $M$
 $Q$ - eigen vector matrix 
-$\Lambda$ - diagonal eigen value matrix
+$\Lambda$ - diagonal eigen value matrix ^ae1d29
 
 $M = Q\Lambda Q^{T}$ 
 
