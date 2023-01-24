@@ -97,4 +97,7 @@ Deep Learning for Visual-Inertial Odometry: Estimation of Monocular Camera Ego-M
 
 Efficient Deep Visual and Inertial Odometry with Adaptive Visual Modality Selection ([https://arxiv.org/abs/2205.06187](https://arxiv.org/abs/2205.06187 "https://arxiv.org/abs/2205.06187"))
 
+Xception: DL with seperable Convolutions( 
+https://arxiv.org/abs/1610.02357)
+
 ---

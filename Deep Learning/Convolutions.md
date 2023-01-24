@@ -2,3 +2,15 @@
 
 
 [https://paperswithcode.com/method/pointwise-convolution](https://paperswithcode.com/method/pointwise-convolution "https://paperswithcode.com/method/pointwise-convolution") [https://paperswithcode.com/method/depthwise-convolution](https://paperswithcode.com/method/depthwise-convolution "https://paperswithcode.com/method/depthwise-convolution") [https://paperswithcode.com/method/depthwise-separable-convolution](https://paperswithcode.com/method/depthwise-separable-convolution "https://paperswithcode.com/method/depthwise-separable-convolution")
+
+
+Different Types of Convolutions from this [link](https://towardsdatascience.com/a-comprehensive-introduction-to-different-types-of-convolutions-in-deep-learning-669281e58215)
+1. 3D Convolution
+2. 1 x 1 Convolution
+3. Transposed Convolution
+4. Dilated Convolution
+5. Seperable Convolution
+6. Flattend Convolution
+7. Grouped Convolution
+8. Shufftled Grouped Convolution
+9. Pointwise Grouped Convolution
