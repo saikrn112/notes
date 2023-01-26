@@ -51,3 +51,5 @@ Num FLOPs: `3973400376568`
 Estimated Model Size (MB): `21.230091094970703`
 
 
+
+all the experiments can be found [here]()
