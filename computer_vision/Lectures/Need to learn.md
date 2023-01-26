@@ -62,6 +62,8 @@ how is non linear function applied in convolutions?
 spatial transformer network 
 how did we make differentiable DLT layer? 
 
+checkout different losses similar to sigmoid
+
 
 #### Math
 what is PCA and how is it related to SVD? 

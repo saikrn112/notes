@@ -1,4 +1,11 @@
 ### Cross Entropy
+typically trained in multi class classification
+$$
+\begin{align}
+f_{CE} = - \Sigma\Sigma y_{k}^{i} log(\hat{y})_{k}^{i}
+\end{align}
+$$
+
 
 ### Huber loss
 this combines - [wiki](https://en.wikipedia.org/wiki/Huber_loss)

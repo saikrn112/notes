@@ -31,6 +31,8 @@ we can know curvature of loss function
 
 ###### Whitening Transformations (T)
 
+this pops up in the hessian of loss function
+
 - _spherize_ the inputs based on auto correlation which will help faster convergence on the model
 
 $$

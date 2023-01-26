@@ -11,3 +11,5 @@ disadvantages
 when to use?
 
 Stronger the activation response, stronger the rememberance
+
+##### Softmax activation
