@@ -1,3 +1,22 @@
+all the experiments can be found [here]()
+
+
+with normal conv layers
+```
+python Train.py \
+--ExperimentFileName="rnetn32lr4d2" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=500
+```
+Num Params: `2724195`
+Num FLOPs: `1311954139312`
+Estimated Model Size (MB): `31.185832977294922`
+
 
 with depthwise conv layers (only conv not transpose)
 ```
@@ -17,21 +36,6 @@ Num FLOPs: `874306807420`
 Estimated Model Size (MB): `26.819934844970703`
 
 
-with normal conv layers
-```
-python Train.py \
---ExperimentFileName="rnetn32lr4d2" \
---NetworkName=Network.ResNet \
---MiniBatchSize=32 \
---LoadCheckPoint=0 \
---LR=1e-4 \
---InitNeurons=32 \
---NumSubBlocks=2 \
---NumEpochs=500
-```
-Num Params: `2724195`
-Num FLOPs: `1311954139312`
-Estimated Model Size (MB): `31.185832977294922`
 
 unet with separable conv layers
 ```
@@ -51,5 +55,23 @@ Num FLOPs: `3973400376568`
 Estimated Model Size (MB): `21.230091094970703`
 
 
+unet with seperable conv layers
+```
+python Train.py \
+--ExperimentFileName="separable_unetn32lr4d1" \
+--NetworkName=Network.SeparableUNet \
+--MiniBatchSize=128 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=1 \
+--NumEpochs=500
 
-all the experiments can be found [here]()
+```
+
+
+Num Params: `441129`
+Num FLOPs: `4459030557171`
+Estimated Model Size (MB): `5.052356719970703`
+
+

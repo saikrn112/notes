@@ -27,3 +27,15 @@ python3 container/start_docker_instance.py --it --display
 cd optical/OpticalFlowOnTPU/
 
 ```
+
+3080
+```
+pear3080
+
+optical
+
+python3 container/start_docker_instance.py \
+--it \
+--gpu 
+
+```
