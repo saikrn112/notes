@@ -58,7 +58,15 @@ in order to guarantee that weights converge, we need to do **anneal** learning r
 
 #### Regularization
 
-penalize the large weights in the cost function
+penalize the large weights in the cost function -- why? 
+
+>[!INFO]+ Why regularization?
+>
+>we can understand regularization by considering the following case 
+> - we dont regularize, then weights are free and are unbounded. 
+> - since they are unbounded they become unsensitive even for a feature that is not really contributing anything 
+> 	- the final impulse could be pass through the activation barrier 
+>- To make sure weights outputs are sensitive to inputs, we need to regularize
 
 $L_2$ regularisation
 
@@ -69,6 +77,9 @@ f_{MSE}(w) = \frac{1}{2n} + \frac{\alpha}{2n}w^{T}w
 $$
 
 The regulariser will improve the closed form solution when it is degenerate making it uninvertible
+
+>[!Warning]- Do we regularize bias term as well?
+>No
 
 
 #### Convexity
