@@ -1,5 +1,10 @@
 Bilinear form of matrix
 
+### Projective Geometry
+
+### Essential matrix
+
+
 Essential matrix $E = T_{\times}R$
 - it is named that way because, it is essential that this is correct
 
@@ -8,7 +13,7 @@ then
 $R$ - rotation from B to A
 $T$ - translation from A to B
 
-epipolar constraint 
+### epipolar constraint 
 
 
 chierality 

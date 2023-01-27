@@ -97,7 +97,7 @@ on the other hand, if I assume that $l_1$ and $l_2$ are normal vectors then thei
 
 but how are $l_1$,$l_2$ ,$u_1$,$u_2$ measured? 
 	they are measured from camera coordinate with $z$ value as $1$, so vectors are not purely 2 dimensional
-	but this still doesnt explain [[Lecture 12 Get Depth from single image#^0cd084|why 4th coord is 0 in pi]] slide 47
+	but this still doesnt explain [[Lecture 12 Depth from 1 image and Projective Geometry#^0cd084|why 4th coord is 0 in pi]] slide 47
 	and I think we keep normalizing wrt z so that we are always working on the image frame
 	
 in slide 48 point of intersection should pass through camera center

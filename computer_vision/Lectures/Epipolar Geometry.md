@@ -17,6 +17,12 @@ Epipolar Line:
 		so 2 epipolar lines at any given time
 Epipole:
 	image planes intersecting on epipolar line
+Epipolar Constraint:
+	features point pairs observed by 2 different cameras should satisfy this condition
+	$x^{1}E_{2}^{1}x^{2} = 0$  
+		- $E_{2}^{1}$  -- Essential matrix which transforms from camera 2 to camera 1
+		- $x^{1}$   -- coordinate measured from camera 1 optical center
+		- $x^{2}$   -- coordinate measured from camera 2 optical center
 
 Verged Camera Configuration:
 	randomly oriented cameras, where optical axis intersect with each other
