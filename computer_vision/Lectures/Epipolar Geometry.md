@@ -3,7 +3,7 @@
 Disparity
 	how the location of the point would change based on the depth as the camera moves
 		for example: far away point would change less compared to the nearest point
-This is very useful since based on this on can calculate the depth and 
+This is very useful since based on this one can calculate the depth and 
 > would stereo fail in the open places if the points are too far away? 
 
 Image Plane:
