@@ -77,3 +77,7 @@ affine transformation vs
 rigid transformation vs 
 
 how is convolution fundamentally different from cross-correlation?
+
+#### Parallel 
+convolution impl cuda - [convolutionSeparable (nvidia.com)](https://developer.download.nvidia.com/compute/cuda/1.1-Beta/x86_64_website/projects/convolutionSeparable/doc/convolutionSeparable.pdf)
+convolution impl python 
