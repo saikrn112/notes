@@ -1,7 +1,7 @@
 {
   "trashOption": "system",
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachements",
+  "attachmentFolderPath": "./attachments",
   "promptDelete": false,
   "showLineNumber": true,
   "showInlineTitle": true,
