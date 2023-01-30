@@ -44,6 +44,8 @@ some drone company - Radha
 
 HSV equations -- [[HSV]]
 
+frequency and convolutions
+
 
 #### Deep Learning
 

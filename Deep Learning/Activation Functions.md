@@ -1,19 +1,39 @@
 Overview of popular ones 
 ![[activations_overview.png]]
 
+
+* Stronger the activation response, stronger the rememberance
+
+
 ##### ReLU
 what is it ? 
 advantages
 disadvantages
 when to use?
 
-##### Leaky ReLU
-what is it ? 
-advantages
-disadvantages
-when to use?
 
-Stronger the activation response, stronger the rememberance
+
+##### Leaky ReLU
+**what is it ?** 
+instead of $0$ for $x<0$ we have a small slope
+$$
+f(y) = 
+\begin{cases}
+y & \text{if} \space y >0,\\
+\alpha y & otherwise
+\end{cases}
+\\
+$$
+
+**advantages** and **when to use?**
+useful when tasks are suffering from sparse gradients
+Example:
+	training GANs
+
+**disadvantages**
+
+
+
 
 ##### Softmax activation
 
@@ -48,3 +68,7 @@ advantages?
 it is more s
 disadvantages
 when to use?
+
+
+##### ELU
+exponential activation function

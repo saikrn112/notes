@@ -28,3 +28,10 @@ $$
 >are they mathematically different somehow? 
 
 
+
+## Representations
+Quaternions
+Euler Angle
+Matrix
+euler angles
+
