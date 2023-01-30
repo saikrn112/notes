@@ -44,6 +44,7 @@ John Canny
 5. NMS
 	1. local gradients
 	2. dominent direction - avg, voting etc
+		1. How do you get dominant direction? 
 6. remove values in non dominent direction - thinning operation
 7. Edge linking using **hysteresis**
 	1. adaptively switch thresholds
