@@ -62,7 +62,7 @@ var require_package = __commonJS({
   "package.json"(exports, module2) {
     module2.exports = {
       name: "obsidian-paste-image-rename",
-      version: "1.6.0",
+      version: "1.6.1",
       main: "main.js",
       scripts: {
         start: "node esbuild.config.mjs",
@@ -690,7 +690,7 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
           continue;
         dupNameNumbers.push(parseInt(m.groups.number));
       }
-      if (isNewNameExist) {
+      if (isNewNameExist || this.settings.dupNumberAlways) {
         const newNumber = dupNameNumbers.length > 0 ? Math.max(...dupNameNumbers) + 1 : 1;
         if (this.settings.dupNumberAtStart) {
           newName = `${newNumber}${delimiter}${newNameStem}.${newNameExt}`;
@@ -904,7 +904,7 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
         yield this.plugin.saveSettings();
       })
     ));
-    new import_obsidian2.Setting(containerEl).setName("Alwasy add duplicate number").setDesc(`If enabled, duplicate number will always be added to the image name, otherwise it will only be added when the name is duplicated.`).addToggle((toggle) => toggle.setValue(this.plugin.settings.dupNumberAlways).onChange(
+    new import_obsidian2.Setting(containerEl).setName("Always add duplicate number").setDesc(`If enabled, duplicate number will always be added to the image name. Otherwise, it will only be added when the name is duplicated.`).addToggle((toggle) => toggle.setValue(this.plugin.settings.dupNumberAlways).onChange(
       (value) => __async(this, null, function* () {
         this.plugin.settings.dupNumberAlways = value;
         yield this.plugin.saveSettings();

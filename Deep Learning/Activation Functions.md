@@ -1,5 +1,5 @@
-Overview of popular ones 
-![[activations_overview.png]]
+##### Overview of popular ones 
+![[activations_overview.png|500]]
 
 
 * Stronger the activation response, stronger the rememberance
