@@ -119,3 +119,11 @@ hardware compatible models
 end goal 
 - dynamic obstacle - color clustering based on optical flow
 
+
+- train on the full dataset
+- inference speeds
+- visualize the outputs 
+- 
+
+
+
