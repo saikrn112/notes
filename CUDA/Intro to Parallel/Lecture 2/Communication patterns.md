@@ -20,7 +20,7 @@ rather than each pixel taking 4 other pixels the current pixel can write 1/3 of 
 #### Stencil 
 
 `special case of gather (several to one)`
-but it will be run for every pixel rather than selected pixels
+but it will be run for every pixel rather than selected pixels i.e no if conditions
 
 tasks read input from a fixed neighbourhood in an array
 makes convolution simple

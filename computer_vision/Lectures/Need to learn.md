@@ -46,6 +46,10 @@ HSV equations -- [[HSV]]
 
 frequency and convolutions
 
+what are some ways for matching features? 
+what did they do after super point? 
+
+
 
 #### Deep Learning
 
