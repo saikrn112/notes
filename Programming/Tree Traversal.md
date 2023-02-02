@@ -52,3 +52,5 @@ Tree traversal complexity
 - skewered tree - only one has nodes
 - balanced tree - equal number of nodes
 ![[tree_traversal_complexity.png]]
+
+### Level Order
