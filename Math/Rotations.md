@@ -1,3 +1,8 @@
+A matrix is rotation matrix if it satisfies the following conditions
+1. determinant is 1, indicating that it is an orthogonal matrix
+2. $R^{T}R = RR^{T} = I$ orthonormality
+3. preserves the length of the vector after transformation
+
 [Slerp - Wikipedia](https://en.wikipedia.org/wiki/Slerp)
 other resources 
 - Lie Algebra - [[Lie Algebra for robotics]]
@@ -31,7 +36,8 @@ $$
 
 ## Representations
 Quaternions
-Euler Angle
-Matrix
-euler angles
+Euler Angle -- singularities since it doesnt have a one to one mapping
+Rotation Matrix
+Angle Axis -- singularities when $\theta = 0 \text{ or } \pi$ 
 
+	in calculations, singularities cause problems for conversions, calculating derivatives, and interpolation.

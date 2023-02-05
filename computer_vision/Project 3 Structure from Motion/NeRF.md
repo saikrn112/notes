@@ -43,7 +43,7 @@ need clarity on network architecture
 	how are photos sent as input while training and testing ? 
 	does it have to be retrained for every view we want to generate views for? 
 	what do they mean by continuous 5D coordinate? 
-		is it related to the question [[NeRF#^72b064|above]]?
+		is it related to the question [[computer_vision/Project 3 Structure from Motion/NeRF#^72b064|above]]?
 
 what is radiance defined as ? 
 
@@ -103,7 +103,7 @@ Volume rendering is naturally differentiable, so
 - minimizes the error between each observed image and corresponding views rendered from our representation
 - multiple views are needed for generalization (coherent model)
 	- NN does this by assigning high volume densities and accurate colors to the locations that contain ==true== underlying scene content
->adding more questions to [[NeRF#^6a9ad2|this]] #TOCONFIRM 
+>adding more questions to [[computer_vision/Project 3 Structure from Motion/NeRF#^6a9ad2|this]] #TOCONFIRM 
 >are there any other techniques that people use if the volume rendering wasnt differentiable? 
 >what does true here mean? 
 >	is it different from learning high order representation that is commonly used in representation learning? 
@@ -125,7 +125,7 @@ To resolve these
 volumetric representation can 
 - represent complex real world geometry and appearance
 - is well suited for gradient based optimization using projected images
->adding more questions to again [[NeRF#^6a9ad2|this]] again #TOCONFIRM 
+>adding more questions to again [[computer_vision/Project 3 Structure from Motion/NeRF#^6a9ad2|this]] again #TOCONFIRM 
 >how are projected images used in gradient based optimization?
 - is much more space efficient as compared to discretized voxel grid representation
 
@@ -135,7 +135,7 @@ uses 5D radiance fields  ^262a93
 - 2D view dependent appearance
 - represents higher resolution geometry and appearance to render photo realistic novel views of complex scenes
 
-circumvents the problem of time and space complexities observed in [[NeRF#^5b24c3|discrete volumetric approaches]] by modelling the problem as a ==continuous== volume instead
+circumvents the problem of time and space complexities observed in [[computer_vision/Project 3 Structure from Motion/NeRF#^5b24c3|discrete volumetric approaches]] by modelling the problem as a ==continuous== volume instead
 advantages 
 	- higher quality renderings 
 	- only a fraction of storage cost of sampled or discrete volumetric representations ^2fa189
@@ -171,7 +171,7 @@ other similar encoding
 >	can represent complicated and high resolution geometry 
 >	so far only limited to simpler geometries
 
-proposed alternate method [[NeRF#^262a93|above]]
+proposed alternate method [[computer_vision/Project 3 Structure from Motion/NeRF#^262a93|above]]
 
 ##### View Synthesis and image based rendering
 dense sampling of views
@@ -207,7 +207,7 @@ volumetric representations
 					- need finer sampling of 3D space ^5b24c3
 
 
-this paper circumvents this as described [[NeRF#^2fa189|here]]
+this paper circumvents this as described [[computer_vision/Project 3 Structure from Motion/NeRF#^2fa189|here]]
 
 
 ## Details 

@@ -9,6 +9,20 @@ where
 
 [Rodrigues' rotation formula - Wikipedia](https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula)
 
+in matrix notation
+$$
+\begin{align}
+R &= I + (sin\theta)K + (1 - cos\theta)K^{2}\\
+K & = \begin{bmatrix}
+0 & -k_z & k_y\\
+k_z & 0  & -k_x\\
+-k_y & k_x & 0
+\end{bmatrix}
+
+\end{align}
+$$
+$k_x, k_y, k_z$ are components of axis unit vector
+
 
 more rigorous 
 [rodrigues.pdf (duke.edu)](https://courses.cs.duke.edu/fall13/compsci527/notes/rodrigues.pdf)
