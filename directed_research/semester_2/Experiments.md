@@ -125,5 +125,26 @@ end goal
 - visualize the outputs 
 - 
 
+----
+Seperable ResNet with polar
 
+```
+python TFLiteConverter.py --NetworkName=Network.SeparableResNet \
+--tflite_path=../models/separable_rnetn32lr4d3_polar/converted/lite.tflite \
+--tflite_edge_path=../models/separable_rnetn32lr4d3_polar/converted/ \
+--tf_model_path=../models/separable_rnetn32lr4d3_polar/47a0model.ckpt \
+--NumSubBlocks=3 \
+--InitNeurons=32 
+```
 
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.SeparableResNet \
+--CheckPointFolder=../models/separable_rnetn32lr4d3_polar/ \
+--CheckPointNum=47a0 \
+--NumSubBlocks=3 \
+--InitNeurons=32 \
+--Display="" \
+--OnEdge=""
+```
