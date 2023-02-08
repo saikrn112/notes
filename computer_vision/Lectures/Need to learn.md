@@ -1,4 +1,7 @@
 
+how does ICP get 3d-3d correspondences using nearest neighbours?
+how does GICP find global minima? 
+what are some popular ICP methods? - expected latency in stitiching scenes?
 
 aperture problem - [[Optical flow intricate details]]
 horn and schuk -- [[Optical flow intricate details]]
@@ -48,7 +51,6 @@ frequency and convolutions
 
 what are some ways for matching features? 
 what did they do after super point? 
-
 
 
 #### Deep Learning
