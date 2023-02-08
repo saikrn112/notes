@@ -9,3 +9,6 @@ visual learning - [visual-learning/vqa (github.com)](https://github.com/visual-l
 geometric - [Geometry-based Methods in Vision (geometric3d.github.io)](https://geometric3d.github.io/)
 
 computational photography - http://graphics.cs.cmu.edu/courses/15-463/
+
+
+IITM - coursework [cs6350: Computer Vision (iitm.ac.in)](http://www.cse.iitm.ac.in/~vplab/computer_vision.html)
