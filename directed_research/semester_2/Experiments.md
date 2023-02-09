@@ -127,6 +127,18 @@ end goal
 
 ----
 Seperable ResNet with polar
+```
+python Train.py \
+--ExperimentFileName="separable_rnetn32lr4d3_polar" \
+--NetworkName=Network.SeparableResNet \
+--MiniBatchSize=128 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=3 \
+--NumEpochs=500
+```
+
 
 ```
 python TFLiteConverter.py --NetworkName=Network.SeparableResNet \
