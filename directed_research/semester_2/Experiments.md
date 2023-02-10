@@ -160,3 +160,18 @@ python Test_new.py \
 --Display="" \
 --OnEdge=""
 ```
+---
+Separable ResNet with polar Depth 1
+
+```
+python Train.py \
+--ExperimentFileName="separable_rnetn32lr4d1_polar" \
+--NetworkName=Network.SeparableResNet \
+--MiniBatchSize=128 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=1 \
+--NumEpochs=500
+```
+
