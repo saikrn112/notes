@@ -37,3 +37,6 @@ b. square <<< 5, 256 >>> (...)
 c. square <<< 1, 1280 >>> (...)
 ```
 `a` and `b` are valid but `c` is not
+
+
+![[Kernel_launch_parameters.png]]

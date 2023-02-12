@@ -18,3 +18,6 @@ solutions till 4 - [CS344-Problem-Sets/Problem Set 1 at master · raoqiyu/CS344-
 
 another solution set 
 [nickspell/udacity-IntroToParallelProgramming: CS344 - Introduction To Parallel Programming course (Udacity) proposed solutions (github.com)](https://github.com/nickspell/udacity-IntroToParallelProgramming)
+
+
+really good youtube series [(2) Josh Holloway - YouTube](https://www.youtube.com/watch?v=4APkMJdiudU&list=PLC6u37oFvF40BAm7gwVP7uDdzmW83yHPe)
