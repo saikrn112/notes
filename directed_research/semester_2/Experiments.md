@@ -176,10 +176,26 @@ python Train.py \
 ```
 
 ---
+Normal ResNet with depth 2
+
 ```
 python Train.py \
 --ExperimentFileName="rnetn32lr4d2" \
 --NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=500
+```
+---
+
+Separable_resnet with polar
+```
+python Train.py \
+--ExperimentFileName="separable_rnetn32lr4d2_polar" \
+--NetworkName=Network.SeparableResNet \
 --MiniBatchSize=32 \
 --LoadCheckPoint=0 \
 --LR=1e-4 \
