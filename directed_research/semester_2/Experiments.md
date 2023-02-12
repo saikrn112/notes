@@ -175,3 +175,15 @@ python Train.py \
 --NumEpochs=500
 ```
 
+---
+```
+python Train.py \
+--ExperimentFileName="rnetn32lr4d2" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=500
+```

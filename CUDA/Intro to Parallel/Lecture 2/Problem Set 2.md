@@ -10,3 +10,5 @@ using gather op `many to one`
 [CS344-Problem-Sets/student_func.cu at master · raoqiyu/CS344-Problem-Sets (github.com)](https://github.com/raoqiyu/CS344-Problem-Sets/blob/master/Problem%20Set%202/student_func.cu)
 [udacity-IntroToParallelProgramming/student_func.cu at master · nickspell/udacity-IntroToParallelProgramming (github.com)](https://github.com/nickspell/udacity-IntroToParallelProgramming/blob/master/ProblemSet2-Blur/student_func.cu)
 
+tiled convolution [217-lec8.pdf (ucr.edu)](http://www.cs.ucr.edu/~nael/217-f15/lectures/217-lec8.pdf)
+
