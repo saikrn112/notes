@@ -103,27 +103,12 @@ python Test_new.py \
 ```
 
 
-## TODOs
-inference speed 
-movidus 
-
-predict polar coordinates instead of full HSV -- today
-- test it with ResNet 100mb
-- vizualize it back 
-
-speed test based on number of channels
-combining 3 (or more) channels 
-
 hardware compatible models
 
 end goal 
 - dynamic obstacle - color clustering based on optical flow
 
 
-- train on the full dataset
-- inference speeds
-- visualize the outputs 
-- 
 
 ----
 Seperable ResNet with polar
