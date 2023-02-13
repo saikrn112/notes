@@ -15,3 +15,9 @@ UMD - [cmsc426fall2021 - Google Drive](https://drive.google.com/drive/folders/1j
 
 
 IITM - coursework [cs6350: Computer Vision (iitm.ac.in)](http://www.cse.iitm.ac.in/~vplab/computer_vision.html)
+
+
+
+waterloo courses - [CS484/684 (uwaterloo.ca)](https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/)
+
+[Vision for Graphics: Stereo (uwaterloo.ca)](https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/Lectures/lec07_multi_view_geometry.pdf)

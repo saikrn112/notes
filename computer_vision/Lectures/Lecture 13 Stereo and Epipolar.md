@@ -82,3 +82,5 @@ for physical intuition of forward motion cameras could be facing each other or a
 >[!question]
 >slide 35, pinhole equation doesnt make sense 
 
+why Essential matrix  has 5DOF whereas 7DOF for Fundamental matrix 
+![[essential_5dof_funda_7dof.png]]
