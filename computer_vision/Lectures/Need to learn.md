@@ -1,3 +1,4 @@
+what are some frequency domain faster process than imge domain in IP?
 
 how does ICP get 3d-3d correspondences using nearest neighbours?
 how does GICP find global minima? 
