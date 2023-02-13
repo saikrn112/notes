@@ -188,3 +188,16 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=500
 ```
+---
+Separable resnet with byte rep
+```
+python Train.py \
+--ExperimentFileName="separable_rnetn32lr4d2_byte" \
+--NetworkName=Network.SeparableResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=500
+```
