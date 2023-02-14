@@ -55,4 +55,7 @@ how did we get interest points in DoG  for scales ?
 5. remove weak extrema
 6. bin the orientations 
 7. create a descriptor
-8. descriptors are matched using SSD or cross correlation
+9. descriptors are matched using SSD or cross correlation
+[Introduction to SIFT( Scale Invariant Feature Transform) | by Deepanshu Tyagi | Data Breach | Medium](https://medium.com/data-breach/introduction-to-sift-scale-invariant-feature-transform-65d7f3a72d40)
+[image processing - What steps come after finding the gradients of the SIFT key points? - Signal Processing Stack Exchange](https://dsp.stackexchange.com/questions/14433/what-steps-come-after-finding-the-gradients-of-the-sift-key-points#:~:text=SIFT%20computes%20this%20descriptor%20by,vector%2C%20which%20is%20the%20descriptor.)
+
