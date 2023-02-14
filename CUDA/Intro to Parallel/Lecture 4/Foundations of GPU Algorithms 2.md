@@ -11,12 +11,20 @@ we still have launch 52 threads
 	now all 52 are active
 
 
-### Compat steps
+### Compact steps
+
+^e34d7a
+
 ![[compat_steps.png]]
 
 in the 4th step we are scatter input to output address only if the predicate is true
 see below example 
 ![[compact_algo_example.png]]
+
+>[!question]
+>how do we increment the addressses again? 
+>does that not need atomic add? 
+
 
 compat example for computer graphics triangles 
 ![[cgi_triangles.png]]

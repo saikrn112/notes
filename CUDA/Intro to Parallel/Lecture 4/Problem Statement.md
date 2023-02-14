@@ -1,0 +1,1 @@
+sort the pixels in the order of maximum redness 
