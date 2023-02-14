@@ -61,8 +61,12 @@ number of point pairs - 4
 
 ----
 ### Warping
+#### Interpolation techniques
+##### Biliear interpolation
+![[bilinear_interp.png|200]]
 
-#### Biliear interpolation
+###### Nearest Neighbour
+![[nearest_neighbour_interp.png|200]]
 
 ---
 ### Blending
