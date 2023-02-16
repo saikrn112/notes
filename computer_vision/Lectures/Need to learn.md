@@ -1,20 +1,23 @@
-what could interviewer want from me? 
-- coding test - to gauge my thinking 
-- his domain related stuff
-	- lane keeping
 what are some frequency domain faster process than imge domain in IP?
 
 classical ground plane detection
+background subtraction
+
 recap 
-	canny edge
-	SIFT 
-	HoG
-gauge what the interviewer is interested in
-review all the answers that ChatGPT gave so far 
+- [x] HoG
+- [x] SIFT 
+- [x] canny edge
+- [x] Hough Transform
+	
+
+
 how does DoG work in practice and how does pyramid of scales and DoG related? 
+
 what is FAST, orientation assignment in ORB, how is orb scale invariant? what is Brief? how is ORB fast? what is feature descriptor size? 
+
 CMU slides and quizzes 
 all lecture slides
+
 ask gpt for different inverse warping ideas 
 
 how does ICP get 3d-3d correspondences using nearest neighbours?

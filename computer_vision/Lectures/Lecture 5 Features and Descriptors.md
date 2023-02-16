@@ -37,6 +37,8 @@ John Canny
 - single author paper
 - left field after his seminal work
 
+steps - [[Canny Edge]]
+
 1. DoG
 2. Sobel
 3. Magnitude
