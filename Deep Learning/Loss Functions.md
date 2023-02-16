@@ -55,3 +55,7 @@ softplus, sigmoid, softminus, softplusinv - [link](https://jiafulow.github.io/bl
 $$
 sigmoid(x) = \frac{1}{log(1 + e^{-x})}
 $$
+
+### Contrastive Loss
+![[contrastive_loss_1.png]]
+![[contrastive_loss_2.png]]
