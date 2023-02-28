@@ -1,4 +1,4 @@
-all the experiments can be found [here]()
+aall the experiments can be found [here]()
 
 
 with normal conv layers
@@ -200,4 +200,120 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=500
+```
+----
+# 2023.02.22
+Seperable ResNet with polar new
+```
+python Train.py \
+--ExperimentFileName="separable_rnetn32lr4d2_polar_new" \
+--NetworkName=Network.SeparableResNet \
+--MiniBatchSize=128 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.SeparableResNet \
+--tflite_path=../models/separable_rnetn32lr4d2_polar_new/converted/lite.tflite \
+--tflite_edge_path=../models/separable_rnetn32lr4d2_polar/converted/ \
+--tf_model_path=../models/separable_rnetn32lr4d2_polar/47a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 
+```
+
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.SeparableResNet \
+--CheckPointFolder=../models/separable_rnetn32lr4d2_polar_new/ \
+--CheckPointNum=47a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--OnEdge=""
+```
+----
+adhoc AB byte rep
+```
+python Train.py \
+--ExperimentFileName="adhoc_ab" \
+--NetworkName=Network.SeparableResNet \
+--MiniBatchSize=128 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
+---
+
+# 2023.02.24
+first I am checking baseline model 
+in this model I am first checking shift this is running in 3080
+```
+python Train.py \
+--ExperimentFileName="baseline_xy" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted/lite.tflite \
+--tflite_edge_path=../models/baseline_xy/converted/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
+```
+
+---
+# 2023.02.26
+today I will cehck the multiscaling outputs
+see if accuracy is better or not
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_final_loss" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
+
+
+# 2023.02.27
+
+adding more scales M/8, M/4, M/2, M
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_final_loss_more_scales" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
 ```

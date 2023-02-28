@@ -7,3 +7,7 @@ generating video from scenes
 hierarchial semantic relationship in the scene
 identifying shape structures of the object
 encoded relationships of NNs - [paper1](https://openaccess.thecvf.com/content/CVPR2022/papers/Niu_RIM-Net_Recursive_Implicit_Fields_for_Unsupervised_Learning_of_Hierarchical_Shape_CVPR_2022_paper.pdf)
+
+
+[Challenge at CVPR 2023 Autonomous Driving Workshop (opendrivelab.com)](https://opendrivelab.com/AD23Challenge.html#Track3)
+[ControlNET and Stable Diffusion: A Game Changer for AI Image Generation | by Tristan Wolff | Feb, 2023 | Bootcamp (uxdesign.cc)](https://bootcamp.uxdesign.cc/controlnet-and-stable-diffusion-a-game-changer-for-ai-image-generation-83555cb942fc)
