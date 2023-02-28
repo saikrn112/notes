@@ -290,7 +290,9 @@ python Test_new.py \
 # 2023.02.26
 today I will cehck the multiscaling outputs
 see if accuracy is better or not
+
 ```
+multiscalepreds but single scale loss
 python Train.py \
 --ExperimentFileName="multiscale_xy_final_loss" \
 --NetworkName=Network.MultiScaleResNet \
@@ -309,6 +311,22 @@ adding more scales M/8, M/4, M/2, M
 ```
 python Train.py \
 --ExperimentFileName="multiscale_xy_final_loss_more_scales" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
+
+ran multiscale single loss again 
+
+
+trying another network where I am not accumulating the losses 
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_independent_loss" \
 --NetworkName=Network.MultiScaleResNet \
 --MiniBatchSize=32 \
 --LoadCheckPoint=0 \
