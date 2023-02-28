@@ -311,7 +311,7 @@ python Train.py \
 adding more scales M/8, M/4, M/2, M
 ```
 python Train.py \
---ExperimentFileName="multiscale_xy_final_loss_more_scales" \
+--ExperimentFileName="multiscale_xy_multiscale_loss_with_scales_3" \
 --NetworkName=Network.MultiScaleResNet \
 --MiniBatchSize=32 \
 --LoadCheckPoint=0 \
@@ -319,6 +319,25 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/ \
+--tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/60a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--CheckPointNum=60a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
 ```
 
 ran multiscale single loss again 
@@ -335,4 +354,23 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_independent_loss/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_xy_independent_loss/converted/ \
+--tf_model_path=../models/multiscale_xy_independent_loss/48a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_independent_loss/ \
+--CheckPointNum=48a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
 ```
