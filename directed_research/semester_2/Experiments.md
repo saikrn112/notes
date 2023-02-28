@@ -206,7 +206,7 @@ python Train.py \
 Seperable ResNet with polar new
 ```
 python Train.py \
---ExperimentFileName="separable_rnetn32lr4d2_polar_new" \
+--ExperimentFileName="separable_rnetn32lr4d2_polar_new_5" \
 --NetworkName=Network.SeparableResNet \
 --MiniBatchSize=128 \
 --LoadCheckPoint=0 \
@@ -219,19 +219,20 @@ python Train.py \
 
 ```
 python TFLiteConverter.py --NetworkName=Network.SeparableResNet \
---tflite_path=../models/separable_rnetn32lr4d2_polar_new/converted/lite.tflite \
---tflite_edge_path=../models/separable_rnetn32lr4d2_polar/converted/ \
---tf_model_path=../models/separable_rnetn32lr4d2_polar/47a0model.ckpt \
+--tflite_path=../models/separable_rnetn32lr4d2_polar_new_5/converted/lite.tflite \
+--tflite_edge_path=../models/separable_rnetn32lr4d2_polar_new_5/converted/ \
+--tf_model_path=../models/separable_rnetn32lr4d2_polar_new_5/206a0model.ckpt \
 --NumSubBlocks=2 \
---InitNeurons=32 
+--InitNeurons=32 \
+--NumOut=2
 ```
 
 ```
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.SeparableResNet \
---CheckPointFolder=../models/separable_rnetn32lr4d2_polar_new/ \
---CheckPointNum=47a0 \
+--CheckPointFolder=../models/separable_rnetn32lr4d2_polar_new_5/ \
+--CheckPointNum=206a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Display="" \
