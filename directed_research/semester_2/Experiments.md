@@ -303,6 +303,26 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_final_loss/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_xy_final_loss/converted/ \
+--tf_model_path=../models/multiscale_xy_final_loss/95a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_final_loss/ \
+--CheckPointNum=51a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
 ```
 
 
