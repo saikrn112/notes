@@ -24,7 +24,7 @@ W2 federal
 	- [x] hatchback -- -02-14_11-05-07
 	- [ ] pickuptrucks -- -02-14_11-04-07
 	- [x] trucks -- -02-14_11-04-07
-	- [ ] bicycle -- 03-03_15-29-59
+	- [x] bicycle -- 03-03_15-29-59
 	- [ ] motorcycle
 
 - [x] traffic lights
@@ -34,20 +34,20 @@ W2 federal
 - [ ] road signs
 	- [x] stop signs -- -02-14_11-54-55
 	- [x] speed limit signs -- 02-14_11-54-55
-	- [ ] ground signs - arrows -- -02-14_11-49-54, 02-14_11-51-54
+	- [x] ground signs - arrows -- -02-14_11-49-54, 02-14_11-51-54
 
 - [ ] objects
-	- [ ] dustbins - 02-14_11-54-54
-	- [ ] traffic poles - 03-03_15-30-56
+	- [x] dustbins - 02-14_11-54-54
+	- [x] traffic poles - 03-03_15-30-56
 	- [ ] traffic cones
-	- [ ] traffic cylinders -- 03-03_15-31 (lots)
+	- [x] traffic cylinders -- 03-03_15-31 (lots)
 
-- [ ] break lights
-- [ ] indicators -- 02-14_11-49-54
+- [x] break lights
+- [x] indicators -- 02-14_11-49-54
 - [ ] pedestrians -- 02-25-17-22-38 (snowy though) (alot) 
-- [ ] parked and moving vehicle -- 02-14_11-55-54
+- [x] parked and moving vehicle -- 02-14_11-55-54
 
-- [ ] speed bumps -- 02-14_11-56-54
+- [x] speed bumps -- 02-14_11-56-54
 - [ ] collision prediction
 
 
@@ -67,6 +67,7 @@ W2 federal
 - stop
 - speed bumps
 - pedestrian
+
 02-18_10-49-08
 - green arrow
 - speed limit
