@@ -408,3 +408,10 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=500
 ```
+
+```
+python Inference.py \
+--NetworkName=Network.ResNet \
+--InitNeurons=16 \
+--NumOut=2
+```
