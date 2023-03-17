@@ -415,3 +415,18 @@ python Inference.py \
 --InitNeurons=16 \
 --NumOut=2
 ```
+
+# Speed Tests
+- Input Size: 640x480, 320x240, 160x120
+- NumInputChannels: 2, 4, 6
+- NetworkStyle: 10MB, 0.5MB
+**FPS on EdgeTPU**
+
+# Train 0.5MB Model of highest speed (if speed is almost same for num. channels, then use 6)
+
+**Monday 20th 12PM**
+
+
+
+
+
