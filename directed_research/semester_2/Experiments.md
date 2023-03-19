@@ -417,7 +417,8 @@ python Inference.py \
 ```
 
 # Speed Tests
-- Input Size: 640x480, 320x240, 160x120
+
+- input size: 352x480, 176x240,,88x120
 - NumInputChannels: 2, 4, 6
 - NetworkStyle: 10MB, 0.5MB
 - FPS on EdgeTPU
