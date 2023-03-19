@@ -9,8 +9,8 @@ rsync -avxP /var/lib/docker/ /home/ramu/docker
 sudo vim /lib/systemd/system/docker.service
 # ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 # to 
-# ExecStart=/usr/bin/dockerd -g /home/ramu/docker -H fd:// --containerd=/run/containerd/containerd.sock
+# ExecStart=/usr/bin/dockerd --data-root /home/ramu/docker -H fd:// --containerd=/run/containerd/containerd.sock
 sudo systemctl daemon-reload
-systemctl start docker
+sudo systemctl start docker
 docker images
 ```
