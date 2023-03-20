@@ -432,6 +432,15 @@ Train 0.5MB Model of highest speed (if speed is almost same for num. channels, t
 
 
 ```
-stdout='Running on EdgeTPU:  True\nfull for a counter of 1\nfull GPU time avg:1.0544953346252441\nfull GPU fps:0.9483209334021272\nfull total L1 EPE:42.21338653564453\nfull total L2 EPE:60.0238037109375\nfull total L1 Photo:50.071431107954545\nquant for a counter of 1\nquant GPU time avg:0.1404106616973877\nquant GPU fps:7.121966294519676\nquant total L1 EPE:42.206050872802734\nquant total L2 EPE:60.014549255371094\nquant total L1 Photo:50.135931581439394\nedge_quant for a counter of 1\nedge_quant GPU time avg:0.05222296714782715\nedge_quant GPU fps:19.148663023479838\nedge_quant total L1 EPE:42.20557403564453\nedge_quant total L2 EPE:60.01387405395508\nedge_quant total L1 Photo:49.956015230429294\n'
+python Train.py \
+--ExperimentFileName="160x120is3ic16in" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=64 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=16 \
+--NumSubBlocks=1 \
+--NumEpochs=500
+
 
 ```
