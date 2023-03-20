@@ -444,3 +444,19 @@ python Train.py \
 
 
 ```
+
+
+../models/160x120is3ic16in/ -- didnt work
+
+```
+python Train.py \
+--ExperimentFileName="160x120is3ic16in1.2ef" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=64 \
+--ExpansionFactor=1.2 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=1 \
+--NumEpochs=500
+```
