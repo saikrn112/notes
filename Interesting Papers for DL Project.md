@@ -11,3 +11,14 @@ encoded relationships of NNs - [paper1](https://openaccess.thecvf.com/content/CV
 
 [Challenge at CVPR 2023 Autonomous Driving Workshop (opendrivelab.com)](https://opendrivelab.com/AD23Challenge.html#Track3)
 [ControlNET and Stable Diffusion: A Game Changer for AI Image Generation | by Tristan Wolff | Feb, 2023 | Bootcamp (uxdesign.cc)](https://bootcamp.uxdesign.cc/controlnet-and-stable-diffusion-a-game-changer-for-ai-image-generation-83555cb942fc)
+
+
+
+
+---
+[Bus error (core dumped) model share memory · Issue #2244 · pytorch/pytorch (github.com)](https://github.com/pytorch/pytorch/issues/2244)
+
+
+---
+
+figure out where we need `lidar_data` from `nuscenes` `data.py:220`
