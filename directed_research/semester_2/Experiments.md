@@ -485,4 +485,24 @@ python Test_new.py \
 --InitNeurons=32 \
 --Display \
 --OnEdge
+
+
+full GPU time avg:0.006463476642966271
+full GPU fps:154.71549681984646
+full total L1 EPE:3.2975762087386102
+full total L2 EPE:10.837181891105137
+full total L1 Photo:56.188103052004465
+quant for a counter of 640
+quant GPU time avg:0.05704377889633179
+quant GPU fps:17.530395414675187
+quant total L1 EPE:3.653769491519779
+quant total L2 EPE:10.64975749454461
+quant total L1 Photo:57.72405590327098
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.009332318976521491
+edge_quant GPU fps:107.15450281069774
+edge_quant total L1 EPE:4.034429942443967
+edge_quant total L2 EPE:11.006147286761552
+edge_quant total L1 Photo:61.110907561947634
 ```
+
