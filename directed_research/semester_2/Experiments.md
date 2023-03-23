@@ -460,3 +460,29 @@ python Train.py \
 --NumSubBlocks=1 \
 --NumEpochs=500
 ```
+
+
+## 2023.03.23
+running inferences for H/2xW/2 resize
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_half/ \
+--tflite_edge_path=../models/baseline_xy/converted_half/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_half \
+--ResizeToHalf \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display \
+--OnEdge
+```
