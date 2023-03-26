@@ -508,3 +508,25 @@ edge_quant total L1 Photo:66.80991632326676
 
 ```
 
+resize them, crop them and stack them along batch dim
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_half_crop_stack/ \
+--tflite_edge_path=../models/baseline_xy/converted_half_crop_stack/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--ResizeCropStack \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_half_crop_stack \
+--ResizeCropStack \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge
+```
