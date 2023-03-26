@@ -529,4 +529,60 @@ python Test_new.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --OnEdge
+
+full for a counter of 640
+full GPU time avg:0.03638054430484772
+full GPU fps:27.487219312074718
+full total L1 EPE:4.794524928694591
+full total L2 EPE:11.409134369203821
+full total L1 Photo:65.15361456668735
+quant for a counter of 640
+quant GPU time avg:0.053315301239490506
+quant GPU fps:18.756341552081537
+quant total L1 EPE:4.822937816148624
+quant total L2 EPE:11.10059376237914
+quant total L1 Photo:61.40598839962128
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.009429481625556946
+edge_quant GPU fps:106.05036837758678
+edge_quant total L1 EPE:5.1748013714328405
+edge_quant total L2 EPE:11.450105336681009
+edge_quant total L1 Photo:64.18703907976236
+
 ```
+
+## 2023.03.25
+training for h/2 x w/2 x 4(2)
+
+```
+python Train.py \
+--ExperimentFileName="176x240is24ic32in2nsb" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=64 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=500 \
+--ResizeCropStack
+
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_half/ \
+--tflite_edge_path=../models/baseline_xy/converted_half/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_half \
+--ResizeToHalf \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display \
+--OnEdge
