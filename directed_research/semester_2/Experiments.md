@@ -463,7 +463,8 @@ python Train.py \
 
 
 ## 2023.03.23
-running inferences for H/2xW/2 resize
+running inferences for H/2xW/2 resize and resize them back to HxW and then compute accuracies
+
 ```
 python TFLiteConverter.py --NetworkName=Network.ResNet \
 --tflite_path=../models/baseline_xy/converted_half/ \
@@ -486,24 +487,24 @@ python Test_new.py \
 --Display \
 --OnEdge
 
-
 full for a counter of 640
-full GPU time avg:0.009408261999487877
-full GPU fps:106.28955699303796
-full total L1 EPE:4.52722202478908
-full total L2 EPE:9.047670704755001
-full total L1 Photo:74.18893370965522
+full GPU time avg:0.006659317389130592
+full GPU fps:150.16554123583455
+full total L1 EPE:4.41510023274459
+full total L2 EPE:9.211464794655331
+full total L1 Photo:67.36561982742464
 quant for a counter of 640
-quant GPU time avg:0.060041623935103414
-quant GPU fps:16.655112477984606
-quant total L1 EPE:4.570563027681783
-quant total L2 EPE:9.07090071211569
-quant total L1 Photo:71.61025374595569
+quant GPU time avg:0.05301336087286472
+quant GPU fps:18.8631692753488
+quant total L1 EPE:4.4726688537281
+quant total L2 EPE:9.214873417746276
+quant total L1 Photo:63.283651872114646
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.009470237046480178
-edge_quant GPU fps:105.59397775282424
-edge_quant total L1 EPE:4.895631563384086
-edge_quant total L2 EPE:9.435035965032876
-edge_quant total L1 Photo:70.91527839429456
+edge_quant GPU time avg:0.009334630519151687
+edge_quant GPU fps:107.12796804847484
+edge_quant total L1 EPE:4.8024076671339575
+edge_quant total L2 EPE:9.576508963480592
+edge_quant total L1 Photo:66.80991632326676
+
 ```
 
