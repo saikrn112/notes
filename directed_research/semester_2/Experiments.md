@@ -586,3 +586,6 @@ python Test_new.py \
 --InitNeurons=32 \
 --Display \
 --OnEdge
+```
+
+![[h_w_24.png]]
