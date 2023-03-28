@@ -6,3 +6,4 @@
 | Feature description           | Scale-invariant gradient-based descriptors | Binary robust independent elementary features (BRIEF) |
 | Feature matching              | Euclidean distance of descriptor vectors   | Hamming distance of binary descriptor strings         |
 | Robust matching               | Random Sample Consensus (RANSAC)           | Random Sample Consensus (RANSAC)                      |
+
