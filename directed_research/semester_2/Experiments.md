@@ -568,7 +568,8 @@ python Test_new.py \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---OnEdge
+--OnEdge \
+--Display
 
 full for a counter of 640
 full GPU time avg:0.03638054430484772
@@ -589,7 +590,27 @@ edge_quant total L1 EPE:5.1748013714328405
 edge_quant total L2 EPE:11.450105336681009
 edge_quant total L1 Photo:64.18703907976236
 
+
+full GPU time avg:0.009135565534234048
+full GPU fps:109.4622983385826
+full total L1 EPE:3.0091141235549004
+full total L2 EPE:10.437915360787883
+full total L1 Photo:57.948302855828686
+quant for a counter of 640
+quant GPU time avg:0.05034426599740982
+quant GPU fps:19.863235269960025
+quant total L1 EPE:3.2446567573584617
+quant total L2 EPE:10.226088681910188
+quant total L1 Photo:51.84578637941915
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.009443392977118492
+edge_quant GPU fps:105.89414233030624
+edge_quant total L1 EPE:3.675860301218927
+edge_quant total L2 EPE:10.609538197517395
+edge_quant total L1 Photo:56.69999125779276
+
 ```
+![[test_pred_edge_quant.png]]
 
 ## 2023.03.25
 training for h/2 x w/2 x 4(2)
