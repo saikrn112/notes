@@ -459,6 +459,46 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=1 \
 --NumEpochs=500
+
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/160x120is3ic16in1.2ef/converted/ \
+--tflite_edge_path=../models/160x120is3ic16in1.2ef/converted/ \
+--tf_model_path=../models/160x120is3ic16in1.2ef/499model.ckpt \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--ExpansionFactor=1.2 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/160x120is3ic16in1.2ef/ \
+--CheckPointNum=499 \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--ExpansionFactor=1.2 \
+--Display \
+--OnEdge
+
+full for a counter of 640
+full GPU time avg:0.009403812885284423
+full GPU fps:106.33984450763074
+full total L1 EPE:4.152434249967337
+full total L2 EPE:10.465345383924433
+full total L1 Photo:60.662987686311304
+quant for a counter of 640
+quant GPU time avg:0.15268371030688285
+quant GPU fps:6.549487158715718
+quant total L1 EPE:4.307384582119994
+quant total L2 EPE:10.470071649271995
+quant total L1 Photo:58.21334168096987
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.041000325605273245
+edge_quant GPU fps:24.390050206610685
+edge_quant total L1 EPE:6.297618824616075
+edge_quant total L2 EPE:12.61554172448814
+edge_quant total L1 Photo:66.8179124712704
+
 ```
 
 
@@ -589,3 +629,4 @@ python Test_new.py \
 ```
 
 ![[h_w_24.png]]
+
