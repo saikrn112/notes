@@ -571,26 +571,6 @@ python Test_new.py \
 --OnEdge \
 --Display
 
-full for a counter of 640
-full GPU time avg:0.03638054430484772
-full GPU fps:27.487219312074718
-full total L1 EPE:4.794524928694591
-full total L2 EPE:11.409134369203821
-full total L1 Photo:65.15361456668735
-quant for a counter of 640
-quant GPU time avg:0.053315301239490506
-quant GPU fps:18.756341552081537
-quant total L1 EPE:4.822937816148624
-quant total L2 EPE:11.10059376237914
-quant total L1 Photo:61.40598839962128
-edge_quant for a counter of 640
-edge_quant GPU time avg:0.009429481625556946
-edge_quant GPU fps:106.05036837758678
-edge_quant total L1 EPE:5.1748013714328405
-edge_quant total L2 EPE:11.450105336681009
-edge_quant total L1 Photo:64.18703907976236
-
-
 full GPU time avg:0.009135565534234048
 full GPU fps:109.4622983385826
 full total L1 EPE:3.0091141235549004
@@ -608,6 +588,7 @@ edge_quant GPU fps:105.89414233030624
 edge_quant total L1 EPE:3.675860301218927
 edge_quant total L2 EPE:10.609538197517395
 edge_quant total L1 Photo:56.69999125779276
+
 
 ```
 ![[test_pred_edge_quant.png]]
@@ -650,4 +631,21 @@ python Test_new.py \
 ```
 
 ![[h_w_24.png]]
+
+## 2023.04.05
+
+resize, crop, stack and blur 
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_half_crop_stack \
+--ResizeCropStackBlur \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+```
 
