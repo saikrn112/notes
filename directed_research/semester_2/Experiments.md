@@ -1,4 +1,4 @@
-aall the experiments can be found [here]()
+all the experiments can be found [here]()
 
 
 with normal conv layers
