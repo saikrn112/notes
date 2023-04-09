@@ -1,5 +1,8 @@
 {
   "theme": "moonstone",
   "baseFontSize": 16,
-  "accentColor": "#643fde"
+  "accentColor": "#643fde",
+  "enabledCssSnippets": [
+    "obsidian"
+  ]
 }
