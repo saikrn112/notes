@@ -673,5 +673,116 @@ python Test_new.py \
 --InitNeurons=32 \
 --OnEdge \
 --Display
+
+full for a counter of 640
+full GPU time avg:0.010770534351468086
+full GPU fps:92.84590414622225
+full total L1 EPE:3.632450472097844
+full total L2 EPE:10.671652891486882
+full total L1 Photo:60.57451371934684
+quant for a counter of 640
+quant GPU time avg:0.06560215540230274
+quant GPU fps:15.243401590504728
+quant total L1 EPE:3.822661381494254
+quant total L2 EPE:10.495760880038143
+quant total L1 Photo:56.24321880918565
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.01274808682501316
+edge_quant GPU fps:78.44314317328691
+edge_quant total L1 EPE:4.792586874216795
+edge_quant total L2 EPE:11.387322021275759
+edge_quant total L1 Photo:63.15908787582862
 ```
 ![[overlap_pred_quant.png]]
+
+same code with overlap 0
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/overlap_crop_stack/ \
+--tflite_edge_path=../models/baseline_xy/overlap_crop_stack/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--OverlapCropStack \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--PatchDelta=0 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=overlap_crop_stack \
+--OverlapCropStack \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--PatchDelta=0
+
+full GPU time avg:0.009201080724596977
+full GPU fps:108.68288518833768
+full total L1 EPE:3.0091141235549004
+full total L2 EPE:10.437915360787883
+full total L1 Photo:57.948302855828686
+quant for a counter of 640
+quant GPU time avg:0.0503825381398201
+quant GPU fps:19.84814653888278
+quant total L1 EPE:3.254907905915752
+quant total L2 EPE:10.23179777613841
+quant total L1 Photo:52.512276827108984
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.009435063600540161
+edge_quant GPU fps:105.98762682879526
+edge_quant total L1 EPE:3.670211013406515
+edge_quant total L2 EPE:10.582362260110676
+edge_quant total L1 Photo:56.97900226323294
+```
+![[overlap_pred_full_0.png]]
+we cant use the 20 pix because output shape is not same as input shape
+
+
+using pix as 16
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/overlap_crop_stack/ \
+--tflite_edge_path=../models/baseline_xy/overlap_crop_stack/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--OverlapCropStack \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--PatchDelta=16 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=overlap_crop_stack \
+--OverlapCropStack \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--PatchDelta=16 \
+--OnEdge \
+--Display
+
+full for a counter of 640
+full GPU time avg:0.009779304265975952
+full GPU fps:102.25676314001079
+full total L1 EPE:2.869394014636055
+full total L2 EPE:10.40343977995217
+full total L1 Photo:57.69966947305083
+quant for a counter of 640
+quant GPU time avg:0.05839962214231491
+quant GPU fps:17.123398462460685
+quant total L1 EPE:3.1142013667151334
+quant total L2 EPE:10.1428628845606
+quant total L1 Photo:50.9603722990402
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.010574305802583695
+edge_quant GPU fps:94.5688557404556
+edge_quant total L1 EPE:3.4600023234263064
+edge_quant total L2 EPE:10.44239654932171
+edge_quant total L1 Photo:55.779751485188775
+```
+![[overlap_pred_full_16.png]]
