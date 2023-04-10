@@ -786,3 +786,28 @@ edge_quant total L2 EPE:10.44239654932171
 edge_quant total L1 Photo:55.779751485188775
 ```
 ![[overlap_pred_full_16.png]]
+
+## 2023.04.09
+
+checking if edge tpu can support the crop
+```
+python Train.py \
+--ExperimentFileName="edge_new_arch" \
+--NetworkName=Network.ResNetEdge \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--SaveTestModel \
+--EdgeNewArch \
+--NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.ResNetEdge \
+--tflite_path=../models/edge_new_arch/converted/ \
+--tflite_edge_path=../models/edge_new_arch/converted/ \
+--tf_model_path=../models/edge_new_arch/0a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+```

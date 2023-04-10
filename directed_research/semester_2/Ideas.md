@@ -21,6 +21,17 @@ chunking with overlap
 new network architecture similar to mask rcnn
 ![[discussion_2023_04_05.jpeg]]
 
+>[!INFO] bounding boxes idea similar to mask rcnn
+> given an image of smaller size (M/4 and N/4)
+> we feed it into 0.7MB model 
+> we get some output of same size (M/4 and N/4) and also bounding boxes as to where to focus more
+> we use the bounding boxes and crop the region where we should focus and feed to another network for finer flow
+
+
+
+
+
+
 ##### Chunking with overlap
 - run test inference with slightly more than half of the image size
 	- new branch from baseline_xy
@@ -58,7 +69,6 @@ white-box attacks vs black-box attacks
 references: 
 [one pixel attack](https://arxiv.org/pdf/1710.08864.pdf)
 [attacking optical flow](https://arxiv.org/pdf/1910.10053.pdf)
-
 
 
 
