@@ -23,3 +23,15 @@ free wifi + air condition + per month
 weekly fees 
 
 non refundable deposit
+
+
+
+
+
+
+
+
+
+
+| 4 | 0 | 0 | 4 | 4 | 12 |
+|---|---|---|---|---|----|
