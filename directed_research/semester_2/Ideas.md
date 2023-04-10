@@ -72,6 +72,15 @@ references:
 
 
 
+>[!INFO]
+>small model bottleneck could be loading and unloading data 
+>
+>getting close to ICRA 
+>bottleneck  on noise characterization
+>given architecture is fixed, changing 
+
+
+
 
 
 

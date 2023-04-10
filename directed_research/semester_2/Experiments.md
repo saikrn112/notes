@@ -448,6 +448,8 @@ python Train.py \
 
 ../models/160x120is3ic16in/ -- didnt work
 
+even smaller model
+
 ```
 python Train.py \
 --ExperimentFileName="160x120is3ic16in1.2ef" \
@@ -498,7 +500,6 @@ edge_quant GPU fps:24.390050206610685
 edge_quant total L1 EPE:6.297618824616075
 edge_quant total L2 EPE:12.61554172448814
 edge_quant total L1 Photo:66.8179124712704
-
 ```
 
 
@@ -810,4 +811,79 @@ python TFLiteConverter.py --NetworkName=Network.ResNetEdge \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --NumOut=2
+```
+
+trying out chunking+smaller model
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/160x120is3ic16in1.2ef/converted_half_crop_stack/ \
+--tflite_edge_path=../models/160x120is3ic16in1.2ef/converted_half_crop_stack/ \
+--tf_model_path=../models/160x120is3ic16in1.2ef/499model.ckpt \
+--ResizeCropStack \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--ExpansionFactor=1.2 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/160x120is3ic16in1.2ef/ \
+--TFLiteFolder=converted_half_crop_stack \
+--ResizeCropStack \
+--CheckPointNum=499 \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--ExpansionFactor=1.2 \
+--OnEdge \
+--Display
+
+
+-----SUMMARY-------
+full for a counter of 640
+full GPU time avg:0.009580765292048455
+full GPU fps:104.37579561936967
+full total L1 EPE:4.292015033611096
+full total L2 EPE:10.446411436633207
+full total L1 Photo:61.439810411857785
+quant for a counter of 640
+quant GPU time avg:0.037748049944639206
+quant GPU fps:26.49143469574155
+quant total L1 EPE:4.495259568886832
+quant total L2 EPE:10.393467425601557
+quant total L1 Photo:59.35025435630716
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.00962969809770584
+edge_quant GPU fps:103.84541549004926
+edge_quant total L1 EPE:5.91215978320688
+edge_quant total L2 EPE:11.915670185908676
+edge_quant total L1 Photo:65.50682769158877
+```
+
+
+trying out chunking with resize, overlap
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/160x120is3ic16in1.2ef/overlap_crop_stack/ \
+--tflite_edge_path=../models/160x120is3ic16in1.2ef/overlap_crop_stack/ \
+--tf_model_path=../models/160x120is3ic16in1.2ef/499model.ckpt \
+--OverlapCropStack \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--PatchDelta=16 \
+--ExpansionFactor=1.2 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/160x120is3ic16in1.2ef/ \
+--TFLiteFolder=overlap_crop_stack \
+--ResizeCropStack \
+--CheckPointNum=499 \
+--NumSubBlocks=1 \
+--InitNeurons=32 \
+--ExpansionFactor=1.2 \
+--OnEdge \
+--Display
 ```
