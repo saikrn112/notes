@@ -887,3 +887,28 @@ python Test_new.py \
 --OnEdge \
 --Display
 ```
+
+## 2023.04.10
+testing out cost volume model 
+```
+python Train.py \
+--ExperimentFileName="cost_volume_test" \
+--NetworkName=Network.ResNetCostVolume \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--SaveTestModel \
+--NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.ResNetCostVolume \
+--tflite_path=../models/cost_volume_test/converted/ \
+--tflite_edge_path=../models/cost_volume_test/converted/ \
+--tf_model_path=../models/cost_volume_test/0a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+
+```
