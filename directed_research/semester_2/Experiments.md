@@ -907,8 +907,21 @@ python TFLiteConverter.py --NetworkName=Network.ResNetCostVolume \
 --tflite_edge_path=../models/cost_volume_test/converted/ \
 --tf_model_path=../models/cost_volume_test/0a0model.ckpt \
 --NumSubBlocks=2 \
+--PatchSize0=32 \
+--PatchSize1=32 \
 --InitNeurons=32 \
 --NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNetCostVolume \
+--CheckPointFolder=../models/cost_volume_test/ \
+--TFLiteFolder=converted \
+--CheckPointNum=0a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
 
 
 ```
