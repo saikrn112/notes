@@ -22,3 +22,7 @@ encoded relationships of NNs - [paper1](https://openaccess.thecvf.com/content/CV
 ---
 
 figure out where we need `lidar_data` from `nuscenes` `data.py:220`
+
+
+cubemap
+equvirectangular 
