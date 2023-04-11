@@ -282,9 +282,9 @@ python Test_new.py \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---Display="" \
---Old="" \
---OnEdge=True
+--OnEdge \
+--Display
+
 ```
 
 ---
@@ -920,6 +920,8 @@ python Test_new.py \
 --CheckPointNum=0a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
+--PatchSize0=32 \
+--PatchSize1=32 \
 --OnEdge \
 --Display
 
