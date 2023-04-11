@@ -85,6 +85,9 @@ references:
 
 
 
+Cost volume - explanation
 
 
+
+![[correlation_block_orig_impl.png]]
 

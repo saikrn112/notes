@@ -1,4 +1,4 @@
-all the experiments can be found [here]()
+ all the experiments can be found [here]()
 
 
 with normal conv layers
@@ -268,7 +268,7 @@ python Train.py \
 --NumEpochs=100
 
 python TFLiteConverter.py --NetworkName=Network.ResNet \
---tflite_path=../models/baseline_xy/converted/lite.tflite \
+--tflite_path=../models/baseline_xy/converted/ \
 --tflite_edge_path=../models/baseline_xy/converted/ \
 --tf_model_path=../models/baseline_xy/99model.ckpt \
 --NumSubBlocks=2 \
@@ -907,8 +907,8 @@ python TFLiteConverter.py --NetworkName=Network.ResNetCostVolume \
 --tflite_edge_path=../models/cost_volume_test/converted/ \
 --tf_model_path=../models/cost_volume_test/0a0model.ckpt \
 --NumSubBlocks=2 \
---PatchSize0=32 \
---PatchSize1=32 \
+--PatchSize0=8 \
+--PatchSize1=8 \
 --InitNeurons=32 \
 --NumOut=2
 
@@ -920,8 +920,8 @@ python Test_new.py \
 --CheckPointNum=0a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---PatchSize0=32 \
---PatchSize1=32 \
+--PatchSize0=8 \
+--PatchSize1=8 \
 --OnEdge \
 --Display
 
