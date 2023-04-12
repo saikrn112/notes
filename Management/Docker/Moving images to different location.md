@@ -14,3 +14,14 @@ sudo systemctl daemon-reload
 sudo systemctl start docker
 docker images
 ```
+
+```
+sudo systemctl stop docker
+sudo systemctl status docker
+ps faux | grep -i docker
+sudo vim /lib/systemd/system/docker.service
+ExecStart=/usr/bin/dockerd --data-root /home/ramu/docker -H fd:// --containerd=/run/containerd/containerd.sock
+sudo systemctl daemon-reload
+sudo systemctl start docker
+docker images
+```
