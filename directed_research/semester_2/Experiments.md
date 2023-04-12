@@ -343,7 +343,7 @@ python Train.py \
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/lite.tflite \
 --tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/ \
---tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/60a0model.ckpt \
+--tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/99a0model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --NumOut=2
@@ -352,12 +352,31 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
---CheckPointNum=60a0 \
+--CheckPointNum=99a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Display="" \
 --Old="" \
 --OnEdge=True
+
+full for a counter of 640
+full GPU time avg:0.014752897247672082
+full GPU fps :67.7832959324511
+full total L1 EPE:2.0943503261660226
+full total L2 EPE:10.337391330051469
+full total L1 Photo:50.30368340386286
+quant for a counter of 640
+quant GPU time avg:0.22361994683742523
+quant GPU fps :4.4718729887142565
+quant total L1 EPE:2.2365094435808714
+quant total L2 EPE:10.276673146185932
+quant total L1 Photo:43.72874550559308
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0462317768484354
+edge_quant GPU fps :21.63014420316061
+edge_quant total L1 EPE:2.2334298313129692
+edge_quant total L2 EPE:10.253777088504284
+edge_quant total L1 Photo:44.21823246811375
 ```
 
 ran multiscale single loss again 
@@ -838,7 +857,6 @@ python Test_new.py \
 --OnEdge \
 --Display
 
-
 -----SUMMARY-------
 full for a counter of 640
 full GPU time avg:0.009580765292048455
@@ -924,6 +942,40 @@ python Test_new.py \
 --PatchSize1=8 \
 --OnEdge \
 --Display
+```
 
+
+## 2023.04.12
+
+adding more scales M/8, M/4, M/2, M
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_multiscale_loss_with_scales_4" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-3 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=200
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted/ \
+--tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/99a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--CheckPointNum=99a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
 
 ```
