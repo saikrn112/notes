@@ -977,5 +977,14 @@ python Test_new.py \
 --Display="" \
 --Old="" \
 --OnEdge=True
+```
+
+## 2023.04.12
 
 ```
+5e-4 and 1e-3 didnt train
+```
+
+we are trying 1e-3 with minibatch 8
+and 2e-4 with minibatch 32
+

@@ -91,3 +91,15 @@ Cost volume - explanation
 
 ![[correlation_block_orig_impl.png]]
 
+
+
+## 2023.04.12
+
+deconv could be the reason for slowness
+avoid deconv using
+GAN 
+resize - resblock add
+convex upsampling
+train on uncertainity 
+- linear softplus
+
