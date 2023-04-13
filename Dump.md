@@ -27,11 +27,7 @@ non refundable deposit
 
 
 
+Hi everyone,
+I am relocating to NJ as part of summer internship at Nokia bell labs. I am looking to sublease a pvt or shared room near the campus starting from May 13th. Let me know if anyone has any leads. Please reach out if anyone is interested to connect and search for the same! 
 
-
-
-
-
-
-| 4 | 0 | 0 | 4 | 4 | 12 |
-|---|---|---|---|---|----|
+I will join as a summer intern at Murray Hills, NJ from June 5 to August 10. I'm looking for a place to stay (open to sharing), preferably close to the campus. Let me know if you or anyone you know might be interested. Please feel free to reach out and connect if you are interning around the same time. Thanks!
