@@ -1076,7 +1076,7 @@ edge_quant total L1 Photo:51.12454019565776
 ```
 
 
-testing without deconvolution
+testing without deconvolution  -- 3MB model
 ```
 python Train.py \
 --ExperimentFileName="wo-deconvolve" \
@@ -1086,14 +1086,45 @@ python Train.py \
 --LR=2e-4 \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
---SaveTestModel \
 --NumEpochs=100
 
 python TFLiteConverter.py --NetworkName=Network.ResNetWODeconv \
---tflite_path=../models/wo-deconvolve/converted/lite.tflite \
+--tflite_path=../models/wo-deconvolve/converted/ \
 --tflite_edge_path=../models/wo-deconvolve/converted/ \
---tf_model_path=../models/wo-de/90a0model.ckpt \
+--tf_model_path=../models/wo-deconvolve/0a0model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --NumOut=2
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNetWODeconv \
+--CheckPointFolder=../models/wo-deconvolve/ \
+--CheckPointNum=0a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+
+
+full for a counter of 640
+full GPU time avg:0.005251797288656235
+full GPU fps:190.4110050401179
+full total L1 EPE:45.68989619016647
+full total L2 EPE:65.31123426556587
+full total L1 Photo:135.47720650412828
+quant for a counter of 640
+quant GPU time avg:0.07125775255262852
+quant GPU fps:14.033560759040702
+quant total L1 EPE:45.70259735584259
+quant total L2 EPE:65.32376669049263
+quant total L1 Photo:135.42281079841385
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.016442444548010825
+edge_quant GPU fps:60.8182072367687
+edge_quant total L1 EPE:45.69705154001713
+edge_quant total L2 EPE:65.3165008187294
+edge_quant total L1 Photo:135.37964678831767
+
 ```
