@@ -225,8 +225,7 @@ python Test_new.py \
 --CheckPointNum=49 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---Display="" \
---Old=True \
---OnEdge=True
+--Old \
+--OnEdge
 
 ```
