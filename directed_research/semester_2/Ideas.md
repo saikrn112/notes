@@ -117,3 +117,6 @@ train on uncertainity
 
 pixel shuffling
 
+## 2023.04.14
+
+if we train a neural network to predict image motion
