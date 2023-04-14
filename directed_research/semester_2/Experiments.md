@@ -1022,3 +1022,18 @@ python Test_new.py \
 --OnEdge=True
 ```
 
+
+testing optical flow with multiscale with learning rate 2e-4
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_multiscale_loss_with_scales_2e_4_1" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=2e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+
+
+```
