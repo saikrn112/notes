@@ -654,7 +654,7 @@ python Test_new.py \
 
 ## 2023.04.05
 
-resize, crop, stack and blur 
+resize, crop, stack and blur  chunking
 ```
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
@@ -989,5 +989,36 @@ we are trying 1e-3 with minibatch 8
 and 2e-4 with minibatch 32
 
 
-## 2023.04.13
+## 2023.04.14
+
+```
+python Train.py \
+--ExperimentFileName="multiscale_xy_multiscale_loss_with_scales_3" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_1e_4/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_1e_4/converted/ \
+--tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_1e_4/2a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_1e_4/ \
+--CheckPointNum=2a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Display="" \
+--Old="" \
+--OnEdge=True
+```
 
