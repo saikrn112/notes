@@ -1086,7 +1086,7 @@ python Train.py \
 --LR=2e-4 \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
---NumEpochs=100
+--NumEpochs=500
 
 python TFLiteConverter.py --NetworkName=Network.ResNetWODeconv \
 --tflite_path=../models/wo-deconvolve/converted/ \

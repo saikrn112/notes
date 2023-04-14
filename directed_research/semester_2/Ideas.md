@@ -107,8 +107,6 @@ prior to resblock we will have conv and then bn relu and add the resized values 
 
 GAN 
 resize - resblock add
-
-
 convex upsampling
 
 train on uncertainity 
