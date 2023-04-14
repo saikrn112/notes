@@ -1,6 +1,6 @@
 {
   "theme": "moonstone",
-  "baseFontSize": 23,
+  "baseFontSize": 19,
   "accentColor": "#643fde",
   "enabledCssSnippets": [
     "obsidian"

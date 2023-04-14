@@ -988,3 +988,6 @@ python Test_new.py \
 we are trying 1e-3 with minibatch 8
 and 2e-4 with minibatch 32
 
+
+## 2023.04.13
+

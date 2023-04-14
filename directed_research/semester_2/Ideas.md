@@ -97,9 +97,23 @@ Cost volume - explanation
 
 deconv could be the reason for slowness
 avoid deconv using
+```
+first I need to create a network which removes the deconv layers 
+or rather we will have only 1 deconv layer 
+and upsampling from then on 
+like in GAN we will basically use only resblocks 
+prior to resblock we will have conv and then bn relu and add the resized values so convolution is not changing the shape in this case 
+```
+
 GAN 
 resize - resblock add
+
+
 convex upsampling
+
 train on uncertainity 
 - linear softplus
+
+
+pixel shuffling
 
