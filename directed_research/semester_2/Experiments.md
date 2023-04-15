@@ -1128,3 +1128,16 @@ edge_quant total L2 EPE:65.3165008187294
 edge_quant total L1 Photo:135.37964678831767
 
 ```
+
+
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNetWODeconv \
+--CheckPointFolder=../models/deconvolve/ \
+--CheckPointNum=0a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+```
