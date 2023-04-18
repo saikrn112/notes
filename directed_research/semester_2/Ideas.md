@@ -118,3 +118,6 @@ pixel shuffling
 ## 2023.04.14
 
 if we train a neural network to predict image motion
+
+## 2023.04.15
+train the network with scaled optical flow values
