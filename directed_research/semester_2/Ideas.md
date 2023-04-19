@@ -122,3 +122,12 @@ if we train a neural network to predict image motion
 ## 2023.04.15
 train the baseline network with scaled down optical flow values
 train the resizing network with a lot of init neurons
+
+
+## 2023.04.19
+train the following 
+- optical flow with uncertainity
+	- how is it different from aniket's network? 
+	- uncertainity at each scale? 
+- 
+
