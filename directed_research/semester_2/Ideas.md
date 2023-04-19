@@ -129,5 +129,6 @@ train the following
 - optical flow with uncertainity
 	- how is it different from aniket's network? 
 	- uncertainity at each scale? 
-- 
+
+![[IMG_20230419_154930.jpg]]
 

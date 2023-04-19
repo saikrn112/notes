@@ -1146,7 +1146,7 @@ python Test_new.py \
 
 ```
 python Train.py \
---ExperimentFileName="baseline_scaled2" \
+--ExperimentFileName="baseline_scaled4" \
 --NetworkName=Network.ResNet \
 --MiniBatchSize=32 \
 --LoadCheckPoint=0 \
@@ -1154,4 +1154,26 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=100
+
+
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_scaled4/converted/ \
+--tflite_edge_path=../models/baseline_scaled4/converted/ \
+--tf_model_path=../models/baseline_scaled4/7a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_scaled4/ \
+--CheckPointNum=7a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+
+
+
 ```
