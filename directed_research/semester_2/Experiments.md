@@ -1177,3 +1177,37 @@ python Test_new.py \
 
 
 ```
+
+
+
+```
+python3 Train.py \
+--NetworkName=Network.ResNet_mscale \
+--UncType=LinearSoftplus \
+--BasePath=/home/pear_group/ramana/OpticalFlowOnTPU/Datasets/FlyingChairs2 
+--CheckPointPath= /home/pear_group/uncert_flow/PRGEyeOmni/CheckPoints/multiscale_added_incremental_preds_ep400_LinearSoftplus/ \ 
+--LogsPath=/home/pear_group/uncert_flow/PRGEyeOmni/Logs/multiscale_added_incremental_preds_ep400_LinearSoftplus 
+--NumEpochs=400 \
+--LR 1e-3
+
+
+python TFLiteConverter.py --NetworkName=Network.ResNetAniketMscale \
+--tflite_path=../models/multiscale_added_incremental_preds_ep400_LinearSoftplus/converted/lite.tflite \
+--tflite_edge_path=../models/multiscale_added_incremental_preds_ep400_LinearSoftplus/converted/ \
+--tf_model_path=../models/multiscale_added_incremental_preds_ep400_LinearSoftplus/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNetAniketMscale \
+--CheckPointFolder=../models/multiscale_added_incremental_preds_ep400_LinearSoftplus/ \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge=True \
+--Display=True
+
+```
