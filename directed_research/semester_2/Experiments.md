@@ -1141,3 +1141,17 @@ python Test_new.py \
 --OnEdge \
 --Display
 ```
+
+## 2023.04.18
+
+```
+python Train.py \
+--ExperimentFileName="baseline_scaled2" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
