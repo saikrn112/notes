@@ -1221,5 +1221,22 @@ python Test_new.py \
 --OnGPU \
 --OnEdge \
 --Display
+```
 
+
+## 2023.04.20
+Training multiscale with uncertainity 
+
+```
+python Train.py \
+--ExperimentFileName="multiscale_uncertainity_1" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=400
 ```
