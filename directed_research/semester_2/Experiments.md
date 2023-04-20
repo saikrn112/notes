@@ -1170,7 +1170,7 @@ python Train.py \
 python TFLiteConverter.py --NetworkName=Network.ResNet \
 --tflite_path=../models/baseline_scaled4/converted/ \
 --tflite_edge_path=../models/baseline_scaled4/converted/ \
---tf_model_path=../models/baseline_scaled4/7a0model.ckpt \
+--tf_model_path=../models/baseline_scaled4/99model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --NumOut=2
@@ -1179,7 +1179,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.ResNet \
 --CheckPointFolder=../models/baseline_scaled4/ \
---CheckPointNum=7a0 \
+--CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --OnEdge \
@@ -1190,6 +1190,8 @@ python Test_new.py \
 ```
 
 
+Aniket's multiscale network
+-- didnt work because it was trained with standardization
 
 ```
 python3 Train.py \
