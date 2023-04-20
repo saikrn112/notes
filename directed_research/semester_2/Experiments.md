@@ -282,8 +282,18 @@ python Test_new.py \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
+--OnGPU \
+--OnGPUQuant \
 --OnEdge \
 --Display
+
+
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.07226385213434697
+edge_quant GPU fps :13.838177324686246
+edge_quant total L1 EPE:3.404239693842828
+edge_quant total L2 EPE:10.508742298185826
+edge_quant total L1 Photo:55.72987744263929
 
 ```
 
@@ -337,6 +347,7 @@ python Train.py \
 --LoadCheckPoint=0 \
 --LR=1e-4 \
 --InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
 --NumSubBlocks=2 \
 --NumEpochs=100
 
@@ -1207,7 +1218,8 @@ python Test_new.py \
 --CheckPointNum=399 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---OnEdge=True \
---Display=True
+--OnGPU \
+--OnEdge \
+--Display
 
 ```
