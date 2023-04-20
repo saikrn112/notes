@@ -355,7 +355,7 @@ python Test_new.py \
 --CheckPointNum=99a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---Display="" \
+--Display=True \
 --Old="" \
 --OnEdge=True
 
