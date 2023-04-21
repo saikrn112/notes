@@ -132,3 +132,4 @@ train the following
 
 ![[IMG_20230419_154930.jpg]]
 
+idea behind dilation conv net is from paper DCVNet: Dilated Cost Volume Networks for Fast Optical Flow."

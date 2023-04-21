@@ -282,8 +282,6 @@ python Test_new.py \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---OnGPU \
---OnGPUQuant \
 --OnEdge \
 --Display
 
@@ -1186,8 +1184,29 @@ python Test_new.py \
 --Display
 
 
+full for a counter of 640
+full GPU time avg:0.010285009071230889
+full GPU fps:97.22888847975727
+full total L1 EPE:4.745787614182336
+full total L2 EPE:8.894557633477962
+full total L1 Photo:54.66630416099472
+quant for a counter of 640
+quant GPU time avg:0.21255083121359347
+quant GPU fps:4.704756948210165
+quant total L1 EPE:4.763469806266949
+quant total L2 EPE:8.92114234934561
+quant total L1 Photo:43.26738527548433
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.07104876413941383
+edge_quant GPU fps:14.074840176498673
+edge_quant total L1 EPE:4.7391038845526055
+edge_quant total L2 EPE:8.92224491359666
+edge_quant total L1 Photo:42.03177195847639
 
 ```
+![[test_pred_full.png]]
+![[test_pred_quant.png]]
+![[test_pred_edge_quant 1.png]]
 
 
 Aniket's multiscale network
@@ -1241,4 +1260,55 @@ python Train.py \
 --UncType=LinearSoftplus \
 --NumSubBlocks=2 \
 --NumEpochs=400
+```
+
+## 2023.04.21
+
+training edge dilation
+
+```
+python Train.py \
+--ExperimentFileName="edge_dilation" \
+--NetworkName=Network.ResNetDilateTest \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--SaveTestModel \
+--NumEpochs=400
+
+python TFLiteConverter.py --NetworkName=Network.ResNetDilateTest \
+--tflite_path=../models/edge_dilation/converted/ \
+--tflite_edge_path=../models/edge_dilation/converted/ \
+--tf_model_path=../models/edge_dilation/0a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNetDilateTest \
+--CheckPointFolder=../models/edge_dilation/ \
+--TFLiteFolder=converted \
+--CheckPointNum=0a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+```
+
+
+baseline- scaled-down working doesnt make sense. let me try the baseline version itself
+
+```
+python Train.py \
+--ExperimentFileName="baseline_wo_shift" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=100
 ```
