@@ -1311,4 +1311,24 @@ python Train.py \
 --InitNeurons=32 \
 --NumSubBlocks=2 \
 --NumEpochs=100
+
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_wo_shift/converted/ \
+--tflite_edge_path=../models/baseline_wo_shift/converted/ \
+--tf_model_path=../models/baseline_wo_shift/3model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_wo_shift/ \
+--CheckPointNum=3 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnGPU \
+--OnGPUQuant \
+--OnEdge \
+--Display
 ```
