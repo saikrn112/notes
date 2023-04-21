@@ -1,5 +1,5 @@
 ## Baseline
-![[test_image.png]]
+![[test_image.jpg]]
 ![[gt.png]]
 
 ![[baseline_full.png]]
