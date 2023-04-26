@@ -1245,22 +1245,7 @@ python Test_new.py \
 ```
 
 
-## 2023.04.20
-Training multiscale with uncertainity 
 
-```
-python Train.py \
---ExperimentFileName="multiscale_uncertainity_1" \
---NetworkName=Network.MultiScaleResNet \
---MiniBatchSize=32 \
---LoadCheckPoint=0 \
---LR=1e-4 \
---InitNeurons=32 \
---LossFuncName=MultiscaleSL1-1 \
---UncType=LinearSoftplus \
---NumSubBlocks=2 \
---NumEpochs=400
-```
 
 ## 2023.04.21
 
@@ -1331,4 +1316,133 @@ python Test_new.py \
 --OnGPUQuant \
 --OnEdge \
 --Display
+```
+
+## 2023.04.25
+
+Training multiscale with uncertainity 
+```
+python Train.py \
+--ExperimentFileName="multiscale_uncertainity_1" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=400
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted/ \
+--tf_model_path=../models/multiscale_uncertainity_1/141a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--CheckPointNum=141a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--Display
+
+
+full GPU time avg:0.010684720054268838
+full GPU fps :93.59159574803017
+full total L1 EPE:2.0316751237085553
+full total L2 EPE:10.356702087476151
+full total L1 Photo:57.55838465835107
+
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.047227543592453
+edge_quant GPU fps :21.174084526382202
+edge_quant total L1 EPE:2.2423165198008066
+edge_quant total L2 EPE:9.984831518476131
+edge_quant total L1 Photo:48.096894873416744
+```
+
+testing with resize to half
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_half/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_half/ \
+--tf_model_path=../models/multiscale_uncertainity_1/141a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeToHalf \
+--NumOut=4
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_half \
+--CheckPointNum=141a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeToHalf \
+--OnGPU \
+--OnEdge \
+--Display
+
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.012731166556477547
+edge_quant GPU fps :78.54739748819055
+edge_quant total L1 EPE:4.280480678996537
+edge_quant total L2 EPE:9.056758094165707
+edge_quant total L1 Photo:57.8630079111427
+```
+
+testing with chunking resize crop stack
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_crop_stack/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_crop_stack/ \
+--tf_model_path=../models/multiscale_uncertainity_1/141a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--NumOut=4
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_crop_stack \
+--CheckPointNum=141a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--OnGPU \
+--OnEdge \
+--Display
+
+
+full for a counter of 640
+full GPU time avg:0.011194894462823868
+full GPU fps :89.32643387758691
+full total L1 EPE:2.251788202143507
+full total L2 EPE:10.3740508556657
+full total L1 Photo:55.936199032561966
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.01168380193412304
+edge_quant GPU fps :85.58857858412145
+edge_quant total L1 EPE:2.4799906041182114
+edge_quant total L2 EPE:9.944058768358081
+edge_quant total L1 Photo:44.92328416304157
 ```
