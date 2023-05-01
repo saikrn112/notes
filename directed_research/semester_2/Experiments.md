@@ -1446,3 +1446,15 @@ edge_quant total L1 EPE:2.4799906041182114
 edge_quant total L2 EPE:9.944058768358081
 edge_quant total L1 Photo:44.92328416304157
 ```
+
+
+
+```
+python3 test.py \
+--BasePath=../val/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_half \
+--ResizeToHalf \
+--Uncertainity
+```
