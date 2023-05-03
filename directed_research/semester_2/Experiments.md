@@ -1337,7 +1337,7 @@ python Train.py \
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --tflite_path=../models/multiscale_uncertainity_1/converted/ \
 --tflite_edge_path=../models/multiscale_uncertainity_1/converted/ \
---tf_model_path=../models/multiscale_uncertainity_1/141a0model.ckpt \
+--tf_model_path=../models/multiscale_uncertainity_1/317a0model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
@@ -1347,7 +1347,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
---CheckPointNum=141a0 \
+--CheckPointNum=317a0 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
@@ -1356,18 +1356,18 @@ python Test_new.py \
 --Display
 
 
-full GPU time avg:0.010684720054268838
-full GPU fps :93.59159574803017
-full total L1 EPE:2.0316751237085553
-full total L2 EPE:10.356702087476151
-full total L1 Photo:57.55838465835107
-
+full for a counter of 640
+full GPU time avg:0.01724390350282192
+full GPU fps :57.99150985949049
+full total L1 EPE:1.7487224529322702
+full total L2 EPE:10.289887016441208
+full total L1 Photo:57.654290802310186
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.047227543592453
-edge_quant GPU fps :21.174084526382202
-edge_quant total L1 EPE:2.2423165198008066
-edge_quant total L2 EPE:9.984831518476131
-edge_quant total L1 Photo:48.096894873416744
+edge_quant GPU time avg:0.046986992657184604
+edge_quant GPU fps :21.282485714630937
+edge_quant total L1 EPE:2.1783412723219953
+edge_quant total L2 EPE:9.773824696149678
+edge_quant total L1 Photo:50.732707084887
 ```
 
 testing with resize to half
@@ -1457,4 +1457,45 @@ python3 test.py \
 --TFLiteFolder=converted_half \
 --ResizeToHalf \
 --Uncertainity
+```
+
+## 2023.05.02
+
+```
+python Train.py \
+--ExperimentFileName="baseline_xy" \
+--NetworkName=Network.ResNet \
+--MiniBatchSize=8 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--NumSubBlocks=2 \
+--NumEpochs=400
+
+---
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted/ \
+--tflite_edge_path=../models/baseline_xy/converted/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnEdge \
+--Display
+
+
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.07226385213434697
+edge_quant GPU fps :13.838177324686246
+edge_quant total L1 EPE:3.404239693842828
+edge_quant total L2 EPE:10.508742298185826
+edge_quant total L1 Photo:55.72987744263929
 ```

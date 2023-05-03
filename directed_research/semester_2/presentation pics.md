@@ -13,5 +13,5 @@
 ![[baseline_chunking_edge.png]]
 
 ## Multiscale
-![[multiscale_full.png]]
-![[multiscale_edge.png]]
+![[test_pred_full 1.png]]
+![[test_pred_edge_quant.png]]
