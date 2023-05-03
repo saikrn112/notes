@@ -15,3 +15,10 @@
 ## Multiscale
 ![[test_pred_full 1.png]]
 ![[test_pred_edge_quant.png]]
+
+
+
+## Sintel baseline
+![[sintel_pred_full.png]] 416x1024
+
+![[test_pred_edge_quant_0.png]]

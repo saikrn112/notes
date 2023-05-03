@@ -1499,3 +1499,133 @@ edge_quant total L1 EPE:3.404239693842828
 edge_quant total L2 EPE:10.508742298185826
 edge_quant total L1 Photo:55.72987744263929
 ```
+
+
+## Sintel baseline test
+
+default resolution 352x480
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_sintel/ \
+--tflite_edge_path=../models/baseline_xy/converted_sintel/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=99 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnGPU \
+--OnEdge \
+--Display
+
+
+full for a counter of 1040
+full GPU time avg:0.011660501131644616
+full GPU fps :85.75960747400214
+full total L1 EPE:4.223166156646151
+full total L2 EPE:12.386561411074721
+full total L1 Photo:88.4097577354827
+edge_quant for a counter of 1040
+edge_quant GPU time avg:0.07074343447501842
+edge_quant GPU fps :14.135587385895567
+edge_quant total L1 EPE:4.86621499634706
+edge_quant total L2 EPE:12.421517144028957
+edge_quant total L1 Photo:83.01979903261895
+```
+
+
+416x1024
+----- this is not working
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_sintel/ \
+--tflite_edge_path=../models/baseline_xy/converted_sintel/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--PatchSize0=416 \
+--PatchSize1=1024 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=99 \
+--PatchSize0=416 \
+--PatchSize1=1024 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnGPU \
+--OnEdge \
+--Display
+```
+
+
+112x160
+
+
+96x224
+```
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_sintel/ \
+--tflite_edge_path=../models/baseline_xy/converted_sintel/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
+--PatchSize0=96 \
+--PatchSize1=224 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=99 \
+--PatchSize0=96 \
+--PatchSize1=224 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnGPU \
+--OnEdge \
+--Display
+
+```
+
+## Sintel multiscale 
+
+default resolution 352x480
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_sintel/ \
+--tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_sintel/ \
+--tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/99a0model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=2
+
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=99a0 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--OnGPU \
+--OnEdge \
+--Display
+
+```
