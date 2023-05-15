@@ -21,3 +21,4 @@ fidloc
 ----
 
 
+	repeating texture can have a bad stereo matching results
