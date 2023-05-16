@@ -22,3 +22,8 @@ fidloc
 
 
 	repeating texture can have a bad stereo matching results
+
+
+need to get access to 
+- [ ] gitlab
+- [ ] 
