@@ -40,4 +40,12 @@ as in if the inital depth is off by a few cms
 
 
 
-chcanaged
+I have algo 1 which is dense depth, 
+I thought we could use validate disparity function but looks like that is not usable 
+another way is to check if there are good features using SIFT metrics. I need someway to correlate the sift features and dense depth. 
+sift features could just be a check 
+
+
+but for both of them I need a code which reads in left, right images and also reads in yaml file corresponding to that image for bounding box 
+
+I need code to read yaml files 
