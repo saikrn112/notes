@@ -49,3 +49,8 @@ sift features could just be a check
 but for both of them I need a code which reads in left, right images and also reads in yaml file corresponding to that image for bounding box 
 
 I need code to read yaml files 
+
+
+ideas: 
+1. use semantic tags as place recognition modules 
+2. can we use bars itself as semantic tags ? 
