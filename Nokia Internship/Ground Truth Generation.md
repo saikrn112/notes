@@ -11,8 +11,7 @@ T_map_to_optical = T_harness_to_optical @ T_map_to_harness
 `marker_coords_in_wv` : 
 	marker coordinates in world viz
 `T_wv_to_map` : 
-	Transformation matrix from World Viz frame to Map frame [[Ground Truth Generation#^2efb60|calibration]]
-	- #TODO Need from Howard 
+	Transformation matrix from World Viz frame to Map frame [[Ground Truth Generation#^2efb60|calibration]] 
 	- Following are transformed with it 
 		- world viz markers
 		- fiducial markers
@@ -30,12 +29,12 @@ T_map_to_optical = T_harness_to_optical @ T_map_to_harness
 ^2715fa
 ```
 -- 1
-T_fiducials_to_map = T_wv_to_map @ (T_wv_to_fiducials).T
+T_fiducial_to_map = T_wv_to_map @ (T_wv_to_fiducials).inv
 
 -- 2
 T_cam_to_fiducial = F_fiducial_pose(fiducials_image).inv
 T_cam_to_map = T_fiducial_to_map @ T_cam_to_fiducial
-T_map_to_cam = T_cam_to_map.T
+T_map_to_cam = T_cam_to_map.inv
 
 -- 3
 T_markers_to_map = T_wv_to_map @ marker_coords_in_wv
@@ -46,10 +45,10 @@ T_harness_to_optical = T_map_to_cam @ T_harness_to_map
 ```
 
 `T_wv_to_fiducials`  : 
-	we already have this transformation -- #TODO get this from Howard
+	we already have this transformation
 	
 `F_fiducial_pose` :
-	this is some opencv function --  #TODO get this from Howard
+	this is some opencv function --  #TODO check the rosbag for pose from fiducials
 
 
 
@@ -61,7 +60,6 @@ measure fiducials_in_wv
 measure fiducials_in_map using scanning or lasers
 using ICP get the required transformation
 ```
--- #TODO get the corresponding dataset and code as well
 
 
 ----
