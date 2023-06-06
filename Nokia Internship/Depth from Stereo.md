@@ -51,9 +51,3 @@ but for both of them I need a code which reads in left, right images and also re
 I need code to read yaml files 
 
 
-ideas: 
-1. use semantic tags as place recognition modules 
-2. can we use bars itself as semantic tags ? 
-3. IMU as heuristic for depth from stereo or SavLoc
-4. ToF sensor for depth integration
-5. SAM for segmentation
