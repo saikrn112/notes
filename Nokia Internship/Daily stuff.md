@@ -17,10 +17,8 @@ I will check out ground truth generation now
 		- find time correspondences between ref image and wv data
 		- save that as the above csv format
 
-
 - get world viz information with only one marker
-- get shelves distances from Howard #TODO 
-- hopefully one of the axis is aligning with the depth and get difference #TODO confirm
+- hopefully one of the axis is aligning with the depth and get difference 
 	- if not I need some transformation that makes it a difference (`T_map_to_align`)
 - plot depth vs time for both ground truth and estimated
 
