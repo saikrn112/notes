@@ -28,7 +28,10 @@ I will check out ground truth generation now
 
 ## 2023.06.07
 
-Localization - Depth From Stereo sync and next steps
-Hi all, 
+need the output of the savloc code
 
-This meeting is to discuss more about localization related tasks, sync up on my work and next steps.
+
+in the metrics, 
+number of vertical bars seen and number of horizontal bars seen 
+fiducial loc 
+
