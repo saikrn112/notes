@@ -24,3 +24,11 @@ I will check out ground truth generation now
 
 - get 6DoF pose from world viz markers 
 - plot yaw vs time for both ground truth and estimated
+
+
+## 2023.06.07
+
+Localization - Depth From Stereo sync and next steps
+Hi all, 
+
+This meeting is to discuss more about localization related tasks, sync up on my work and next steps.
