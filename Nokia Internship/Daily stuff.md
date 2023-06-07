@@ -35,3 +35,6 @@ in the metrics,
 number of vertical bars seen and number of horizontal bars seen 
 fiducial loc 
 
+logical layer in savloc should be abstracted out from the batch,dev,rest modes
+
+- need to create another folder / branch with evaluation metrics 
