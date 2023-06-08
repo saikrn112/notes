@@ -41,4 +41,5 @@ logical layer in savloc should be abstracted out from the batch,dev,rest modes
 
 ## 2023.06.08
 
-need to identify why l
+need to identify why sometimes the plane that was fit is bad
+could be related to dispersing the points more and more 
