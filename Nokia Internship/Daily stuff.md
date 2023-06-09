@@ -51,6 +51,5 @@ could be related to dispersing the points more and more
 
 
 omnigraph 
-
-very small detail - if we can control the stereo extrinsics with respect to each other to simulate different voxel configurations
+- very small detail - if we can control the stereo extrinsics with respect to each other to simulate different voxel configurations
 
