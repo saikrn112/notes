@@ -43,3 +43,14 @@ logical layer in savloc should be abstracted out from the batch,dev,rest modes
 
 need to identify why sometimes the plane that was fit is bad
 could be related to dispersing the points more and more 
+
+## 2023.06.09
+
+- got scripts from Mouhaymen on the ground truth testing 
+- need to add Howard's logic for yaw estimation into 
+
+
+omnigraph 
+
+very small detail - if we can control the stereo extrinsics with respect to each other to simulate different voxel configurations
+
