@@ -65,11 +65,33 @@ omnigraph
 
 ---
 - install matlab and run gt script
-- catch up with Yoni on yaw estimation
+- ~~catch up with Yoni on yaw estimation~~
 
 need to update on what I have done so far in presentation 
 - block matching
 - semi global block matching
 - fundamental matrix based approach for feature correspondences (without heuristic)
 
+line/plane fit criterion 
 
+
+call with Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- slide show: to explain the algorithm; ,clear and concise;
+- ask Jim /Daniel for Friday stereo pair based autonomous flights
+
+call with Prasanth
+- Yaw estimates
+- slow it is 
+- check with Jim about running matlab code
+- updates from Yoni on algorithm
+- week extension for internship?
+- It's not part of internship but discussed about some software upgrades with Michael to streamline deployment - responsibilities like Pratyush
+- autodistill for annotation (privacy concerns)
+
+
+last Monday 2023.06.05
+![[IMG_20230605_134534.jpg]]
