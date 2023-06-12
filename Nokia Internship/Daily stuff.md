@@ -53,3 +53,18 @@ could be related to dispersing the points more and more
 omnigraph 
 - very small detail - if we can control the stereo extrinsics with respect to each other to simulate different voxel configurations
 
+- standardized and pushed the code to gitlab
+- looking at autodistill for few mins
+
+## 2023.06.12
+- need to mail people for virtual meet up 
+| Group 1 | Sai Pinnama Raju | sai.pinnama_raju@nokia.com | Luke McDermott | luke.mcdermott@nokia.com | Jiangqi Hu | jiangqi.hu@nokia.com | Muhammad Karam | muhammad.shehzad@nokia.com | Haseeb | muhammad.haseeb@nokia.com |
+|---------|------------------|----------------------------|----------------|--------------------------|------------|----------------------|----------------|----------------------------|--------|---------------------------|
+
+
+
+---
+- install matlab and run gt script
+- catch up with Yoni on yaw estimation
+
+need to update on what I have done so far 
