@@ -84,13 +84,13 @@ call with Yoni
 - ask Jim /Daniel for Friday stereo pair based autonomous flights
 
 call with Prasanth
-- Yaw estimates
+- ~~Yaw estimates~~
 - slow it is 
-- check with Jim about running matlab code
+- ~~check with Jim about running matlab code~~
 - updates from Yoni on algorithm
-- week extension for internship?
+- ~~week extension for internship?~~
 - It's not part of internship but discussed about some software upgrades with Michael to streamline deployment - responsibilities like Pratyush
-- autodistill for annotation (privacy concerns)
+- ~~autodistill for annotation (privacy concerns)~~ -- 5 or 10 images should work! 
 
 
 last Monday 2023.06.05
