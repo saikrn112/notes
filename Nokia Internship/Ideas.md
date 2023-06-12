@@ -1,4 +1,4 @@
-ideas: 
+ ideas: 
 1. use semantic tags as place recognition modules 
 2. can we use bars itself as semantic tags ? 
 3. IMU as heuristic for depth from stereo or SavLoc
