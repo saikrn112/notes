@@ -112,3 +112,32 @@ call with Yoni
 - simpler assumption : take out the projection based filter by assuming that roll is 0
 - slide show: to explain the algorithm; ,clear and concise;
 - ask Jim /Daniel for Friday stereo pair based autonomous flights
+
+
+segmentation 
+- camera tilt 
+
+pre flight checks 
+- check if stereo is good 
+- imu is good 
+- sensor suit tests 
+
+
+stereo right image training 
+data augmentation 
+- cropping 
+- resizing 
+- rotating 
+- random patches 
+- noise 
+
+something about boundary detection 
+
+
+
+--- 
+annotation 
+acto  for labelling 
+- need code to convert acto format to yolo trainable format 
+
+
