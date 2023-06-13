@@ -117,12 +117,12 @@ call with Yoni
 - minimal mask and distance between points ( decrease the width of shelf)
 - segmentation is the priority
 
-
+---
 
 segmentation 
 - camera tilt 
 
-pre flight checks 
+pre flight checks -- ask publicly 
 - check if stereo is good 
 - imu is good 
 - sensor suit tests 
@@ -144,8 +144,24 @@ something about boundary detection
 annotation 
 acto  for labelling 
 - need code to convert acto format to yolo trainable format 
+---
 
 
-
-
+presentation 
+- problem at hand - what are we trying to solve 
+	- take it from howard's slides from minutes of meeting etc 
+- approach 1 
+	- opencv variant 
+- approach 2 
+	- sparse depth variant
+- approach 3 
+	- more hybrid approach 
+- current algo 
+	- what all elements from flow chart 
+- next steps 
+	- more robust 
+- evaluation
+	- run it on MH flights 
+	- get the ground truth data 
+	- run howard's code 
 
