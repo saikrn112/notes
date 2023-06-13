@@ -95,3 +95,20 @@ call with Prasanth
 
 last Monday 2023.06.05
 ![[IMG_20230605_134534.jpg]]
+
+## 2023.06.13
+
+- onboarding 
+- think about final summary report/presentation
+- schedule a virtual meet
+- run matlab scripts of Jim 
+
+
+
+call with Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- slide show: to explain the algorithm; ,clear and concise;
+- ask Jim /Daniel for Friday stereo pair based autonomous flights
