@@ -164,4 +164,10 @@ presentation
 	- run it on MH flights 
 	- get the ground truth data 
 	- run howard's code 
+tell that feature matching was highly sensitive to the calibration 
 
+
+
+totally 3 presentations 
+- 11th July 
+- 28th July
