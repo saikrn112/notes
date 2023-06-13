@@ -11,8 +11,12 @@
             "id": "f590ff35cf0290ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Nokia Internship/Daily stuff.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -67,6 +71,14 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "41a0bb1b59a075a5",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
     "currentTab": 0
@@ -81,6 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Nokia Internship/Daily stuff.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Nokia Internship/Daily stuff.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -107,12 +121,43 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Nokia Internship/Daily stuff.md"
+          }
         }
       }
     ],
     "currentTab": 0
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "f590ff35cf0290ae",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "directed_research/semester_2.5/some research ideas.md",
+    "Nokia Internship/Daily stuff.md",
+    "directed_research/semester_2.5",
+    "Nokia Internship/attachments/IMG_20230605_134534.jpg",
+    "Nokia Internship/attachments",
+    "Dynamics/attachments/Assignment 1-6.png",
+    "Dynamics/attachments/3.16_2.png",
+    "Dynamics/attachments/Assignment 1-5.png",
+    "Dynamics/attachments/3.6.png",
+    "Dynamics/attachments/Assignment 1-4.png",
+    "Dynamics/attachments/Assignment 1-1.png",
+    "Dynamics/attachments/Assignment 1-3.png",
+    "Dynamics/attachments/Assignment 1.png",
+    "Dynamics/attachments/3.17.png",
+    "Dynamics/Assignment 1.md",
+    "Dynamics/attachments",
+    "Dynamics",
+    "Nokia Internship/Depth from Stereo.md"
+  ]
 }
