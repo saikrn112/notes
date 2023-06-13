@@ -112,6 +112,11 @@ call with Yoni
 - simpler assumption : take out the projection based filter by assuming that roll is 0
 - slide show: to explain the algorithm; ,clear and concise;
 - ask Jim /Daniel for Friday stereo pair based autonomous flights
+- remove the shows 
+- decrease number of points 
+- minimal mask and distance between points ( decrease the width of shelf)
+- segmentation is the priority
+
 
 
 segmentation 
@@ -139,5 +144,8 @@ something about boundary detection
 annotation 
 acto  for labelling 
 - need code to convert acto format to yolo trainable format 
+
+
+
 
 
