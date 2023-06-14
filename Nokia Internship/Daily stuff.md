@@ -127,6 +127,7 @@ pre flight checks -- ask publicly
 - imu is good 
 - sensor suit tests 
 
+---
 
 stereo right image training 
 data augmentation 
@@ -135,18 +136,14 @@ data augmentation
 - rotating 
 - random patches 
 - noise 
-
+---
 something about boundary detection 
-
-
 
 --- 
 annotation 
 acto  for labelling 
 - need code to convert acto format to yolo trainable format 
 ---
-
-
 presentation 
 - problem at hand - what are we trying to solve 
 	- take it from howard's slides from minutes of meeting etc 
@@ -165,6 +162,7 @@ presentation
 	- get the ground truth data 
 	- run howard's code 
 tell that feature matching was highly sensitive to the calibration 
+---
 
 
 
@@ -174,4 +172,19 @@ totally 3 presentations
 
 ## 2023.06.14
 - something wrong with right mask numbers
-- 
+- Bharat about extrinsics 
+
+call with Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- ask Jim /Daniel for Friday stereo pair based autonomous flights
+- remove the shows 
+- decrease number of points 
+- minimal mask and distance between points ( decrease the width of shelf)
+- segmentation is the priority
+
+Let's focus on the ground truth today
+- only z axis, I had a AI chat to write the data to json 
+- after that I need to apply the transformation from world viz to map frame -- need to run that IcpFady for that 
