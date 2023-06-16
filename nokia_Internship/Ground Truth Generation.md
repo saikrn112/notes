@@ -75,3 +75,7 @@ This is using ICP concept with known correspondences, we use this concept to fin
 
 measurements between world viz and map frame 
 ![[wv_map_measurements.png]]
+
+`T_wv_to_bootstrap`
+
+`T_arbitrary_to_initial_wv_coords`
