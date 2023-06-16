@@ -188,3 +188,13 @@ call with Yoni
 Let's focus on the ground truth today
 - only z axis, I had a AI chat to write the data to json 
 - after that I need to apply the transformation from world viz to map frame -- need to run that IcpFady for that 
+
+
+## 2023.06.15
+- checked the markers and transformation given by Howard
+- I want to streamline the process by removing the bottlenecks 
+	- I will first run with Howards outputs on dataset4
+I need segmentation outputs for AIMS dataset 
+
+I need to check ground truth estimations for previous dataset using Howard's transformation
+- generate
