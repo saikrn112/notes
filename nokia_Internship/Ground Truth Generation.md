@@ -79,3 +79,11 @@ measurements between world viz and map frame
 `T_wv_to_bootstrap`
 
 `T_arbitrary_to_initial_wv_coords`
+
+
+----
+```
+T_initial = pose[0]
+T = T - T_initial # this is the pose from initial point
+T_marker_to_optical_frame 
+```
