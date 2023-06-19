@@ -233,10 +233,13 @@ do I need to make any code changes?
 - not right now, I will just run the yaw with latest extrinsics and data 
 
 1-1 with Prasanth: 
-- I will decide by 12PM not now
-- ask about presentation and what to do for next one
+- ~~I will decide by 12PM not now~~
+- ~~ask about presentation and what to do for next one~~
 - note down pre flight checks (health)
 - post flight checks (bag files, stereo images, distortion etc)
+
+-> Mouhymen document ground truth collection and processing
+-> SIM dataset for algorithm correctness
 
 ###### Problems 
 - 
