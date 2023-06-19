@@ -198,3 +198,40 @@ I need segmentation outputs for AIMS dataset
 
 I need to check ground truth estimations for previous dataset using Howard's transformation
 - generate
+
+## 2023.06.18
+
+- worked on implementing the pipeline
+- stuck at camera extrinsics of SKR3 
+- need to get initial pose from /SKR3/odom
+
+## 2023.06.19
+
+- check mails to analyse today's scope 
+- pay yagmur
+- follow up with Daniel about stereo extrinisics 
+- some scripts from Yoni
+I did speak with Howard very briefly 
+
+--- 
+I used the dataset2 to run some stuff 
+that entire pipeline creates some jsons and images 
+jsons 
+- poses.json - ground truth directly from bag file
+- transformed.json - after wv_to_map transformation
+- left/right_out.json - segmentaiton bounding boxes 
+- yaw_and_depth.json - estimated yaw and depth to shelf 
+
+plots 
+- depth_per_frame - ground truth using transformed.json
+- depth_plot - ground truth using transformed.json 
+- distance_to_shelf_per_frame.json - estimated distance to shelf
+- trajectory_plot.png - ground truth using transformed.json
+- yaw_per_frame.png - estimated yaw per frame
+
+do I need to make any code changes? 
+- not right now, I will just run the yaw with latest extrinsics and data 
+
+1-1 with Prasanth: 
+- I will decide by 12PM not now
+- 
