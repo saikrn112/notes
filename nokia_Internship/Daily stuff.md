@@ -234,4 +234,10 @@ do I need to make any code changes?
 
 1-1 with Prasanth: 
 - I will decide by 12PM not now
+- ask about presentation and what to do for next one
+- note down pre flight checks (health)
+- post flight checks (bag files, stereo images, distortion etc)
+
+###### Problems 
 - 
+

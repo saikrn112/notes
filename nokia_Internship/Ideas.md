@@ -9,3 +9,6 @@
 8. intel MiDas as monocular depth estimation
 9. using kalman filter to track how the depth and other estimates are varying
 10. deploying Yolo onto an edge device
+
+- suggestions write down 
+- 
