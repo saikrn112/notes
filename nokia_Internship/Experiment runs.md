@@ -55,10 +55,12 @@ To Run analysis
 python run_analysis.py \
 --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.19/ \
 --bag_file_name=2023-06-19-16-56-30.bag \
---remote_copy_location=/home/camloc/sai_analysis/dataset6/AIMS013/WV_test1/ \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.19/ \
 --drone=SKR1 \
 --left_image_topic=/SKR1/stereo/left \
 --right_image_topic=/SKR1/stereo/right \
+--no_rotate \
 --dry_run
+
 
 ```
