@@ -244,9 +244,11 @@ do I need to make any code changes?
 
 ## 2023.06.20
 
-- schedule weekly sync meeting
-- check 
-- check mails to analyse today's scope 
+- ~~schedule weekly sync meeting~~
+- ~~check mails to analyse today's scope ~~
+- think about what to present for tomorrow's meeting
+	- sync with Pratyush about depth
+	- issues with depth and calculation
 - pay yagmur
  
 -> Mouhymen document ground truth collection and processing

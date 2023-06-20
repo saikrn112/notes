@@ -26,3 +26,46 @@ if everything in map frame
 - transformation between map frame and baselink
 - or relative marker pose 
 
+
+invert z coordinates to make the system right handed
+
+
+  
+
+1. need to get translation from marker to camera optical frame
+	1. check initial coordinates 
+2. need to get rotation from marker to camera optical frame
+
+[12:20 PM] Sai Pinnama Raju (Nokia)
+
+config 123:  
+marker 1 --- -3.125,0.242,0.183
+
+[12:21 PM] Sai Pinnama Raju (Nokia)
+
+config 132:  
+marker 1 -- -3.128, 0.238, 0.182
+
+[12:22 PM] Sai Pinnama Raju (Nokia)
+
+config 213: marker 2 -- -3.096, 0.283,0.051
+
+[12:23 PM] Sai Pinnama Raju (Nokia)
+
+config 231: marker 2-- -3.095, 0.284, 0.051
+
+[12:24 PM] Sai Pinnama Raju (Nokia)
+
+config 312: marker 3- -3.123, 0.311, -0.006
+
+[12:25 PM] Sai Pinnama Raju (Nokia)
+
+config 321: marker 3
+
+from first few estimates 
+
+"x": -3.122958820408644,
+
+"y": 0.23811468708938605,
+
+"z": 0.1516606826838719
