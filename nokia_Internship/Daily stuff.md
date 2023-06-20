@@ -241,20 +241,27 @@ do I need to make any code changes?
 -> Mouhymen document ground truth collection and processing
 -> SIM dataset for algorithm correctness
 
-## 2023.07.20
+
+## 2023.06.20
 
 - schedule weekly sync meeting
+- check 
+- check mails to analyse today's scope 
+- pay yagmur
+ 
+-> Mouhymen document ground truth collection and processing
+-> SIM dataset for algorithm correctness
 
-yesterday I have collected some data. 
-I need to update the calibration and run the pipeline
-I think I have to add ground truth generation scripts as part of run_analysis so that I dont have to think too much all the time
 
+call with Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- ask Jim /Daniel for Friday stereo pair based autonomous flights
+- remove the shows 
+- decrease number of points 
+- minimal mask and distance between points ( decrease the width of shelf)
+- segmentation is the priority
 
-
-for this dataset I need a different strategy to generate the ground truth
-I need to extract the poses.json -- changes needed in the script 
-transformation from this frame to baselink frame -- needed 
-	need to identify which marker is the reference frame -- needed 
-baselink frame to camera frame -- some other drone constants 
-map frame transformation
 

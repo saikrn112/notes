@@ -22,6 +22,7 @@ python run_analysis.py \
 --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/dataset6/AIMS013/WV_test1/ \
 --bag_file_name=2023-06-14-15-28-21.bag \
 --remote_copy_location=/home/camloc/sai_analysis/dataset6/AIMS013/WV_test1/ \
+--drone=SKR3 \
 --left_image_topic=/SKR3/stereo/left \
 --right_image_topic=/SKR3/stereo/right \
 --dry_run
@@ -49,5 +50,15 @@ Frame of interest - frame 201
 
 [link]([6_19](https://nokianam.sharepoint.com/:f:/s/BellLabsAeroFarmsInternal-MediumDrone/EpH2ZqMlawRIpM2s9JPwoQwBx2gpoCIDlJh-9F7brOUiVw?email=sai.pinnama_raju%40nokia.com&e=Ln5RYJ))
 
----
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.19/ \
+--bag_file_name=2023-06-19-16-56-30.bag \
+--remote_copy_location=/home/camloc/sai_analysis/dataset6/AIMS013/WV_test1/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--dry_run
 
+```

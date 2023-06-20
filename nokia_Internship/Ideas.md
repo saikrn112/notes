@@ -11,4 +11,4 @@
 10. deploying Yolo onto an edge device
 
 - suggestions write down 
-- 
+- feed ground truth initial depth as heuristic instead of estimated initial depth
