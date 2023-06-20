@@ -36,6 +36,12 @@ invert z coordinates to make the system right handed
 	1. check initial coordinates 
 2. need to get rotation from marker to camera optical frame
 
+---
+Local tower shelf fid0 coords in world viz frame:  
+-3.125  
+0.051  
+0.596
+
 [12:20 PM] Sai Pinnama Raju (Nokia)
 
 config 123:  
@@ -69,3 +75,5 @@ from first few estimates
 "y": 0.23811468708938605,
 
 "z": 0.1516606826838719
+
+---
