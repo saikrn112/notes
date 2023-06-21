@@ -267,4 +267,14 @@ call with Yoni
 - minimal mask and distance between points ( decrease the width of shelf)
 - segmentation is the priority
 
+## 2023.06.21
 
+presentation today 
+- ground truth generation
+- plots 
+- evaluation framework
+
+next steps
+
+
+manually check distance compare with worldviz 
