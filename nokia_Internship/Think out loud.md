@@ -91,3 +91,10 @@ I can show some analysis that finer estimate is indeed improving the estimate
 if we can 
 
 plot the transformed Z vs X ? 
+
+
+---
+
+
+manual flight 
+with protractor 
