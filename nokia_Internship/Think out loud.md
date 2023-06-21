@@ -98,3 +98,18 @@ plot the transformed Z vs X ?
 
 manual flight 
 with protractor 
+
+- fix a table 
+- keep the drone
+- measure the drone distance using measuring scale 
+- measure the drone using protractor 
+- maybe draw the lines 
+
+
+video start
+- take snapshots of videos 100 frames each 
+- linspace (start=-60, end=60, step=5)
+
+
+
+figuring out rest of the internship week 
