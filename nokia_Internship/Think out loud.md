@@ -108,8 +108,9 @@ with protractor
 
 video start
 - take snapshots of videos 100 frames each 
-- linspace (start=-60, end=60, step=5)
+- linspace (start=-20, end=20, step=4)
 
-
+measuring tape 
+protractor
 
 figuring out rest of the internship week 
