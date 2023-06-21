@@ -64,3 +64,66 @@ python run_analysis.py \
 
 
 ```
+
+
+
+## Main Dataset 2023.06.19
+
+link to be generated
+
+### Subdatasets
+---
+##### 2023-06-21-20-48-05
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset/2023-06-21-20-48-05/ \
+--bag_file_name=2023-06-21-20-48-05.bag \
+--remote_copy_location=/home/camloc/sai_analysis/manual_dataset/2023-06-21-20-48-05/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--no_rotate \
+--only_images \
+--dry_run
+
+```
+
+
+----
+##### 2023-06-21-20-43-10
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset/2023-06-21-20-43-10/ \
+--bag_file_name=2023-06-21-20-43-10.bag \
+--remote_copy_location=/home/camloc/sai_analysis/manual_dataset/2023-06-21-20-43-10/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--no_rotate \
+--only_images \
+--dry_run
+
+```
+
+
+----
+#### 2023-06-21-20-40-13
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset/2023-06-21-20-40-13/ \
+--bag_file_name=2023-06-21-20-40-13.bag \
+--remote_copy_location=/home/camloc/sai_analysis/manual_dataset/2023-06-21-20-40-13/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--no_rotate \
+--only_images \
+--dry_run
+
+```
