@@ -246,6 +246,7 @@ do I need to make any code changes?
 
 - ~~schedule weekly sync meeting~~
 - ~~check mails to analyse today's scope ~~
+- ~~got the ground truth finally~~
 - think about what to present for tomorrow's meeting
 	- sync with Pratyush about depth
 	- issues with depth and calculation

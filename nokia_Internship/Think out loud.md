@@ -77,3 +77,17 @@ from first few estimates
 "z": 0.1516606826838719
 
 ---
+
+for tomorrow's presentation I need to tell about the standardized way to collect the ground truth 
+- I can create a document maybe
+- show some results of plots that I got 
+
+
+for code I need to read the ground truth as well so that I can plot in the image
+
+I can show some analysis that finer estimate is indeed improving the estimate
+
+
+if we can 
+
+plot the transformed Z vs X ? 
