@@ -19,3 +19,11 @@ what is happening in optical flow?
 - [openaccess.thecvf.com/content_cvpr_2015/papers/Wulff_Efficient_Sparse-to-Dense_Optical_2015_CVPR_paper.pdf](https://openaccess.thecvf.com/content_cvpr_2015/papers/Wulff_Efficient_Sparse-to-Dense_Optical_2015_CVPR_paper.pdf)
 - [[1606.00373] Deeper Depth Prediction with Fully Convolutional Residual Networks (arxiv.org)](https://arxiv.org/abs/1606.00373)
 
+
+
+## 2023.06.21
+
+I need to calculate where we stand on Sintel dataset so that we can see how much to improve 
+for that I need to know where my models are and which ones to focus on 
+I need a consolidated list of models or star models in my research so far
+
