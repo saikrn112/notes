@@ -279,4 +279,7 @@ next steps
 
 manually check distance compare with worldviz 
 
+## 2023.06.22
+
+update the experiment runs with pictures I took in ipad
 

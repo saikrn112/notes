@@ -119,3 +119,5 @@ figuring out rest of the internship week
 ```
 voxl-logger
 ```
+
+once the data is copied I need to run the script and generate depth and yaw estimates 
