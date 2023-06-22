@@ -285,16 +285,7 @@ manually check distance compare with worldviz
 - use the segmentation masks 
 - add initial depth estimate in the plot (yellow)
 - verify the math for perpendicular distance to plane
-- frames 0-48 should have perfectly 0 yaw 
-	- frame 23 has some issue
-	- frame 27 has some issue
-	- frame 34
-	- frame 36
-- frame 49
-- frame 51
-- frame 55 has some issue 
-- frame 112
-- is frame 128 correct?
+- working on custom matching algorithm 
 - are left tilt's correct in general? 
 - pay yagmur
  
