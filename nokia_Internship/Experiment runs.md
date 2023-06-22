@@ -116,7 +116,7 @@ python run_analysis.py \
 To Run analysis 
 ```
 python run_analysis.py \
---dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset/2023-06-21-20-40-13/ \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset/2023-06-21-20-40/ \
 --bag_file_name=2023-06-21-20-40-13.bag \
 --remote_copy_location=/home/camloc/sai_analysis/manual_dataset/2023-06-21-20-40-13/ \
 --drone=SKR1 \
@@ -127,3 +127,5 @@ python run_analysis.py \
 --dry_run
 
 ```
+
+for masks which are horizontal the yaw output is not stable

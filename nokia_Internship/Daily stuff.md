@@ -281,5 +281,34 @@ manually check distance compare with worldviz
 
 ## 2023.06.22
 
-update the experiment runs with pictures I took in ipad
+- update the experiment runs with pictures I took in ipad
+- use the segmentation masks 
+- add initial depth estimate in the plot (yellow)
+- verify the math for perpendicular distance to plane
+- frames 0-48 should have perfectly 0 yaw 
+	- frame 23 has some issue
+	- frame 27 has some issue
+	- frame 34
+	- frame 36
+- frame 49
+- frame 51
+- frame 55 has some issue 
+- frame 112
+- is frame 128 correct?
+- are left tilt's correct in general? 
+- pay yagmur
+ 
+-> Mouhymen document ground truth collection and processing
+-> SIM dataset for algorithm correctness
 
+
+call with Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- ask Jim /Daniel for Friday stereo pair based autonomous flights
+- remove the shows 
+- decrease number of points 
+- minimal mask and distance between points ( decrease the width of shelf)
+- segmentation is the priority
