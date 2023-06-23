@@ -149,3 +149,60 @@ agenda for the meeting
 
 suggestions on where the savloc is going? is DfS gonna add any value? 
 I want other opionions so that I can take more generalized call 
+
+
+final comments 
+- get better test 
+- geometric test 
+- debug the code with Yoni
+
+segmented bar 
+	end point - 386,318
+	start point - 386,169
+
+
+difference - 149
+bounding box 
+```
+"frame000039.png": {
+
+"horizontal support": [
+[0.0,155.0],
+[640.0,155.0],
+[0.0,331.0],
+[640.0,331.0]]},
+```
+from bounding box - 176
+
+
+```
+def get_depth_from_structure0(bb, horizontal_width, camera_matrix):
+	horiz_up = abs(bb[0][1] - bb[1][1])
+	horiz_down = abs(bb[2][1] - bb[3][1])
+	if (horiz_up < 20 and horiz_down < 20): # since horizontal lines should be straight (no roll).
+		if (bb[0][1] > 60 and bb[3][1] < 420):
+			width_left = abs(bb[0][1] - bb[3][1])
+			width_right = abs(bb[1][1] - bb[2][1])
+			depth = 2 * camera_matrix[0][0] * horizontal_width / (width_left + width_right) # depth to shelf estimation
+			return depth
+return None
+```
+
+camera_matrix 
+```
+M1 = np.array([ 495.41, 0.0,     317.24, 
+				0.0,    495.56,  256.84, 
+				0.0,    0.0,     1.0]).reshape(3,3)
+```
+
+horizontal_width 
+```
+h = 14cm
+```
+
+```
+width_left = abs(155.0 - 331) = 176
+width_right = abs(155.0 - 331) = 176
+
+depth = 2 * (495.51)* 0.14 / (176)*2
+```
