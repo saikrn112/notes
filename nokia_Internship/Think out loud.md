@@ -133,3 +133,8 @@ Custom matching algorithm
 
 final day of the week 
 I can present the results of bruteforce+heuristic vs heuristic matching
+
+
+let's take another rosbag from SKR1 again 
+this time no tilt 
+pure distance measurement 
