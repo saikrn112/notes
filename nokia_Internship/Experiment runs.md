@@ -65,9 +65,11 @@ python run_analysis.py \
 
 ```
 
+---
+---
 
 
-## Main Dataset 2023.06.19
+## Main Dataset 2023.06.21
 
 link to be generated
 
@@ -129,3 +131,31 @@ python run_analysis.py \
 ```
 
 for masks which are horizontal the yaw output is not stable
+
+----
+---
+## Main Dataset 2023.06.23
+
+
+
+### Subdatasets
+---
+##### Test1 --> 2023-06-21-20-48-05
+
+
+this test 38 cm 
+no yaw
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset_2023.06.23/2023-06-23-16-07/ \
+--bag_file_name=2023-06-23-16-07-27.bag \
+--remote_copy_location=/home/camloc/sai_analysis//manual_dataset_2023.06.23/2023-06-23-16-07/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--prefix="brute_force" \
+--no_rotate \
+--only_images \
+--dry_run
