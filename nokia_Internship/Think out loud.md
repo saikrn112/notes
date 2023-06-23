@@ -128,3 +128,8 @@ once the data is copied I need to run the script and generate depth and yaw esti
 improve matching 
 
 Custom matching algorithm 
+
+## 2023.06.23
+
+final day of the week 
+I can present the results of bruteforce+heuristic vs heuristic matching
