@@ -140,7 +140,7 @@ for masks which are horizontal the yaw output is not stable
 
 ### Subdatasets
 ---
-##### Test1 --> 2023-06-21-20-48-05
+##### Test1 --> 2023-06-23-16-07
 
 
 this test 38 cm 
@@ -159,3 +159,73 @@ python run_analysis.py \
 --no_rotate \
 --only_images \
 --dry_run
+```
+
+----
+##### Test2 --> 2023-06-23-16-19
+
+
+this test 50 cm 
+no yaw
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset_2023.06.23/2023-06-23-16-19/ \
+--bag_file_name=2023-06-23-16-19-07.bag \
+--remote_copy_location=/home/camloc/sai_analysis//manual_dataset_2023.06.23/2023-06-23-16-19/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--prefix="brute_force" \
+--no_rotate \
+--only_images \
+--dry_run
+```
+
+
+----
+##### Test3 --> 2023-06-23-16-25
+
+
+this test 85 cm 
+no yaw
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset_2023.06.23/2023-06-23-16-25/ \
+--bag_file_name=2023-06-23-16-25-15.bag \
+--remote_copy_location=/home/camloc/sai_analysis//manual_dataset_2023.06.23/2023-06-23-16-25/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--prefix="staggered_masks" \
+--no_rotate \
+--only_images \
+--dry_run
+```
+
+NO segmentation 
+
+----
+##### Test5 --> 2023-06-23-16-33
+
+
+this test 51 cm 
+no yaw
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset_2023.06.23/2023-06-23-16-33/ \
+--bag_file_name=2023-06-23-16-33-53.bag \
+--remote_copy_location=/home/camloc/sai_analysis//manual_dataset_2023.06.23/2023-06-23-16-33/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--prefix="staggered_masks" \
+--no_rotate \
+--only_images \
+--dry_run
+```

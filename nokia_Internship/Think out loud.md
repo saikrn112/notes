@@ -138,3 +138,14 @@ I can present the results of bruteforce+heuristic vs heuristic matching
 let's take another rosbag from SKR1 again 
 this time no tilt 
 pure distance measurement 
+
+
+agenda for the meeting 
+- present the results
+- say that it's giving what we want 80-90times out of 100 
+- but more concerned about outliers 
+- custom matching algorithm gives more weightage to initial depth 
+- previous algorithm gives
+
+suggestions on where the savloc is going? is DfS gonna add any value? 
+I want other opionions so that I can take more generalized call 
