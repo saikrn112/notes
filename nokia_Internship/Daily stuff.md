@@ -285,7 +285,8 @@ manually check distance compare with worldviz
 - use the segmentation masks 
 - add initial depth estimate in the plot (yellow)
 - verify the math for perpendicular distance to plane
-- working on custom matching algorithm 
+- ~~working on custom matching algorithm ~~
+
 - are left tilt's correct in general? 
 - pay yagmur
  
@@ -303,3 +304,4 @@ call with Yoni
 - decrease number of points 
 - minimal mask and distance between points ( decrease the width of shelf)
 - segmentation is the priority
+
