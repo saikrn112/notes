@@ -27,3 +27,15 @@ I need to calculate where we stand on Sintel dataset so that we can see how much
 for that I need to know where my models are and which ones to focus on 
 I need a consolidated list of models or star models in my research so far
 
+
+## 2023.06.24
+
+
+multiscaling network with chunking for highest fps and accuracy
+
+we can try with different resolutions 
+I have already tried sintel with baseline and multiscale 
+I need to try the same with multiscale chunking 
+I havent tried sintel because I dont have a data loader 
+ok I did try sintel because I do have the dataloader
+
