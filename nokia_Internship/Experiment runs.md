@@ -75,7 +75,7 @@ link to be generated
 
 ### Subdatasets
 ---
-##### 2023-06-21-20-48-05
+##### 2023-06-21-20-48
 
 To Run analysis 
 ```
@@ -94,7 +94,7 @@ python run_analysis.py \
 
 
 ----
-##### 2023-06-21-20-43-10
+##### 2023-06-21-20-43
 
 To Run analysis 
 ```
@@ -113,7 +113,7 @@ python run_analysis.py \
 
 
 ----
-#### 2023-06-21-20-40-13
+#### 2023-06-21-20-40
 
 To Run analysis 
 ```
