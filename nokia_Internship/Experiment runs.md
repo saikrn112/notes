@@ -120,7 +120,7 @@ To Run analysis
 python run_analysis.py \
 --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/manual_dataset_2023.06.21/2023-06-21-20-40/ \
 --bag_file_name=2023-06-21-20-40-13.bag \
---remote_copy_location=/home/camloc/sai_analysis/manual_dataset_2023.06.21/2023-06-21-20-40-13/ \
+--remote_copy_location=/home/camloc/sai_analysis/manual_dataset_2023.06.21/2023-06-21-20-40/ \
 --drone=SKR1 \
 --left_image_topic=/SKR1/stereo/left \
 --right_image_topic=/SKR1/stereo/right \
