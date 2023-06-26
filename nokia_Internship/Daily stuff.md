@@ -283,7 +283,7 @@ manually check distance compare with worldviz
 
 - update the experiment runs with pictures I took in ipad
 - use the segmentation masks 
-- add initial depth estimate in the plot (yellow)
+- ~~add initial depth estimate in the plot (yellow)~~
 - verify the math for perpendicular distance to plane
 - ~~working on custom matching algorithm ~~
 
@@ -302,3 +302,20 @@ call with Yoni
 - decrease number of points 
 - minimal mask and distance between points ( decrease the width of shelf)
 
+## 2023.06.026
+today is the day where I fully debug the code and prove Yoni once and for all that feature matching is super crucial
+
+- update the experiment runs with pictures I took in ipad
+- use the segmentation masks 
+- verify the math for perpendicular distance to plane
+
+- are left tilt's correct in general? 
+- pay yagmur
+
+Yoni
+- see if we can get rid of projection from initial depth for matching correspondences
+- start with undistorted images
+- see how the dispartiy range changes based on the z assumption
+- simpler assumption : take out the projection based filter by assuming that roll is 0
+- decrease number of points 
+- minimal mask and distance between points ( decrease the width of shelf)
