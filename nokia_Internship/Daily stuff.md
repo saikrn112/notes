@@ -299,9 +299,6 @@ call with Yoni
 - start with undistorted images
 - see how the dispartiy range changes based on the z assumption
 - simpler assumption : take out the projection based filter by assuming that roll is 0
-- ask Jim /Daniel for Friday stereo pair based autonomous flights
-- remove the shows 
 - decrease number of points 
 - minimal mask and distance between points ( decrease the width of shelf)
-- segmentation is the priority
 
