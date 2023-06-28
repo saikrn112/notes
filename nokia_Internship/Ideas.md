@@ -9,6 +9,9 @@
 8. intel MiDas as monocular depth estimation
 9. using kalman filter to track how the depth and other estimates are varying
 10. deploying Yolo onto an edge device
+11. bundle adjustment
+12. super point
+13. super glue for stereo 
 
 - suggestions write down 
 - feed ground truth initial depth as heuristic instead of estimated initial depth
