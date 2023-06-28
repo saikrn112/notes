@@ -171,3 +171,16 @@ next step:
 - select two feature correspondences 
 - and manually triangulate 
 [[Triangulation analysis]]
+
+
+## 2023.06.28
+
+- savloc should be ros
+- capture savloc topic separately
+- capture savloc filtered
+- manual handling to evaluate the savloc
+- metric for savloc evaluation
+- plotting standard 
+- evaluate savloc core algorithm standalone instead of full information
+
+

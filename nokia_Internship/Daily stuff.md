@@ -302,7 +302,7 @@ call with Yoni
 - decrease number of points 
 - minimal mask and distance between points ( decrease the width of shelf)
 
-## 2023.06.026
+## 2023.06.26
 today is the day where I fully debug the code and prove Yoni once and for all that feature matching is super crucial
 
 - update the experiment runs with pictures I took in ipad
@@ -319,3 +319,7 @@ Yoni
 - simpler assumption : take out the projection based filter by assuming that roll is 0
 - decrease number of points 
 - minimal mask and distance between points ( decrease the width of shelf)
+
+
+## 2023.06.28
+
