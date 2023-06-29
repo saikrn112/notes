@@ -323,3 +323,7 @@ Yoni
 
 ## 2023.06.28
 
+meetings 
+discussed with Nilesh and Pratyush about different things that happened 
+
+
