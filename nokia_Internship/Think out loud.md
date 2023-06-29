@@ -183,4 +183,10 @@ next step:
 - plotting standard 
 - evaluate savloc core algorithm standalone instead of full information
 
+## 2023.06.29
+
+ToF FoV and granularity
+
+
+
 
