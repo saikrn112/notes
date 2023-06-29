@@ -41,4 +41,14 @@ ok I did try sintel because I do have the dataloader
 
 
 
+## 2023.06.28
+
+they achieved 7, but at what scale?
+what is the image resolution? 
+
+
+160 x 120
+
+
+to use the edge detail loss, I need to figure out a loss function
 
