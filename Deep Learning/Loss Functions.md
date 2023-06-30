@@ -7,6 +7,16 @@ f_{CE} = - \Sigma\Sigma y_{k}^{i} log(\hat{y})_{k}^{i}
 $$
 
 
+### Sigmoid
+$$
+sigmoid(x) = \frac{1}{log(1 + e^{-x})}
+$$
+>[!info]- sigmoid cross entropy with logits
+>tf function
+>applies sigmoid to logits (raw values) to get probabilities (expected)
+>applies cross entropy to calculate difference in probabilities (expected vs ground truth)
+>
+
 ### Huber loss
 this combines - [wiki](https://en.wikipedia.org/wiki/Huber_loss)
 - fast convergence properties of an $L_2$ norm optimization 
@@ -51,11 +61,6 @@ $$
 
 softplus, sigmoid, softminus, softplusinv - [link](https://jiafulow.github.io/blog/2019/07/11/softplus-and-softminus/)
 
-### Sigmoid
-$$
-sigmoid(x) = \frac{1}{log(1 + e^{-x})}
-$$
-
 ### Contrastive Loss
 ![[contrastive_loss_1.png]]
 ![[contrastive_loss_2.png]]
@@ -63,3 +68,5 @@ $$
 ### Dice Loss
 used in predicting edges 
 measures overlapping similarity
+
+![[dice_loss.png]]
