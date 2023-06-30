@@ -6,9 +6,13 @@ need to confirm if they are images or some other format
 
 for loss function, I need to use binary cross entropy with class imbalance problem 
 
+>[!question] does applying motion boundary for both the images make sense? 
+>- maybe it does, because we are trying to predict the forward flow of the optical flow 
+
+
 from STDC paper 
-![[stdc_detail_loss.png|400]]
+![[stdc_detail_loss.png|200]]
 
 
 from nanoflownet about implementation details 
-![[nanoflownet_impl.png|400]]
+![[nanoflownet_impl.png|200]]
