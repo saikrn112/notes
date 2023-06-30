@@ -52,3 +52,5 @@ what is the image resolution?
 
 to use the edge detail loss, I need to figure out a loss function
 
+## 2023.06.29
+
