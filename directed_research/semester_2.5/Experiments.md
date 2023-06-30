@@ -148,3 +148,20 @@ edge_quant total L1 EPE:4.057102328075112
 edge_quant total L2 EPE:12.05957962178932
 edge_quant total L1 Photo:101.77319359579539
 ```
+
+
+## 2023.06.30
+
+```
+python Train.py \
+--ExperimentFileName="multiscale_uncertainity_mb_1" \
+--NetworkName=Network.MultiScaleMBResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```

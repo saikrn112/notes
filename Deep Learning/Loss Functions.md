@@ -59,3 +59,7 @@ $$
 ### Contrastive Loss
 ![[contrastive_loss_1.png]]
 ![[contrastive_loss_2.png]]
+
+### Dice Loss
+used in predicting edges 
+measures overlapping similarity

@@ -11,8 +11,8 @@ for loss function, I need to use binary cross entropy with class imbalance probl
 
 
 from STDC paper 
-![[stdc_detail_loss.png|200]]
+![[stdc_detail_loss.png|400]]
 
 
 from nanoflownet about implementation details 
-![[nanoflownet_impl.png|200]]
+![[nanoflownet_impl.png|400]]
