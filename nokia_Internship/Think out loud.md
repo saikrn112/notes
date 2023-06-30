@@ -194,3 +194,14 @@ patch in the horizontal segment
 
 
 
+## 2023.06.30
+
+![[pointer_left.png]]
+>[!info] left_loc
+loc : 327,178
+
+![[laser_pointer_right.png]]
+>[!info] right_loc
+loc : 242, 178
+
+disparity = 
