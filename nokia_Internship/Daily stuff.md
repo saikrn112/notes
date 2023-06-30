@@ -326,4 +326,11 @@ Yoni
 meetings 
 discussed with Nilesh and Pratyush about different things that happened 
 
+## 2023.06.30
+
+collected some datasets 
+- laser pointer with stereo on SKR1 
+- ToF with high res on STR1
+
+
 

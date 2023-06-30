@@ -229,3 +229,33 @@ python run_analysis.py \
 --only_images \
 --dry_run
 ```
+
+
+----
+---
+
+
+## Main Dataset 2023.06.30
+
+
+### Subdatasets
+---
+##### 2023-06-30-19-08
+
+0.54
+
+To Run analysis 
+```
+python run_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/stereo/2023-06-30-19-08/ \
+--bag_file_name=2023-06-30-19-08-05.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/stereo/2023-06-30-19-08/ \
+--drone=SKR1 \
+--left_image_topic=/SKR1/stereo/left \
+--right_image_topic=/SKR1/stereo/right \
+--no_rotate \
+--only_images \
+--dry_run
+```
+
+frame 73-109,503-543,634-699
