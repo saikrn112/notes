@@ -189,4 +189,8 @@ ToF FoV and granularity
 
 
 
+patch in the horizontal segment 
+
+
+
 
