@@ -33,3 +33,20 @@ checkout todo list which prof sent
 
 
 ----
+## 2023.06.30
+
+>[!info]
+>do the same thing as STDC seg network
+>have a detail head at conv block 
+>and then apply the detail loss 
+
+
+>[!info]
+>instead of low-level spatial information I will assume that optical flow deconv should give a motion boundary 
+>apply conv block + upsampling as well 
+
+
+
+
+
+

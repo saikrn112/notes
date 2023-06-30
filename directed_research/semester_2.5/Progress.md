@@ -53,4 +53,16 @@ what is the image resolution?
 to use the edge detail loss, I need to figure out a loss function
 
 ## 2023.06.29
+read some paper 
+
+## 2023.06.30
+
+^696784
+
+I will try detail loss with 2 networks 
+- multiscale 
+- simple 
+
+before that I need to create a loss function
+and a data loader 
 
