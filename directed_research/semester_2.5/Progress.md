@@ -66,3 +66,5 @@ I will try detail loss with 2 networks
 before that I need to create a loss function
 and a data loader 
 
+## 2023.07.02
+
