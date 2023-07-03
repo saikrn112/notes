@@ -67,4 +67,10 @@ before that I need to create a loss function
 and a data loader 
 
 ## 2023.07.02
+did some coding for making sure detail loss is making sense 
+
+## 2023.07.03
+
+finally got the thing working 
+need to wait for it to train
 
