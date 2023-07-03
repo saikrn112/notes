@@ -19,3 +19,18 @@ from nanoflownet about implementation details
 
 
 ## 2023.07.02
+
+super inefficient 
+BCEloss is off the charts and super negative 
+it should be comparable to dice loss 
+I am using sigmoid cross entropy
+so value of sigmoid(0) is not 0 
+so this will make network predict with an offset of -128 to 128
+
+so in my test
+for noisy image I will subtract 128 
+dont add any noise 
+and call bceloss 
+it should be 0 
+
+
