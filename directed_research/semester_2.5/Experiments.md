@@ -1,7 +1,10 @@
 
 ## Sintel multiscale 
 
+
 default resolution 352x480
+
+**Final**
 ```
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_sintel/ \
@@ -136,17 +139,17 @@ python Test_new_sintel.py \
 
 
 full for a counter of 1041
-full GPU time avg:0.009563799206736452
-full GPU fps :104.56095724967021
-full total L1 EPE:3.9439029489124087
-full total L2 EPE:12.175757836596995
-full total L1 Photo:104.0784421253088
+full GPU time avg:0.00911331978357262
+full GPU fps :109.72949745520486
+full total L1 EPE:4.454485693851649
+full total L2 EPE:12.524431202356684
+full total L1 Photo:98.47459952968387
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.011341755030592626
-edge_quant GPU fps :88.16977595642429
-edge_quant total L1 EPE:4.057102328075112
-edge_quant total L2 EPE:12.05957962178932
-edge_quant total L1 Photo:101.77319359579539
+edge_quant GPU time avg:0.011330528286760753
+edge_quant GPU fps :88.25713812201131
+edge_quant total L1 EPE:4.53375384329633
+edge_quant total L2 EPE:12.382184382073588
+edge_quant total L1 Photo:96.13008828301632
 ```
 
 
