@@ -33,4 +33,10 @@ dont add any noise
 and call bceloss 
 it should be 0 
 
+## 2023.07.03
+
+I want to know if detail loss is well balanced among others. 
+so I need to print the values during the training
+but need to figure out how to do that in tf1
+
 
