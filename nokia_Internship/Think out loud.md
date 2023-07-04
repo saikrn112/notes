@@ -205,3 +205,12 @@ loc : 327,178
 loc : 242, 178
 
 disparity = 
+
+
+## 2023.07.03
+[[Daily stuff#^6b528d]]
+too many discussions and brain is super confused on what the next steps are 
+
+
+
+

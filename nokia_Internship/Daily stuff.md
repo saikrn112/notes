@@ -334,3 +334,23 @@ collected some datasets
 
 
 
+## 2023.07.03
+
+^6b528d
+
+spoke with Yoni on next steps 
+- ask Michael about hires being captured in rosbags for SKR 
+- check graybar stereo pair images for edge detection
+- work on ToF 
+
+spoke with Michael about hires
+- if we want VGA resolution for savloc we can try 
+
+spoke with Nilesh 
+- use the hires we captured from the starlink 
+- run the segmentation pipeline 
+- and run the savloc pipeline 
+
+idea is somehow (quantitatively) say that color and 4k images are providing better information for savloc to work - doesnt matter if it is geometric_2d or vanishing point method 
+
+send this information to Yoni (what I discussed with Michael)

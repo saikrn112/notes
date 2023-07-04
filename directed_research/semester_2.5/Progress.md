@@ -74,6 +74,17 @@ did some coding for making sure detail loss is making sense
 finally got the thing working 
 need to wait for it to train
 
+>[!Info] Prof Nitin
+>- Results are not great, required accuracy 7px-10px
+>- we need to train better
+> ---
+>- check evaluation to make sure EPE
+>- use a pretrained network to confirm the numbers from existing paper 
+>- try UNet with multiscale
+>
+
+
+
 
 ## 2023.07.04
 
