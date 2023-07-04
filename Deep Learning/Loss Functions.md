@@ -70,3 +70,8 @@ used in predicting edges
 measures overlapping similarity
 
 ![[dice_loss.png]]
+
+### Focal Loss
+class imbalance training [link]([Focal Loss Explained | Papers With Code](https://paperswithcode.com/method/focal-loss#:~:text=Focal%20loss%20applies%20a%20modulating,in%20the%20correct%20class%20increases.))
+
+![[focal_loss.png]]
