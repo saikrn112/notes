@@ -43,3 +43,53 @@ detail loss[116.575287]
 optical loss[43.6578903]
 unc accum loss[150603.781]
 ```
+
+## 2023.07.04
+
+scared that research might not go anywhere. 
+need to implement atleast one different idea everyday so that I have something quantifiable by the end of month
+
+so nanoflownet is using focal loss instead of detail loss as mentioned in the STDC network paper 
+
+another difference between nanoflownet and my current implementation
+- instead of trying to force the optical flow to learn motion boundary, I am predicting a new channel altogether
+
+>[!idea1]
+>start simple, 
+>use a simple conv deconv block 
+>at the encoder take a separate differernt conv and use that for motion boundary? 
+>do the same thing but at decoder 
+>
+
+
+need to evaluate sintel with best model 400 epochs 
+the other was trained for 100 epochs
+
+
+- [x] flying chairs wo chunking
+- [x] flying chairs w chunking
+- [x] sintel clean wo chunking
+- [x] sintel final wo chunking
+- [x] sintel clean w chunking
+- [x] sintel final w chunking
+
+
+[[Multiscale + Uncertainity 400 Epochs (Best Model)]]
+
+
+
+for visualiation issue 
+this should work 
+```
+python Train.py \
+--ExperimentFileName="multiscale_uncertainity_2" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=1
+```

@@ -74,3 +74,6 @@ did some coding for making sure detail loss is making sense
 finally got the thing working 
 need to wait for it to train
 
+
+## 2023.07.04
+

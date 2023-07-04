@@ -168,3 +168,9 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=100
 ```
+
+## 2023.07.04
+
+
+[[Multiscale + Uncertainity 400 Epochs (Best Model)]]
+
