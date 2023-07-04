@@ -4,5 +4,6 @@
   "accentColor": "#643fde",
   "enabledCssSnippets": [
     "obsidian"
-  ]
+  ],
+  "cssTheme": "Minimal"
 }
