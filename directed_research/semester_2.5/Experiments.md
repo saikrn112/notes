@@ -168,9 +168,25 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=100
 ```
+this version had a bug in label generation
+
 
 ## 2023.07.04
 
 
 [[Multiscale + Uncertainity 400 Epochs (Best Model)]]
+
+```
+python Train.py \
+--ExperimentFileName="multiscale_uncertainity_mb_2" \
+--NetworkName=Network.MultiScaleMBResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=0 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=100
+```
 
