@@ -7,11 +7,11 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
-- [ ] [[hires segmentation with current yolo]]
 
 
 ## Progress
 
+- [ ] [[hires segmentation with current yolo]]
 
 
 ## Pause

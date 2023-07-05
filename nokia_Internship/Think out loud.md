@@ -217,3 +217,7 @@ too many discussions and brain is super confused on what the next steps are
 
 no presentation today since I am working on something new 
 
+I have two options, 
+I can either use the current Yolov8 segmentation or play around with autodistill and other functionalities 
+
+- in the meanwhile I can try playing around with graybar edge detection 

@@ -8,3 +8,18 @@ configuration [link](https://docs.modalai.com/voxl2-camera-configs/#c6---hires--
 [hires imx412 datasheet](https://www.modalai.com/products/mdk-m0061-1?variant=45119396413744)
 
 ![[sensor_configuration.png]]
+
+- [ ] update the powerpoint with initial results, in plots maybe
+	- [ ] manually get the masks from GroundingDino + SAM (not many images)
+- [ ] understand how ToF works with IR
+	- [ ] undistortion for ToF
+- [ ] integrate rgb + depth = rgb pointcloud
+	- [ ] should I do more research on this integration? 
+		- [ ] this starts from calibration related papers
+	- [ ] calculate hires to tof extrinsics 
+	- [ ] assume some focal length to the hires 
+	- [ ] get focal length of the ToF 
+	- [ ] make sure to match resolution
+	- [ ] compute the math and get the RGB point cloud for verification
+- [ ] integrate that with rgb segmentation
+

@@ -1,6 +1,7 @@
 - [ ] hires intrinsics 
 	- [ ] calibration
-- [ ] bag2frames 
-	- [ ] image extraction issues
+- [x] bag2frames 
+	- [x] image extraction issues
 - [ ] segmentation
 - [ ] understand how to run the savloc with these images  - Pratyush
+- [ ] the resolution of these images is also 640x480 so not sure how much improvement would be there in segmentation 
