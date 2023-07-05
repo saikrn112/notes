@@ -8,6 +8,7 @@ kanban-plugin: basic
 
 - [ ] [[Time of Flight]] ^0z3yh4
 - [ ] vp_yaw estimation wrt ground truth bags
+- [ ] graybar edges
 
 
 ## Progress
