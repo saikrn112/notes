@@ -181,7 +181,7 @@ python Train.py \
 --ExperimentFileName="multiscale_uncertainity_mb_2" \
 --NetworkName=Network.MultiScaleMBResNet \
 --MiniBatchSize=32 \
---LoadCheckPoint=0 \
+--LoadCheckPoint=1 \
 --LR=1e-4 \
 --InitNeurons=32 \
 --LossFuncName=MultiscaleSL1-1 \

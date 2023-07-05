@@ -90,3 +90,4 @@ need to wait for it to train
 
 for multiscale motion boundary loss 
 ![[training_progress.png]]
+![[trainig_progress.png]]
