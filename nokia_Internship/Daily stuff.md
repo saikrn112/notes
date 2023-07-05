@@ -1,11 +1,11 @@
-### 2023.06.05
+## 2023.06.05
 only meetings
 Discussed briefly with Yoni on how we can use points to get full pose
 using something like PnP
 I will check out ground truth generation now 
 
 
-### 2023.06.06
+## 2023.06.06
 
 - script which extracts frames and corresponding timestamps in sequence
 - when I do rosbag replay I will pump it through synchronizer, subscribe and save -- easiest to do 

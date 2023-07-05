@@ -1,0 +1,5 @@
+- [ ] hires intrinsics 
+	- [ ] calibration
+- [ ] bag2frames 
+- [ ] segmentation
+- [ ] understand how to run the savloc with these images  - Pratyush
