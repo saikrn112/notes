@@ -7,6 +7,7 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
+- [ ] check optical flow between stereo pair
 
 
 ## Progress
