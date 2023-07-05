@@ -88,3 +88,5 @@ need to wait for it to train
 
 ## 2023.07.04
 
+for multiscale motion boundary loss 
+![[training_progress.png]]
