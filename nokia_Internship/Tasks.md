@@ -9,6 +9,7 @@ kanban-plugin: basic
 - [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
 - [ ] check optical flow between stereo pair
 - [ ] color images from graybar
+- [ ] gray bar hires images - run vp_yaw estimation
 
 
 ## Progress

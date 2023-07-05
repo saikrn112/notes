@@ -2,6 +2,6 @@
 	- [ ] calibration
 - [x] bag2frames 
 	- [x] image extraction issues
-- [ ] segmentation
+- [ ] segmentation with current Yolo -- idea is to see if FoV giving us better segmentation
 - [ ] understand how to run the savloc with these images  - Pratyush
-- [ ] the resolution of these images is also 640x480 so not sure how much improvement would be there in segmentation 
+- [x] the resolution of these images is also 640x480 so not sure how much improvement would be there in segmentation 
