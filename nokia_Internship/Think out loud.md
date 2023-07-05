@@ -213,4 +213,7 @@ too many discussions and brain is super confused on what the next steps are
 
 
 
+## 2023.07.05
+
+no presentation today since I am working on something new 
 
