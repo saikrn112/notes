@@ -10,7 +10,7 @@ configuration [link](https://docs.modalai.com/voxl2-camera-configs/#c6---hires--
 ![[sensor_configuration.png]]
 
 - [ ] update the powerpoint with initial results, in plots maybe
-	- [ ] manually get the masks from GroundingDino + SAM (not many images)
+	- [x] manually get the masks from GroundingDino + SAM (not many images)
 - [ ] understand how ToF works with IR
 	- [ ] undistortion for ToF
 - [ ] integrate rgb + depth = rgb pointcloud
