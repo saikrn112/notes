@@ -272,26 +272,52 @@ frame 73-109,503-543,634-699
 
 ### Subdatasets
 ---
-##### Capture 1
+##### Capture 3
 ```
-python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture1 \
---output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture1/ \
---drone=STR1
+python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
+--extracted_name=Capture3 \
+--bag_file_name=2023-06-30-14-33-02_Capture3.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/tof/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
 ```
 
 ---
-##### Capture 2
-```
-python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture2 \
---output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture2/ \
---drone=STR1
-```
 
-
----
 ##### Capture 4
 ```
-python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture4 \
---output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture4/ \
---drone=STR1
+python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
+--extracted_name=Capture4 \
+--bag_file_name=2023-06-30-14-34-10_Capture4.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/tof/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
+
+---
+##### Capture 5
+```
+python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
+--extracted_name=Capture5 \
+--bag_file_name=2023-06-30-14-34-50_Capture5.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/tof/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
+
+
+
+---
+##### Capture 6
+```
+python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
+--extracted_name=Capture6 \
+--bag_file_name=2023-06-30-14-35-16_Capture6.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/tof/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
 ```

@@ -12,12 +12,12 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] [[hires segmentation with current yolo]]
 
 
 ## Pause
 
 - [ ] [[Time of Flight]] ^0z3yh4
+- [ ] [[hires segmentation with current yolo]]<br>pausing for calibration
 - [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
 
 
