@@ -355,6 +355,10 @@ idea is somehow (quantitatively) say that color and 4k images are providing bett
 
 send this information to Yoni (what I discussed with Michael)
 
+## 2023.07.05
+extracted hires images from rosbags
+
+
 ## 2023.07.06
 hires segmentation with current Yolo
 

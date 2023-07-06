@@ -12,13 +12,15 @@ kanban-plugin: basic
 - [ ] Idea: UNet + multiscale + uncertainty
 - [ ] Review: Focal Loss vs Detail Loss
 - [ ] Idea: Nanoflownet based MB impl
-- [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
-- [ ] Task: review existing pretrained model on sintel to compare numbers with my script and paper
+- [ ] Task: review existing pretrained model on sintel to compare numbers with my script and paper<br>- [ ] impl RAFT evaluation to make sure numbers are correct
+- [ ] read nanoflownet again but this time for references
+- [ ] some paper on consolidated methods for speed of the network
+- [ ] print different loss components now
 
 
 ## Progress
 
-- [ ] Idea: MB train with Multiscale + uncertainity
+- [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
 
 
 ## Pause
@@ -27,6 +29,11 @@ kanban-plugin: basic
 
 ## Done
 
+
+
+## training
+
+- [ ] Idea: MB train with Multiscale + uncertainity
 
 
 
