@@ -22,4 +22,3 @@ configuration [link](https://docs.modalai.com/voxl2-camera-configs/#c6---hires--
 	- [ ] make sure to match resolution
 	- [ ] compute the math and get the RGB point cloud for verification
 - [ ] integrate that with rgb segmentation
-
