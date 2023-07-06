@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] gray bar hires images - run vp_yaw estimation
 - [ ] how does drone compresss 4k to vga
 - [ ] FoV calculation with known box
+- [ ] hires images from Mathew
 
 
 ## Progress
