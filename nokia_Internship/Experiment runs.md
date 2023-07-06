@@ -272,6 +272,20 @@ frame 73-109,503-543,634-699
 
 ### Subdatasets
 ---
+##### Capture 1
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
+--extracted_name=Capture1 \
+--bag_file_name=2023-06-30-14-30-17_Capture1.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.06.30/tof/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
+
+---
+
 ##### Capture 3
 ```
 python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/ \
