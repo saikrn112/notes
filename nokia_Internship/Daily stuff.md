@@ -354,3 +354,6 @@ spoke with Nilesh
 idea is somehow (quantitatively) say that color and 4k images are providing better information for savloc to work - doesnt matter if it is geometric_2d or vanishing point method 
 
 send this information to Yoni (what I discussed with Michael)
+
+## 2023.07.06
+hires segmentation with current Yolo

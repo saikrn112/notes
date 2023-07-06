@@ -221,3 +221,20 @@ I have two options,
 I can either use the current Yolov8 segmentation or play around with autodistill and other functionalities 
 
 - in the meanwhile I can try playing around with graybar edge detection 
+
+
+## 2023.07.06
+
+- [ ] get starling1 
+- [ ] understand how to operate it for calibration
+- [ ] calibrate hires camera on starling1
+
+what does Yoni want me to do ? 
+we discussed 2 different ideas
+- lookup table idea 
+- homography based idea 
+
+both of them need good segmentation
+
+what does Nilesh want? 
+- he wants me to run current Yolo network with grayscale to see how the segmentation is 

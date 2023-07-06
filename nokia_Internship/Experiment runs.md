@@ -263,3 +263,35 @@ frame 73-109,503-543,634-699
 
 331,173
 
+---
+---
+
+
+## Main Dataset 2023.06.30 ToF
+
+
+### Subdatasets
+---
+##### Capture 1
+```
+python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture1 \
+--output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture1/ \
+--drone=STR1
+```
+
+---
+##### Capture 2
+```
+python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture2 \
+--output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture2/ \
+--drone=STR1
+```
+
+
+---
+##### Capture 4
+```
+python grayscale.py --dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture4 \
+--output_dir=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.06.30/tof/Capture4/ \
+--drone=STR1
+```
