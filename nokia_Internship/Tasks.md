@@ -15,6 +15,7 @@ kanban-plugin: basic
 
 ## Progress
 
+- [ ] verify the distance from ToF
 
 
 ## Pause

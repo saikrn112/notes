@@ -335,3 +335,25 @@ python run_hires_analysis.py --dataset_path=/home/sai-pinnama/Project/depth_from
 --drone=STR1 \
 --dry_run
 ```
+
+
+---
+---
+
+
+## Main Dataset 2023.07.06 ToF
+
+
+### Subdatasets
+---
+##### Capture 1
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.07.06// \
+--extracted_name=Capture1 \
+--bag_file_name=2023-07-06-19-49-21.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.07.06/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
