@@ -11,6 +11,7 @@ kanban-plugin: basic
 - [ ] hires calibration on STR1
 - [ ] homography based yaw estimation
 - [ ] how does drone compresss 4k to vga
+- [ ] empty space detection using SAM+GroundingDino
 
 
 ## Progress
