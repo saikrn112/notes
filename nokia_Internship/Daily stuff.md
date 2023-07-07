@@ -357,3 +357,7 @@ send this information to Yoni (what I discussed with Michael)
 
 ## 2023.07.06
 hires segmentation with current Yolo
+
+## 2023.07.07
+graybar visit
+depth characterization [link](https://docs.google.com/spreadsheets/d/1Z4md_isMuGlsjRxvag8epsKHRNfii5nQlp1vZVF5CNQ/edit#gid=0)
