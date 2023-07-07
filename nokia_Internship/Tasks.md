@@ -10,8 +10,6 @@ kanban-plugin: basic
 - [ ] integrating segmentation with ToF PC
 - [ ] hires calibration on STR1
 - [ ] homography based yaw estimation
-- [ ] how does drone compresss 4k to vga
-- [ ] empty space detection using SAM+GroundingDino
 
 
 ## Progress
@@ -35,6 +33,8 @@ kanban-plugin: basic
 ## archive
 
 - [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
+- [ ] how does drone compresss 4k to vga
+- [ ] empty space detection using SAM+GroundingDino
 - [ ] check optical flow between stereo pair
 - [ ] gray bar hires images - run vp_yaw estimation
 
