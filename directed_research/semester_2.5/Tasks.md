@@ -16,11 +16,17 @@ kanban-plugin: basic
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
 - [ ] print different loss components now
+- [ ] Task: check if edge detection has been overfit by running tests
 
 
 ## Progress
 
 - [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
+
+
+## training
+
+- [ ] Idea: MB train with Multiscale + uncertainity
 
 
 ## Pause
@@ -29,11 +35,6 @@ kanban-plugin: basic
 
 ## Done
 
-
-
-## training
-
-- [ ] Idea: MB train with Multiscale + uncertainity
 
 
 
