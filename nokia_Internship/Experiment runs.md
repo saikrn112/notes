@@ -357,3 +357,22 @@ python run_hires_analysis.py \
 --drone=STR1 \
 --dry_run
 ```
+---
+---
+
+## Main Dataset 2023.07.06 Hires Graybar
+
+
+### Subdatasets
+---
+##### Capture 1
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/hires_graybar_2023.07.06// \
+--extracted_name=Capture1 \
+--bag_file_name=21.bag \
+--remote_copy_location=/home/camloc/sai_analysis/hires_graybar_2023.07.06/ \
+--hires_image_topic=/SKR4/hires \
+--drone=SKR4_hires \
+--dry_run
+
