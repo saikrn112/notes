@@ -243,7 +243,7 @@ what does Nilesh want?
 ## 2023.07.10
 
 - [ ] hires image configuration preview on drone 
-- [ ] rosbag topic pruning
+- [x] rosbag topic pruning
 - [ ] rosbag topic addition 1.0 
 - [ ] rosbag topic addition savloc 
 

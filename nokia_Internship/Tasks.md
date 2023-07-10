@@ -18,7 +18,7 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [ ] segmentation for the images
+- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [ ] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 - [ ] transform and publish tof pc
 
 
