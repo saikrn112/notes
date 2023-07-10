@@ -7,6 +7,7 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] hires calibration on STR1
+- [ ] savloc with hires vga
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] homography based yaw estimation
