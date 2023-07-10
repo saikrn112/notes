@@ -238,3 +238,12 @@ both of them need good segmentation
 
 what does Nilesh want? 
 - he wants me to run current Yolo network with grayscale to see how the segmentation is 
+
+
+## 2023.07.10
+
+- [ ] hires image configuration preview on drone 
+- [ ] rosbag topic pruning
+- [ ] rosbag topic addition 1.0 
+- [ ] rosbag topic addition savloc 
+
