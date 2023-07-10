@@ -6,12 +6,13 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] enter timecard
 - [ ] hires calibration on STR1
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] homography based yaw estimation
 - [ ] rosbag remapping
+- [ ] add videos to sharepoint
+- [ ] explore FastSAM integration
 
 
 ## Progress
@@ -29,6 +30,7 @@ kanban-plugin: basic
 
 - [ ] verify the distance from ToF<br>[distance charaterization](https://docs.google.com/spreadsheets/d/1Z4md_isMuGlsjRxvag8epsKHRNfii5nQlp1vZVF5CNQ/edit#gid=0)
 - [ ] consolidate conversation with Michael - 2023.07.05 starling dataset
+- [ ] enter timecard
 - [ ] color images from graybar<br>- Mathew gave a script to download from MongoDB
 - [ ] [[hires segmentation with current yolo]]
 
