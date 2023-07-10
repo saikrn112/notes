@@ -17,6 +17,7 @@ kanban-plugin: basic
 
 ## Progress
 
+- [ ] color images from graybar<br>- [ ] Mathew gave a script to download from MongoDB<br>- [ ] share the dataset with Yoni<br>- [ ] calibration for hires<br>- [ ] segmentation for the images
 - [ ] transform and publish tof pc
 
 
@@ -31,7 +32,6 @@ kanban-plugin: basic
 - [ ] verify the distance from ToF<br>[distance charaterization](https://docs.google.com/spreadsheets/d/1Z4md_isMuGlsjRxvag8epsKHRNfii5nQlp1vZVF5CNQ/edit#gid=0)
 - [ ] consolidate conversation with Michael - 2023.07.05 starling dataset
 - [ ] enter timecard
-- [ ] color images from graybar<br>- Mathew gave a script to download from MongoDB
 - [ ] [[hires segmentation with current yolo]]
 
 
