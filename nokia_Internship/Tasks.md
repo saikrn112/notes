@@ -16,6 +16,7 @@ kanban-plugin: basic
 
 ## Progress
 
+- [ ] transform and publish tof pc
 
 
 ## Pause
