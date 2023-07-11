@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## Backlog
 
+- [ ] Task: test the trained Multiscale + uncertainty
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] Task: review existing pretrained model on sintel to compare numbers with my script and paper<br>- [ ] impl RAFT evaluation to make sure numbers are correct
 - [ ] print different loss components now
@@ -26,7 +27,6 @@ kanban-plugin: basic
 
 ## training
 
-- [ ] Idea: MB train with Multiscale + uncertainity
 
 
 ## Pause
@@ -35,6 +35,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] Idea: MB train with Multiscale + uncertainity
 
 
 
