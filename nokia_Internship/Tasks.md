@@ -7,7 +7,6 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] hires calibration on STR1
-- [ ] savloc with hires vga
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] homography based yaw estimation
@@ -18,14 +17,14 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [ ] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
-- [ ] transform and publish tof pc
+- [ ] savloc with hires vga<br>- [ ] watch Pratyush's recording
+- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 
 
 ## Pause
 
 - [ ] [[Time of Flight]] ^0z3yh4
-- [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
+- [ ] transform and publish tof pc
 
 
 ## Done
@@ -38,6 +37,7 @@ kanban-plugin: basic
 
 ## archive
 
+- [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
 - [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
 - [ ] how does drone compresss 4k to vga
 - [ ] empty space detection using SAM+GroundingDino
