@@ -8,7 +8,6 @@ kanban-plugin: basic
 
 - [ ] Task: test the trained Multiscale + uncertainty
 - [ ] Task: check if edge detection has been overfit by running tests
-- [ ] Task: review existing pretrained model on sintel to compare numbers with my script and paper<br>- [ ] impl RAFT evaluation to make sure numbers are correct
 - [ ] print different loss components now
 - [ ] Idea: UNet
 - [ ] Idea: UNet with Multiscale
@@ -23,6 +22,7 @@ kanban-plugin: basic
 ## Progress
 
 - [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
+- [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct
 
 
 ## training
