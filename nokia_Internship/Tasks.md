@@ -18,6 +18,7 @@ kanban-plugin: basic
 
 ## Progress
 
+- [ ] hires calibration on SKR1
 - [ ] savloc with hires vga<br>- [ ] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 
 
