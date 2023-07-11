@@ -375,4 +375,26 @@ python run_hires_analysis.py \
 --hires_image_topic=/SKR4/hires \
 --drone=SKR4_hires \
 --dry_run
+```
+
+---
+---
+
+## Main Dataset 2023.07.10 Hires MH
+
+
+### Subdatasets
+---
+##### Capture 2
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.07.10// \
+--extracted_name=Capture2 \
+--bag_file_name=2023-07-10-14-48-18.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.07.10/ \
+--hires_image_topic=/SKR4/hires \
+--drone=SKR4_hires \
+--dry_run
+```
+
 

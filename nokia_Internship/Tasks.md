@@ -6,8 +6,7 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] hires calibration on STR1
-- [ ] savloc with hires vga
+- [ ] camera to harness transformation
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] homography based yaw estimation
@@ -18,18 +17,21 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [ ] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
-- [ ] transform and publish tof pc
+- [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 
 
 ## Pause
 
 - [ ] [[Time of Flight]] ^0z3yh4
+- [ ] transform and publish tof pc
+- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 - [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
 
 
 ## Done
 
+- [ ] [[hires calibration on SKR1]]
+- [ ] [[hires calibration on STR1]]
 - [ ] verify the distance from ToF<br>[distance charaterization](https://docs.google.com/spreadsheets/d/1Z4md_isMuGlsjRxvag8epsKHRNfii5nQlp1vZVF5CNQ/edit#gid=0)
 - [ ] consolidate conversation with Michael - 2023.07.05 starling dataset
 - [ ] enter timecard
