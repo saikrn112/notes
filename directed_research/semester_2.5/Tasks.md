@@ -17,6 +17,7 @@ kanban-plugin: basic
 - [ ] Idea: Nanoflownet based MB impl
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
+- [ ] Task: warp and check<br>- [ ] plot the errors
 
 
 ## Progress
