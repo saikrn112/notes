@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] rosbag remapping
 - [ ] add videos to sharepoint
 - [ ] explore FastSAM integration
+- [ ] checkout Karter's Thesis
 
 
 ## Progress

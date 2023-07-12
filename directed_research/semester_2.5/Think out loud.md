@@ -93,3 +93,6 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=1
 ```
+
+## 2023.07.11
+yesterday made som modifications to the metrics class 
