@@ -258,4 +258,10 @@ for presentation:
 - exploring two threads 
 	- `vp` estimation - depends on the reliable edges -- depends on the 
 	- ToF integration - show the tof pipeline 
-	- 
+
+Hey everyone, 
+
+I am looking at the camera to harness transformation now. to make sure we are in same page I will outline how I am planning to compute this transformation. 
+
+1. Align one of the markers on the drone to worldviz origin 
+2. get other two measurements

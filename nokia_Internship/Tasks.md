@@ -6,7 +6,9 @@ kanban-plugin: basic
 
 ## Backlog
 
+- [ ] showcase presentation
 - [ ] camera to harness transformation
+- [ ] camera wrapper
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] homography based yaw estimation
