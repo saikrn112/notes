@@ -247,3 +247,15 @@ what does Nilesh want?
 - [ ] rosbag topic addition 1.0 
 - [ ] rosbag topic addition savloc 
 
+## 2023.07.12
+
+image and tof info are synchronized 
+now I need to integrate the segmentation mask with tof info 
+first ensure they both are in same focal length
+
+for presentation:
+- give context about why stereo cannot be used due to lack of robust features 
+- exploring two threads 
+	- `vp` estimation - depends on the reliable edges -- depends on the 
+	- ToF integration - show the tof pipeline 
+	- 
