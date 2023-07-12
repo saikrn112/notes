@@ -4,20 +4,25 @@ kanban-plugin: basic
 
 ---
 
-## Backlog
+## Ideas
 
-- [ ] Task: test the trained Multiscale + uncertainty
-- [ ] Task: check if edge detection has been overfit by running tests
-- [ ] print different loss components now
 - [ ] Idea: UNet
 - [ ] Idea: UNet with Multiscale
 - [ ] Idea: Unet + Uncertainity
 - [ ] Idea: UNet + multiscale + uncertainty
-- [ ] Review: Focal Loss vs Detail Loss
 - [ ] Idea: Nanoflownet based MB impl
+
+
+## Backlog
+
+- [ ] Task: warp and check<br>- [ ] plot the errors
+- [ ] recalculate all the metrics computed for previous models
+- [ ] Task: test the trained Multiscale + uncertainty+MB
+- [ ] Task: check if edge detection has been overfit by running tests
+- [ ] print different loss components now
+- [ ] Review: Focal Loss vs Detail Loss
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
-- [ ] Task: warp and check<br>- [ ] plot the errors
 
 
 ## Progress
