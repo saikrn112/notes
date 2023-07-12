@@ -265,3 +265,5 @@ I am looking at the camera to harness transformation now. to make sure we are in
 
 1. Align one of the markers on the drone to worldviz origin 
 2. get other two measurements
+
+
