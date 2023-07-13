@@ -398,3 +398,6 @@ python run_hires_analysis.py \
 ```
 
 
+```
+python extract_rosbag.py --bag ./MH_Test_Hires_07_10_2023/2023-07-10-14-48-18.bag --output MH_Test_Hires_07_10_2023_output_dir/ --topic_list /SKR4/odom /SKR4/hires --image_list /SKR4/hires
+```
