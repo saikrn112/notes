@@ -7,7 +7,6 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] showcase presentation
-- [ ] camera to harness transformation
 - [ ] camera wrapper
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
@@ -20,12 +19,13 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
+- [ ] [[Time of Flight]] ^0z3yh4
 
 
 ## Pause
 
-- [ ] [[Time of Flight]] ^0z3yh4
+- [ ] camera to harness transformation
+- [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 - [ ] transform and publish tof pc
 - [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 - [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
