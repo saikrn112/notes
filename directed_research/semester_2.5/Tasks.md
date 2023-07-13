@@ -15,7 +15,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] Task: warp and check<br>- [ ] plot the errors
 - [ ] recalculate all the metrics computed for previous models
 - [ ] Task: test the trained Multiscale + uncertainty+MB
 - [ ] Task: check if edge detection has been overfit by running tests
@@ -27,6 +26,7 @@ kanban-plugin: basic
 
 ## Progress
 
+- [ ] Task: warp and check<br>- [ ] plot the errors
 - [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [ ] update presentation with numbers and images<br>- [ ] check difference between resize and crop again<br>- [ ] modify original code to make sure numbers for resize and crop are same as the previous
 
 
