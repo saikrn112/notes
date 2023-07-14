@@ -267,3 +267,11 @@ I am looking at the camera to harness transformation now. to make sure we are in
 2. get other two measurements
 
 
+
+## 2023.07.14
+
+ok so I can publish the rgb_camera info 
+i need to publish the depth_camera info 
+depth image rectified 
+
+
