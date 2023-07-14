@@ -24,7 +24,7 @@ kanban-plugin: basic
 
 ## Pause
 
-- [ ] camera to harness transformation
+- [ ] camera to harness transformation<br>- [x] code <br>- [ ] euler angles
 - [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 - [ ] transform and publish tof pc
 - [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
