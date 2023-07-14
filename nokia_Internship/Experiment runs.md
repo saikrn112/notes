@@ -401,3 +401,25 @@ python run_hires_analysis.py \
 ```
 python extract_rosbag.py --bag ./MH_Test_Hires_07_10_2023/2023-07-10-14-48-18.bag --output MH_Test_Hires_07_10_2023_output_dir/ --topic_list /SKR4/odom /SKR4/hires --image_list /SKR4/hires
 ```
+
+
+
+---
+---
+
+## Main Dataset 2023.07.14 Hires MH
+
+
+### Subdatasets
+---
+##### Cap1ure 2
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.07.14// \
+--extracted_name=Capture2 \
+--bag_file_name=2023-07-14-15-42-02.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.07.14/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
