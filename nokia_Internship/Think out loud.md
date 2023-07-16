@@ -275,3 +275,12 @@ i need to publish the depth_camera info
 depth image rectified 
 
 
+## 2023.07.16
+
+all I want is depth image registered in the rgb frame 
+for this I am doing opposite, 
+taking existing pointcloud in tof frame, convert it to depth_image 
+and then pass this depth_image to the register frame so that will transform everything to rgb frame
+
+
+then hopefully the pointcloudxyzrgb will work 
