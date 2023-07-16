@@ -15,7 +15,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] recalculate all the metrics computed for previous models
 - [ ] Task: test the trained Multiscale + uncertainty+MB
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] print different loss components now
@@ -26,8 +25,8 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
-- [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [ ] update presentation with numbers and images<br>- [ ] check difference between resize and crop again<br>- [ ] modify original code to make sure numbers for resize and crop are same as the previous
+- [ ] [[recalculate all the metrics computed for previous models]]
+- [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
 
 
 ## training
@@ -36,7 +35,9 @@ kanban-plugin: basic
 
 ## Pause
 
+- [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
 - [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
+- [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [ ] update presentation with numbers and images<br>- [ ] check difference between resize and crop again<br>- [ ] modify original code to make sure numbers for resize and crop are same as the previous
 
 
 ## Done
