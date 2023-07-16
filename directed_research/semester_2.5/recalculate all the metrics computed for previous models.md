@@ -35,13 +35,13 @@ for every model,
 
 - [ ] multiscale + uncertainity
 	- [x] local copy
-	- [ ] flying chairs2 
-	- [ ] sintel clean
-	- [ ] sintel final 
-	- [ ] display images for all 3 
-	- [ ] FPS
-	- [ ] EPE 
-	- [ ] update the presentation with these numbers 
+	- [x] flying chairs2 
+	- [x] sintel clean
+	- [x] sintel final 
+	- [x] display images for all 3 
+	- [x] FPS
+	- [x] EPE 
+	- [x] update the presentation with these numbers 
 	- [ ] with chunking 
-	- [ ] without chunking <-- let's do this for sanity sakes
+	- [x] without chunking <-- let's do this for sanity sakes
 	- [ ] 
