@@ -15,7 +15,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] Task: test the trained Multiscale + uncertainty+MB
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] print different loss components now
 - [ ] Review: Focal Loss vs Detail Loss
@@ -42,7 +41,8 @@ kanban-plugin: basic
 
 ## Done
 
-- [ ] Idea: MB train with Multiscale + uncertainity
+- [ ] Task: test the trained Multiscale + uncertainty+MB<br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
+- [ ] Idea: MB train with Multiscale + uncertainity<br><br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
 
 
 
