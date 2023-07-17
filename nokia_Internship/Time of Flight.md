@@ -24,3 +24,12 @@ configuration [link](https://docs.modalai.com/voxl2-camera-configs/#c6---hires--
 - [ ] integrate that with rgb segmentation
 
 rotation extrinsics [[ex_roll.pdf]]
+
+
+
+- depth characterization
+	- stabilze at known depths 
+
+
+
+
