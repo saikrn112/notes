@@ -33,7 +33,7 @@ for every model,
 	- [x] without chunking <-- let's do this for sanity sakes
 
 
-- [ ] multiscale + uncertainity
+- [ ] multiscale + uncertainity [[Multiscale + Uncertainity 400 Epochs (Best Model)]]
 	- [x] local copy
 	- [x] flying chairs2 
 	- [x] sintel clean
@@ -44,4 +44,17 @@ for every model,
 	- [x] update the presentation with these numbers 
 	- [ ] with chunking 
 	- [x] without chunking <-- let's do this for sanity sakes
-	- [ ] 
+
+
+- [ ] multiscale [[Multiscale]]
+	- [ ] local copy
+	- [ ] flying chairs2 
+	- [ ] sintel clean
+	- [ ] sintel final 
+	- [ ] display images for all 3 
+	- [ ] FPS
+	- [ ] EPE 
+	- [ ] update the presentation with these numbers 
+	- [ ] with chunking 
+	- [ ] without chunking <-- let's do this for sanity sakes
+	
