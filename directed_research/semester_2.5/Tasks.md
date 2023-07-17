@@ -20,6 +20,7 @@ kanban-plugin: basic
 - [ ] Review: Focal Loss vs Detail Loss
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
+- [ ] Task: compare with same resolution with other papers
 
 
 ## Progress
