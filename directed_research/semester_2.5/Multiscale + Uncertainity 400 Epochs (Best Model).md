@@ -152,17 +152,15 @@ python Test_new.py \
 --Display
 
 full for a counter of 640
-full GPU time avg:0.010406124964356422
-full GPU fps :96.09725074657952
-full total L1 EPE:1.9459755161136854
-full total L2 EPE:10.334374720428604
-full total L1 Photo:59.38486818564055
+full GPU time avg:0.01013028472661972
+full GPU fps :98.71390854121438
+full EPE:3.1019206047058105
+full final loss:1.9459755161136854
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.011344940215349198
-edge_quant GPU fps :88.14502157067734
-edge_quant total L1 EPE:2.335738085041521
-edge_quant total L2 EPE:9.793180834682426
-edge_quant total L1 Photo:48.17355235706676
+edge_quant GPU time avg:0.011302993819117545
+edge_quant GPU fps :88.47213543624433
+edge_quant EPE:3.675316333770752
+edge_quant final loss:2.335738085041521
 ```
 
 
@@ -178,6 +176,20 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --ResizeCropStack \
 --Uncertainity \
 --NumOut=4
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_train_clean.txt \
+--Display
 
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \

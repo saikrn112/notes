@@ -100,3 +100,127 @@ edge_quant GPU fps :14.830995997434824
 edge_quant EPE:7.977627754211426
 edge_quant final loss:5.028615005436022
 ```
+
+---
+---
+
+# Chunking
+
+#### FC2
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleMBResNet \
+--tflite_path=../models/multiscale_uncertainity_mb_2/converted/ \
+--tflite_edge_path=../models/multiscale_uncertainity_mb_2/converted/ \
+--tf_model_path=../models/multiscale_uncertainity_mb_2/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--NumOut=5
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--OnGPU \
+--OnEdge \
+--Display
+
+full for a counter of 640
+full GPU time avg:0.010406124964356422
+full GPU fps :96.09725074657952
+full total L1 EPE:1.9459755161136854
+full total L2 EPE:10.334374720428604
+full total L1 Photo:59.38486818564055
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.011344940215349198
+edge_quant GPU fps :88.14502157067734
+edge_quant total L1 EPE:2.335738085041521
+edge_quant total L2 EPE:9.793180834682426
+edge_quant total L1 Photo:48.17355235706676
+```
+
+
+#### Sintel multiscale Clean
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_chunking/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_chunking/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--ResizeCropStack \
+--Uncertainity \
+--NumOut=4
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_train_clean.txt \
+--ResizeCropStack \
+--Display
+
+
+full for a counter of 1041
+full GPU time avg:0.009591420949593286
+full GPU fps :104.25983858443873
+full total L1 EPE:3.8841858846810893
+full total L2 EPE:12.459870779305325
+full total L1 Photo:93.83764791284607
+edge_quant for a counter of 1041
+edge_quant GPU time avg:0.011260012270279738
+edge_quant GPU fps :88.80984993590567
+edge_quant total L1 EPE:4.064157241001711
+edge_quant total L2 EPE:11.870938483736586
+edge_quant total L1 Photo:93.5930516458564
+```
+
+
+#### Sintel multiscale Final
+
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt \
+--ResizeCropStack \
+--Display
+
+full for a counter of 1041
+full GPU time avg:0.009500829905529187
+full GPU fps :105.25396306885057
+full total L1 EPE:4.530900527468161
+full total L2 EPE:12.883063874344318
+full total L1 Photo:90.17325320212495
+edge_quant for a counter of 1041
+edge_quant GPU time avg:0.011299086349956355
+edge_quant GPU fps :88.50273101982822
+edge_quant total L1 EPE:4.600230609692139
+edge_quant total L2 EPE:12.199189553285997
+edge_quant total L1 Photo:90.44254458080448
+
+```

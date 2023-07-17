@@ -1,4 +1,5 @@
 
+
 #### Best multiscale model 400 epochs
 ```
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
@@ -11,25 +12,26 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --OnGPU \
 --OnEdge \
+--ShiftedFlow \
 --Display
 
 full for a counter of 640
-full GPU time avg:0.01001957207918167
-full GPU fps :99.80466152619096
-full EPE:3.214668035507202
-full final loss:2.029592012340436
+full GPU time avg:0.008801507949829101
+full GPU fps :113.61689447993022
+full EPE:4.350075721740723
+full final loss:2.7470510301413014
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.046877546980977056
-edge_quant GPU fps :21.332174236971078
-edge_quant EPE:3.5231850147247314
-edge_quant final loss:2.2334298313129692
+edge_quant GPU time avg:0.07060475908219814
+edge_quant GPU fps :14.163351210302961
+edge_quant EPE:5.318717956542969
+edge_quant final loss:3.404239693842828
 ```
 
 #### Sintel Multiscale with uncertainity without chunking
@@ -38,19 +40,18 @@ default resolution 352x480
 
 **clean**
 ```
-python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
---tflite_path=../models/multiscale_uncertainity_1/converted_sintel/ \
---tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel/ \
---tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_sintel/ \
+--tflite_edge_path=../models/baseline_xy/converted_sintel/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---Uncertainity \
---NumOut=4
+--NumOut=2
 
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --TFLiteFolder=converted_sintel \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
@@ -58,6 +59,7 @@ python Test_new_sintel.py \
 --OnGPU \
 --OnEdge \
 --DataList=./Misc/MPI_Sintel_train_clean.txt \
+--ShiftedFlow \
 --Display
 
 full for a counter of 1041
@@ -78,8 +80,8 @@ edge_quant final loss:3.8667309808255843
 ```
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --TFLiteFolder=converted_sintel \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
@@ -87,22 +89,21 @@ python Test_new_sintel.py \
 --OnGPU \
 --OnEdge \
 --DataList=./Misc/MPI_Sintel_Final_train_list.txt \
+--ShiftedFlow \
 --Display
 
-
 full for a counter of 1041
-full GPU time avg:0.009775323437224433
-full GPU fps :102.29840541050538
-full EPE:6.7305498123168945
-full final loss:4.242774353848411
+full GPU time avg:0.007931757385517747
+full GPU fps :126.0754649185131
+full EPE:7.343352794647217
+full final loss:4.629847124118741
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.046611369056958174
-edge_quant GPU fps :21.453993311760907
-edge_quant EPE:6.836266040802002
-edge_quant final loss:4.350857518513139
+edge_quant GPU time avg:0.07068271778960507
+edge_quant GPU fps :14.147729901623345
+edge_quant EPE:8.126578330993652
 ```
 
-----
+---
 ---
 
 
@@ -112,20 +113,19 @@ edge_quant final loss:4.350857518513139
 #### FC2
 
 ```
-python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
---tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_chunking/ \
---tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_chunking/ \
---tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/99model.ckpt \
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_chunking/ \
+--tflite_edge_path=../models/baseline_xy/converted_chunking/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
 --ResizeCropStack \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --NumOut=2
 
-
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --TFLiteFolder=converted_chunking \
 --ResizeCropStack \
 --CheckPointNum=99 \
@@ -133,29 +133,42 @@ python Test_new.py \
 --InitNeurons=32 \
 --OnGPU \
 --OnEdge \
+--ShiftedFlow \
 --Display
 
 full for a counter of 640
-full GPU time avg:0.010172642767429352
-full GPU fps :98.30287201294321
-full EPE:3.5650992393493652
-full final loss:2.251359105715528
+full GPU time avg:0.010406124964356422
+full GPU fps :96.09725074657952
+full total L1 EPE:1.9459755161136854
+full total L2 EPE:10.334374720428604
+full total L1 Photo:59.38486818564055
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.01138593815267086
-edge_quant GPU fps :87.82763322541187
-edge_quant EPE:3.752166986465454
-edge_quant final loss:2.3799417934496887
+edge_quant GPU time avg:0.011344940215349198
+edge_quant GPU fps :88.14502157067734
+edge_quant total L1 EPE:2.335738085041521
+edge_quant total L2 EPE:9.793180834682426
+edge_quant total L1 Photo:48.17355235706676
+
+full for a counter of 640
+full GPU time avg:0.008948181942105293
+full GPU fps :111.75454483044675
+full EPE:4.763381481170654
+full final loss:3.0091141235549004
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.00967158041894436
+edge_quant GPU fps :103.39571783337854
+edge_quant EPE:5.571102142333984
+edge_quant final loss:3.549365595076233
 ```
 
 
 #### Sintel multiscale Clean
 
 ```
-
-python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
---tflite_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_sintel_chunking/ \
---tflite_edge_path=../models/multiscale_xy_multiscale_loss_with_scales_3/converted_sintel_chunking/ \
---tf_model_path=../models/multiscale_xy_multiscale_loss_with_scales_3/99model.ckpt \
+python TFLiteConverter.py --NetworkName=Network.ResNet \
+--tflite_path=../models/baseline_xy/converted_sintel_chunking/ \
+--tflite_edge_path=../models/baseline_xy/converted_sintel_chunking/ \
+--tf_model_path=../models/baseline_xy/99model.ckpt \
 --ResizeCropStack \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
@@ -163,8 +176,8 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_xy_multiscale_loss_with_scales_3/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --TFLiteFolder=converted_sintel_chunking \
 --ResizeCropStack \
 --CheckPointNum=99 \
@@ -173,21 +186,20 @@ python Test_new_sintel.py \
 --OnGPU \
 --OnEdge \
 --DataList=./Misc/MPI_Sintel_train_clean.txt \
+--ShiftedFlow \
 --ResizeCropStack \
 --Display
 
 full for a counter of 1041
-full GPU time avg:0.009591420949593286
-full GPU fps :104.25983858443873
-full total L1 EPE:3.8841858846810893
-full total L2 EPE:12.459870779305325
-full total L1 Photo:93.83764791284607
+full GPU time avg:0.008186367128355703
+full GPU fps :122.15430658322528
+full EPE:7.009836196899414
+full final loss:4.419779314517288
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.011260012270279738
-edge_quant GPU fps :88.80984993590567
-edge_quant total L1 EPE:4.064157241001711
-edge_quant total L2 EPE:11.870938483736586
-edge_quant total L1 Photo:93.5930516458564
+edge_quant GPU time avg:0.009521292907245793
+edge_quant GPU fps :105.02775303120762
+edge_quant EPE:7.819609642028809
+edge_quant final loss:5.0121052899003375
 ```
 
 
