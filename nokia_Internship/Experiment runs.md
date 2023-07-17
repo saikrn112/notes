@@ -423,3 +423,40 @@ python run_hires_analysis.py \
 --drone=STR1 \
 --dry_run
 ```
+
+
+
+
+---
+---
+
+## Main Dataset 2023.07.17 Hires + ToF MH
+
+
+### Subdatasets
+---
+##### Cap1ure 1
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.07.17// \
+--extracted_name=Capture1 \
+--bag_file_name=2023-07-17-18-15-42.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.07.17/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
+
+
+---
+##### Cap1ure 2
+```
+python run_hires_analysis.py \
+--dataset_path=/home/sai-pinnama/Project/depth_from_stereo/src/bag_replay/2023.07.17// \
+--extracted_name=Capture2 \
+--bag_file_name=2023-07-17-18-16-16.bag \
+--remote_copy_location=/home/camloc/sai_analysis/2023.07.17/ \
+--hires_image_topic=/STR1/hires \
+--drone=STR1 \
+--dry_run
+```
