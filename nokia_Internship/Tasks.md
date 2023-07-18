@@ -6,33 +6,35 @@ kanban-plugin: basic
 
 ## Backlog
 
+- [ ] hires preview stream with rectangular aspect ratio
+- [ ] check if SAM gives good estimates for vertical estimates
+- [ ] hires underneath to current yolov8
 - [ ] FoV calculation with known box<br>- depends on hires calibration
 - [ ] homography based yaw estimation
-- [ ] rosbag remapping
 - [ ] add videos to sharepoint
 - [ ] explore FastSAM integration
 - [ ] checkout Karter's Thesis
-- [ ] hires preview stream with rectangular aspect ratio
-- [ ] hires underneath to current yolov8
-- [ ] check if SAM gives good estimates for vertical estimates
+- [ ] save plots for ToF depth and yaw estimation
+- [ ] documentation of ToF work
+- [ ] Robustly estimate depth and yaw from ToF
 
 
 ## In Progress
 
-- [ ] [[showcase presentation]]
-- [ ] [[Time of Flight]] ^0z3yh4
+- [ ] Camera Calibration<br>- [ ]  SKR1 Hires <br>- [ ]  SKR1 tracking<br>- [ ]  SKR3 Hires<br>- [ ]  SKR3 tracking<br>- [ ]  check with team for drones
 
 
 ## Pause
 
-- [ ] camera to harness transformation<br>- [x] code <br>- [x] euler angles -- not required<br>- [ ] translation to left camera from 2nd marker
 - [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 - [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
-- [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
 
 
 ## Done
 
+- [ ] camera to harness transformation<br>- [x] code <br>- [x] euler angles -- not required<br>- [x] translation to left camera from 2nd marker
+- [ ] [[Time of Flight]] ^0z3yh4
+- [ ] [[showcase presentation]]
 - [ ] integrating segmentation with ToF PC<br>- use sequence ID for segmentation
 - [ ] camera wrapper
 - [ ] transform and publish tof pc
@@ -46,7 +48,9 @@ kanban-plugin: basic
 
 ## archive
 
-- [ ] graybar edges<br>- [ ] bag files for graybar - Yoni<br>- [ ] undistort and segment<br>- [ ] vp_yaw estimation
+- [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
+- [ ] rosbag remapping
+- [ ] graybar edges<br>- [x] bag files for graybar - Yoni<br>- [x] undistort and segment<br>- [ ] vp_yaw estimation
 - [ ] how does drone compresss 4k to vga
 - [ ] empty space detection using SAM+GroundingDino
 - [ ] check optical flow between stereo pair

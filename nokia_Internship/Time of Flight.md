@@ -9,19 +9,19 @@ configuration [link](https://docs.modalai.com/voxl2-camera-configs/#c6---hires--
 
 ![[sensor_configuration.png]]
 
-- [ ] update the powerpoint with initial results, in plots maybe
+- [x] update the powerpoint with initial results, in plots maybe
 	- [x] manually get the masks from GroundingDino + SAM (not many images)
-- [ ] understand how ToF works with IR
-	- [ ] undistortion for ToF
-- [ ] integrate rgb + depth = rgb pointcloud
-	- [ ] should I do more research on this integration? 
+- [x] understand how ToF works with IR
+	- [x] undistortion for ToF
+- [x] integrate rgb + depth = rgb pointcloud
+	- [x] should I do more research on this integration? 
 		- [ ] this starts from calibration related papers
-	- [ ] calculate hires to tof extrinsics 
-	- [ ] assume some focal length to the hires 
-	- [ ] get focal length of the ToF 
-	- [ ] make sure to match resolution
-	- [ ] compute the math and get the RGB point cloud for verification
-- [ ] integrate that with rgb segmentation
+	- [x] calculate hires to tof extrinsics 
+	- [x] assume some focal length to the hires 
+	- [x] get focal length of the ToF 
+	- [x] make sure to match resolution
+	- [x] compute the math and get the RGB point cloud for verification
+- [x] integrate that with rgb segmentation
 
 rotation extrinsics [[ex_roll.pdf]]
 
