@@ -12,6 +12,9 @@ kanban-plugin: basic
 - [ ] add videos to sharepoint
 - [ ] explore FastSAM integration
 - [ ] checkout Karter's Thesis
+- [ ] hires preview stream with rectangular aspect ratio
+- [ ] hires underneath to current yolov8
+- [ ] check if SAM gives good estimates for vertical estimates
 
 
 ## In Progress
