@@ -24,7 +24,7 @@ kanban-plugin: basic
 
 ## Pause
 
-- [ ] Camera Calibration<br>- [ ]  SKR1 Hires <br>- [ ]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
+- [ ] [[Camera Calibration]]<br>- [ ]  SKR1 Hires <br>- [ ]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
 
 
 ## Done
