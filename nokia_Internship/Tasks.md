@@ -24,11 +24,11 @@ kanban-plugin: basic
 
 ## Pause
 
-- [ ] [[Camera Calibration]]<br>- [ ]  SKR1 Hires <br>- [ ]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
 
 
 ## Done
 
+- [ ] [[Camera Calibration]]<br>- [x]  SKR1 Hires <br>- [x]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
 - [ ] hires preview stream with rectangular aspect ratio
 - [ ] camera to harness transformation<br>- [x] code <br>- [x] euler angles -- not required<br>- [x] translation to left camera from 2nd marker
 - [ ] [[Time of Flight]] ^0z3yh4
