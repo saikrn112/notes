@@ -19,12 +19,13 @@ kanban-plugin: basic
 
 ## In Progress
 
-- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
-- [ ] [[clean up ToF code]]
+- [ ] [[ToF Integration next steps]]
+- [ ] [[compute cpu load metrics]]
 
 
 ## Pause
 
+- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 
 
 ## Done

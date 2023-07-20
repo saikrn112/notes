@@ -2,12 +2,15 @@
 	- [ ] see why camera_info computed is 0 ? 
 		- [ ] check if depth image point cloud is good or not 
 - [ ] if I can send the image instead of `tof_pc`
-- [ ] compute cpu load
+- [ ] compute cpu load [[compute cpu load metrics]]
 	- [ ] if I am sending point_cloud computed by voxl
 	- [ ] if I am sending tof_depth image instead + tof_camera_info
 - [ ] compute network load 
 	- [ ] if I am sending point_cloud computed by voxl
 	- [ ] if I am sending tof_depth image instead + tof_camera_info
+- [ ] collect bag files from tof irrespective of it in our usual path
+- [ ] compare and run current savloc with the same bag files
+	- [ ] also run my approach to see value in it 
 
 
 what will be beneficial from resume point of view? 
@@ -20,13 +23,7 @@ streamlined their ground truth estimation using worldviz
 
 
 if I can get some numbers showing improvement, that will be good 
-what numbers? 
-currently we have a bag file 
+what numbers? -- [[VPS metrics]]
+if I can collect the starling data with flight, and run it through the pipeline and collect the depth vs yaw measurements 
 
-
-let's create a metric for VPS 
-number of possible corrections vs number of actual corrections 
-out of actual corrections what should have been the actual value in each axis vs what is the actual correction 
-
-need something to compare pose estimations, how about EPE ? 
 
