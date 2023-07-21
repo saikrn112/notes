@@ -208,30 +208,19 @@ edge_quant final loss:5.0121052899003375
 ```
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--NetworkName=Network.ResNet \
+--CheckPointFolder=../models/baseline_xy/ \
 --TFLiteFolder=converted_sintel_chunking \
---CheckPointNum=399 \
+--ResizeCropStack \
+--CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
---Uncertainity \
 --OnGPU \
 --OnEdge \
 --DataList=./Misc/MPI_Sintel_Final_train_list.txt \
+--ShiftedFlow \
 --ResizeCropStack \
 --Display
 
-full for a counter of 1041
-full GPU time avg:0.009500829905529187
-full GPU fps :105.25396306885057
-full total L1 EPE:4.530900527468161
-full total L2 EPE:12.883063874344318
-full total L1 Photo:90.17325320212495
-edge_quant for a counter of 1041
-edge_quant GPU time avg:0.011299086349956355
-edge_quant GPU fps :88.50273101982822
-edge_quant total L1 EPE:4.600230609692139
-edge_quant total L2 EPE:12.199189553285997
-edge_quant total L1 Photo:90.44254458080448
 
 ```
