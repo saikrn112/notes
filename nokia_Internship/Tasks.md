@@ -21,7 +21,7 @@ kanban-plugin: basic
 
 - [ ] [[ToF Integration next steps]]
 - [ ] [[compute cpu load metrics]]
-- [ ] send depth_image instead of tof_pc<br>- [ ] change the `tof_depth` from `mono8` to `uint16`
+- [ ] fix camera info publish in nodelets
 
 
 ## Pause
@@ -31,6 +31,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] send depth_image instead of tof_pc<br>- [x] change the `tof_depth` from `mono8` to `uint16`
 - [ ] [[Camera Calibration]]<br>- [x]  SKR1 Hires <br>- [x]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
 - [ ] hires preview stream with rectangular aspect ratio
 - [ ] camera to harness transformation<br>- [x] code <br>- [x] euler angles -- not required<br>- [x] translation to left camera from 2nd marker
