@@ -21,6 +21,7 @@ kanban-plugin: basic
 
 - [ ] [[ToF Integration next steps]]
 - [ ] [[compute cpu load metrics]]
+- [ ] send depth_image instead of tof_pc<br>- [ ] change the `tof_depth` from `mono8` to `uint16`
 
 
 ## Pause
