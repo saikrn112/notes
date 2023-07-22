@@ -25,6 +25,7 @@ kanban-plugin: basic
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
 - [ ] Task: compare with same resolution with other papers
+- [ ] Try this: sfm<br>[demo hloc - Colaboratory (google.com)](https://colab.research.google.com/drive/1MrVs9b8aQYODtOGkoaGNF9Nji3sbCNMQ#scrollTo=71ab5306)
 
 
 ## Progress
