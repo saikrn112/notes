@@ -27,6 +27,7 @@ kanban-plugin: basic
 
 - [ ] [[recalculate all the metrics computed for previous models]]
 - [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
+- [ ] warping module edge tpu compatible
 
 
 ## training
