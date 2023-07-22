@@ -15,6 +15,10 @@ kanban-plugin: basic
 
 ## Backlog
 
+- [ ] warping module edge tpu compatible
+- [ ] Aniket should tell final test_new script for FC2
+- [ ] Modify/Add sintel data loaders for that
+- [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] print different loss components now
 - [ ] Review: Focal Loss vs Detail Loss
@@ -25,9 +29,8 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] [[recalculate all the metrics computed for previous models]]
-- [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
-- [ ] warping module edge tpu compatible
+- [ ] fine tune multiscale + uncertainity with FT3D
+- [ ] copy sintel data to 3080 in 4TB Nitin's hard disk
 
 
 ## training
@@ -36,13 +39,15 @@ kanban-plugin: basic
 
 ## Pause
 
+- [ ] [[recalculate all the metrics computed for previous models]]
 - [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
 - [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
-- [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [ ] update presentation with numbers and images<br>- [ ] check difference between resize and crop again<br>- [ ] modify original code to make sure numbers for resize and crop are same as the previous
 
 
 ## Done
 
+- [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [x] update presentation with numbers and images<br>- [x] check difference between resize and crop again<br>- [x] modify original code to make sure numbers for resize and crop are same as the previous
+- [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
 - [ ] Task: test the trained Multiscale + uncertainty+MB<br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
 - [ ] Idea: MB train with Multiscale + uncertainity<br><br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
 

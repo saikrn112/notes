@@ -254,3 +254,27 @@ edge_quant total L2 EPE:12.199189553285997
 edge_quant total L1 Photo:90.44254458080448
 
 ```
+
+
+
+----
+---
+---
+
+# FT3D
+
+```
+python Train.py \
+--Dataset=FT3D \
+--BasePath=
+--ExperimentFileName="multiscale_uncertainity_1" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=32 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=50
+```
