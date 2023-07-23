@@ -266,7 +266,8 @@ edge_quant total L1 Photo:90.44254458080448
 ```
 python Train.py \
 --Dataset=FT3D \
---BasePath=
+--BasePath=../../Datasets/FlyingThings3D \
+--LabelBasePath=../../Datasets/flyingthings3d_optical_flow/ \
 --ExperimentFileName="multiscale_uncertainity_1" \
 --NetworkName=Network.MultiScaleResNet \
 --MiniBatchSize=32 \
@@ -276,5 +277,5 @@ python Train.py \
 --LossFuncName=MultiscaleSL1-1 \
 --UncType=LinearSoftplus \
 --NumSubBlocks=2 \
---NumEpochs=50
+--NumEpochs=450
 ```

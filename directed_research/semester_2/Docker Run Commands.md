@@ -38,4 +38,8 @@ python3 container/start_docker_instance.py \
 --it \
 --gpu 
 
+python3 container/start_docker_instance.py \
+--it \
+--gpu --FT3D
+
 ```
