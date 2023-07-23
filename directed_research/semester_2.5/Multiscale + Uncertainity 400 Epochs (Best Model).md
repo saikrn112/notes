@@ -270,7 +270,7 @@ python Train.py \
 --LabelBasePath=../../Datasets/flyingthings3d_optical_flow/ \
 --ExperimentFileName="multiscale_uncertainity_1" \
 --NetworkName=Network.MultiScaleResNet \
---MiniBatchSize=32 \
+--MiniBatchSize=16 \
 --LoadCheckPoint=1 \
 --LR=1e-4 \
 --InitNeurons=32 \
