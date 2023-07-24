@@ -8,3 +8,6 @@ kanbank - [[Feature]: Coloured card tags · Issue #739 · mgmeyers/obsidian-kanb
 
 
 what is this kanban ? -- [[https://github.com/roovo/obsidian-card-board]]
+
+
+obsidia-remote - https://forum.obsidian.md/t/obsidian-remote-running-obsidian-in-docker-with-browser-based-access/34312/8
