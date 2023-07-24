@@ -15,7 +15,7 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] warping module edge tpu compatible
+- [ ] try warping again with flownetwarp
 - [ ] Aniket should tell final test_new script for FC2
 - [ ] Modify/Add sintel data loaders for that
 - [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
@@ -30,16 +30,16 @@ kanban-plugin: basic
 
 ## Progress
 
-- [ ] fine tune multiscale + uncertainity with FT3D
-- [ ] copy sintel data to 3080 in 4TB Nitin's hard disk
 
 
 ## training
 
+- [ ] fine tune multiscale + uncertainity with FT3D
 
 
 ## Pause
 
+- [ ] [[warping module edge tpu compatible]]
 - [ ] [[recalculate all the metrics computed for previous models]]
 - [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
 - [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
@@ -47,6 +47,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] copy sintel data to 3080 in 4TB Nitin's hard disk
 - [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [x] update presentation with numbers and images<br>- [x] check difference between resize and crop again<br>- [x] modify original code to make sure numbers for resize and crop are same as the previous
 - [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
 - [ ] Task: test the trained Multiscale + uncertainty+MB<br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
