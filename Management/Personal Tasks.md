@@ -8,6 +8,8 @@ kanban-plugin: basic
 
 - [ ] explore ipad sync with obsidian
 - [ ] explore excalidraw for note taking/drawings
+- [ ] setup git action workflow between notes and website
+- [ ] understand and cleanup current website github actions
 
 
 
