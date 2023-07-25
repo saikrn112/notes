@@ -95,6 +95,7 @@ for multiscale motion boundary loss
 
 ## 2023.07.24
 
-Idea is to analyse how much trade off we can tolerate in optical flow EPE accuracy for a robotics application. 
-
 I need different speeds with varying accuracies
+
+do some research as to what are some good metrics for a task 
+- go through Nitin's paper

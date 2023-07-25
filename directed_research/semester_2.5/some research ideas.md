@@ -46,7 +46,10 @@ checkout todo list which prof sent
 >apply conv block + upsampling as well 
 
 
-
+----
+## 2023.07.25
+>[!Idea]
+Idea is to analyse how much trade off we can tolerate in optical flow EPE accuracy for a robotics application. 
 
 
 
