@@ -91,3 +91,10 @@ need to wait for it to train
 for multiscale motion boundary loss 
 ![[training_progress.png]]
 ![[trainig_progress.png]]
+
+
+## 2023.07.24
+
+Idea is to analyse how much trade off we can tolerate in optical flow EPE accuracy for a robotics application. 
+
+I need different speeds with varying accuracies
