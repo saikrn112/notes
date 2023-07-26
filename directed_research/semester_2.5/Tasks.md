@@ -11,6 +11,8 @@ kanban-plugin: basic
 - [ ] Idea: Unet + Uncertainity
 - [ ] Idea: UNet + multiscale + uncertainty
 - [ ] Idea: Nanoflownet based MB impl
+- [ ] Idea: Heuristic based optical flow training for cost volume
+- [ ] Idea: Dilation rate as learnable parameter
 
 
 ## Backlog
@@ -19,9 +21,7 @@ kanban-plugin: basic
 - [ ] Aniket should tell final test_new script for FC2
 - [ ] Modify/Add sintel data loaders for that
 - [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
-- [ ] Task: check if edge detection has been overfit by running tests
-- [ ] print different loss components now
-- [ ] Review: Focal Loss vs Detail Loss
+- [ ] Task: for sintel full resolution chunk accross the images
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
 - [ ] Task: compare with same resolution with other papers
@@ -52,6 +52,13 @@ kanban-plugin: basic
 - [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]
 - [ ] Task: test the trained Multiscale + uncertainty+MB<br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
 - [ ] Idea: MB train with Multiscale + uncertainity<br><br>[[Idea  Multiscale + Uncertainty + Motion Boundary]]
+
+
+## Archive
+
+- [ ] Task: check if edge detection has been overfit by running tests
+- [ ] print different loss components now
+- [ ] Review: Focal Loss vs Detail Loss
 
 
 
