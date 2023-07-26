@@ -14,10 +14,17 @@ kanban-plugin: basic
 - [ ] report
 - [ ] results
 - [ ] presentation record
+- [ ] plots for mass variation from rosbag files
+- [ ] varying masses for box tracjectory
 
 
 ## In progress
 
+
+
+## done
+
+- [ ] try out radha's smc controller
 
 
 
