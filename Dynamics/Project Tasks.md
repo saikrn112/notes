@@ -7,11 +7,13 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] decide project report style
+- [ ] problem description
 - [ ] [[matlab part]]
 - [ ] presentation
 - [ ] report
 - [ ] results
 - [ ] presentation record
+- [ ] submit and edit code
 
 
 ## In progress
