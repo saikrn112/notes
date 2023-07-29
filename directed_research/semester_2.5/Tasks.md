@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] Idea: Nanoflownet based MB impl
 - [ ] Idea: Heuristic based optical flow training for cost volume
 - [ ] Idea: Dilation rate as learnable parameter
+- [ ] Idea: predict small scale along with chunks and combine
 
 
 ## Backlog
