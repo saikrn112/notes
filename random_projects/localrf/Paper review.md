@@ -12,5 +12,12 @@ solution: jointly estimate poses along with radiance field in ==progressive== ma
 
 ![[challenges.png|400]]
 
+### interesting references 
+- self calibrating nerf - [link]([2108.13826.pdf (arxiv.org)](https://arxiv.org/pdf/2108.13826.pdf))
+- BARF -  Bundle Adjusted Neural Radiance Fields - [link]([2104.06405.pdf (arxiv.org)](https://arxiv.org/pdf/2104.06405.pdf))
+- nerf-- - nerf without camera parameters (intrinsics and 6dof extrinsics) - [link]([2102.07064.pdf (arxiv.org)](https://arxiv.org/pdf/2102.07064.pdf))
+- 
+>
+
 ### History
 ## Details 
