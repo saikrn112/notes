@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] explore excalidraw for note taking/drawings
 - [ ] setup git action workflow between notes and website
 - [ ] understand and cleanup current website github actions
+- [ ] sync github and google colab
 
 
 
