@@ -19,18 +19,16 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] try warping again with flownetwarp
-- [ ] Aniket should tell final test_new script for FC2
-- [ ] Modify/Add sintel data loaders for that
 - [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
 - [ ] Task: for sintel full resolution chunk accross the images
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
 - [ ] Task: compare with same resolution with other papers
-- [ ] Try this: sfm<br>[demo hloc - Colaboratory (google.com)](https://colab.research.google.com/drive/1MrVs9b8aQYODtOGkoaGNF9Nji3sbCNMQ#scrollTo=71ab5306)
 
 
 ## Progress
 
+- [ ] [[How fast is too fast]]
 
 
 ## training
@@ -57,6 +55,8 @@ kanban-plugin: basic
 
 ## Archive
 
+- [ ] Aniket should tell final test_new script for FC2
+- [ ] Modify/Add sintel data loaders for that
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] print different loss components now
 - [ ] Review: Focal Loss vs Detail Loss

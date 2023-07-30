@@ -99,3 +99,4 @@ yesterday made som modifications to the metrics class
 
 
 ## 2023.07.30
+I need to read 2 papers
