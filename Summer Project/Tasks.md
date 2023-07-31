@@ -21,6 +21,8 @@ kanban-plugin: basic
 - [ ] [[ToF Integration next steps]]
 - [ ] [[compute cpu load metrics]]
 - [ ] fix camera info publish in nodelets
+- [ ] Segmentation with Pratyush
+- [ ] b/w image test
 
 
 ## Pause
