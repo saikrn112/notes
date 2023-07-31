@@ -27,3 +27,4 @@ what numbers? -- [[VPS metrics]]
 if I can collect the starling data with flight, and run it through the pipeline and collect the depth vs yaw measurements 
 
 
+Final things are summarized [[Final Goals and Achievements|here]]

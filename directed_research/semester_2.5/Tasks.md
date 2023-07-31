@@ -24,6 +24,7 @@ kanban-plugin: basic
 - [ ] read nanoflownet again but this time for references
 - [ ] some paper on consolidated methods for speed of the network
 - [ ] Task: compare with same resolution with other papers
+- [ ] how does shutter speed come at 100Hz
 
 
 ## Progress

@@ -1,0 +1,3 @@
+- [ ] Understand the main calibration paper for RGBD 
+- [ ] see if I can calibrate it
+- [ ] 

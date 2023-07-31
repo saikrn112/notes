@@ -7,18 +7,17 @@ kanban-plugin: basic
 ## Backlog
 
 - [ ] check if SAM gives good estimates for vertical estimates
-- [ ] hires underneath to current yolov8
-- [ ] FoV calculation with known box<br>- depends on hires calibration
-- [ ] homography based yaw estimation
-- [ ] explore FastSAM integration
-- [ ] checkout Karter's Thesis
 - [ ] save plots for ToF depth and yaw estimation
 - [ ] documentation of ToF work
 - [ ] Robustly estimate depth and yaw from ToF
+- [ ] vanishing point based profiling
+- [ ] homography based yaw estimation
+- [ ] read line to line correspondence
 
 
 ## In Progress
 
+- [ ] [[Final Goals and Achievements]]
 - [ ] [[ToF Integration next steps]]
 - [ ] [[compute cpu load metrics]]
 - [ ] fix camera info publish in nodelets
@@ -26,7 +25,6 @@ kanban-plugin: basic
 
 ## Pause
 
-- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 
 
 ## Done
@@ -50,6 +48,11 @@ kanban-plugin: basic
 
 ## archive
 
+- [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
+- [ ] explore FastSAM integration
+- [ ] hires underneath to current yolov8
+- [ ] FoV calculation with known box<br>- depends on hires calibration
+- [ ] checkout Karter's Thesis
 - [ ] add videos to sharepoint
 - [ ] savloc with hires vga<br>- [x] watch Pratyush's recording<br>- [x] extract the 10th july dataset<br>- [ ] create json topics from `extrac_rosbag.py`
 - [ ] vp_yaw estimation wrt ground truth bags<br>- [ ]  collect yaw + distance ground truth<br>- [ ]  run segmentation and the other pipeline
