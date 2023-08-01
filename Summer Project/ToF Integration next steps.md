@@ -1,7 +1,7 @@
-- [ ] should I use depth_image_proc tools ?
-	- [ ] see why camera_info computed is 0 ? 
-		- [ ] check if depth image point cloud is good or not 
-- [ ] if I can send the image instead of `tof_pc`
+- [x] should I use depth_image_proc tools ?
+	- [x] see why camera_info computed is 0 ? 
+		- [x] check if depth image point cloud is good or not 
+- [x] if I can send the image instead of `tof_pc`
 - [ ] compute cpu load [[compute cpu load metrics]]
 	- [ ] if I am sending point_cloud computed by voxl
 	- [ ] if I am sending tof_depth image instead + tof_camera_info
@@ -25,6 +25,5 @@ streamlined their ground truth estimation using worldviz
 if I can get some numbers showing improvement, that will be good 
 what numbers? -- [[VPS metrics]]
 if I can collect the starling data with flight, and run it through the pipeline and collect the depth vs yaw measurements 
-
 
 Final things are summarized [[Final Goals and Achievements|here]]
