@@ -9,7 +9,6 @@ kanban-plugin: basic
 - [ ] check if SAM gives good estimates for vertical estimates
 - [ ] save plots for ToF depth and yaw estimation
 - [ ] documentation of ToF work
-- [ ] Robustly estimate depth and yaw from ToF
 - [ ] vanishing point based profiling
 - [ ] homography based yaw estimation
 - [ ] read line to line correspondence
@@ -20,17 +19,18 @@ kanban-plugin: basic
 - [ ] [[Final Goals and Achievements]]
 - [ ] [[ToF Integration next steps]]
 - [ ] [[compute cpu load metrics]]
-- [ ] fix camera info publish in nodelets
-- [ ] Segmentation with Pratyush
-- [ ] b/w image test
 
 
 ## Pause
 
+- [ ] [[Presentation]]
 
 
 ## Done
 
+- [ ] fix camera info publish in nodelets
+- [ ] Segmentation with Pratyush
+- [ ] Robustly estimate depth and yaw from ToF
 - [ ] send depth_image instead of tof_pc<br>- [x] change the `tof_depth` from `mono8` to `uint16`
 - [ ] [[Camera Calibration]]<br>- [x]  SKR1 Hires <br>- [x]  SKR1 tracking<br>- [x]  SKR3 Hires<br>- [x]  SKR3 tracking<br>- [x]  check with team for drones
 - [ ] hires preview stream with rectangular aspect ratio
@@ -50,6 +50,7 @@ kanban-plugin: basic
 
 ## archive
 
+- [ ] b/w image test
 - [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 - [ ] explore FastSAM integration
 - [ ] hires underneath to current yolov8
