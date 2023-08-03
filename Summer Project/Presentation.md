@@ -54,3 +54,7 @@ background slides
 			- this is a manual flight but as the estimates get better and better with segmentation we can easily integrate this pipeline
 
 
+
+
+55 x 
+325 y
