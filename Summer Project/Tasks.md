@@ -6,9 +6,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] check if SAM gives good estimates for vertical estimates
-- [ ] save plots for ToF depth and yaw estimation
-- [ ] documentation of ToF work
 - [ ] vanishing point based profiling
 - [ ] homography based yaw estimation
 - [ ] read line to line correspondence
@@ -17,17 +14,17 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] [[Final Goals and Achievements]]
-- [ ] [[ToF Integration next steps]]
-- [ ] [[compute cpu load metrics]]
 
 
 ## Pause
 
-- [ ] [[Presentation]]
 
 
 ## Done
 
+- [ ] [[Presentation]]
+- [ ] [[ToF Integration next steps]]
+- [ ] [[compute cpu load metrics]]
 - [ ] fix camera info publish in nodelets
 - [ ] Segmentation with Pratyush
 - [ ] Robustly estimate depth and yaw from ToF
@@ -50,6 +47,9 @@ kanban-plugin: basic
 
 ## archive
 
+- [ ] check if SAM gives good estimates for vertical estimates
+- [ ] documentation of ToF work
+- [ ] save plots for ToF depth and yaw estimation
 - [ ] b/w image test
 - [ ] color images from graybar<br>- [x] Mathew gave a script to download from MongoDB<br>- [x] share the dataset with Yoni<br>- [x] calibration for hires<br>- [x] segmentation for the images using previous Yolo<br>- [ ] segmentation using GroundingDino+SAM
 - [ ] explore FastSAM integration
