@@ -99,3 +99,19 @@ I need different speeds with varying accuracies
 
 do some research as to what are some good metrics for a task 
 - go through Nitin's paper
+
+
+
+## 2023.08.07
+
+- flyingthings3d numbers
+- navstack bebop
+
+---
+
+----
+
+compare with depth 
+
+- depth sensor d435
+
