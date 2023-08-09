@@ -199,3 +199,21 @@ python Train.py \
 
 ## 2023.07.23
 
+
+
+```
+python Train.py \
+--Dataset=FT3D \
+--BasePath=../../Datasets/FlyingThings3D \
+--LabelBasePath=../../Datasets/flyingthings3d_optical_flow/ \
+--ExperimentFileName="multiscale_uncertainity_2" \   
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=16 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=450
+```
