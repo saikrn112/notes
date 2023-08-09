@@ -273,3 +273,19 @@ monitoring status
 ```
 [TensorBoard](http://localhost:6007/?pinnedCards=%5B%7B%22plugin%22%3A%22images%22%2C%22tag%22%3A%22I1Patch%2Fimage%22%2C%22runId%22%3A%22defaultExperimentId%2F.%22%2C%22sample%22%3A0%7D%2C%7B%22plugin%22%3A%22images%22%2C%22tag%22%3A%22Label1_1%2Fimage%22%2C%22runId%22%3A%22defaultExperimentId%2F.%22%2C%22sample%22%3A0%7D%2C%7B%22plugin%22%3A%22images%22%2C%22tag%22%3A%22prVal_final%2Fimage%22%2C%22runId%22%3A%22defaultExperimentId%2F.%22%2C%22sample%22%3A0%7D%2C%7B%22plugin%22%3A%22scalars%22%2C%22tag%22%3A%22LossEveryIter%22%7D%5D&darkMode=true#timeseries)
 ```
+
+
+
+```
+python Test_new_FT3D.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--CheckPointNum=449 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--Display
+```
