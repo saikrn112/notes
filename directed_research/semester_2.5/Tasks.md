@@ -34,7 +34,7 @@ kanban-plugin: basic
 
 ## training
 
-- [ ] fine tune multiscale + uncertainity with FT3D
+- [ ] [[Multiscale + Uncertainty 422 Epochs FT3D fine tuned|fine tune multiscale + uncertainity with FT3D]]
 
 
 ## Pause

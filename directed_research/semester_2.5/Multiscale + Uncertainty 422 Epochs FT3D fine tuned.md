@@ -21,6 +21,17 @@ python Test_new.py \
 --OnGPU \
 --OnEdge \
 --Display
+
+full for a counter of 640
+full GPU time avg:0.010481477156281472
+full GPU fps :95.40639979363094
+full EPE:9.9285249710083
+full final loss:6.426803948299494
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0472762256860733
+edge_quant GPU fps :21.152280781470704
+edge_quant EPE:10.064444541931152
+edge_quant final loss:6.513150138925994
 ```
 
 #### Sintel Multiscale with uncertainity without chunking
