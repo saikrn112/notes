@@ -30,7 +30,6 @@ kanban-plugin: basic
 ## Progress
 
 - [ ] [[How fast is too fast]]
-- [ ] [[Understand GapFlyt Matlab code]]
 
 
 ## training
@@ -48,6 +47,8 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] Check FT3D training
+- [ ] [[Understand GapFlyt Matlab code]]
 - [ ] copy sintel data to 3080 in 4TB Nitin's hard disk
 - [ ] [[Task  review existing pretrained model on sintel to compare numbers with my script and paper]]<br>- [x] impl RAFT evaluation to make sure numbers are correct<br>- [x] update presentation with numbers and images<br>- [x] check difference between resize and crop again<br>- [x] modify original code to make sure numbers for resize and crop are same as the previous
 - [ ] [[Idea  Multiscale + Uncertainty + Motion Boundary]]

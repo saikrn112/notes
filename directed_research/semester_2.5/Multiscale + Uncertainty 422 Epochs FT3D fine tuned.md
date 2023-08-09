@@ -1,10 +1,10 @@
 
-#### Best multiscale model 450 epochs
+#### Best multiscale model 422 epochs
 ```
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --tflite_path=../models/multiscale_uncertainity_1/converted/ \
 --tflite_edge_path=../models/multiscale_uncertainity_1/converted/ \
---tf_model_path=../models/multiscale_uncertainity_1/449model.ckpt \
+--tf_model_path=../models/multiscale_uncertainity_1/422model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
@@ -14,7 +14,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
---CheckPointNum=449 \
+--CheckPointNum=422 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
