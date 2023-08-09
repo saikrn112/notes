@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 ## BackLog
 
+- [ ] [[Goals Crystal Clear]]
 
 
 ## In Progress

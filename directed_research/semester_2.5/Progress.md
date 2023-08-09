@@ -117,3 +117,7 @@ compare with depth
 
 - depth sensor d435
 
+
+
+---
+what am I trying to achieve ? 
