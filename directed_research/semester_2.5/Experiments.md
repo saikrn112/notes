@@ -197,9 +197,7 @@ python Train.py \
 [[Idea  Multiscale + Uncertainty + Motion Boundary]]
 
 
-## 2023.07.23
-
-
+## 2023.08.09
 
 ```
 python Train.py \
