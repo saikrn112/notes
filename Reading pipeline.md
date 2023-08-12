@@ -15,11 +15,17 @@ kanban-plugin: basic
 - [ ] [[camera models]]
 - [ ] distortion models<br>- [ ] equidistant distortion<br>- [ ] brown_conrady distortion<br>- [ ] fisheye distortion<br>- [ ] thin prism distortion<br>- [ ] division <br>- [ ] dual fisheye distortion<br>- [ ] unified distortion
 - [ ] motion blur<br>- [ ] long exposure <br>- [ ] shutter speed
+- [ ] [[how to calibrate extrinsics if no common FoV]]
+
+
+## Math
+
+- [ ] [[Schur complement|Schur complement]]
+- [ ] [[Adjoint of a matrix|Adjoint of matrix]]
 
 
 ## Papers to read
 
-- [ ] rotation_averaging<br>- [ ] ![[rotation_averaging.pdf]]<br>- [ ] dfa
 
 
 ## Try This
@@ -35,6 +41,7 @@ kanban-plugin: basic
 
 ## Currently reading
 
+- [ ] [[Rotation Averaging]]
 
 
 ## Done

@@ -1,0 +1,1 @@
+![[camera_calib_no_fov_rot_avging.png]]

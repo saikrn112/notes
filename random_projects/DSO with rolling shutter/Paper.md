@@ -200,8 +200,8 @@ we are trying to calculate photometric loss which is difference in irradiance
 	why are we using affine brightness transfer function here?
 	how does it avoid lack of exposure times?
 	why exponential term?
-	
-	
+
+-- need to understand more about how model formulation
 
 
 
