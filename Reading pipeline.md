@@ -10,8 +10,11 @@ kanban-plugin: basic
 - [ ] Auto Exposure Algorithms
 - [ ] Gamma Correction
 - [ ] White balancing
-- [ ] Lens Attenuation (Vignetting)
+- [ ] [[Lens Attenuation (Vignetting)]]
 - [ ] De - bayering artefacts
+- [ ] [[camera models]]
+- [ ] distortion models<br>- [ ] equidistant distortion<br>- [ ] brown_conrady distortion<br>- [ ] fisheye distortion<br>- [ ] thin prism distortion<br>- [ ] division <br>- [ ] dual fisheye distortion<br>- [ ] unified distortion
+- [ ] motion blur<br>- [ ] long exposure <br>- [ ] shutter speed
 
 
 ## Papers to read
