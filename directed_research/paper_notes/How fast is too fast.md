@@ -79,3 +79,9 @@ $$
 #### Obstacle Avoidance
 ##### Time to contact and avoidance Time
 ##### Time optimal Avoidance
+
+
+1020
+6624
+3525
+
