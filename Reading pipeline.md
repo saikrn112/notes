@@ -26,6 +26,7 @@ kanban-plugin: basic
 
 ## Papers to read
 
+- [ ] [BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects](https://bundlesdf.github.io/)
 
 
 ## Try This
@@ -37,6 +38,7 @@ kanban-plugin: basic
 ## Blogs
 
 - [ ] Geometric Deep learning<br>[link](https://www.dropbox.com/s/x2c12674uwdxft0/Alexa%20Discord%202023.pdf?dl=0)
+- [ ] [In Two Moves, AlphaGo and Lee Sedol Redefined the Future | WIRED](https://www.wired.com/2016/03/two-moves-alphago-lee-sedol-redefined-future/)
 
 
 ## Currently reading
