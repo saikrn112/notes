@@ -6,8 +6,8 @@
   "obsidian-excalidraw-plugin",
   "obsidian-paste-image-rename",
   "obsidian-excel-to-markdown-table",
-  "obsidian-git",
   "obsidian-image-toolkit",
   "obsidian-kanban",
-  "webpage-html-export"
+  "webpage-html-export",
+  "obsidian-git"
 ]
