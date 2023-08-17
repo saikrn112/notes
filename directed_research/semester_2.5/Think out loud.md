@@ -108,4 +108,25 @@ I need to read 2 papers
 tasks and priorities 
 - gapflyt experiment
 - make sure we have global shutter cameras 
-- 
+
+
+## 2023.08.17
+
+- [ ] PLA is not good
+- [ ] stiffest material
+- [ ] wait for Niel 
+- [ ] search for slightly bigger frame than 140
+- [ ] connectors
+- [ ] mini CSI or normal CSI
+- [ ] batteris amazon
+- [ ] go through experiments
+- [ ] note down
+- [ ] Aniket's uncertainity
+- [ ] overleaf TODO
+- [ ] how is FC2 testing on FT3D
+- [ ] test sintel 
+- [ ] RAFT or PWC based fine tuning
+- [ ] section by section ToDOs
+- [ ] foam board for experiments
+- [ ] 2:30 - 3:30PM
+- [ ] new experiments
