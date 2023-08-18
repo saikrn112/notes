@@ -284,5 +284,6 @@ python3 test.py \
 --CheckPointFolder=/home/mendel/optical_flow/models/multiscale_uncertainity_1/ \
 --TFLiteFolder=converted_half \
 --BasePath=/home/mendel/optical_flow/val/ \
---ResizeToHalf
+--ResizeToHalf \
+--Uncertainity
 ```
