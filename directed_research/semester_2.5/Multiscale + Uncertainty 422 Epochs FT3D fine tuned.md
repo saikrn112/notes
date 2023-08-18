@@ -177,6 +177,9 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --Uncertainity \
 --NumOut=4
 
+
+
+
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
@@ -196,7 +199,7 @@ python Test_new_sintel.py \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
 --TFLiteFolder=converted_sintel_chunking \
---CheckPointNum=449 \
+--CheckPointNum=422 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
