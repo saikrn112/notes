@@ -22,6 +22,7 @@ kanban-plugin: basic
 
 - [ ] [[Schur complement|Schur complement]]
 - [ ] [[Adjoint of a matrix|Adjoint of matrix]]
+- [ ] Left/right inverse of a non square matrix
 
 
 ## Papers to read

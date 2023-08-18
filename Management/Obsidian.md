@@ -11,3 +11,11 @@ what is this kanban ? -- [[https://github.com/roovo/obsidian-card-board]]
 
 
 obsidia-remote - https://forum.obsidian.md/t/obsidian-remote-running-obsidian-in-docker-with-browser-based-access/34312/8
+
+
+
+Pain points
+- website integration
+- pdf annotation
+- cross device integration
+
