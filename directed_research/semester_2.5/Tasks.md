@@ -30,6 +30,7 @@ kanban-plugin: basic
 ## Progress
 
 - [ ] [[How fast is too fast]]
+- [ ] [[Google coral TPU Hardware specs]]
 
 
 ## training
