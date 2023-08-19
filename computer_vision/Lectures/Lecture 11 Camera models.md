@@ -198,6 +198,7 @@ R_{W}^{C} | T_{W}^{C}
 X\\
 Y\\
 Z\\
+1
 \end{bmatrix}
 \end{align}
 $$
