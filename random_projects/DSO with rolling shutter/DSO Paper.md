@@ -24,7 +24,7 @@ integrates  ^7b2124
 >- probablistic model
 >	- how does this combine photometric error?
 >- geometry represented as inverse depth
->- integrating above [[Paper#^7b2124|points]]
+>- integrating above [[DSO Paper#^7b2124|points]]
 
 
 ### This Paper
@@ -75,7 +75,7 @@ optimizes geometric error
 ### Direct Sparse Model
 odometry is optimization of 
 - photometric error for window of recent frames
-- constraints: photometrically calibrated model for image formation and mentioned [[Paper#^99cf36| in this paper section]]
+- constraints: photometrically calibrated model for image formation and mentioned [[DSO Paper#^99cf36| in this paper section]]
 
 #### Calibration
 geometric camera model: 
@@ -123,7 +123,7 @@ $$
 
 Auto exposure
 >how is auto exposure accounted for?
-below [[Paper#^5ff1c1|explanation]]
+below [[DSO Paper#^5ff1c1|explanation]]
 
 **model**
 $$
