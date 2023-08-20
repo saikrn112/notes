@@ -23,6 +23,7 @@ kanban-plugin: basic
 - [ ] [[Schur complement|Schur complement]]
 - [ ] [[Adjoint of a matrix|Adjoint of matrix]]
 - [ ] [[Left or right inverse of a non square matrix]]
+- [ ] low rank adaptation
 
 
 ## Papers to read
