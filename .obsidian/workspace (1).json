@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "2871cccbb317e782",
+    "type": "split",
+    "children": [
+      {
+        "id": "135f9abe3e77bada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fc4e53be5b53628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Rotations/Rotations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a999f8965c641c9f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-01-08 18.30.02.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "44e21b940ef39209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "directed_research/semester_2.5/Multiscale + Uncertainty 422 Epochs FT3D fine tuned.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2237f081782f909",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "directed_research/semester_2.5/Final Paper Stretch.md"
+              }
+            }
+          },
+          {
+            "id": "714602580aaf47ac",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "3070484d46b1ca85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15179ae8010821eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "directed_research/semester_2.5/Todo items - 2023.08.18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a098747cb124de5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9747e4d0092ad4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96ec9379b2d2e417",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "819fef4452d8fd1f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "lambda",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6ef6d8349a5c5392",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "97b297954fc3e703",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.50247192382812
+  },
+  "right": {
+    "id": "d814440a20937169",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d9ff1420acf9db7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ecb4bbcc41e45b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "directed_research/semester_2.5/Todo items - 2023.08.18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd471e20d5d45d4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "directed_research/semester_2.5/Todo items - 2023.08.18.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e30cf65778fbe975",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "350823d7a13519c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "directed_research/semester_2.5/Todo items - 2023.08.18.md"
+              }
+            }
+          },
+          {
+            "id": "9d86b89c358c7c40",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "15179ae8010821eb",
+  "lastOpenFiles": [
+    "directed_research/semester_2.5/Final Paper Stretch.md",
+    "directed_research/semester_2.5/Todo items - 2023.08.18.md",
+    "directed_research/semester_2.5/Tasks.md",
+    "Reading pipeline.md",
+    "MVG - Appendix Parameter Estimation.md",
+    "MVG-Parameter_Estimation.pdf",
+    "random_projects/DSO with rolling shutter/DSO Paper.md",
+    "Left or right inverse of a non square matrix.md",
+    "Management/Obsidian.md",
+    "directed_research/Papers to read.md",
+    "camera models.md",
+    "attachments/non_square_matrix_inverse.png",
+    "computer_vision/Lectures/Lecture 11 Camera models.md",
+    "directed_research/paper_notes/FlowNet Learning Optical flow with CNN.md",
+    "computer_vision/Lectures/flex.md",
+    "Math/Linear Algebra/Eigen Values and Eigen Vectors.md",
+    "computer_vision/Camera and Image frames.md",
+    "Summer Project/compute cpu load metrics.md",
+    "Math/Linear Algebra/Adjoint of a matrix.md",
+    "Math/Linear Algebra/Schur complement.md",
+    "Math/Linear Algebra/[Schur.md",
+    "Summer Project/Tasks.md",
+    "Summer Project/model/ToDos.md",
+    "Excalidraw/Drawing 2023-01-08 18.30.02.excalidraw.md",
+    "paper_pdfs/dso.pdf",
+    "paper_pdfs/dso_w_rs.pdf",
+    "computer_vision/Resources.md",
+    "Summer Project/model/Accesses.md",
+    "directed_research/semester_2.5/Google coral TPU Hardware specs.md",
+    "Summer Project/model/Scene Segmentation.md",
+    "Summer Project/model",
+    "attachments/camera_calib_no_fov_rot_avging.png",
+    "Math/Optimization",
+    "Math/Rotations/attachments/multi_rotation_avging_opt.png",
+    "Math/Rotations/attachments/conjugate_rotation_avging_opt.png",
+    "Math/Rotations/attachments/single_rotation_averaging.png",
+    "Math/Rotations/attachments",
+    "Math/Rotations",
+    "paper_pdfs/Unconfirmed 205906.crdownload",
+    "random_projects/DSO with rolling shutter/attachments/error_formulation.png",
+    "random_projects/DSO with rolling shutter/attachments/inverse_photometric_correction.png",
+    "random_projects/DSO with rolling shutter/attachments",
+    "random_projects/DSO with rolling shutter",
+    "directed_research/semester_2.5/attachments/something_wrong.png",
+    "directed_research/paper_notes/attachments/schematics.png",
+    "directed_research/paper_notes/attachments/assumption_1.png"
+  ]
+}
