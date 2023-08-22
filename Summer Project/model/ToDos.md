@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] catch up with Rilwan
 - [ ] do I need access to DTS ?
 - [ ] [[Accesses]]
+- [ ] [[Sagemaker]]
 
 
 ## In Progress
