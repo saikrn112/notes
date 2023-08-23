@@ -226,7 +226,7 @@ python Test_blender_dynamic.py \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
 --TFLiteFolder=converted_blender \
---CheckPointNum=422 \
+--CheckPointNum=449 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
