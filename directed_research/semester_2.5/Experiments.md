@@ -215,3 +215,20 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=450
 ```
+
+
+## 2023.08.22
+
+```
+python Test_blender_dynamic.py \
+--BasePath=../Blender/ \
+--BlenderModel=dynamic \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_blender \
+--CheckPointNum=422 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU  
+```
