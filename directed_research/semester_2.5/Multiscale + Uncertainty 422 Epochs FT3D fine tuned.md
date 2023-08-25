@@ -14,7 +14,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
---CheckPointNum=422 \
+--CheckPointNum=449 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
@@ -323,4 +323,23 @@ python Train.py \
 --UncType=LinearSoftplus \
 --NumSubBlocks=2 \
 --NumEpochs=450
+```
+
+
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_ft3d/ \
+--CheckPointNum=449 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU
+
+full for a counter of 640
+full GPU time avg:0.00759553462266922
+full GPU fps :131.65630198241138
+full EPE:4.754075050354004
+full final loss:3.0009240987710655
 ```
