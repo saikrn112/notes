@@ -18,4 +18,12 @@ Pain points
 - website integration
 - pdf annotation
 - cross device integration
+- background highlights
+
+
+>[!note]  understanding callouts 
+>this is a point
+	this is also another point but has different background
+> question on this in reddit 
+> [(5) Reddit - Dive into anything](https://www.reddit.com/r/ObsidianMD/comments/161iqq9/understanding_callouts_syntax_and_controlling/)
 
