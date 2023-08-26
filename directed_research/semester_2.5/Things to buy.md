@@ -1,5 +1,5 @@
-- [ ] foam 
-- [ ] play tunnels
+- [x] foam 
+- [x] play tunnels
 - [ ] play cubes - foam mats 
 - [ ] prop up for foam boards 
 - [ ] spherical objects 

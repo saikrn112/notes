@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## General
 
-- [ ] [[Goals Crystal Clear]]
+- [ ] [[Contributions]]
 - [ ] [[Things to buy]]
 - [ ] [[Todo items - 2023.08.18]]
 
@@ -36,12 +36,15 @@ kanban-plugin: basic
 
 ## Figures
 
+- [ ] [[GapFlyt experiments]]
+- [ ] [[Dodge Experiments]]
 
 
 ## Tables
 
 - [ ] [[Table - Comparison against other networks]]
 - [ ] [[Table - Performance Study]]
+- [ ] [[Table - Experiments and DR]]
 
 
 
