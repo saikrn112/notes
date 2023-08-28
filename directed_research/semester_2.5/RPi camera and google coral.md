@@ -5,3 +5,7 @@ https://www.arrow.com/en/research-and-events/articles/google-coral-camera-vs-ras
 - [ ] luxonis
 - [ ] converter from amazon
 - [ ] logitech 
+
+```bash
+v4l2-ctl --list-devices
+```
