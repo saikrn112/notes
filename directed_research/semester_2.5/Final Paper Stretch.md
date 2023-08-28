@@ -24,6 +24,7 @@ kanban-plugin: basic
 ## Network and Software
 
 - [ ] FT3D Eval<br>- [ ] FC2<br>- [ ] Sintel<br>- [ ] Full resolution with chunking and in brackets (centre crop)
+- [ ] [[Compare with other architectures]]
 
 
 ## Paper Related
@@ -32,18 +33,22 @@ kanban-plugin: basic
 
 ## Software Experiments
 
+- [ ] Dodge Experiment
+- [ ] GapFlyt Experiment
+- [ ] Navigation Experiment
+- [ ] Path length experiment from Ajna
 
 
 ## Figures
 
 - [ ] [[GapFlyt experiments]]
 - [ ] [[Dodge Experiments]]
+- [ ] [[Table - Performance Study]]<br>- FPS vs EPE vs Chunking size
 
 
 ## Tables
 
 - [ ] [[Table - Comparison against other networks]]
-- [ ] [[Table - Performance Study]]
 - [ ] [[Table - Experiments and DR]]
 
 

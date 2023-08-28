@@ -11,3 +11,5 @@ Idea is to compare with other networks; but what to compare and how to compare.
 >Questions to wonder:
 >1. other networks are on GPU, our network is on TPU. so how to compare?
 
+we wont, but we will report the numbers with other computs
+
