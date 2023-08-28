@@ -7,3 +7,9 @@
 >1. Mandeep/Aniket had already done it 
 >2. he has been doing it in other papers 
 
+
+right now; 
+- no experiments done 
+- next weekend we will get an idea;
+- dynamic obstacles buy today;
+

@@ -13,3 +13,6 @@ Idea is to compare with other networks; but what to compare and how to compare.
 
 we wont, but we will report the numbers with other computs
 
+
+
+linearly scale down/up the FPS compared with our CPU
