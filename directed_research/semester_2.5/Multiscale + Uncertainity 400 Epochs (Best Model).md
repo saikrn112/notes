@@ -275,7 +275,7 @@ monitoring status
 ---
 ---
 
-### Dev Board Mini
+### Dev Board Mini Coral TPU
 
 
 ```

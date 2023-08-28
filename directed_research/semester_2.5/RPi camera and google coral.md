@@ -6,6 +6,11 @@ https://www.arrow.com/en/research-and-events/articles/google-coral-camera-vs-ras
 - [ ] converter from amazon
 - [ ] logitech 
 
-```bash
+
+
+```zsh
 v4l2-ctl --list-devices
+v4l2-ctl --list-formats-ext --device /dev/video1
+```
+
 ```
