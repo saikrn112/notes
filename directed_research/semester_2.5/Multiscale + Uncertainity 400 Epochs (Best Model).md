@@ -287,3 +287,27 @@ python3 test.py \
 --ResizeToHalf \
 --Uncertainity
 ```
+
+
+on desktop with usb accelerator
+```
+python3 test.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_half \
+--BasePath=/home/ramu/Personal/optical_flow/val/ \
+--ResizeToHalf \
+--Uncertainity
+```
+
+
+on desktop with usb accelerator with real time feed
+```
+python3 test_rt.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_half \
+--BasePath=/home/ramu/Personal/optical_flow/val/ \
+--ResizeToHalf \
+--Uncertainity
+```
