@@ -33,4 +33,9 @@ area of ML concerned with ==how== software agents ought to take actions in envir
 
 
 
+## Taxonomy
+
+![[taxonomy.png]]
+
+
 
