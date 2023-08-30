@@ -34,8 +34,8 @@ kanban-plugin: basic
 ## Software Experiments
 
 - [ ] Dodge Experiment
-- [ ] GapFlyt Experiment
-- [ ] Navigation Experiment
+- [ ] [[SIM GapFlyt Experiment]]
+- [ ] [[SIM Navigation Experiment]]
 - [ ] Path length experiment from Ajna
 
 
