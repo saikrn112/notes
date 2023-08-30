@@ -18,3 +18,19 @@ area of ML concerned with ==how== software agents ought to take actions in envir
 >[!question] Imitation learning
 >how is imitation learning inverse RL
 
+
+
+## 4 components for it to be RL
+
+- Optimisation
+- Generalisation
+- Exploration
+- Delayed consequences
+
+
+## Imitation Learning
+- could be used for fine tuning other actions later
+
+
+
+
