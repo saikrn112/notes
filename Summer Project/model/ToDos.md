@@ -11,6 +11,7 @@ kanban-plugin: basic
 - [ ] do I need access to DTS ?
 - [ ] [[Accesses]]
 - [ ] [[Sagemaker]]
+- [ ] Poetry
 
 
 ## In Progress
