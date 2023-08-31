@@ -6,12 +6,14 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] catch up with Mengchao
-- [ ] catch up with Rilwan
 - [ ] do I need access to DTS ?
 - [ ] [[Accesses]]
 - [ ] [[Sagemaker]]
 - [ ] Poetry
+- [ ] AWS ACL (optional)
+- [ ] AWS IAM roles (optional)
+- [ ] terraform - IAAS (optional)
+- [ ] terragrunt (optional)
 
 
 ## In Progress
@@ -20,6 +22,8 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] catch up with Rilwan
+- [ ] catch up with Mengchao
 
 
 ## Archive
