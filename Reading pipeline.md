@@ -16,6 +16,7 @@ kanban-plugin: basic
 - [ ] distortion models<br>- [ ] equidistant distortion<br>- [ ] brown_conrady distortion<br>- [ ] fisheye distortion<br>- [ ] thin prism distortion<br>- [ ] division <br>- [ ] dual fisheye distortion<br>- [ ] unified distortion
 - [ ] motion blur<br>- [ ] long exposure <br>- [ ] shutter speed
 - [ ] [[how to calibrate extrinsics if no common FoV]]
+- [ ] GMMs for color segmentation
 
 
 ## Math
