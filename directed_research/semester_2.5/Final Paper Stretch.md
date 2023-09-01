@@ -37,6 +37,7 @@ kanban-plugin: basic
 - [ ] [[SIM GapFlyt Experiment]]
 - [ ] [[SIM Navigation Experiment]]
 - [ ] Path length experiment from Ajna
+- [ ] bump map
 
 
 ## Figures
