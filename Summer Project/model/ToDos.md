@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [ ] AWS IAM roles (optional)
 - [ ] terraform - IAAS (optional)
 - [ ] terragrunt (optional)
+- [ ] what is world model? <br>- inputs<br>- outputs
 
 
 ## In Progress
