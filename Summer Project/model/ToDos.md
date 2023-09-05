@@ -14,7 +14,12 @@ kanban-plugin: basic
 - [ ] AWS IAM roles (optional)
 - [ ] terraform - IAAS (optional)
 - [ ] terragrunt (optional)
-- [ ] what is world model? <br>- inputs<br>- outputs
+- [ ] what is world model? <br>- inputs<br>- outputs<br>
+- [ ] [[Adjacent lane line training]]
+- [ ] main challenges for lane line training<br>- why only construction zone?
+- [ ] catch up with Rohith
+- [ ] catch up with Neet
+- [ ] Catch up with Chinmay
 
 
 ## In Progress
