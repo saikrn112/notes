@@ -14,6 +14,7 @@ kanban-plugin: basic
 - [ ] catch up with Rohith
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
+- [ ] setup a call with Ahmed
 
 
 ## In Progress
