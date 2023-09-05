@@ -6,11 +6,14 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] catch up with Mengchao
-- [ ] catch up with Rilwan
 - [ ] do I need access to DTS ?
 - [ ] [[Accesses]]
 - [ ] [[Sagemaker]]
+- [ ] [[Adjacent lane line training]]
+- [ ] main challenges for lane line training<br>- why only construction zone?
+- [ ] catch up with Rohith
+- [ ] catch up with Neet
+- [ ] Catch up with Chinmay
 
 
 ## In Progress
@@ -19,6 +22,8 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] catch up with Rilwan
+- [ ] catch up with Mengchao
 
 
 ## Archive
