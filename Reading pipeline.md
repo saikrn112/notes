@@ -17,6 +17,7 @@ kanban-plugin: basic
 - [ ] motion blur<br>- [ ] long exposure <br>- [ ] shutter speed
 - [ ] [[how to calibrate extrinsics if no common FoV]]
 - [ ] GMMs for color segmentation
+- [ ] why more weights for nearer terms? [[Components#^pgzpixxd4|here]]
 
 
 ## Math

@@ -21,6 +21,15 @@ kanban-plugin: basic
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
 - [ ] aws periodic stop
+- [ ] setup a call with Ahmed
+- [ ] get access to the VDI
+- [ ] simulation/workspace check
+- [ ] Julian needs to share bag IDs and time stamps
+- [ ] check focal loss response
+- [ ] understand IoU metrics used in comet
+- [ ] setup EC2 instance with alias and shell
+- [ ] explore discovery based on Julian's calls
+- [ ] checkout LIG code
 
 
 ## In Progress
