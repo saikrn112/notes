@@ -6,48 +6,49 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] do I need access to DTS ?
-- [ ] [[Accesses]]
+- [ ] [[Adjacent lane line training]]
 - [ ] [[Sagemaker]]
 - [ ] Poetry
-- [ ] AWS ACL (optional)
-- [ ] AWS IAM roles (optional)
-- [ ] terraform - IAAS (optional)
-- [ ] terragrunt (optional)
 - [ ] what is world model? <br>- inputs<br>- outputs
-- [ ] [[Adjacent lane line training]]
-- [ ] main challenges for lane line training<br>- why only construction zone?
 - [ ] catch up with Rohith
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
-- [ ] aws periodic stop
-- [ ] setup a call with Ahmed
-- [ ] get access to the VDI
 - [ ] simulation/workspace check
-- [ ] Julian needs to share bag IDs and time stamps
 - [ ] check focal loss response
 - [ ] understand IoU metrics used in comet
-- [ ] setup EC2 instance with alias and shell
 - [ ] explore discovery based on Julian's calls
 - [ ] checkout LIG code
 
 
 ## In Progress
 
+- [ ] [[Accesses]]
+- [ ] get access to the VDI
 
 
 ## Done
 
+- [ ] Comet<br>- [x] how to delete experiments instead of archive
+- [ ] Julian needs to share bag IDs and time stamps
+- [ ] setup EC2 instance with alias and shell
 - [ ] catch up with Rilwan
 - [ ] catch up with Mengchao
+- [ ] setup a call with Ahmed
 
 
 ## Archive
 
+- [ ] AWS ACL (optional)
+- [ ] AWS IAM roles (optional)
+- [ ] terraform - IAAS (optional)
+- [ ] terragrunt (optional)
+- [ ] do I need access to DTS ?
 
 
 ## To Ponder
 
+- [ ] aws periodic stop
+- [ ] main challenges for lane line training<br>- why only construction zone?
 
 
 
