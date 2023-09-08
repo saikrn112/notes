@@ -27,6 +27,7 @@ kanban-plugin: basic
 
 - [ ] [[Accesses]]
 - [ ] get access to the VDI
+- [ ] what is lost cargo
 
 
 ## Done
@@ -52,6 +53,11 @@ kanban-plugin: basic
 
 - [ ] aws periodic stop
 - [ ] main challenges for lane line training<br>- why only construction zone?
+
+
+## Ideas
+
+- [ ] BEV lane line prediction
 
 
 
