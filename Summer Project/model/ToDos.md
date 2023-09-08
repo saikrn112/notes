@@ -21,6 +21,8 @@ kanban-plugin: basic
 - [ ] how is the network being trained?
 - [ ] why keypoints all the way till end ?
 - [ ] can we use lanes as heuristic for training lane center keypoints?
+- [ ] what us prediction region 1/2/3?
+- [ ] what is map grader?
 
 
 ## In Progress
