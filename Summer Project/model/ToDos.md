@@ -18,6 +18,9 @@ kanban-plugin: basic
 - [ ] understand IoU metrics used in comet
 - [ ] explore discovery based on Julian's calls
 - [ ] checkout LIG code
+- [ ] how is the network being trained?
+- [ ] why keypoints all the way till end ?
+- [ ] can we use lanes as heuristic for training lane center keypoints?
 
 
 ## In Progress
