@@ -1,3 +1,6 @@
+rough terrain 
+https://www.youtube.com/watch?v=o-8fQF23dyk&ab_channel=CGMatter
+
 blender OpenEXR issue
 https://github.com/jamesbowman/openexrpython/issues/28#issuecomment-1279014897
 
