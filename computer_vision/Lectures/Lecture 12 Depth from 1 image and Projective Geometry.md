@@ -16,7 +16,7 @@ equidistant model
 
 OCamCalib
 - Omnidirectional calibration 
-- [[People#^437630|Davide]]
+- [[computer_vision/People#^437630|Davide]]
 
 2018 - IROS
 - double sphere model
