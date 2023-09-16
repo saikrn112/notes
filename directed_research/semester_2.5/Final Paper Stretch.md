@@ -19,6 +19,7 @@ kanban-plugin: basic
 - [ ] Buy Toys<br>- [ ] evdodgenet toys - reverse search
 - [ ] Buy Play tunnels
 - [ ] Make boxes for static obstacle avoidance
+- [ ] [[camera TPU interface]]
 
 
 ## Network and Software
