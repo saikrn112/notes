@@ -13,27 +13,21 @@ kanban-plugin: basic
 - [ ] catch up with Rohith
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
-- [ ] simulation/workspace check
 - [ ] check focal loss response
-- [ ] understand IoU metrics used in comet
-- [ ] explore discovery based on Julian's calls
-- [ ] checkout LIG code
-- [ ] how is the network being trained?
 - [ ] why keypoints all the way till end ?
-- [ ] can we use lanes as heuristic for training lane center keypoints?
-- [ ] what us prediction region 1/2/3?
-- [ ] what is map grader?
 
 
 ## In Progress
 
-- [ ] [[Accesses]]
-- [ ] get access to the VDI
-- [ ] what is lost cargo
+- [ ] checkout VDI accesses
+- [ ] [[SU-2103]]
 
 
 ## Done
 
+- [ ] what is lost cargo
+- [ ] get access to the VDI
+- [ ] [[Accesses]]
 - [ ] Comet<br>- [x] how to delete experiments instead of archive
 - [ ] Julian needs to share bag IDs and time stamps
 - [ ] setup EC2 instance with alias and shell
@@ -44,6 +38,14 @@ kanban-plugin: basic
 
 ## Archive
 
+- [ ] what is map grader?
+- [ ] what us prediction region 1/2/3?
+- [ ] can we use lanes as heuristic for training lane center keypoints?
+- [ ] checkout LIG code
+- [ ] how is the network being trained?
+- [ ] explore discovery based on Julian's calls
+- [ ] understand IoU metrics used in comet
+- [ ] simulation/workspace check
 - [ ] AWS ACL (optional)
 - [ ] AWS IAM roles (optional)
 - [ ] terraform - IAAS (optional)

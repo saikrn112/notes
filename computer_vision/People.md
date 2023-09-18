@@ -50,3 +50,7 @@ Deva Ramanan  - Argo.AI
 Rama Chellappa 
 
 David M Rosen
+
+
+
+Peter Hart -- SRI - A*

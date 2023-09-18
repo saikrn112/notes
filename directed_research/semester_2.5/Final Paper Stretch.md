@@ -9,6 +9,8 @@ kanban-plugin: basic
 - [ ] [[Contributions]]
 - [ ] [[Things to buy]]
 - [ ] [[Todo items - 2023.08.18]]
+- [ ] foam board buy
+- [ ] Photoshop license
 
 
 ## Hardware Experiments
