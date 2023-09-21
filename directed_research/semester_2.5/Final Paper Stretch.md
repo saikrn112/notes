@@ -36,11 +36,10 @@ kanban-plugin: basic
 
 ## Software Experiments
 
-- [ ] Dodge Experiment
+- [ ] Dodge Experiment<br>- [ ] blender with native optical flow using keyframes <br>- [ ] raft <br>- [ ] our network <br>- [ ] navigation controller using optical flow<br>- [ ] why linux is not rendering images
 - [ ] [[SIM GapFlyt Experiment]]
 - [ ] [[SIM Navigation Experiment]]
 - [ ] Path length experiment from Ajna
-- [ ] bump map
 
 
 ## Figures
@@ -54,6 +53,11 @@ kanban-plugin: basic
 
 - [ ] [[Table - Comparison against other networks]]
 - [ ] [[Table - Experiments and DR]]
+
+
+## Done
+
+- [ ] bump map
 
 
 
