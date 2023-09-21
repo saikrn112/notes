@@ -5,7 +5,7 @@ Things to get access for:
 - [x] JIRA
 - [x] comet internal 
 - [ ] Airflow
-- [ ] VDI
+- [x] VDI
 - [x] shared services 
-- [ ] LSGP training account
+- [x] LSGP training account
 

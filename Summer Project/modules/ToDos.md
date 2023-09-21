@@ -6,9 +6,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] [[Adjacent lane line training]]
-- [ ] [[Sagemaker]]
-- [ ] Poetry
 - [ ] what is world model? <br>- inputs<br>- outputs
 - [ ] catch up with Rohith
 - [ ] catch up with Neet
@@ -38,6 +35,9 @@ kanban-plugin: basic
 
 ## Archive
 
+- [ ] Poetry
+- [ ] [[Sagemaker]]
+- [ ] [[Adjacent lane line training]]
 - [ ] what is map grader?
 - [ ] what us prediction region 1/2/3?
 - [ ] can we use lanes as heuristic for training lane center keypoints?
