@@ -18,6 +18,7 @@ kanban-plugin: basic
 - [ ] [[how to calibrate extrinsics if no common FoV]]
 - [ ] GMMs for color segmentation
 - [ ] why more weights for nearer terms? [[Components#^pgzpixxd4|here]]
+- [ ] Uncertainity in deep models <br>- [here](https://docs.aws.amazon.com/prescriptive-guidance/latest/ml-quantifying-uncertainty/temp-scaling.html)
 
 
 ## Math
