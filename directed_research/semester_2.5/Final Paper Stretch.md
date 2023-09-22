@@ -36,7 +36,7 @@ kanban-plugin: basic
 
 ## Software Experiments
 
-- [ ] Dodge Experiment<br>- [ ] blender with native optical flow using keyframes <br>- [ ] raft <br>- [ ] our network <br>- [ ] navigation controller using optical flow<br>- [ ] why linux is not rendering images
+- [ ] Dodge Experiment<br>- [x] blender with native optical flow using keyframes <br>- [ ] raft <br>- [ ] our network <br>- [ ] navigation controller using optical flow<br>- [x] why linux is not rendering images<br>- [ ] scene import
 - [ ] [[SIM GapFlyt Experiment]]
 - [ ] [[SIM Navigation Experiment]]
 - [ ] Path length experiment from Ajna
