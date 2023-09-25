@@ -1,0 +1,4 @@
+- [ ] good visualization for obstacle avoidance 
+- [ ] theoretical analysis pushing the limits of the quad
+- [ ] static obstacle avoidance with hybrid controller (pushing manually + left and right from obstacle)
+- [ ] testing in the midst of trees
