@@ -18,3 +18,6 @@ Robert kriner - Actor critic
 
 Dalong Li - Active Learning
 Maximilian Bomer 
+
+
+Daniel Moodi - IC Inference 
