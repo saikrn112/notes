@@ -1,6 +1,6 @@
 {
   "theme": "obsidian",
-  "baseFontSize": 18,
+  "baseFontSize": 13,
   "accentColor": "#643fde",
   "enabledCssSnippets": [
     "obsidian"
