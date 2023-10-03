@@ -64,6 +64,12 @@ kanban-plugin: basic
 - [ ] [Burgers Optimization with a Physics-Informed NN — Physics-based Deep Learning (physicsbaseddeeplearning.org)](https://physicsbaseddeeplearning.org/physicalloss-code.html)
 
 
+## C++
+
+- [ ] thread pooling
+- [ ] futures
+
+
 
 
 %% kanban:settings
