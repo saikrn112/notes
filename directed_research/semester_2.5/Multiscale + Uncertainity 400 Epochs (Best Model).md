@@ -366,3 +366,17 @@ python3 test_rt.py \
 --Uncertainity \
 --RunMAVlink
 ```
+
+
+## ClosestResizeAndCrop
+```
+python3 test_rt.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/mendel/optical_flow/models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_half \
+--BasePath=/home/mendel/optical_flow/val/ \
+--OutputPath=/home/mendel/optical_flow/experiments/ \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--RunMAVlink
+```
