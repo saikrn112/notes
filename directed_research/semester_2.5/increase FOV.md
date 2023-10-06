@@ -1,5 +1,5 @@
 - [x] notebook for running the inference 
 	- [x] already have a notebook for this 
-- [ ] download the dataset 
+- [x] download the dataset 
 - [x] find a code for finding aspect ratio
 	- [x] there is probably a script which finds nearest resolution given another resolution as a reference
