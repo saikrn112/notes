@@ -23,6 +23,7 @@ kanban-plugin: basic
 - [ ] Buy Play tunnels
 - [ ] Make boxes for static obstacle avoidance
 - [ ] [[camera TPU interface]]
+- [ ] [[increase FOV]]
 
 
 ## Network and Software
