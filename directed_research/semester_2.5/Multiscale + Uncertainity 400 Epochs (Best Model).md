@@ -413,7 +413,19 @@ python3 test_sim.py \
 --TFLiteFolder=converted_half \
 --ClosestResizeAndCrop \
 --Uncertainity \
---exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.04_dynamic/ \
---OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.04_dynamic/ \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.08_dynamic1/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.08_dynamic1/ \
+--RunMAVlink
+```
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.08_dynamic2/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.08_dynamic2/ \
 --RunMAVlink
 ```
