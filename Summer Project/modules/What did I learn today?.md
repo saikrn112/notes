@@ -10,7 +10,14 @@ how is SPTAM different from other algorithms?
 wrapping up the retraining stuff
 need to adjust test image, make it work with sagemaker, histogram based binning
 
+## 2023.10.09
 
+finally wrapped up the work 
+concerns 
+- [ ] run full end to end model 
+- [ ] If I can do some work with Ahmed 
+- [ ] what to generally talk with Brent? 
 
-
-
+- [ ] his contribution going forward 
+- [ ] Torc's future plans
+- [ ] 
