@@ -21,3 +21,7 @@ IITM - coursework [cs6350: Computer Vision (iitm.ac.in)](http://www.cse.iitm.ac.
 waterloo courses - [CS484/684 (uwaterloo.ca)](https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/)
 
 [Vision for Graphics: Stereo (uwaterloo.ca)](https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/Lectures/lec07_multi_view_geometry.pdf)
+
+http://www.theia-sfm.org/api.html
+
+https://mujinspire.mujin.co.jp/en/2021/06/ace-your-computer-vision-job-interview/
