@@ -20,4 +20,4 @@ concerns
 
 - [ ] his contribution going forward 
 - [ ] Torc's future plans
-- [ ] 
+- [ ] full time opportunities 
