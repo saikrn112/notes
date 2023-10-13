@@ -18,6 +18,12 @@ concerns
 - [ ] If I can do some work with Ahmed 
 - [ ] what to generally talk with Brent? 
 
+## 2023.10.12
+
+chat with brent
+
+- [ ] introduce myself
 - [ ] his contribution going forward 
-- [ ] Torc's future plans
-- [ ] full time opportunities 
+- [ ] Torc's future hiring plans
+- [ ] full time opportunities
+- [ ] what is he expecting from co-op
