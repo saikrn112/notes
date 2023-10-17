@@ -10,14 +10,13 @@ kanban-plugin: basic
 - [ ] catch up with Rohith
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
-- [ ] check focal loss response
 - [ ] why keypoints all the way till end ?
 
 
 ## In Progress
 
-- [ ] checkout VDI accesses
-- [ ] [[SU-2103]]
+- [ ] F1 score in GANet
+- [ ] AP score in DETR
 
 
 ## Done
@@ -35,6 +34,9 @@ kanban-plugin: basic
 
 ## Archive
 
+- [ ] [[SU-2103]]
+- [ ] checkout VDI accesses
+- [ ] check focal loss response
 - [ ] Poetry
 - [ ] [[Sagemaker]]
 - [ ] [[Adjacent lane line training]]
