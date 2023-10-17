@@ -34,7 +34,7 @@ kanban-plugin: basic
 
 ## Archive
 
-- [ ] [[SU-2103]]
+- [ ] [[SU-2104]]
 - [ ] checkout VDI accesses
 - [ ] check focal loss response
 - [ ] Poetry
