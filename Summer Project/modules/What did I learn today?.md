@@ -27,3 +27,8 @@ chat with brent
 - [ ] Torc's future hiring plans
 - [ ] full time opportunities
 - [ ] what is he expecting from co-op
+
+
+Himanshu Sardesai - 
+Indrajeet - 
+
