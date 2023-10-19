@@ -6,25 +6,15 @@ kanban-plugin: basic
 
 ## Ideas
 
-- [ ] Idea: UNet
-- [ ] Idea: UNet with Multiscale
-- [ ] Idea: Unet + Uncertainity
-- [ ] Idea: UNet + multiscale + uncertainty
-- [ ] Idea: Nanoflownet based MB impl
-- [ ] Idea: Heuristic based optical flow training for cost volume
-- [ ] Idea: Dilation rate as learnable parameter
-- [ ] Idea: predict small scale along with chunks and combine
+- [ ] avg left and right
+- [ ] super low res 120p
+- [ ] median in the patch
+- [ ] lookup table
+- [ ] left, middle and right sections
 
 
 ## Backlog
 
-- [ ] try warping again with flownetwarp
-- [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
-- [ ] Task: for sintel full resolution chunk accross the images
-- [ ] read nanoflownet again but this time for references
-- [ ] some paper on consolidated methods for speed of the network
-- [ ] Task: compare with same resolution with other papers
-- [ ] how does shutter speed come at 100Hz
 
 
 ## Progress
@@ -40,10 +30,6 @@ kanban-plugin: basic
 
 ## Pause
 
-- [ ] [[warping module edge tpu compatible]]
-- [ ] [[recalculate all the metrics computed for previous models]]
-- [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
-- [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
 
 
 ## Done
@@ -64,6 +50,25 @@ kanban-plugin: basic
 - [ ] Task: check if edge detection has been overfit by running tests
 - [ ] print different loss components now
 - [ ] Review: Focal Loss vs Detail Loss
+- [ ] Idea: UNet
+- [ ] Idea: UNet with Multiscale
+- [ ] Idea: Unet + Uncertainity
+- [ ] Idea: UNet + multiscale + uncertainty
+- [ ] Idea: Nanoflownet based MB impl
+- [ ] Idea: Heuristic based optical flow training for cost volume
+- [ ] Idea: Dilation rate as learnable parameter
+- [ ] Idea: predict small scale along with chunks and combine
+- [ ] [[warping module edge tpu compatible]]
+- [ ] [[recalculate all the metrics computed for previous models]]
+- [ ] Task: warp and check<br>- [ ] plot the errors<br>- [x] plot artificial images and check
+- [ ] Task: get 450 Epoch finetuned model from Aniket, Mandeep and Prof Nitin
+- [ ] try warping again with flownetwarp
+- [ ] plot data distributions for<br>- [ ] FC2<br>- [ ] FT3D<br>- [ ] Sintel
+- [ ] Task: for sintel full resolution chunk accross the images
+- [ ] read nanoflownet again but this time for references
+- [ ] some paper on consolidated methods for speed of the network
+- [ ] Task: compare with same resolution with other papers
+- [ ] how does shutter speed come at 100Hz
 
 
 
