@@ -4,7 +4,7 @@ env:
 dataset:
 model:
 loss: focalLoss, smooth loss + regl1Kploss
-
+time to train: 
 framework:
 
 
@@ -12,3 +12,9 @@ framework:
 
 
 need to understand dataset for 
+
+- [ ] understand different configs 
+	- [ ] train
+	- [ ] test 
+	- [ ] onnx
+
