@@ -28,6 +28,7 @@ kanban-plugin: basic
 - [ ] [[Adjoint of a matrix|Adjoint of matrix]]
 - [ ] [[Left or right inverse of a non square matrix]] -- TODO
 - [ ] low rank adaptation
+- [ ] AdamW Optimizer
 
 
 ## Papers to read
