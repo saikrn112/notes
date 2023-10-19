@@ -18,3 +18,6 @@ need to understand dataset for
 	- [ ] test 
 	- [ ] onnx
 
+aws_train_exp2-1-5_multi-head_trl_wk-linear_no-trl_lr-test.py
+
+aws_train_exp_1-1_training_config_sample.py
