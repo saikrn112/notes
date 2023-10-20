@@ -37,3 +37,5 @@ yesterday I spoke with Brent
 he was casual and more realistic compared to Akila
 
 need to be on the same page as Gong today
+
+## 2023.10.20 
