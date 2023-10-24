@@ -131,4 +131,15 @@ tasks and priorities
 - [ ] 2:30 - 3:30PM
 - [ ] new experiments
 
+## 2023.10.23
+
+sims are not yet done 
+- [ ] variable texture
+- [ ] static obstacle avoidance navigation
+- [ ] dynamic obstacle avoidance navigation
+
+
+next stpes
+- [ ] testing in washburn
+- [ ] need camera from him
 
