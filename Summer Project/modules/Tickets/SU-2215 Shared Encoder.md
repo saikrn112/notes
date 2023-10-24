@@ -38,3 +38,6 @@ class CollectLanePoints_Median_New_Fitting(Collect):
 (3) config --> train_pipline ---> type = "CollectLanePoints_Median_New_Fitting"  
 2.2 verify it.
 ```
+
+- [ ] get the visualization code for atleast one annotation json 
+- [ ] merging is little involved need to understand poly2d
