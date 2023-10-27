@@ -414,19 +414,66 @@ python Test_new_sintel.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
---OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+```
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_ft3d/converted_half/ \
+--tflite_edge_path=../models/multiscale_uncertainity_ft3d/converted_half/ \
+--tf_model_path=../models/multiscale_uncertainity_ft3d/528model.ckpt \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--ResizeCropStack \
+--Uncertainity \
+--NumOut=4
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_ft3d/ \
+--TFLiteFolder=converted_half \
+--CheckPointNum=449 \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
 --OnEdge \
 --DataList=./Misc/MPI_Sintel_Final_train_list.txt
 ```
 
 
+## 530 fine tuning
 ```
 python3 test_raft_custom.py \
 --NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models/multiscale_uncertainity_ft3d/converted_half/  \
---TFLiteFolder=converted_half \
---ClosestResizeAndCrop \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models/multiscale_uncertainity_ft3d/  \
+--TFLiteFolder=converted_half_530 \
+--ResizeToHalf \
 --Uncertainity \
 --exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.24_static_rgb_washburn_exp2/ \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_rgb_washburn_exp2/
+
+python3 test_raft_custom.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models/multiscale_uncertainity_ft3d/  \
+--TFLiteFolder=converted_half_530 \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.24_static_gray_washburn_exp_ideal2/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_gray_washburn_exp_ideal2/
+```
+
+## 450 fine tuning
+```
+python3 test_raft_custom.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models/multiscale_uncertainity_ft3d/  \
+--TFLiteFolder=converted_half_450 \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.24_static_gray_washburn_exp0/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_gray_washburn_exp0/
 ```
