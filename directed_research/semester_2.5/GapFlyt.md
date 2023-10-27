@@ -1,4 +1,4 @@
-model - [[Multiscale + Uncertainty 422 Epochs FT3D fine tuned]]
+model - [[Multiscale + Uncertainty 528 Epochs FT3D fine tuned]]
 
 
 Generate the model in a separate folder 

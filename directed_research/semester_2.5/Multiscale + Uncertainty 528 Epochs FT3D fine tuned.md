@@ -343,3 +343,90 @@ full GPU fps :131.65630198241138
 full EPE:4.754075050354004
 full final loss:3.0009240987710655
 ```
+
+
+```
+python Train.py \ 
+--Dataset=FT3D \
+--BasePath=../../Datasets/FlyingThings3D \
+--LabelBasePath=../../Datasets/flyingthings3d_optical_flow/ \
+--ExperimentFileName="multiscale_uncertainity_ft3d" \
+--NetworkName=Network.MultiScaleResNet \
+--MiniBatchSize=16 \
+--LoadCheckPoint=1 \
+--LR=1e-4 \
+--InitNeurons=32 \
+--LossFuncName=MultiscaleSL1-1 \
+--UncType=LinearSoftplus \
+--NumSubBlocks=2 \
+--NumEpochs=600
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_ft3d/converted_sintel/ \
+--tflite_edge_path=../models/multiscale_uncertainity_ft3d/converted_sintel/ \
+--tf_model_path=../models/multiscale_uncertainity_ft3d/528model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--ResizeCropStack \
+--Uncertainity \
+--NumOut=4
+
+
+
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_ft3d/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=528 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt \
+--Display
+```
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_ft3d/converted_half/ \
+--tflite_edge_path=../models/multiscale_uncertainity_ft3d/converted_half/ \
+--tf_model_path=../models/multiscale_uncertainity_ft3d/528model.ckpt \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--ResizeCropStack \
+--Uncertainity \
+--NumOut=4
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_ft3d/ \
+--TFLiteFolder=converted_half \
+--CheckPointNum=528 \
+--ResizeToHalf \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+```
+
+
+```
+python3 test_raft_custom.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models/multiscale_uncertainity_ft3d/converted_half/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.24_static_rgb_washburn_exp2/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_rgb_washburn_exp2/
+```

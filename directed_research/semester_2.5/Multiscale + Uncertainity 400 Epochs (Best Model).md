@@ -500,3 +500,52 @@ python3 test_raft_custom.py \
 --exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.24_static_gray_washburn_exp_ideal1/ \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_gray_washburn_exp_ideal1/
 ```
+
+
+- [x] choppy flow 
+	- [ ] run it on previous frames where there was good enogh flow
+	- [ ] run it on phone video or color images 
+	- [ ] root cause if possible 
+	- [ ] run the network on desktop
+	- [ ] 
+- [x] change to the FT3d fine tuned version
+- [ ] x only flow 
+	- [ ] angle threshold
+- [ ] left right split 
+	- [ ] take a patch on left 
+	- [ ] take a patch on right
+- [ ] resize 
+	- [ ] to half 
+	- [ ] to quarter
+	- [ ] to eights
+- [ ] understand different videos and paths
+- [ ] lower resolution,
+	- [ ] 120p
+- [ ] divide image into 8x8 patches and take median 
+- [ ] lookup table 
+- [ ] weighted sum of flows 
+- [ ] arrow scaling is not good
+
+```
+python3 test_raft_custom.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.04_dynamic/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.04_dynamic/
+
+```
+
+```
+python3 test_raft_custom.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.04_dynamic/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.04_dynamic/
+```
+
