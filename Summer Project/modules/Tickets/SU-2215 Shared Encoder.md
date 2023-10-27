@@ -43,10 +43,11 @@ class CollectLanePoints_Median_New_Fitting(Collect):
 - [ ] merging is little involved need to understand poly2d
 
 
-- [ ] merge data files
-- [ ] make a copy of it in shared_encoder 
-- [ ] create a new set in the shared_encoder 
+- [x] merge data files
+- [x] make a copy of it in shared_encoder 
+- [x] create a new set in the shared_encoder 
 - [ ] so that gong is not blocked
+- [ ] create a new amend
 
 - [ ] make the same changes as yesterday in new branch
 - [ ] make sure they are working with new sample? 
