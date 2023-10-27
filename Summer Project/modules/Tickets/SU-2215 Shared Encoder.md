@@ -41,3 +41,13 @@ class CollectLanePoints_Median_New_Fitting(Collect):
 
 - [ ] get the visualization code for atleast one annotation json 
 - [ ] merging is little involved need to understand poly2d
+
+
+- [ ] merge data files
+- [ ] make a copy of it in shared_encoder 
+- [ ] create a new set in the shared_encoder 
+- [ ] so that gong is not blocked
+
+- [ ] make the same changes as yesterday in new branch
+- [ ] make sure they are working with new sample? 
+- [ ] 
