@@ -11,6 +11,6 @@ questions
 	- if yes, what are the conditions apart from $m = n$ ? 
 
 Theory in the wild: [here]([Invertible matrix - Wikipedia](https://en.wikipedia.org/wiki/Invertible_matrix#:~:text=Non%2Dsquare%20matrices%20(m%2D,such%20that%20BA%20%3D%20In.))
-![[non_square_matrix_inverse.png|900]]
+![[non_square_matrix_inverse.png|1100]]
 
 proof of why:

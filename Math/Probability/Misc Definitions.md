@@ -10,7 +10,9 @@ Mutual exclusion vs Mutual Independence
 Two random events are 
 - Mutually exclusive: if they cannot occur simultaneously 
 - Mutually independent: if their occurance is not dependent on each other
-hence exclusion implies independence but not the other way around. 
+hence exclusion implies independence but not the other way around.
+
+![[mutually_exclusive_vs_independence.png|500]]
 
 ##### Summary of  Formulation
 > a probability space formally defines 
