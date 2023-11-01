@@ -11,6 +11,8 @@ kanban-plugin: basic
 - [ ] catch up with Neet
 - [ ] Catch up with Chinmay
 - [ ] why keypoints all the way till end ?
+- [ ] RLE
+- [ ] hamming distance
 
 
 ## In Progress
