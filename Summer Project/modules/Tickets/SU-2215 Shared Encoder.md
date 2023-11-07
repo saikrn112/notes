@@ -102,3 +102,10 @@ Median IOU: 0.2757601392594432
 Number of images with IOU < 0.4: 3397
 Number of images with IOU >= 0.4: 2371
 ```
+
+
+
+python train
+```
+
+```
