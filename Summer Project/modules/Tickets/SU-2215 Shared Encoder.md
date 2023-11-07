@@ -51,4 +51,54 @@ class CollectLanePoints_Median_New_Fitting(Collect):
 
 - [ ] make the same changes as yesterday in new branch
 - [ ] make sure they are working with new sample? 
-- [ ] 
+
+
+
+- [ ] need to visualization for overfit 
+	- [ ] amend the infer file to dump outputs on overfit 
+	- [ ] run the eval on that 
+- [ ] need to get vizualation for full training
+	- [ ] amend the infer file to dump outputs on eval 
+	- [ ] run eval on that 
+
+infer wrapper script
+```
+/home/ubuntu/torc/git/ML/eos-road_lane2/scripts/laneSegNet_scripts/script_inference/infer_LaneSegNet_Drivable_surface_only.py
+```
+infer python script 
+```
+/home/ubuntu/torc/git/ML/eos-road_lane2/tools/ganet/tusimple/laneSegNet_infer_ds_only.py
+```
+
+eval python script
+```
+python ds_only_acc_comp.py --config /home/ubuntu/torc/git/ML/eos-road_lane2/configs/laneSegNet_configs/others/aws_laneSegNet_train_exp4-1_single_branch_ds_seg_infer.py --results_folder /home/ubuntu/torc/git/ML/eos-road_lane2/exp_stuff/20231102_LaneSegNet_Drivable_Surface_Only --csv_file /home/ubuntu/ramana_test/shared_encoder/report.csv
+```
+
+
+python script overfit 
+```
+python ds_only_acc_comp.py --config /home/ubuntu/torc/git/ML/eos-road_lane2/configs/laneSegNet_configs/others/aws_laneSegNet_train_exp4-1_single_branch_ds_seg_infer.py --results_folder /home/ubuntu/torc/git/ML/eos-road_lane2/exp_stuff/20231106_LaneSegNet_Drivable_Surface_Only_OverFit --csv_file /home/ubuntu/ramana_test/shared_encoder/ds_overfit_train_report.csv --concat_fold /home/ubuntu/ramana_test/shared_encoder/overfit/
+```
+
+```
+counter:2144
+Average IOU: 0.5593393906072938
+Median IOU: 0.6063591016668728
+Number of images with IOU < 0.4: 386
+Number of images with IOU >= 0.4: 1758
+```
+
+
+python script full
+```
+python ds_only_acc_comp.py --config /home/ubuntu/torc/git/ML/eos-road_lane2/configs/laneSegNet_configs/others/aws_laneSegNet_train_exp4-1_single_branch_ds_seg_infer.py --results_folder /home/ubuntu/torc/git/ML/eos-road_lane2/exp_stuff/20231106_LaneSegNet_Drivable_Surface_Only_Full --csv_file /home/ubuntu/ramana_test/shared_encoder/ds_full_train_report.csv --concat_fold /home/ubuntu/ramana_test/shared_encoder/full/
+```
+
+```
+counter:5768
+Average IOU: 0.33316096271513274
+Median IOU: 0.2757601392594432
+Number of images with IOU < 0.4: 3397
+Number of images with IOU >= 0.4: 2371
+```
