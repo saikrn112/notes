@@ -107,5 +107,5 @@ Number of images with IOU >= 0.4: 2371
 
 python train
 ```
-
+python others_LaneSegNet_drivable_surface_only_train.py
 ```
