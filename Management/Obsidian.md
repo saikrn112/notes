@@ -30,3 +30,9 @@ Pain points
 > question on this in reddit 
 > [(5) Reddit - Dive into anything](https://www.reddit.com/r/ObsidianMD/comments/161iqq9/understanding_callouts_syntax_and_controlling/)
 
+
+
+To find out all the kanban plugins
+```
+grep -rni "kanban-plugin" . --exclude-dir".obsidian"
+```
