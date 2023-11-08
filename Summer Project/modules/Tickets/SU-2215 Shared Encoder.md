@@ -109,3 +109,9 @@ python train
 ```
 python others_LaneSegNet_drivable_surface_only_train.py
 ```
+
+https://stackoverflow.com/questions/72988735/replacing-thc-thc-h-module-to-aten-aten-h-module
+https://github.com/pytorch/pytorch/pull/65472
+https://github.com/pytorch/pytorch/issues/72807
+https://discuss.pytorch.org/t/question-about-thc-thc-h/147145/8
+https://github.com/microsoft/DeepSpeed/issues/1584
