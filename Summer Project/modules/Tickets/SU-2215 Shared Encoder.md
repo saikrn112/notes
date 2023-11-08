@@ -115,3 +115,8 @@ https://github.com/pytorch/pytorch/pull/65472
 https://github.com/pytorch/pytorch/issues/72807
 https://discuss.pytorch.org/t/question-about-thc-thc-h/147145/8
 https://github.com/microsoft/DeepSpeed/issues/1584
+
+
+- [ ] copy the data 
+- [ ] create a sample data for overfit (shared encoder )
+- [ ] run the inference modules
