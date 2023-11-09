@@ -116,8 +116,15 @@ https://github.com/pytorch/pytorch/issues/72807
 https://discuss.pytorch.org/t/question-about-thc-thc-h/147145/8
 https://github.com/microsoft/DeepSpeed/issues/1584
 
+`pip install yapf==0.40.1`.
 
 - [ ] copy the data 
 - [ ] create a sample data for overfit (shared encoder )
 - [ ] run the inference modules
 
+
+
+overfit again 
+```
+/home/ubuntu/ramana/eos-road_lane/scripts/laneSegNet_scripts/script_others/others_LaneSegNet_loss_overfitting.py
+```
