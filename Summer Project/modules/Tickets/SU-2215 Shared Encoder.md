@@ -120,6 +120,7 @@ https://github.com/microsoft/DeepSpeed/issues/1584
 https://github.com/open-mmlab/mmcv/pull/2216
 https://github.com/open-mmlab/mmengine/blob/main/mmengine/dist/utils.py#L55
 https://unix.stackexchange.com/questions/366553/tmux-is-causing-anaconda-to-use-a-different-python-source
+https://github.com/open-mmlab/mmdetection/issues/10720
 
 `pip install yapf==0.40.1`.
 
@@ -133,3 +134,40 @@ overfit again
 ```
 /home/ubuntu/ramana/eos-road_lane/scripts/laneSegNet_scripts/script_others/others_LaneSegNet_loss_overfitting.py
 ```
+
+
+if keypoints are projected to ground 
+then extending might not make sense 
+
+how is keypoint projected down to ground? 
+fit a "local" plane and project keypoints
+- will work with sloppy model
+if the plane is curved? 
+
+- lidar based road segmentation is not done
+	- segmentation on entire lidar intensity image 
+	- vectormapnet gives polygon output?? 
+- camera lane lines are not projected to bev
+
+world modelling vs localizatoin model??
+
+what is lane position? 
+
+
+adjacent lane line coefficients using line fit or curve fit? 
+
+
+why cant lidar see full road? 
+- lidar data is fused I thought? 
+- so surrounding lidar 
+
+casten knoeppel 
+
+some monte carlo based approach using radar 
+
+interfaces more closely 
+cameo as well 
+
+need to go through architecture so that I can ask questions
+
+
