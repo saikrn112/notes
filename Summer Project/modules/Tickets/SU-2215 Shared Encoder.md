@@ -116,6 +116,11 @@ https://github.com/pytorch/pytorch/issues/72807
 https://discuss.pytorch.org/t/question-about-thc-thc-h/147145/8
 https://github.com/microsoft/DeepSpeed/issues/1584
 
+
+https://github.com/open-mmlab/mmcv/pull/2216
+https://github.com/open-mmlab/mmengine/blob/main/mmengine/dist/utils.py#L55
+https://unix.stackexchange.com/questions/366553/tmux-is-causing-anaconda-to-use-a-different-python-source
+
 `pip install yapf==0.40.1`.
 
 - [ ] copy the data 
