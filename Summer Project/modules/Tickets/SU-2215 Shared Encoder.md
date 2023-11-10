@@ -138,16 +138,16 @@ overfit again
 
 if keypoints are projected to ground 
 then extending might not make sense 
-
+- camera lane lines are not projected to bev
 how is keypoint projected down to ground? 
 fit a "local" plane and project keypoints
 - will work with sloppy model
 if the plane is curved? 
 
+
 - lidar based road segmentation is not done
 	- segmentation on entire lidar intensity image 
 	- vectormapnet gives polygon output?? 
-- camera lane lines are not projected to bev
 
 world modelling vs localizatoin model??
 
@@ -170,4 +170,9 @@ cameo as well
 
 need to go through architecture so that I can ask questions
 
-
+```
+who manages fisheye thing
+what was previous calibration? 
+how were models trained ? 
+should they be trained again? 
+```
