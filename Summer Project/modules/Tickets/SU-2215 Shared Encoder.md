@@ -122,6 +122,8 @@ https://github.com/open-mmlab/mmengine/blob/main/mmengine/dist/utils.py#L55
 https://unix.stackexchange.com/questions/366553/tmux-is-causing-anaconda-to-use-a-different-python-source
 https://github.com/open-mmlab/mmdetection/issues/10720
 
+https://github.com/jupyter/notebook/issues/5014
+
 `pip install yapf==0.40.1`.
 
 - [ ] copy the data 
