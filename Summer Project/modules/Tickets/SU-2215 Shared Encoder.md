@@ -178,3 +178,9 @@ what was previous calibration?
 how were models trained ? 
 should they be trained again? 
 ```
+
+
+
+multi head lane loss equially distributed? 
+
+why cant loss and metric be same? 
