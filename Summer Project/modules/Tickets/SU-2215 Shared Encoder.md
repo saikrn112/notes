@@ -189,7 +189,7 @@ why cant loss and metric be same?
 
 need to test out running individual lane center inference 
 - [ ] lane center
-- [ ] segmentation
+- [x] segmentation
 - [ ] shared encoder 
 
 need corresponding 
