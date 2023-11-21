@@ -184,3 +184,19 @@ should they be trained again?
 multi head lane loss equially distributed? 
 
 why cant loss and metric be same? 
+
+
+
+need to test out running individual lane center inference 
+- [ ] lane center
+- [ ] segmentation
+- [ ] shared encoder 
+
+need corresponding 
+- [ ] configs 
+- [ ] scripts 
+
+let's start with segmentation
+
+- [ ] copy the inference batch data
+
