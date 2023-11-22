@@ -17,3 +17,4 @@ Different Types of Convolutions from this [link](https://towardsdatascience.com/
 8. Shufftled Grouped Convolution
 9. Pointwise Grouped Convolution
 10. Deformable convolution
+
