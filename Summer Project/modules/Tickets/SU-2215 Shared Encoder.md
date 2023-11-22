@@ -200,3 +200,5 @@ let's start with segmentation
 
 - [ ] copy the inference batch data
 
+- [  ] benchmarking
+- 
