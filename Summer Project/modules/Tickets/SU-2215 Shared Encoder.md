@@ -202,4 +202,10 @@ let's start with segmentation
 
 - [  ] benchmarking
 - [ ] need to check Rilwan's scripts 
+
+- [ ] run only the relevant metrics
+- [ ] understand the tegrastats output
+- [ ] figure out that GMACs thingy
+- [ ] run the inferences on all the models 
+	- [ ] compare the metrics 
 - [ ] 
