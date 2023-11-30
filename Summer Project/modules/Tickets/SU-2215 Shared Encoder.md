@@ -198,14 +198,15 @@ need corresponding
 
 let's start with segmentation
 
-- [ ] copy the inference batch data
+- [x] copy the inference batch data
 
-- [  ] benchmarking
-- [ ] need to check Rilwan's scripts 
+- [x] benchmarking
+- [x] need to check Rilwan's scripts 
 
 - [ ] run only the relevant metrics
 - [ ] understand the tegrastats output
 - [ ] figure out that GMACs thingy
 - [ ] run the inferences on all the models 
 	- [ ] compare the metrics 
-- [ ] 
+
+
