@@ -211,3 +211,44 @@ let's start with segmentation
 
 
 - [ ] visualization for the lane center onnx
+
+onnx conversion 
+- [x] scripts which create onnx models 
+- [ ] run the lane center pipelines 
+- [ ] run the visualizations
+- [ ] run the metrics 
+- [ ] upload the onnx models to s3
+
+infer_shared.py has only infer code 
+eval_shared.py has entire eval pipeline 
+
+infer_shared_onnx.py which runs infereneces for onnx 
+
+eval_shared.py should be same as the previous ones
+
+1 wrapper script 
+- runs onnx conversion
+- calls infer on pytorch
+- calls infer on onnx 
+- runs evals on both 
+- ==compare both==
+	- should report overall pytorch acc 
+	- should report overall onnx acc
+
+
+1 wrapper script 
+- runs onnx conversion
+- calls infer on pytorch and onnx 
+- runs eavls on onnx
+- runs evals on pytorch
+- ==compare both==
+	- should report overall pytorch acc 
+	- should report overall onnx acc
+
+
+
+hm torch.Size([40, 100])
+off1x torch.Size([40, 100])
+off1y torch.Size([40, 100])
+off2x torch.Size([40, 100])
+off2y torch.Size([40, 100])
