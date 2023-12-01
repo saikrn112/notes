@@ -227,13 +227,13 @@ infer_shared_onnx.py which runs infereneces for onnx
 eval_shared.py should be same as the previous ones
 
 1 wrapper script 
-- runs onnx conversion
-- calls infer on pytorch
-- calls infer on onnx 
-- runs evals on both 
-- ==compare both==
-	- should report overall pytorch acc 
-	- should report overall onnx acc
+- [x] runs onnx conversion
+- [ ] calls infer on pytorch
+- [ ] calls infer on onnx 
+- [ ] runs evals on both 
+- [ ] ==compare both==
+	- [ ] should report overall pytorch acc 
+	- [ ] should report overall onnx acc
 
 
 1 wrapper script 
