@@ -262,4 +262,13 @@ off2y torch.Size([40, 100])
 - visuals 
 	- pytorch 
 	- onnx
+
+
+finalize the code
+- pictures 
+- performance metrics
+
+orin deliverables
+- onnx models 
+	- upload to S3
 - 
