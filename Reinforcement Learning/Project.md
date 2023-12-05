@@ -52,6 +52,7 @@ train
 
 
 # PPO
+
 proximal policy optimization
 - how are the advantages computed 
 - reward ratio mathematically 
@@ -59,3 +60,12 @@ proximal policy optimization
 observations -> policy - > actions
 
 version of actor critic 
+
+need to make the network learn faster 
+- decrease the episodes length
+- magnetic attraction towards goal 
+ 
+ 
+ plot actions
+
+
