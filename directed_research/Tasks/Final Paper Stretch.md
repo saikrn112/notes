@@ -12,6 +12,7 @@ kanban-plugin: basic
 - [ ] foam board buy
 - [ ] Photoshop license
 - [ ] [[Items - 2023.09.25]]
+- [ ] [[directed_research/Tasks/experiments]]
 
 
 ## Hardware Experiments
