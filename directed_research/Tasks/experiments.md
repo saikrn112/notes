@@ -19,3 +19,26 @@ adaptive scanning using nerf?
 key inspection parameters like? 
 
 textureless in VPS? 
+
+
+
+560, 
+
+592
+
+609
+720
+
+756
+953
+1118
+
+
+
+
+
+wb,
+shadows,
+highlights
+
+
