@@ -5,3 +5,8 @@ Lytro - multi focus dataset
 HDR-Eye, Fairchild - MEF
 MEF dataset
 TNO dataset - infra + visible
+
+
+
+ready to do vs ready to say
+frustrated my mouth shut
