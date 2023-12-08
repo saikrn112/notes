@@ -13,6 +13,7 @@ kanban-plugin: basic
 - [ ] Photoshop license
 - [ ] [[Items - 2023.09.25]]
 - [ ] [[directed_research/Tasks/experiments]]
+- [ ] [[Static photo gen]]
 
 
 ## Hardware Experiments
