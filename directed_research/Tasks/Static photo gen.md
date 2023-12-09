@@ -23,10 +23,15 @@ gopro
 
 frame_0221.png
 frame_0359.png
+frame_0471.png
 frame_0520.png
-frame_0832.png
+#frame_0832.png
+frame_0865.png
+frame_0865.png
 frame_0919.png
-frame_1122.png
+#frame_1122.png
+frame_1156.png
+frame_1221.png
 frame_1254.png
 frame_1411.png
 frame_1438.png
