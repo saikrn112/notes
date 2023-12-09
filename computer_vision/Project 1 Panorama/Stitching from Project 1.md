@@ -10,6 +10,9 @@ compute the intensity gradients on the patch
 	more robust since we are remving the noise
 	
 ### ANMS
+
+^f9e8a0
+
 it's called adaptive because it's adaptively determining which are local maximas and suppressing them  
 
 

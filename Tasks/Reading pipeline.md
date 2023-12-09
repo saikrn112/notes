@@ -20,6 +20,8 @@ kanban-plugin: basic
 - [ ] why more weights for nearer terms? [[Components#^pgzpixxd4|here]]
 - [ ] Uncertainity in deep models <br>- [here](https://docs.aws.amazon.com/prescriptive-guidance/latest/ml-quantifying-uncertainty/temp-scaling.html)
 - [ ] SPTAM<br>- [ ] how is SPTAM different from other algorithms?
+- [ ] Poisson Blending
+- [ ] HomographyNet as classification problem
 
 
 ## Math
@@ -29,6 +31,8 @@ kanban-plugin: basic
 - [ ] [[Left or right inverse of a non square matrix]] -- TODO
 - [ ] low rank adaptation
 - [ ] AdamW Optimizer
+- [ ] how is SVD or psuedo Inverse a differentiable operation
+- [ ] [[Matrix Inverse]]
 
 
 ## Papers to read

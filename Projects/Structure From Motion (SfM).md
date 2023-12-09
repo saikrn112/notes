@@ -15,6 +15,11 @@ feature matching is force  $O(N^{2})$ or $O(NlogM)$
 
 ## 2. Outlier Rejection Using RANSAC
 
+epipolar geometry
+- [[Epipolar Geometry]]
+- [[Lecture 13 Stereo and Epipolar]]
+- [[Fundamental and Essential Matrix]]
+
 In this step we use [[RANSAC Random Sample Consensus| RANSAC]] to identify the inliers
 model used - [[Fundamental and Essential Matrix#^31ea40|Fundamental Matrix]]
 minium point matches needed - 8 and solve $Ax = 0$ 

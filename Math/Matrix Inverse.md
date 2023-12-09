@@ -1,0 +1,1 @@
+![[methods_of_matrix_inverse.png]]
