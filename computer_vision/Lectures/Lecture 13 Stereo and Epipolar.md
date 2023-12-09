@@ -86,3 +86,6 @@ why Essential matrix  has 5DOF whereas 7DOF for Fundamental matrix
 [here](1. [https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/Lectures/lec07_multi_view_geometry.pdf](https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/Lectures/lec07_multi_view_geometry.pdf "https://cs.uwaterloo.ca/~yboykov/Courses/cs484_2018/Lectures/lec07_multi_view_geometry.pdf"))
 
 ![[essential_5dof_funda_7dof.png]]
+
+
+Richard Hartley - Normalized 8 point algorithm for more numerical stability [here](https://en.wikipedia.org/wiki/Eight-point_algorithm#Normalized_algorithm)
