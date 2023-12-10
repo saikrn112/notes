@@ -25,3 +25,7 @@ waterloo courses - [CS484/684 (uwaterloo.ca)](https://cs.uwaterloo.ca/~yboykov/C
 http://www.theia-sfm.org/api.html
 
 https://mujinspire.mujin.co.jp/en/2021/06/ace-your-computer-vision-job-interview/
+
+Daniel Cramer's MVG
+
+https://cvg.cit.tum.de/teaching/online/mvg

@@ -39,7 +39,9 @@ tricks used -
 - recompute the E again with new singular values
 
 >[!question]
-> why is it (1,1,0)? 
+> why is it (1,1,0)? one answer [here](https://stackoverflow.com/questions/51628483/why-does-essential-matrix-has-2-euqal-singular-values-and-1-zero-singular-values)
+
+SVD - [[SVD]]
 
 ## 4. Estimating Camera Pose from Essential matrix
 
