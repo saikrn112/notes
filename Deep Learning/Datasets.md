@@ -6,6 +6,10 @@ HDR-Eye, Fairchild - MEF
 MEF dataset
 TNO dataset - infra + visible
 
+RENOIR dataaset - denoising images - but spatial misalignment
+Google HDR+ 
+DND - denoising images ^74e619
+
 
 
 ready to do vs ready to say
