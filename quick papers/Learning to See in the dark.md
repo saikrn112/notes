@@ -49,3 +49,22 @@ light meter for illuminance measurement
 >![[subtracting_black_level.png]]
 
 
+## Training
+flipping and rotation data augmentation
+
+
+## Comparison
+
+BM3D - non blind denoising - requires noise level as parameter
+
+>[!INFO]- what is color distortion due to post hoc denoising?
+>![[color-distortion-due-to-post-hoc-denoising.png]]
+
+burst denoising 
+- per pixel median
+
+>[!INFO]- how is PSNR and SSIM calculated for original and reconstructed image?
+>[[testing_metrics.py]]
+
+
+couldnt learn historgram stretching
