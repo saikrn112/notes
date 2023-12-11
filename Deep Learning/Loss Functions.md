@@ -1,4 +1,7 @@
 ### Cross Entropy
+
+^e669b4
+
 typically trained in multi class classification
 $$
 \begin{align}
@@ -66,12 +69,24 @@ softplus, sigmoid, softminus, softplusinv - [link](https://jiafulow.github.io/bl
 ![[contrastive_loss_2.png]]
 
 ### Dice Loss
+
+^0ac185
+
 used in predicting edges 
 measures overlapping similarity
+>[!INFO]- how Dice and IoU metric and similar but different
+>https://stats.stackexchange.com/questions/273537/f1-dice-score-vs-iou
+>![[dice_vs_iou.png]]
+
+
+
 
 ![[dice_loss.png]]
 
 ### Focal Loss
+
+^0ecb79
+
 class imbalance training [link]([Focal Loss Explained | Papers With Code](https://paperswithcode.com/method/focal-loss#:~:text=Focal%20loss%20applies%20a%20modulating,in%20the%20correct%20class%20increases.))
 
 ![[focal_loss.png]]
