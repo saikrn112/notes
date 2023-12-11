@@ -68,7 +68,7 @@ softplus, sigmoid, softminus, softplusinv - [link](https://jiafulow.github.io/bl
 ![[contrastive_loss_1.png]]
 ![[contrastive_loss_2.png]]
 
-### Dice Loss
+### Dice Loss (F1 score)
 
 ^0ac185
 
@@ -77,11 +77,21 @@ measures overlapping similarity
 >[!INFO]- how Dice and IoU metric and similar but different
 >https://stats.stackexchange.com/questions/273537/f1-dice-score-vs-iou
 >![[dice_vs_iou.png]]
+>https://stackoverflow.com/questions/60268728/why-dice-coefficient-and-not-iou-for-segmentation-tasks
+>![[dice_v_iou2.png]]
 
+https://arxiv.org/pdf/1707.03237v3.pdf
 
+$$
+Dice = 2*IoU
+$$
 
 
 ![[dice_loss.png]]
+Generalized Dice loss
+![[gdl.png]]
+
+
 
 ### Focal Loss
 
