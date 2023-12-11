@@ -18,7 +18,7 @@ demosaicing - is it debayring? yup!
 
 ### Denoising
 denoising state of the art which works on real world dataset
-- BM3D
+- BM3D - block matching 3d filtering
 - sparse coding
 
 some deep learning techniques - evaluated on synthetic dataset
