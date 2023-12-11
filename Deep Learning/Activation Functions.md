@@ -36,6 +36,15 @@ Example:
 
 
 ##### Softmax activation
+what is it?
+$$
+\begin{align}
+softmax(z)_i = \frac{e^{z_i}}{\Sigma_{j=1}^{k} e^{z_i}}
+\end{align}
+$$
+value range (0,1)
+advantages
+- multiclass classification
 
 ##### Sigmoid
 what is it?

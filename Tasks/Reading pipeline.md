@@ -22,6 +22,7 @@ kanban-plugin: basic
 - [ ] SPTAM<br>- [ ] how is SPTAM different from other algorithms?
 - [ ] Poisson Blending
 - [ ] HomographyNet as classification problem
+- [ ] [[Different types of segmentation]]
 
 
 ## Math

@@ -27,3 +27,6 @@ why cant we assign simple numbers
 	for example we are comparing happy and sad face
 	and fmse to compare distance would grow as the number of classes grow and it doesnt make sense
 
+>[!INFO]- how cross entropy naturally comes using MLE
+>![[cross_entropy_v_mse.png]]
+
