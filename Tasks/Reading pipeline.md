@@ -23,6 +23,7 @@ kanban-plugin: basic
 - [ ] Poisson Blending
 - [ ] HomographyNet as classification problem
 - [ ] [[Different types of segmentation]]
+- [ ] [[Tone Mapping]]
 
 
 ## Math

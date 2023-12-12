@@ -1,23 +1,25 @@
 parallelax in CV 
 scale differences how are they affecting the image fusion
 
-
 3 types of Deep Fusion 
 - AE
 - CNN
 - GAN
 
-
 FusionGAN- Infrared and visible iamge fusion
 - need to understand the loss functions in Gans
+![[fusion_gan.png]]
 pretty neat loss 
-generator - fusion gan + content loss 
-discriminator - 
+generator - fusion gan + content loss --> generating fused image
+![[gan_loss.png]]
+![[content_loss.png]]
+discriminator - trying to discriminate if the image is fused or visible image
 
 how do you measure entropy between two histograms? 
 
 
-DeepFuse - nice fusion of multiple focused images
+### DeepFuse 
+- nice fusion of multiple exposure images
 
 
 GANFuse - fuses multi exposure shots
