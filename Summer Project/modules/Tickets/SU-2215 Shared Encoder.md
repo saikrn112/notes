@@ -287,6 +287,7 @@ how should I go about it?
 - what did I do? 
 	- I found out some models that corroborate how the multitask learning is generally done
 		- YOLOPv2
+		- Multinet
 	- integrated the dataset
 	- fixed bugs in mmcv cuda 12 compatibility
 	- tried two different models (baseline + shared FPN)
