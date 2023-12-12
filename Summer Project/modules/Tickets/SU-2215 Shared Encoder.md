@@ -276,13 +276,24 @@ orin deliverables
 
 how should I go about it? 
 - what is the goal? 
-	- get a shared encoder between drivable surface segmentation and lane line keypoint detection
+	- get a shared encoder between drivable surface segmentation and lane line keypoint detection, rather perform a multi task learning between them. this is so that all the camera features are extracted once and and used for further downstream processing for different objectives like lane line, drivable surface etc
 	- why segmentation? for post processing tasks like where all can the truck drive, 
 		- how does world modelling use this information?
 	- why lane keypoint detection? - check ganet paper
 - what are the inputs?
 - what are the outputs? 
 - what are investigation results?
+- what did I do? 
+	- I found out some models 
+	- integrated the dataset
+	- fixed bugs in mmcv cuda 12 compatibility
+	- tried two different models (baseline + shared FPN)
+	- showed the differences between them
+	- converted them to onnx
+	- benchmarked those models for performance
+		- profiled with nsight nvidia
+		- performance difference between pytorch and onnx models please
+	- 
 
 | Segmentation Type       | Training                 | Popular Architectures           | Loss Functions                             | Datasets                                     | Output Representations                     | Unsupervised Version                                                                              |  |  |  |
 |-------------------------|--------------------------|---------------------------------|--------------------------------------------|----------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------|--|--|--|
@@ -291,3 +302,5 @@ how should I go about it?
 | Panoptic Segmentation   | Supervised               | PANet, UPSNet, Panoptic FPN     | Semantic segmentation loss + Instance loss | COCO, Cityscapes                             | Unified segmentation with stuff and things | Yes (e.g., UPSNet, Panoptic-DeepLab, ViP-DeepLab)                                                 |  |  |  |
 | Superpixel Segmentation | Unsupervised (generally) | SLIC, QuickShift, EGBIS         | Compactness-based, Color similarity        | Berkeley Segmentation Dataset, MSRC, BSDS500 | Pixel clusters with similar attributes     | Yes (e.g., SLICO, SLIC0, Simple Linear Iterative Clustering)                                      |  |  |  |
 | Depth Segmentation      | Supervised               | Monodepth, DeepDepth, MegaDepth | L1 or L2 loss on depth values              | NYU Depth, KITTI, Make3D                     | Depth maps                                 | Yes (e.g., Unsupervised Monocular Depth Estimation, Digging Into Self-Supervised Monocular Depth) |
+
+
