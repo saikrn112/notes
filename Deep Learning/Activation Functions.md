@@ -9,6 +9,23 @@
 what is it ? 
 advantages
 disadvantages
+dying relu, neurons with negative outputs doesnt get good outputs
+
+when to use?
+
+
+##### Parametric ReLU
+what is it ? 
+parameterized version of Leaky ReLU
+![[param_relu.png]]
+>[!INFO]- difference between leaky relu and parametric relu
+>![[leaky_v_parametric.png]]
+
+
+advantages
+leak factor is learnt by network
+
+disadvantages
 when to use?
 
 
