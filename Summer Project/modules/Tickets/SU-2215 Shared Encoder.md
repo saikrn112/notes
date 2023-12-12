@@ -277,14 +277,16 @@ orin deliverables
 how should I go about it? 
 - what is the goal? 
 	- get a shared encoder between drivable surface segmentation and lane line keypoint detection, rather perform a multi task learning between them. this is so that all the camera features are extracted once and and used for further downstream processing for different objectives like lane line, drivable surface etc
+	- merge the networks lane keypoint detection and some segementation
 	- why segmentation? for post processing tasks like where all can the truck drive, 
-		- how does world modelling use this information?
+		- `how does world modelling use this information?`
 	- why lane keypoint detection? - check ganet paper
 - what are the inputs?
 - what are the outputs? 
 - what are investigation results?
 - what did I do? 
-	- I found out some models 
+	- I found out some models that corroborate how the multitask learning is generally done
+		- YOLOPv2
 	- integrated the dataset
 	- fixed bugs in mmcv cuda 12 compatibility
 	- tried two different models (baseline + shared FPN)
@@ -292,7 +294,6 @@ how should I go about it?
 	- converted them to onnx
 	- benchmarked those models for performance
 		- profiled with nsight nvidia
-		- performance difference between pytorch and onnx models please
 	- 
 
 | Segmentation Type       | Training                 | Popular Architectures           | Loss Functions                             | Datasets                                     | Output Representations                     | Unsupervised Version                                                                              |  |  |  |
