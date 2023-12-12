@@ -282,20 +282,50 @@ how should I go about it?
 		- `how does world modelling use this information?`
 	- why lane keypoint detection? - check ganet paper
 - what are the inputs?
-- what are the outputs? 
+	- cropped image with size 320x800
+- what are the outputs and their formats? 
+	- 5 head outputs
+		- ego
+		- left ego
+		- right ego
+		- left split ego
+		- right split ego
+	- 1 mask - 320 x 800
+	- additional post processing for the outputs
 - what are investigation results?
+	- I was able to demonstrate shared encoder performance
 - what did I do? 
 	- I found out some models that corroborate how the multitask learning is generally done
 		- YOLOPv2
 		- Multinet
 	- integrated the dataset
+		- challenges, integrated json
+		- mmcv integration
+		- visualiser
 	- fixed bugs in mmcv cuda 12 compatibility
 	- tried two different models (baseline + shared FPN)
+		- model1 - baseline
+			- architecture
+			- loss function
+			- metrics 
+				- seg IoU
+				- Tusimple lane center accuracy
+		- model2 - shared FPN
+			- architecture
+			- loss function
+			- metrics
+				- seg IoU
+				- Tusimple lane center accuracy
 	- showed the differences between them
 	- converted them to onnx
 	- benchmarked those models for performance
-		- profiled with nsight nvidia
-	- 
+		- profiled with nsight nvidia 
+		- ![[profiled_individual_components.png]]
+		- ![[benchmarking_timers.png]]
+	- tried with multiloss weighing but only did lit survey due to lack of time
+		- using homoscedastic uncertainity - https://arxiv.org/pdf/1705.07115.pdf
+		- ![[multi_loss.png]]
+		- ![[multi_task_loss_torch.png]]
 
 | Segmentation Type       | Training                 | Popular Architectures           | Loss Functions                             | Datasets                                     | Output Representations                     | Unsupervised Version                                                                              |  |  |  |
 |-------------------------|--------------------------|---------------------------------|--------------------------------------------|----------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------|--|--|--|

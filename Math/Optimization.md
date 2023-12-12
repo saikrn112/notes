@@ -34,3 +34,5 @@ Minibatch stochastic gradient descent
 AdaGrad
 Adadelta
 Adam
+
+Levenberg-Marquardt

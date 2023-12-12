@@ -35,7 +35,7 @@ tricks used -
 Essential from fundamental is [[Fundamental and Essential Matrix#^31ea40|simple]]
 tricks used -
 - take SVD of E again
-- set the singular values to $(1,1,0)$ 
+- set the singular values to $(1,1,0)$ - because of normalized coordinates
 - recompute the E again with new singular values
 
 >[!question]
@@ -45,4 +45,22 @@ SVD - [[SVD]]
 
 ## 4. Estimating Camera Pose from Essential matrix
 
+- To extract camera pose we need to decompose E via SVD
+- T is nothing but left nullspace of E so u3 --> two solutions
+- convert T to UMUT R = UDVT
+- also represent R as USVT
+- UMSVT = UDVT => MS = D => S --> two solutions --> two R solutions
+- 4 poses from a single E
 
+- disambiguate using chierality condition after linearly triangulating those points 
+
+### 4.1 Linear Triangulation
+- They neatly form an equation (lambda)u = K[R,T]X --> for a point
+- using cross products u1 X P1X = 0 --> 3 equations for a point, 3 unknowns (X,Y,Z)
+- but it's rank is 2 so 3rd equation is a linear combination of other 2
+- we need one more point u2 X P2X = 0 --> 2 equations for a, 3 unknows 
+- N views of the same point - 2N equations - 3 unknowns
+
+### 4.2 Non Linear Triangulation
+![[non_linear_triangulation.png|300]]
+- geometric error
