@@ -5,3 +5,7 @@ reference: [colmap/src/base/camera_models.h at master · colmap/colmap (github.c
 perspective camera model 
 affine camera model
 orthographic camera model
+
+
+Fisheye Camera Model 
+![[fisheye_camera_model.png]]
