@@ -1,3 +1,6 @@
+[[NeRF Implementation]]
+[[computer_vision/Project 3 Structure from Motion/NeRF|NeRF]]
+
 simple network 
 input is $x, y, z, \theta$ 
 output is $r, g, b, \sigma$
