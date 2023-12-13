@@ -9,7 +9,7 @@ kanban-plugin: basic
 - [ ] where does pin hole model fail and other camera models
 - [ ] Auto Exposure Algorithms
 - [ ] Gamma Correction
-- [ ] White balancing
+- [ ] [[White balancing]]
 - [ ] [[Lens Attenuation (Vignetting)]]
 - [ ] De - bayering artefacts
 - [ ] [[camera models]]
