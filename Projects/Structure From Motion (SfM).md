@@ -3,9 +3,9 @@
 2. Outlier rejection using RANSAC and Estimating Fundamental Matrix (F)
 3. Estimating Essential Matrix (E) from Fundamental Matrix (F)
 4. Estimating Camera Pose from Essential Matrix
-5. Check for Cheirality condition using Triangulation
-6. Perspective-n-Point
-7. Bundle Adjustment
+	1. Check for Cheirality condition using Triangulation
+5. Perspective-n-Point
+6. Bundle Adjustment
 
 ## 1. Feature Extraction, Description and Matching
 In this step we extract features and their descriptors
@@ -64,3 +64,26 @@ SVD - [[SVD]]
 ### 4.2 Non Linear Triangulation
 ![[non_linear_triangulation.png|300]]
 - geometric error
+
+## 5. Perspective-n-Point (PnP)
+![[pnp_algebraic.png]]
+
+
+### 5.1 PnP Ransac
+
+select the 2D-3D correspondence which maximises the number of inliers in RANSAC
+
+### 5.2 Non Linear PnP
+
+geometric error
+
+![[non_linear_pnp.png]]
+
+## 6. Bundle Adjustment
+
+very cool tutorial on how to use scipy least_squares for BA
+https://scipy-cookbook.readthedocs.io/items/bundle_adjustment.html
+pretty cool slides 
+how it introduces [[Schur complement]] etc
+
+

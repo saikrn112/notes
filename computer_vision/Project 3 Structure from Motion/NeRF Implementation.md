@@ -1,5 +1,5 @@
 other tensorflow [link](https://pyimagesearch.com/2021/11/24/computer-graphics-and-deep-learning-with-nerf-using-tensorflow-and-keras-part-3/)
-pytorch nerf [link]([pytorch nerf - Google Search](https://www.google.com/search?q=pytorch+nerf&oq=pytorch+nerf&aqs=edge..69i57j0i512l2j0i22i30l4j69i60l2.2222j0j4&sourceid=chrome&ie=UTF-8))
+pytorch nerf [link](https://github.com/yenchenlin/nerf-pytorch)
 
 colab link - [link](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/nerf.ipynb#scrollTo=xrEM_tS4ImDE)
 first need to understand how to load data 
@@ -33,3 +33,8 @@ frames: List of dictionaries that contain the camera transform matrices for each
 how do you use the camera_angle_x, do we get pitch and roll from it? 
 we already have rotation matrix, so we know everything about camera frame wrt ground frame
 we also have translation vector 
+
+
+$$
+r = r_o + \lambda d
+$$
