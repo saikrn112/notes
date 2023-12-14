@@ -336,3 +336,9 @@ how should I go about it?
 | Depth Segmentation      | Supervised               | Monodepth, DeepDepth, MegaDepth | L1 or L2 loss on depth values              | NYU Depth, KITTI, Make3D                     | Depth maps                                 | Yes (e.g., Unsupervised Monocular Depth Estimation, Digging Into Self-Supervised Monocular Depth) |
 
 
+
+# CPT 
+
+22nd 
+
+loop in Dave/
