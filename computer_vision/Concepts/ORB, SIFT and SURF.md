@@ -8,7 +8,7 @@ fusion of
 	BRIEF descriptor
 
 
-### FAST
+### FAST - Features from Accelerated Segment Test
 resource - [link](https://docs.opencv.org/3.4/df/d0c/tutorial_py_fast.html)
 it's a feature detector algorithm, like corner harris? 
 
@@ -17,6 +17,8 @@ for rotation invariance
 - intensity weighted centroid of the patch
 - direction of this vector from corner point (or center of the corner) gives orientation
 
+
+![[FAST.png]]
 ### BRIEF
 resource - [link](https://docs.opencv.org/3.4/dc/d7d/tutorial_py_brief.html)
 ORB uses BRIEF descriptor 
