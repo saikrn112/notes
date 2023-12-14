@@ -7,6 +7,8 @@ fusion of
 	FAST keypoint detection
 	BRIEF descriptor
 
+- apply harris corner measure to get best points
+- 
 
 ### FAST - Features from Accelerated Segment Test
 resource - [link](https://docs.opencv.org/3.4/df/d0c/tutorial_py_fast.html)
