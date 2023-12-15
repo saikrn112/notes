@@ -342,3 +342,7 @@ how should I go about it?
 22nd 
 
 loop in Dave/
+
+what about FTE? 
+when can I get an estimate for that ? 
+what are the chances of getting an approval
