@@ -1,7 +1,7 @@
 - CAD model of the drone
 	- export it as OBJ
 - gap smaller 
-- image as a light sourc
+- image as a light source
 
 all backups in 
 - [ ] SSD
@@ -65,3 +65,34 @@ all backups in
 		- [ ] d850
 		- [ ] d7100
 		- [ ] gopro
+
+- [ ] see if Rishabh uploaded the sheet with details
+- [ ] update that sheet to find out which all videos are
+	- [ ] static
+	- [ ] gap
+	- [ ] dynamic
+	- [ ] outdoor
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+		- [ ] masking shot in some cameras
+
+- [ ] dynamic ghosting
+	- [ ] crop video
+	- [ ] extend frames
+	- [ ] select frames
+	- [ ] edit those frames
+	- [ ] ghost on top
+- [ ] gap ghosting
+	- [ ] crop video
+	- [ ] extend frames
+	- [ ] select frames
+	- [ ] edit those frames
+	- [ ] ghost on top
+- [ ] outdoor ghosting
+	- [ ] crop video
+	- [ ] extend frames
+	- [ ] select frames
+	- [ ] edit those frames
+	- [ ] ghost on top
