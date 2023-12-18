@@ -1,0 +1,67 @@
+- CAD model of the drone
+	- export it as OBJ
+- gap smaller 
+- image as a light sourc
+
+all backups in 
+- [ ] SSD
+	- [ ] outdoor uploads
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+	- [ ] gap_flyt
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] static
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] dynamic
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+
+- [ ] one drive
+	- [ ] outdoor uploads
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+	- [ ] gap_flyt
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] static
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] dynamic
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+- [ ] lab PC
+	- [ ] outdoor uploads
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+	- [ ] gap_flyt
+		- [ ] drone vids
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] static
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
+	- [ ] dynamic
+		- [ ] fpv
+		- [ ] d850
+		- [ ] d7100
+		- [ ] gopro
