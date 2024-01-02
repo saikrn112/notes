@@ -337,16 +337,6 @@ how should I go about it?
 
 
 
-# CPT 
-
-22nd 
-
-loop in Dave/
-
-what about FTE? 
-when can I get an estimate for that ? 
-what are the chances of getting an approval
-
 
 
 ![[performance.png]]
