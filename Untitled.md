@@ -11,10 +11,20 @@ all backups in
 		- [ ] d7100
 	- [ ] gap_flyt
 		- [ ] drone vids
+		- [x] d850
+		- [x] d7100
+		- [ ] gopro
+	- [ ] gap_flyt2
+		- [ ] drone vids
+		- [x] d850
+		- [x] d7100
+		- [ ] gopro
+	- [ ] static
+		- [ ] fpv
 		- [ ] d850
 		- [ ] d7100
 		- [ ] gopro
-	- [ ] static
+	- [ ] static2
 		- [ ] fpv
 		- [ ] d850
 		- [ ] d7100
