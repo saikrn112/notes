@@ -20,20 +20,26 @@ all backups in
 		- [x] d7100
 		- [ ] gopro
 	- [ ] static
-		- [ ] fpv
-		- [ ] d850
-		- [ ] d7100
-		- [ ] gopro
+		- [x] fpv
+		- [x] d850
+		- [x] d7100
+		- [x] gopro
 	- [ ] static2
-		- [ ] fpv
+		- [x] fpv
 		- [ ] d850
 		- [ ] d7100
-		- [ ] gopro
-	- [ ] dynamic
-		- [ ] fpv
-		- [ ] d850
-		- [ ] d7100
-		- [ ] gopro
+		- [x] gopro_view1
+		- [x] gopro_view2
+	- [x] dynamic1
+		- [x] fpv
+		- [x] d850
+		- [x] d7100
+		- [x] gopro
+	- [x] dynamic2
+		- [x] fpv
+		- [x] d850
+		- [x] d7100
+		- [x] gopro
 
 - [ ] one drive
 	- [ ] outdoor uploads
