@@ -112,3 +112,11 @@ all backups in
 	- [ ] select frames
 	- [ ] edit those frames
 	- [ ] ghost on top
+
+- [x] dynamic1
+- [x] dynamic2
+- [x] static1
+- [ ] static2
+- [ ] gap_flyt1
+- [ ] gap_flyt2
+
