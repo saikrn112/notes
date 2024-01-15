@@ -140,3 +140,12 @@ frame_01164.png
 
 
 
+banner image (hasnt been decided)
+section III
+- contribution first (might have to add other stuff )
+- network and loss function
+
+blender use little space 
+
+
+
