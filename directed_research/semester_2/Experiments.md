@@ -1335,6 +1335,19 @@ python Train.py \
 --NumSubBlocks=2 \
 --NumEpochs=400
 
+Number of Flops in this model are 1414341215688
+Expected Model Size is 31.410240
+Running on ramu
+Network Statistics
+Network Used: Network.MultiScaleResNet
+Uncertainity Type: LinearSoftplus
+GPU Used: 0
+Learning Rate: 0.0001
+Init Neurons 32.0, Expansion Factor 2, NumBlocks 1, NumSubBlocks 2, DropOutFactor 0.7
+Num Params: 2,743,804
+Num FLOPs: 1414341215688
+Estimated Model Size (MB): 31.410240173339844
+
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --tflite_path=../models/multiscale_uncertainity_1/converted/ \
 --tflite_edge_path=../models/multiscale_uncertainity_1/converted/ \
