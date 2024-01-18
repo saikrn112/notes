@@ -549,3 +549,21 @@ python3 test_raft_custom.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.24_static_gray_washburn_exp0/
 ```
 
+
+
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt \
+--ResizeCropStack \
+--Display
+```
