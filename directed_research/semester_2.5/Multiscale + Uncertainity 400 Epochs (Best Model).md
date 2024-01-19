@@ -550,8 +550,19 @@ python3 test_raft_custom.py \
 ```
 
 
+----
+
+- [ ] GPU clean full
+- [ ] GPU final full
+- [ ] TPU clean full
+- [ ] TPU final full
+- [ ] GPU clean chunk
+- [ ] GPU final chunk
+- [ ] TPU clean chunk
+- [ ] TPU final chunk
 
 ```
+GPU clean full
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
@@ -563,6 +574,31 @@ python Test_new_sintel.py \
 --Uncertainity \
 --OnGPU \
 --DataList=./Misc/MPI_Sintel_train_clean.txt 
+
+full for a counter of 1041
+full GPU time avg:0.017679216080737963
+full GPU fps :56.56359396441396
+full EPE:5.464992046356201
+full final loss:3.4176779372490564
+```
+
+
+
+```
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--DataList=./Misc/MPI_Sintel_train_clean.txt \
+--ResizeCropStack
+
 
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
