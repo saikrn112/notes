@@ -47,4 +47,15 @@ python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Data
 
 python run.py --one images/sintel1.png --two images/sintel2.png --out outputs/sintel1.flo
 ```
+
+---
+
+ground truth and other crops 
+```
+python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/1_img1_sintel1.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/1_img1_sintel1_crop.png
+python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/3_flownet2_sintel1.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/3_flownet2_sintel1_crop.png
+
+python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/5_pwc_sintel1.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/5_pwc_sintel1_crop.png
+
+python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/6_raft_sintel1.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/6_raft_sintel1_crop.png
 ```

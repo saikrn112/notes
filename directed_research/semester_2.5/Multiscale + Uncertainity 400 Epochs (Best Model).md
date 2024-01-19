@@ -556,12 +556,25 @@ python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--DataList=./Misc/MPI_Sintel_train_clean.txt 
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
 --TFLiteFolder=converted_sintel_chunking \
 --CheckPointNum=399 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
 --OnGPU \
+--OnEdge \
 --DataList=./Misc/MPI_Sintel_train_clean.txt \
 --ResizeCropStack \
 --Display
@@ -583,3 +596,5 @@ python Test_new_sintel.py \
 --Display
 --ResizeToHalf
 ```
+
+----
