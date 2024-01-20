@@ -1,15 +1,58 @@
 
-Optical flow comparison pic 
-- [ ] RAFT
-- [ ] SpyNet
-- [ ] PWCNet
-- [ ] FlowNet2
-- [ ] NanoFlowNet
-- [ ] EdgeFlowNet full res
-- [ ] EdgeFlowNet chunking
+---
+---
+- [ ] EPE in new resolution
+	- [ ] nanoflownet run
+	- [ ] RAFT
+	- [ ] SPyNet
+	- [ ] PwCNet
+	- [ ] FlowNet2
+	- [ ] EdgeFlowNet full
+	- [ ] EdgeFlowNet chunking
+- [ ] nano numbers
+	- [ ] girish access
+	- [ ] sintel dataset download
+	- [ ] RAFT - uday access
+	- [ ] SPyNet
+	- [ ] PwCNet
+	- [ ] FlowNet2
+	- [ ] EdgeflowNet full
+	- [ ] EdgeFlowNet chunking
+- [ ] ablation study for different resolutions
+	- [ ] need to figure out for images
+- [ ] ablation study of the network
+	- [ ] actual network
+	- [ ] l1+50 network
+	- [ ] small network
+	- [ ] MS l1 network
+	- [ ] MS wo uncertainity
+- [ ] experiment quants 
+	- [ ] static
+		- [ ] 
+	- [ ] dynamic
+	- [ ] gap
+
+images
+- [ ] network
+- [ ] comparison pic 
+- [ ] drone with equipment
+- [ ] experiment sets
+	- [ ] drone view optical flow insets
+- [ ] blender
 
 
 ---
+
+
+Optical flow comparison pic 
+- [x] RAFT
+- [x] SpyNet
+- [x] PWCNet
+- [x] FlowNet2
+- [x] NanoFlowNet
+- [x] EdgeFlowNet full res
+- [x] EdgeFlowNet chunking
+
 FlowNet2 inference 
 ```
 cp OpticalFlowOnTPU/Datasets/Sintel//training/clean/alley_2/frame_0017.png flownet2-docker/data/sintel1.png
@@ -247,4 +290,453 @@ python Test_new_sintel.py \
 --ResizeCropStack \
 --Display
 --ResizeToHalf
+```
+
+
+
+
+---
+---
+---
+inference speeds ablation study
+- [x] 1024 x 416 -  
+- [x] 640 x 480 -- not possible
+- [x] 480 x 352  - 1
+- [x] 176 x 240 - 2
+- [x] 88 x 120 -- 96 x 128 - 3
+- [ ] 44 x 60 -- 48 x 64 - 4
+- [ ] 22 x 30 -- 32 x 32 - 5
+- [ ] 11 x 15 -- 16 x 16 - 6
+
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=416 \
+--PatchSize1=1024 \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=416 \
+--PatchSize1=1024 \
+--DataList=./Misc/MPI_Sintel_train_clean.txt
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_1024_416/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_1024_416/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=416 \
+--PatchSize1=1024
+
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_1024_416 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=416 \
+--PatchSize1=1024 \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+full for a counter of 10
+full GPU time avg:0.2049251079559326
+full GPU fps :4.879831514911494
+full EPE:6.866844177246094
+full final loss:4.271678671240807
+edge_quant for a counter of 1041
+edge_quant GPU time avg:0.26065118970147244
+edge_quant GPU fps :3.8365449286662163
+edge_quant EPE:6.472112655639648
+edge_quant final loss:4.123972919986983
+```
+
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_480_352/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_480_352/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=352 \
+--PatchSize1=480
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_480_352 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 
+
+full for a counter of 640
+full GPU time avg:0.010173048079013824
+full GPU fps :98.29895545887759
+full EPE:2.7591497898101807
+full final loss:1.7277436164440587
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.04382377080619335
+edge_quant GPU fps :22.818666253582084
+edge_quant EPE:3.475637912750244
+edge_quant final loss:2.213274074695073
+
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--NumberOfHalves=1
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_240_176 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--NumberOfHalves=1
+
+
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_240_176 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeCropStack
+
+full for a counter of 640
+full GPU time avg:0.010183043777942657
+full GPU fps :98.20246498066574
+full EPE:3.1019206047058105
+full final loss:1.9459755161136854
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.01070760264992714
+edge_quant GPU fps :93.39158658514513
+edge_quant EPE:3.71882700920105
+edge_quant final loss:2.3647628543083554
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_128_96/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_128_96/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=96 \
+--PatchSize1=128 
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_128_96 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=96 \
+--PatchSize1=128 \
+--ResizeNearestCrop
+
+
+full for a counter of 640
+full GPU time avg:0.0050098937004804615
+full GPU fps :199.60503351679847
+full EPE:4.52716064453125
+full final loss:2.862200757025312
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0035309799015522
+edge_quant GPU fps :283.2075026992947
+edge_quant EPE:4.961106777191162
+edge_quant final loss:3.169987844162871
+
+```
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_64_48/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_64_48/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=48 \
+--PatchSize1=64 
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_64_48 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=48 \
+--PatchSize1=64 \
+--ResizeNearestCrop
+
+full for a counter of 640
+full GPU time avg:0.0046003714203834535
+full GPU fps :217.37375281682088
+full EPE:6.582145690917969
+full final loss:4.233218090164155
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0014661997556686401
+edge_quant GPU fps :682.035306672087
+edge_quant EPE:6.6732587814331055
+edge_quant final loss:4.327118266394147
+```
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_32_32/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_32_32/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=32 \
+--PatchSize1=32 
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_32_32 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=32 \
+--PatchSize1=32 \
+--ResizeNearestCrop
+
+full for a counter of 640
+full GPU time avg:0.004488033428788185
+full GPU fps :222.81473965536173
+full EPE:9.40993881225586
+full final loss:6.0832035601211825
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0009825576096773147
+edge_quant GPU fps :1017.7520281262832
+edge_quant EPE:12.633868217468262
+edge_quant final loss:8.166470732539892
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_16_16/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_16_16/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=16 \
+--PatchSize1=16 
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_16_16 \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=16 \
+--PatchSize1=16 \
+--ResizeNearestCrop
+
+full for a counter of 640
+full GPU time avg:0.004154730215668678
+full GPU fps :240.68951486397685
+full EPE:11.307138442993164
+full final loss:7.412464184040436
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0006826259195804596
+edge_quant GPU fps :1464.931188980632
+edge_quant EPE:11.610689163208008
+edge_quant final loss:7.607230754010379
+```
+
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_128_96_halve/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_128_96_halve/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=384 \
+--PatchSize1=512 \
+--NumberOfHalves=2
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_128_96_halve \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=384 \
+--PatchSize1=512 \
+--NumberOfHalves=2
+
+full for a counter of 640
+full GPU time avg:0.010807115957140923
+full GPU fps :92.53162490028052
+full EPE:6.987936973571777
+full final loss:4.509842362458585
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.003437686339020729
+edge_quant GPU fps :290.8933222467479
+edge_quant EPE:6.903756141662598
+edge_quant final loss:4.457191512506688
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_64_48_halve/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_64_48_halve/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=384 \
+--PatchSize1=512 \
+--NumberOfHalves=3
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_64_48_halve \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=384 \
+--PatchSize1=512 \
+--NumberOfHalves=3
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_16_16_halve/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_16_16_halve/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=256 \
+--PatchSize1=256 \
+--NumberOfHalves=4
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_16_16_halve \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=256 \
+--PatchSize1=256 \
+--NumberOfHalves=4
 ```
