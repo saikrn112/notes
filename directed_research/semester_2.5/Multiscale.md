@@ -20,6 +20,17 @@ python Test_new.py \
 --OnEdge \
 --Display
 
+full for a counter of 1
+full GPU time avg:1.6891412734985352
+full GPU fps :0.5920167932009668
+full EPE:2.8475914001464844
+full final loss:1.7985994815826416
+edge_quant for a counter of 1
+edge_quant GPU time avg:0.04955124855041504
+edge_quant GPU fps :20.1811261926643
+edge_quant EPE:3.1930830478668213
+edge_quant final loss:2.015470266342163
+
 full for a counter of 640
 full GPU time avg:0.01001957207918167
 full GPU fps :99.80466152619096
@@ -61,13 +72,13 @@ python Test_new_sintel.py \
 --Display
 
 full for a counter of 1041
-full GPU time avg:0.009250757673631827
-full GPU fps :108.09925362658453
+full GPU time avg:0.009214357729718504
+full GPU fps :108.52628358184545
 full EPE:6.001053810119629
 full final loss:3.784932344006759
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.046604824340996207
-edge_quant GPU fps :21.457006096262532
+edge_quant GPU time avg:0.0439348912491006
+edge_quant GPU fps :22.760953118791917
 edge_quant EPE:6.070018768310547
 edge_quant final loss:3.8667309808255843
 
@@ -89,15 +100,14 @@ python Test_new_sintel.py \
 --DataList=./Misc/MPI_Sintel_Final_train_list.txt \
 --Display
 
-
 full for a counter of 1041
-full GPU time avg:0.009775323437224433
-full GPU fps :102.29840541050538
+full GPU time avg:0.009244752548613535
+full GPU fps :108.16947178861734
 full EPE:6.7305498123168945
 full final loss:4.242774353848411
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.046611369056958174
-edge_quant GPU fps :21.453993311760907
+edge_quant GPU time avg:0.043933020545014044
+edge_quant GPU fps :22.761922298863876
 edge_quant EPE:6.836266040802002
 edge_quant final loss:4.350857518513139
 ```

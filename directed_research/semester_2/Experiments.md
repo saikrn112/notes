@@ -528,6 +528,8 @@ edge_quant GPU fps:24.390050206610685
 edge_quant total L1 EPE:6.297618824616075
 edge_quant total L2 EPE:12.61554172448814
 edge_quant total L1 Photo:66.8179124712704
+
+
 ```
 
 

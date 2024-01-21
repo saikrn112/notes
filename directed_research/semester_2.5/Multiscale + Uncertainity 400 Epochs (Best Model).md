@@ -14,6 +14,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted \
 --CheckPointNum=399 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
@@ -22,16 +23,17 @@ python Test_new.py \
 --OnEdge \
 --Display
 
+
 full for a counter of 640
-full GPU time avg:0.010254282131791114
-full GPU fps :97.52023468319865
+full GPU time avg:0.0101580198854208
+full GPU fps :98.44438298799162
 full EPE:2.7591497898101807
 full final loss:1.7277436164440587
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.0466144397854805
-edge_quant GPU fps :21.452580028892264
-edge_quant EPE:3.58379864692688
-edge_quant final loss:2.2848535845056177
+edge_quant GPU time avg:0.04386902153491974
+edge_quant GPU fps :22.79512888620048
+edge_quant EPE:3.60551381111145
+edge_quant final loss:2.295692537468858
 ```
 
 #### Sintel Multiscale with uncertainity without chunking
