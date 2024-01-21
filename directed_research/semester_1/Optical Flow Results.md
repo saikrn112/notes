@@ -228,4 +228,15 @@ python Test_new.py \
 --Old \
 --OnEdge
 
+full for a counter of 640
+full GPU time avg:0.00630684457719326
+full GPU fps :158.55789496005477
+full EPE:4.319089412689209
+full final loss:2.742531901643088
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.015560946241021157
+edge_quant GPU fps :64.26344417049904
+edge_quant EPE:76.277587890625
+edge_quant final loss:49.134569954359904
+
 ```

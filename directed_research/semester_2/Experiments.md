@@ -282,8 +282,22 @@ python Test_new.py \
 --CheckPointNum=99 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
+--OnGPU \
 --OnEdge \
+--ShiftedFlow \
 --Display
+
+
+full for a counter of 640
+full GPU time avg:0.008527672663331032
+full GPU fps :117.26528907470816
+full EPE:4.350075721740723
+full final loss:2.7470510295359416
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.06943398788571357
+edge_quant GPU fps :14.402168598553958
+edge_quant EPE:5.318717956542969
+edge_quant final loss:3.4042396852746606
 
 
 edge_quant for a counter of 640
