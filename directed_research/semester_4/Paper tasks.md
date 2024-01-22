@@ -740,3 +740,21 @@ python Test_new.py \
 --PatchSize1=256 \
 --NumberOfHalves=4
 ```
+
+
+---
+---
+---
+```
+docker run -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/FlyingChairs2:/workspace/FlyingChairs2  -v /home/ramu/Personal/nanoflownet-cnns:/workspace/nanoflownet --gpus all -it tensorflow/tensorflow:2.8.0-gpu
+
+pip install opencv-python-headless==4.5.5.64
+
+pip install tensorflow_model_optimization==0.7.2
+pip install tqdm==4.64.0
+pip install tensorflow_addons==0.16.1
+pip install wandb==0.12.14
+pip install --extra-index-url https://developer.download.nvidia.com/compute/redist --upgrade nvidia-dali-tf-plugin-cuda110==1.12.0
+
+docker run -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/FlyingChairs2:/workspace/FlyingChairs2  -v /home/ramu/Personal/nanoflownet-cnns:/workspace/nanoflownet --gpus all -it nanoflownet
+```
