@@ -761,3 +761,21 @@ docker run -p 8883:8883 -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/FlyingC
 
 python main.py --pretrained /workspace/nanoflownet/pretrained_models/nanoflownet/model-best.h5 
 ```
+
+
+
+---
+---
+---
+
+
+- [ ] real
+	- [ ] gap
+	- [ ] dodging
+	- [ ] static
+- [ ] sim
+	- [ ] gap
+	- [ ] dodging
+	- [ ] static
+
+
