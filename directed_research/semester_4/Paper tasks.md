@@ -779,3 +779,29 @@ python main.py --pretrained /workspace/nanoflownet/pretrained_models/nanoflownet
 	- [ ] static
 
 
+rgb image, depth, flow, raft, nanoflownet, edgeflownet
+
+sim
+- [ ] gap_flyt
+	- [x] rgb
+	- [x] depth
+	- [x] flow_gt
+	- [x] raft
+	- [ ] edgeflownet
+	- [ ] nanoflownet
+- [ ] dyn
+	- [x] rgb
+	- [x] depth
+	- [x] flow_gt
+	- [x] raft
+	- [ ] edgeflownet
+	- [ ] nanoflownet
+- [ ] static
+	- [x] rgb
+	- [x] depth
+	- [x] flow_gt
+	- [x] raft
+	- [ ] edgeflownet
+	- [ ] nanoflownet
+
+
