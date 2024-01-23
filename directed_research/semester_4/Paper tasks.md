@@ -756,5 +756,8 @@ pip install tensorflow_addons==0.16.1
 pip install wandb==0.12.14
 pip install --extra-index-url https://developer.download.nvidia.com/compute/redist --upgrade nvidia-dali-tf-plugin-cuda110==1.12.0
 
-docker run -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/FlyingChairs2:/workspace/FlyingChairs2 -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/Sintel/:/workspace/flowData/MPI-Sintel -v /home/ramu/Personal/nanoflownet-cnns:/workspace/nanoflownet --gpus all -it nanoflownet2
+docker run -p 8883:8883 -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/FlyingChairs2:/workspace/FlyingChairs2 -v /home/ramu/Personal/OpticalFlowOnTPU/Datasets/Sintel/:/workspace/flowData/MPI-Sintel -v /home/ramu/Personal/nanoflownet-cnns:/workspace/nanoflownet --gpus all -it nanoflownet3
+
+
+python main.py --pretrained /workspace/nanoflownet/pretrained_models/nanoflownet/model-best.h5 
 ```
