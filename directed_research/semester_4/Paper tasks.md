@@ -812,4 +812,10 @@ sim
 
 ```
 python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0098.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0098_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0112.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0112_re.png
+
+python run.py --one /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024_re.png --two /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0098_re.png --out outputs/gapflyt_real.flo
 ```

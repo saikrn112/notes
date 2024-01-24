@@ -648,3 +648,19 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --ResizeCropStack \
 --NumOut=4
 ```
+
+
+---
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/experiments/2023.10.11_color_static1/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.11_color_static1/ \
+--RunMAVlink
+```
