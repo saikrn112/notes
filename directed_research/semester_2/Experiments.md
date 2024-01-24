@@ -1361,7 +1361,7 @@ GPU Used: 0
 Learning Rate: 0.0001
 Init Neurons 32.0, Expansion Factor 2, NumBlocks 1, NumSubBlocks 2, DropOutFactor 0.7
 Num Params: 2,743,804
-Num FLOPs: 1414341215688
+Num FLOPs: 1414,341,215,688
 Estimated Model Size (MB): 31.410240173339844
 
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \

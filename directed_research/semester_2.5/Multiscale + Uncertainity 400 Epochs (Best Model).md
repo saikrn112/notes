@@ -636,3 +636,15 @@ python Test_new_sintel.py \
 ```
 
 ----
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_fp16/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--ResizeCropStack \
+--NumOut=4
+```
