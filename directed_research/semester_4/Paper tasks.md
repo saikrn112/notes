@@ -805,3 +805,11 @@ sim
 	- [ ] nanoflownet
 
 
+
+---
+---
+---
+
+```
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024_re.png
+```
