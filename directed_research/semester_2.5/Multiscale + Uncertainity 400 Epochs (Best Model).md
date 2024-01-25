@@ -664,3 +664,17 @@ python3 test_sim.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/experiment_results/2023.10.11_color_static1/ \
 --RunMAVlink
 ```
+
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_crop_stack \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp1/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiment_results/exp1/ \
+--RunMAVlink
+```
