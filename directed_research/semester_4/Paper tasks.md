@@ -1,36 +1,33 @@
 
 ---
 ---
-- [ ] EPE in new resolution
+- [x] EPE in new resolution
 	- [ ] nanoflownet run
-	- [ ] RAFT
-	- [ ] SPyNet
-	- [ ] PwCNet
-	- [ ] FlowNet2
-	- [ ] EdgeFlowNet full
-	- [ ] EdgeFlowNet chunking
+	- [x] RAFT
+	- [x] SPyNet
+	- [x] PwCNet
+	- [x] EdgeFlowNet full
+	- [x] EdgeFlowNet chunking
 - [ ] nano numbers
-	- [ ] girish access
-	- [ ] sintel dataset download
-	- [ ] RAFT - uday access
-	- [ ] SPyNet
-	- [ ] PwCNet
-	- [ ] FlowNet2
+	- [x] girish access
+	- [x] sintel dataset download
+	- [x] RAFT - uday access
+	- [x] SPyNet
+	- [x] PwCNet
 	- [ ] EdgeflowNet full
 	- [ ] EdgeFlowNet chunking
 - [ ] ablation study for different resolutions
 	- [ ] need to figure out for images
 - [ ] ablation study of the network
-	- [ ] actual network
-	- [ ] l1+50 network
-	- [ ] small network
-	- [ ] MS l1 network
-	- [ ] MS wo uncertainity
-- [ ] experiment quants 
-	- [ ] static
-		- [ ] 
-	- [ ] dynamic
-	- [ ] gap
+	- [x] actual network
+	- [x] l1+50 network
+	- [x] small network
+	- [x] MS l1 network
+	- [x] MS wo uncertainity
+- [x] experiment quants 
+	- [x] static
+	- [x] dynamic
+	- [x] gap
 
 images
 - [ ] network
@@ -91,6 +88,22 @@ full GPU fps :7.969721984836811
 full EPE:5.037983417510986
 full final loss:3.1774951988593187
 
+
+gpu
+clean - 80W
+full for a counter of 1041
+full GPU time avg:0.033354137633192664
+full GPU fps :29.981287808947613
+full EPE:4.61790657043457
+full final loss:2.915518681737921
+
+final - 78W
+full for a counter of 1041
+full GPU time avg:0.03295783167499172
+full GPU fps :30.341801908005866
+full EPE:5.0384931564331055
+full final loss:3.177810865136778
+
 ```
 
 ---
@@ -119,6 +132,22 @@ full GPU time avg:0.09247692036697432
 full GPU fps :10.81350888450567
 full EPE:3.9290106296539307
 full final loss:2.449189836408059
+
+
+gpu 
+final - 50
+full for a counter of 1041
+full GPU time avg:0.02155334003606058
+full GPU fps :46.39652129678809
+full EPE:3.92818284034729
+full final loss:2.448568066719859
+clean - 50
+full for a counter of 1041
+full GPU time avg:0.021417386250124886
+full GPU fps :46.691038221069995
+full EPE:3.786980390548706
+full final loss:2.3700733068976176
+
 ```
 
 ---
@@ -133,7 +162,41 @@ python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/pape
 python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/6_raft_sintel1.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/6_raft_sintel1_crop.png
 ```
 
+---
 
+RAFT
+
+```
+gpu 
+clean
+full for a counter of 1041
+full GPU time avg:0.074943647146454
+full GPU fps :13.34335915152103
+full EPE:3.4547040462493896
+full final loss:2.1320647328526614
+
+final 
+full for a counter of 1041
+full GPU time avg:0.06501937668330388
+full GPU fps :15.380030554134594
+full EPE:4.232720375061035
+full final loss:2.637825960806937
+
+nano
+clean
+full for a counter of 1041
+full GPU time avg:0.30853018339268873
+full GPU fps :3.2411739720364006
+full EPE:3.4609313011169434
+full final loss:2.1349265053188367
+
+final
+full for a counter of 1041
+full GPU time avg:0.3084065337002449
+full GPU fps :3.2424734586587842
+full EPE:4.197347164154053
+full final loss:2.6173407556659094
+```
 
 ----
 ---
@@ -241,8 +304,111 @@ full GPU time avg:0.018350146345858614
 full GPU fps :54.49547819141436
 full EPE:6.533306121826172
 full final loss:4.092133875639249
+```
+
+--- 352 x 480 ---
+
+GPU clean full
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCrop \
+--DataList=./Misc/MPI_Sintel_train_clean.txt 
+
+full for a counter of 1041
+full GPU time avg:0.009294622569675061
+full GPU fps :107.58909170369463
+full EPE:5.660618782043457
+full final loss:3.5436044794996695
+```
+
+
+GPU clean chunk
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCropStack \
+--DataList=./Misc/MPI_Sintel_train_clean.txt
+
+full for a counter of 1041
+full GPU time avg:0.009404067003761313
+full GPU fps :106.33697097224353
+full EPE:5.910791397094727
+full final loss:3.7059149030277525
+```
+
+GPU final full
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCrop \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+
+full for a counter of 1041
+full GPU time avg:0.009368693565200087
+full GPU fps :106.7384681802903
+full EPE:7.347682952880859
+full final loss:4.604579629296013
 
 ```
+
+
+GPU final chunk
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--PatchSize0=480 \
+--PatchSize1=352 \
+--ResizeNearestCropStack \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+
+full for a counter of 1041
+full GPU time avg:0.009498946604879857
+full GPU fps :105.27483115720156
+full EPE:7.68755578994751
+full final loss:4.8234380759105555
+
+
+```
+
 
 TPU clean full
 ```
@@ -256,12 +422,18 @@ python Test_new_sintel.py \
 --InitNeurons=32 \
 --Uncertainity \
 --OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCrop \
 --DataList=./Misc/MPI_Sintel_train_clean.txt 
+
+
+
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.04400682907397649
-edge_quant GPU fps :22.72374586042037
-edge_quant EPE:6.149776458740234
-edge_quant final loss:3.9246251183659497
+edge_quant GPU time avg:0.04462274533985442
+edge_quant GPU fps :22.410095846497786
+edge_quant EPE:6.1780900955200195
+edge_quant final loss:3.9352900368965784
 ```
 
 TPU clean chunk
@@ -276,19 +448,48 @@ python Test_new_sintel.py \
 --InitNeurons=32 \
 --Uncertainity \
 --OnEdge \
---DataList=./Misc/MPI_Sintel_train_clean.txt \
---ResizeCropStack
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCropStack \
+--DataList=./Misc/MPI_Sintel_train_clean.txt
+
 edge_quant for a counter of 1041
-edge_quant GPU time avg:0.01068276012321714
-edge_quant GPU fps :93.60876669192189
-edge_quant EPE:6.368882656097412
-edge_quant final loss:4.064157241001711
-352x480
-```
-
+edge_quant GPU time avg:0.010846139374658765
+edge_quant GPU fps :92.19870457652692
+edge_quant EPE:6.346118927001953
+edge_quant final loss:4.044365763048732
 
 ```
 
+
+TPU final full
+```
+python Test_new_sintel.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCrop \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
+
+edge_quant for a counter of 1041
+edge_quant GPU time avg:0.0446074748703428
+edge_quant GPU fps :22.417767490910997
+edge_quant EPE:6.907169818878174
+edge_quant final loss:4.3998320054881965
+
+
+```
+
+TPU final chunk
+```
 python Test_new_sintel.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
@@ -298,28 +499,18 @@ python Test_new_sintel.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
---OnGPU \
 --OnEdge \
---DataList=./Misc/MPI_Sintel_train_clean.txt \
---ResizeCropStack \
---Display
+--PatchSize0=352 \
+--PatchSize1=480 \
+--ResizeNearestCropStack \
+--DataList=./Misc/MPI_Sintel_Final_train_list.txt
 
+edge_quant for a counter of 1041
+edge_quant GPU time avg:0.010843743050361803
+edge_quant GPU fps :92.21907927508803
+edge_quant EPE:7.090342998504639
+edge_quant final loss:4.519403679999563
 
-python Test_new_sintel.py \
---BasePath=../Datasets/FlyingChairs2/ \
---NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=../models/multiscale_uncertainity_1/ \
---TFLiteFolder=converted_sintel_chunking \
---CheckPointNum=399 \
---NumSubBlocks=2 \
---InitNeurons=32 \
---Uncertainity \
---OnGPU \
---OnEdge \
---DataList=./Misc/MPI_Sintel_train_clean.txt \
---ResizeCropStack \
---Display
---ResizeToHalf
 ```
 
 
@@ -851,4 +1042,13 @@ python run.py --one /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_r
 
 
 python run.py --one /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0024_re.png --two /home/ramu/Personal/OpticalFlowOnTPU/paper_results/gapflyt_real/frame0098_re.png --out outputs/gapflyt_real.flo
+
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0369.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0369_re.png
+
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0370.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0370_re.png
+
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real2/frame0136.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real2/frame0136_re.png
 ```
