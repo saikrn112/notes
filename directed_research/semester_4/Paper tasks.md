@@ -75,6 +75,15 @@ python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Data
 python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Datasets/Sintel//training/clean/alley_2/frame_0018.png --output_path /home/ramu/Personal/pytorch-spynet/images/sintel2.png 
 
 python run.py --one images/sintel1.png --two images/sintel2.png --out outputs/sintel1.flo
+
+clean
+
+full for a counter of 1041
+full GPU time avg:0.12560586283461161
+full GPU fps :7.961411811777648
+full EPE:4.617524147033691
+full final loss:2.9152872379543573
+
 ```
 
 ---
@@ -89,6 +98,14 @@ python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Data
 python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Datasets/Sintel//training/clean/alley_2/frame_0018.png --output_path /home/ramu/Personal/pytorch-pwc/images/sintel2.png 
 
 python run.py --one images/sintel1.png --two images/sintel2.png --out outputs/sintel1.flo
+
+
+python run3.py
+full for a counter of 1041
+full GPU time avg:0.09277570327810092
+full GPU fps :10.778684123821062
+full EPE:3.787311553955078
+full final loss:2.370214404157156
 ```
 
 ---
