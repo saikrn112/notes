@@ -77,12 +77,19 @@ python3 slight_cropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/Data
 python run.py --one images/sintel1.png --two images/sintel2.png --out outputs/sintel1.flo
 
 clean
-
 full for a counter of 1041
 full GPU time avg:0.12560586283461161
 full GPU fps :7.961411811777648
 full EPE:4.617524147033691
 full final loss:2.9152872379543573
+
+
+final 
+full for a counter of 1041
+full GPU time avg:0.12547489133279674
+full GPU fps :7.969721984836811
+full EPE:5.037983417510986
+full final loss:3.1774951988593187
 
 ```
 
