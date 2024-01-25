@@ -113,6 +113,12 @@ full GPU time avg:0.09277570327810092
 full GPU fps :10.778684123821062
 full EPE:3.787311553955078
 full final loss:2.370214404157156
+
+full for a counter of 1041
+full GPU time avg:0.09247692036697432
+full GPU fps :10.81350888450567
+full EPE:3.9290106296539307
+full final loss:2.449189836408059
 ```
 
 ---
