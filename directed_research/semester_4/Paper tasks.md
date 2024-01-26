@@ -833,7 +833,7 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --PatchSize0=16 \
 --PatchSize1=16 
 
-python Test_new.py \
+python3 Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
