@@ -1050,7 +1050,7 @@ python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU
 python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0370.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real1/frame0370_re.png
 
 
-python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real2/frame0136.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn_real2/frame0136_re.png
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn2_ball/frame0407.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/dyn2_ball/frame0407_re.png
 ```
 
 
