@@ -1065,7 +1065,14 @@ python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU
 
 python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/static1_inset1/frame0494.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/static1_inset1/frame0494_re.png
 
-python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/static1_inset1/frame0495.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/static1_inset1/frame0495_re.png
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static1_inset2/frame0300.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static1_inset2/frame0300_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset1/frame0191.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset1/frame0191_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset2/frame0515.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset2/frame0515_re.png
+
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset3/frame0540.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/static2_inset3/frame0540_re.png
 
 
 
