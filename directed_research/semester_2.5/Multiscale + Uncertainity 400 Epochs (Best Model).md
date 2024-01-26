@@ -640,12 +640,22 @@ python Test_new_sintel.py \
 
 ```
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
---tflite_path=../models/multiscale_uncertainity_1/converted_fp16/ \
+--tflite_path=../models/multiscale_uncertainity_1/converted_fp16_half/ \
 --tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Uncertainity \
 --ResizeCropStack \
+--NumOut=4
+
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_fp16_full/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_fp16_full/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
 --NumOut=4
 ```
 
@@ -681,5 +691,13 @@ python3 test_sim.py \
 
 
 ```
+
+ncs2 
+final
+full for a counter of 1041
+full GPU time avg:0.11925881396796587
+full GPU fps :8.385124476154946
+full EPE:458.4649353027344
+full final loss:306.9585931431663
 
 ```
