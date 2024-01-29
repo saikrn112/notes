@@ -1093,6 +1093,17 @@ python Test_new_single.py \
 --Uncertainity \
 --OnGPU \
 --ResizeCropStack
+
+python Test_new_single.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_sintel_chunking \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU 
 ```
 
 
