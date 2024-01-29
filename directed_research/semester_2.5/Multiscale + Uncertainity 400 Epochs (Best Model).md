@@ -393,6 +393,9 @@ python3 test_rt_static.py \
 --ClosestResizeAndCrop \
 --Uncertainity \
 --RunMAVlink
+
+
+python3 test_rt_static.py --NetworkName=Network.MultiScaleResNet --CheckPointFolder=/home/mendel/optical_flow/models/multiscale_uncertainity_1/ --TFLiteFolder=converted_crop_stack --BasePath=/home/mendel/optical_flow/val/ --OutputPath=/home/mendel/optical_flow/experiments/ --ResizeCropStack --Uncertainity
 ```
 
 # SIM Desktop
