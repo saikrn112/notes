@@ -1094,3 +1094,12 @@ python Test_new_single.py \
 --OnGPU \
 --ResizeCropStack
 ```
+
+
+
+- [ ] gapflyt_real
+- [ ] static_real
+- [ ] dynamic_real
+- [ ] gapflyt_sim
+- [ ] static_sim
+- [ ] dynamic_sim
