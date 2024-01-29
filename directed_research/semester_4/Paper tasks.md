@@ -1075,6 +1075,12 @@ python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU
 python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/gap1_inset3/frame0236.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/insets/gap1_inset3/frame0236_re.png
 
 
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/frame_0195.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/frame_0195_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0675.png --output_path  /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0675_re.png
+
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0676.png --output_path  /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0676_re.png
+
 
 
 ```
@@ -1113,5 +1119,7 @@ python Test_new_single.py \
 - [x] dynamic_real
 - [x] gapflyt_sim
 - [ ] static_sim
-	- [ ] image brightness
-- [ ] dynamic_sim
+	- [x] image brightness
+- [x] dynamic_sim
+
+134 - 0:23-0:25
