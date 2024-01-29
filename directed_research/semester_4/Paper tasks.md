@@ -1108,9 +1108,10 @@ python Test_new_single.py \
 
 
 
-- [ ] gapflyt_real
-- [ ] static_real
-- [ ] dynamic_real
-- [ ] gapflyt_sim
+- [x] gapflyt_real
+- [x] static_real
+- [x] dynamic_real
+- [x] gapflyt_sim
 - [ ] static_sim
+	- [ ] image brightness
 - [ ] dynamic_sim
