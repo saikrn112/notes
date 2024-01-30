@@ -1081,7 +1081,7 @@ python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU
 
 python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0676.png --output_path  /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/dyn2/frame0676_re.png
 
-
+python ClosestResizeCropper.py --input_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/static1/frame_0027.png --output_path /home/ramu/Personal/OpticalFlowOnTPU/paper_results/banner/static1/frame_0027_re.png
 
 ```
 
@@ -1110,6 +1110,8 @@ python Test_new_single.py \
 --InitNeurons=32 \
 --Uncertainity \
 --OnGPU 
+
+
 ```
 
 
@@ -1123,3 +1125,14 @@ python Test_new_single.py \
 - [x] dynamic_sim
 
 134 - 0:23-0:25
+
+- [ ] banner
+	- [ ] dynamic flow
+	- [ ] gap flow
+	- [ ] static flow
+- [ ] network
+- [ ] nano numbers
+- [ ] tensorflow numbers
+
+
+0:48, 1:12, 1:15,1:17
