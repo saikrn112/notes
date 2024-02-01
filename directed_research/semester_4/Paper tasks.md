@@ -1136,3 +1136,13 @@ python Test_new_single.py \
 
 
 0:48, 1:12, 1:15,1:17
+
+Figure 3
+- nanoflownet
+	- [x] dyn sim
+	- [x] static sim
+	- [x] gap sim
+	- [x] dyn real
+	- [x] static real
+	- [ ] gap real
+- order
