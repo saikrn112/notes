@@ -1,24 +1,9 @@
 
 ---
 ---
-- [x] EPE in new resolution
-	- [ ] nanoflownet run
-	- [x] RAFT
-	- [x] SPyNet
-	- [x] PwCNet
-	- [x] EdgeFlowNet full
-	- [x] EdgeFlowNet chunking
-- [ ] nano numbers
-	- [x] girish access
-	- [x] sintel dataset download
-	- [x] RAFT - uday access
-	- [x] SPyNet
-	- [x] PwCNet
-	- [ ] EdgeflowNet full
-	- [ ] EdgeFlowNet chunking
-- [ ] ablation study for different resolutions
-	- [ ] need to figure out for images
-- [ ] ablation study of the network
+- [x] ablation study for different resolutions
+	- [x] need to figure out for images
+- [x] ablation study of the network
 	- [x] actual network
 	- [x] l1+50 network
 	- [x] small network
@@ -28,15 +13,47 @@
 	- [x] static
 	- [x] dynamic
 	- [x] gap
+- [x] EPE in new resolution
+	- [x] nanoflownet run
+	- [x] RAFT
+	- [x] SPyNet
+	- [x] PwCNet
+	- [x] EdgeFlowNet full
+	- [x] EdgeFlowNet chunking
+	- [x] nanoflownet gpu
+- [x] nano numbers
+	- [x] girish access
+	- [x] sintel dataset download
+	- [x] RAFT - uday access
+	- [x] SPyNet
+	- [x] PwCNet
+- [x] images
+	- [x] network
+	- [x] comparison pic 
+	- [x] drone with equipment
+	- [x] experiment sets
+		- [x] drone view optical flow insets
+	- [x] blender
+- [x] overlap percentage
+	- [x] code for 25%
+- [x] runtime of all networks on 3060ti
+	- [x] midas
+	- [x] gapflyt (flownet2)
+	- [x] ajna
+	- [x] edgeflownet
 
-images
-- [ ] network
-- [ ] comparison pic 
-- [ ] drone with equipment
-- [ ] experiment sets
-	- [ ] drone view optical flow insets
-- [ ] blender
+- [ ] chunking vs resizing from an experiment instead of FC2
+- [ ] nano numbers 
+	- [ ] edgeflownet full
+	- [ ] edgefloenet chunking
 
+- [ ] Videos
+	- [ ] dynamic
+	- [ ] static
+	- [ ] gap
+
+- [ ] table structure decide
+- [ ] table 3 and 4 make it small
 
 ---
 
@@ -644,8 +661,8 @@ edge_quant final loss:2.213274074695073
 
 ```
 python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
---tflite_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
---tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_240_176_halve/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_240_176_halve/ \
 --tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
@@ -659,7 +676,7 @@ python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=../models/multiscale_uncertainity_1/ \
---TFLiteFolder=converted_sintel_240_176 \
+--TFLiteFolder=converted_sintel_240_176_halve \
 --CheckPointNum=399 \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
@@ -668,10 +685,37 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=352 \
 --PatchSize1=480 \
---NumberOfHalves=1
+--NumberOfHalves=1 
+
+
+genuine halves
+full for a counter of 640
+full GPU time avg:0.010055172815918922
+full GPU fps :99.4512991777568
+full EPE:3.1019206047058105
+full final loss:1.9459755161136854
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.010983166843652725
+edge_quant GPU fps :91.048421118897
+edge_quant EPE:3.8953356742858887
+edge_quant final loss:2.4776457858853975
 
 
 
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_sintel_240_176/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--NumOut=4 \
+--PatchSize0=176 \
+--PatchSize1=240 
 
 python Test_new.py \
 --BasePath=../Datasets/FlyingChairs2/ \
@@ -684,20 +728,21 @@ python Test_new.py \
 --Uncertainity \
 --OnGPU \
 --OnEdge \
---PatchSize0=352 \
---PatchSize1=480 \
---ResizeCropStack
+--PatchSize0=176 \
+--PatchSize1=240 \
+--ResizeNearestCrop
 
 full for a counter of 640
-full GPU time avg:0.010183043777942657
-full GPU fps :98.20246498066574
-full EPE:3.1019206047058105
-full final loss:1.9459755161136854
+full GPU time avg:0.0059919536113739015
+full GPU fps :166.89047760680324
+full EPE:6.419644832611084
+full final loss:4.1387980275088925
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.01070760264992714
-edge_quant GPU fps :93.39158658514513
-edge_quant EPE:3.71882700920105
-edge_quant final loss:2.3647628543083554
+edge_quant GPU time avg:0.01090802513062954
+edge_quant GPU fps :91.67562304124307
+edge_quant EPE:6.6308112144470215
+edge_quant final loss:4.2785544822574595
+
 ```
 
 
@@ -730,15 +775,15 @@ python Test_new.py \
 
 
 full for a counter of 640
-full GPU time avg:0.0050098937004804615
-full GPU fps :199.60503351679847
-full EPE:4.52716064453125
-full final loss:2.862200757025312
+full GPU time avg:0.005007614567875862
+full GPU fps :199.6958804327829
+full EPE:8.578195571899414
+full final loss:5.535161364555824
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.0035309799015522
-edge_quant GPU fps :283.2075026992947
-edge_quant EPE:4.961106777191162
-edge_quant final loss:3.169987844162871
+edge_quant GPU time avg:0.0035554088652133943
+edge_quant GPU fps :281.2616039140073
+edge_quant EPE:8.648573875427246
+edge_quant final loss:5.57903485315037
 
 ```
 
@@ -767,18 +812,19 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=48 \
 --PatchSize1=64 \
---ResizeNearestCrop
+--ResizeNearestCrop --Display
 
 full for a counter of 640
-full GPU time avg:0.0046003714203834535
-full GPU fps :217.37375281682088
-full EPE:6.582145690917969
-full final loss:4.233218090164155
+full GPU time avg:0.0045516353100538256
+full GPU fps :219.7012572143383
+full EPE:9.75664234161377
+full final loss:6.292149821552448
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.0014661997556686401
-edge_quant GPU fps :682.035306672087
-edge_quant EPE:6.6732587814331055
-edge_quant final loss:4.327118266394147
+edge_quant GPU time avg:0.0014643017202615738
+edge_quant GPU fps :682.9193643379496
+edge_quant EPE:9.765453338623047
+edge_quant final loss:6.298186749598244
+
 ```
 
 ```
@@ -849,15 +895,15 @@ python3 Test_new.py \
 --ResizeNearestCrop
 
 full for a counter of 640
-full GPU time avg:0.004154730215668678
-full GPU fps :240.68951486397685
-full EPE:11.307138442993164
-full final loss:7.412464184040436
+full GPU time avg:0.004155852645635605
+full GPU fps :240.62450843876297
+full EPE:10.663297653198242
+full final loss:6.9173069260083135
 edge_quant for a counter of 640
-edge_quant GPU time avg:0.0006826259195804596
-edge_quant GPU fps :1464.931188980632
-edge_quant EPE:11.610689163208008
-edge_quant final loss:7.607230754010379
+edge_quant GPU time avg:0.0006354838609695434
+edge_quant GPU fps :1573.6040856715424
+edge_quant EPE:10.877182006835938
+edge_quant final loss:7.053155300300569
 ```
 
 
@@ -888,7 +934,7 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=384 \
 --PatchSize1=512 \
---NumberOfHalves=2
+--NumberOfHalves=2 --Display
 
 full for a counter of 640
 full GPU time avg:0.010807115957140923
@@ -900,6 +946,18 @@ edge_quant GPU time avg:0.003437686339020729
 edge_quant GPU fps :290.8933222467479
 edge_quant EPE:6.903756141662598
 edge_quant final loss:4.457191512506688
+
+genuine
+full for a counter of 640
+full GPU time avg:0.010739747434854507
+full GPU fps :93.11205929802642
+full EPE:3.661721706390381
+full final loss:2.2928421534015797
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.003524613007903099
+edge_quant GPU fps :283.71909136059475
+edge_quant EPE:4.265985012054443
+edge_quant final loss:2.7072379458753857
 ```
 
 
@@ -929,7 +987,18 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=384 \
 --PatchSize1=512 \
---NumberOfHalves=3
+--NumberOfHalves=3 --Display
+
+full for a counter of 640
+full GPU time avg:0.010396214947104455
+full GPU fps :96.18885383651279
+full EPE:5.8074541091918945
+full final loss:3.663717571744928
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.001258578896522522
+edge_quant GPU fps :794.5469312754404
+edge_quant EPE:6.07888126373291
+edge_quant final loss:3.858346441492904
 ```
 
 
@@ -959,7 +1028,19 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=256 \
 --PatchSize1=256 \
---NumberOfHalves=4
+--NumberOfHalves=4 --Display
+
+
+full for a counter of 640
+full GPU time avg:0.006532619893550873
+full GPU fps :153.07794059581195
+full EPE:10.836492538452148
+full final loss:7.061734133842402
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.0005103256553411484
+edge_quant GPU fps :1959.533073702729
+edge_quant EPE:11.127196311950684
+edge_quant final loss:7.253783411998302
 ```
 
 
@@ -1147,5 +1228,174 @@ Figure 3
 	- [x] gap sim
 	- [x] dyn real
 	- [x] static real
-	- [ ] gap real
+	- [x] gap real
 - order
+
+---
+Overlap Percentage
+
+delta = 16
+```
+
+
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_16/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_16/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=4 \
+--PatchDelta=16 \
+--OverlapCropStack \
+--Uncertainity
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_overlap_crop_stack_16 \
+--OverlapCropStack \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchDelta=16 \
+--Display 
+
+full for a counter of 640
+full GPU time avg:0.011023497581481934
+full GPU fps :90.71530996476764
+full EPE:2.9198434352874756
+full final loss:1.8302613952197135
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.012311011180281639
+edge_quant GPU fps :81.22809616172593
+edge_quant EPE:3.8462908267974854
+edge_quant final loss:2.45086013697437
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_32/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_32/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=4 \
+--PatchDelta=32 \
+--OverlapCropStack \
+--Uncertainity
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_overlap_crop_stack_32 \
+--OverlapCropStack \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchDelta=32 \
+--Display 
+
+full for a counter of 640
+full GPU time avg:0.012060680240392686
+full GPU fps :82.91406289430329
+full EPE:2.8354504108428955
+full final loss:1.7753962093847804
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.01452360711991787
+edge_quant GPU fps :68.85341855802382
+edge_quant EPE:3.7515578269958496
+edge_quant final loss:2.388372007221915
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_64/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_64/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=4 \
+--PatchDelta=64 \
+--OverlapCropStack \
+--Uncertainity
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_overlap_crop_stack_64 \
+--OverlapCropStack \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchDelta=64 \
+--Display 
+
+full for a counter of 640
+full GPU time avg:0.015032914653420448
+full GPU fps :66.5206996151255
+full EPE:2.767272472381592
+full final loss:1.7326592952304054
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.018236705288290977
+edge_quant GPU fps :54.834466214796926
+edge_quant EPE:3.7757413387298584
+edge_quant final loss:2.4063651584612673
+```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_48/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_overlap_crop_stack_48/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=4 \
+--PatchDelta=48 \
+--OverlapCropStack \
+--Uncertainity
+
+
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted_overlap_crop_stack_48 \
+--OverlapCropStack \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchDelta=48 \
+--Display 
+
+
+full for a counter of 640
+full GPU time avg:0.013703585788607597
+full GPU fps :72.9736008827226
+full EPE:2.7880945205688477
+full final loss:1.7455220915202516
+edge_quant for a counter of 640
+edge_quant GPU time avg:0.016179174557328223
+edge_quant GPU fps :61.807850360762586
+edge_quant EPE:3.6777071952819824
+edge_quant final loss:2.33997880887473
+```

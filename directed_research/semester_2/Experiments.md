@@ -672,7 +672,7 @@ python Test_new.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --Display \
---OnEdge
+--OnEdge --ShiftedFlow
 ```
 
 ![[h_w_24.png]]
@@ -717,7 +717,7 @@ python Test_new.py \
 --NumSubBlocks=2 \
 --InitNeurons=32 \
 --OnEdge \
---Display
+--Display --PatchDelta=16
 
 full for a counter of 640
 full GPU time avg:0.010770534351468086
