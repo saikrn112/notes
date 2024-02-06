@@ -1399,3 +1399,22 @@ edge_quant GPU fps :61.807850360762586
 edge_quant EPE:3.6777071952819824
 edge_quant final loss:2.33997880887473
 ```
+
+
+```
+python Test_new.py \
+--BasePath=../Datasets/FlyingChairs2/ \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=../models/multiscale_uncertainity_1/ \
+--TFLiteFolder=converted \
+--CheckPointNum=399 \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--Uncertainity \
+--OnGPU \
+--OnEdge \
+--PatchSize0=352 \
+--PatchSize1=480 \
+--Display
+
+```
