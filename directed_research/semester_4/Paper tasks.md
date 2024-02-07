@@ -1444,3 +1444,16 @@ python3 test_sim.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/exp/exp46/ \
 --RunMAVlink
 ```
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--ClosestResizeAndCrop \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/static2/exp/exp4/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/static2/exp/exp4/ \
+--RunMAVlink
+```
