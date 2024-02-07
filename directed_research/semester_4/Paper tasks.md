@@ -730,7 +730,7 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=176 \
 --PatchSize1=240 \
---ResizeNearestCrop
+--ResizeNearestCrop --Display
 
 full for a counter of 640
 full GPU time avg:0.0059919536113739015
@@ -771,7 +771,7 @@ python Test_new.py \
 --OnEdge \
 --PatchSize0=96 \
 --PatchSize1=128 \
---ResizeNearestCrop
+--ResizeNearestCrop --Display
 
 
 full for a counter of 640
@@ -892,7 +892,7 @@ python3 Test_new.py \
 --OnEdge \
 --PatchSize0=16 \
 --PatchSize1=16 \
---ResizeNearestCrop
+--ResizeNearestCrop --Display
 
 full for a counter of 640
 full GPU time avg:0.004155852645635605
