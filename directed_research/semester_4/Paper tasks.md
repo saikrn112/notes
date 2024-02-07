@@ -1496,3 +1496,16 @@ python3 test_sim_gap.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp10/ \
 --RunMAVlink
 ```
+
+
+```
+python3 test_sim_gap.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_half \
+--CropTopAndLeft \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp7/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp7/ \
+--RunMAVlink
+```
