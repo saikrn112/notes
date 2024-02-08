@@ -1453,8 +1453,8 @@ python3 test_sim.py \
 --TFLiteFolder=converted_half \
 --ClosestResizeAndCrop \
 --Uncertainity \
---exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/static2/exp/exp4/ \
---OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/static2/exp/exp4/ \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/static2/exp/exp6/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/static2/exp/exp6/ \
 --RunMAVlink
 ```
 
