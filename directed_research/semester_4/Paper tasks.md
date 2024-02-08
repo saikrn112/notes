@@ -1509,3 +1509,16 @@ python3 test_sim_gap.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp7/ \
 --RunMAVlink
 ```
+
+
+```
+python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
+--tflite_path=../models/multiscale_uncertainity_1/converted_crop_stack/ \
+--tflite_edge_path=../models/multiscale_uncertainity_1/converted_crop_stack/ \
+--tf_model_path=../models/multiscale_uncertainity_1/399model.ckpt \
+--NumSubBlocks=2 \
+--InitNeurons=32 \
+--NumOut=4 \
+--ResizeCropStack \
+--Uncertainity
+```
