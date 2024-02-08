@@ -1505,7 +1505,7 @@ python3 test_sim_gap.py \
 --TFLiteFolder=converted_half \
 --ClosestResizeAndCrop \
 --Uncertainity \
---exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp5/ \
---OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp5/ \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp7/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp7/ \
 --RunMAVlink
 ```
