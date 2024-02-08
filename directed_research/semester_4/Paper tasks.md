@@ -1479,8 +1479,8 @@ python3 test_sim.py \
 --TFLiteFolder=converted_half \
 --ClosestResizeAndCrop \
 --Uncertainity \
---exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/dynamic_experiments/exp21/ \
---OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/dynamic_experiment_results/exp21/ \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/dynamic_experiments/exp24/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/dynamic_experiment_results/exp24/ \
 --RunMAVlink
 ```
 
@@ -1503,9 +1503,9 @@ python3 test_sim_gap.py \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
 --TFLiteFolder=converted_half \
---CropTopAndLeft \
+--ClosestResizeAndCrop \
 --Uncertainity \
---exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp7/ \
---OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp7/ \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/gapflyt_experiments/exp5/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/gapflyt_experiments_results/exp5/ \
 --RunMAVlink
 ```
