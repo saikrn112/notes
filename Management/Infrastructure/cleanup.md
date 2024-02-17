@@ -30,3 +30,8 @@ sudo fs_usage | grep swapfile
 ```
 pip cache purge
 ```
+
+
+```
+sudo apt clean
+```
