@@ -1425,7 +1425,7 @@ python3 test_sim.py \
 --NetworkName=Network.MultiScaleResNet \
 --CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
 --TFLiteFolder=converted_half \
---ClosestResizeAndCrop \
+--ResizeCropStack \
 --Uncertainity \
 --exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/exp/exp46/ \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/exp/exp46/ \
@@ -1436,9 +1436,9 @@ python3 test_sim.py \
 ```
 python3 test_sim.py \
 --NetworkName=Network.MultiScaleResNet \
---CheckPointFolder=/home/ramu/Personal/optical_flow/models/multiscale_uncertainity_1/  \
---TFLiteFolder=converted_half \
---ClosestResizeAndCrop \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models//multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_chunking \
+--ResizeCropStack \
 --Uncertainity \
 --exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/exp/exp46/ \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/exp/exp46/ \
@@ -1536,3 +1536,34 @@ python3 test_sim.py \
 --OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/dynamic_experiment_results/exp21/ \
 --RunMAVlink
 ```
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models//multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_chunking \
+--ResizeCropStack \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/static_experiments/static2/exp/exp6/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/static_experiment_results/static2/exp/exp6/ \
+--RunMAVlink
+```
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models//multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_chunking \
+--ResizeCropStack \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/dynamic_experiments/exp31/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/dynamic_experiment_results/exp31/ \
+--RunMAVlink
+```
+
+- [ ] static2
+- [ ] dynamic1
+- [ ] dynamic2
+- [ ] 
