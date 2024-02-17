@@ -1522,3 +1522,17 @@ python TFLiteConverter.py --NetworkName=Network.MultiScaleResNet \
 --ResizeCropStack \
 --Uncertainity
 ```
+
+
+
+```
+python3 test_sim.py \
+--NetworkName=Network.MultiScaleResNet \
+--CheckPointFolder=/home/ramu/Personal/OpticalFlowOnTPU/models//multiscale_uncertainity_1/  \
+--TFLiteFolder=converted_chunking \
+--ResizeCropStack \
+--Uncertainity \
+--exp_dir=/home/ramu/Personal/OpticalFlowOnTPU/Datasets/dynamic_experiments/exp21/ \
+--OutputPath=/home/ramu/Personal/OpticalFlowOnTPU/dynamic_experiment_results/exp21/ \
+--RunMAVlink
+```
