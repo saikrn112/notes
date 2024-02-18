@@ -1566,4 +1566,7 @@ python3 test_sim.py \
 - [ ] static2
 - [ ] dynamic1
 - [ ] dynamic2
-- [ ] 
+
+
+
+agdfaf
