@@ -414,3 +414,14 @@ working on tof integration with camera
 ## 2023.07.14
  worked a little more on rotation transformation 
  need to work on the tof
+
+
+## 2024.02.14
+- [ ] get everything working again with ToF and noetic docker 
+- [ ] update the savloc docker with cpp stuff and ros stuff 
+- [ ] run everything from savloc docker 
+- [ ] tof IR 
+	- [ ] python cpp bindings 
+
+
+## Scott
