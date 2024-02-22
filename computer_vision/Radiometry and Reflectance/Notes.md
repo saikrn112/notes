@@ -44,4 +44,8 @@ Anisotroic and isotropic surfaces
 ![[color_reflectance_dichromatic.png]]
 ![[body_surface_reflection.png]]
 
-![[highlights_in_google_photos_lol.png]]
+![[highlights_in_google_photos_lol.png
+
+
+![[radiometric_calibrarion_crf.png]]
+![[radiometric_calibration-1.png]]
