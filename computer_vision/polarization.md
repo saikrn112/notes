@@ -1,0 +1,1 @@
+![[how_polarization_affects_reflection.png]]
