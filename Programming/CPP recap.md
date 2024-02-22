@@ -47,6 +47,10 @@ co_await
 
 https://blog.feabhas.com/2021/08/c20-modules-with-gcc11/
 
+## Ranges and Views
+https://hannes.hauswedell.net/post/2019/11/30/range_intro/
+
+
 ## Concepts
 requires --- list of nested requirements on the type
 
