@@ -1,9 +1,10 @@
 {
-  "theme": "moonstone",
-  "baseFontSize": 17,
+  "theme": "obsidian",
+  "baseFontSize": 13,
   "accentColor": "#643fde",
   "enabledCssSnippets": [
     "obsidian"
   ],
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": true
 }

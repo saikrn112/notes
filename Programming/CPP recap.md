@@ -53,6 +53,7 @@ https://hannes.hauswedell.net/post/2019/11/30/range_intro/
 
 ## Concepts
 requires --- list of nested requirements on the type
+https://iamsorush.com/posts/concepts-cpp/
 
 ## Info 
 Static initialization problem - if two static objects are dependent on one another [here](https://isocpp.org/wiki/faq/ctors#static-init-order)
