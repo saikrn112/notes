@@ -26,6 +26,8 @@ http://www.theia-sfm.org/api.html
 
 https://mujinspire.mujin.co.jp/en/2021/06/ace-your-computer-vision-job-interview/
 
+https://www-users.cse.umn.edu/~hspark/CSci5980/csci5980_3dvision.html
+
 Daniel Cramer's MVG
 
 https://cvg.cit.tum.de/teaching/online/mvg
