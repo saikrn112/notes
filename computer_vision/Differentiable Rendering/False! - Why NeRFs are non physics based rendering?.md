@@ -1,0 +1,1 @@
+![[Why NeRFs are non physics based rendering?.png]]

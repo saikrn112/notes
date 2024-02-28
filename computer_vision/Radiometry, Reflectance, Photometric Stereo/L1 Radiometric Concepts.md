@@ -34,7 +34,10 @@ Anisotroic and isotropic surfaces
 
 ![[reflection_mechs_and_specular_reflection.png]]
 ![[reflection_type_examples.png]]
-![[lambertian_model.png]]
+-  Lambertian model
+![[lambertian_model.png]] ^b39f62
+- Specular Model
+
 ![[ideal_specular_model.png]]
 ![[interesting_difference_bw_lambertian_and_specular.png]]
 
@@ -44,7 +47,7 @@ Anisotroic and isotropic surfaces
 ![[color_reflectance_dichromatic.png]]
 ![[body_surface_reflection.png]]
 
-![[highlights_in_google_photos_lol.png
+![[highlights_in_google_photos_lol.png]]
 
 
 ![[radiometric_calibrarion_crf.png]]
