@@ -31,3 +31,8 @@ https://www-users.cse.umn.edu/~hspark/CSci5980/csci5980_3dvision.html
 Daniel Cramer's MVG
 
 https://cvg.cit.tum.de/teaching/online/mvg
+
+
+https://www.cs.cmu.edu/~motoole2/16823-s20/
+
+http://graphics.cs.cmu.edu/courses/15-468/2023_spring/
