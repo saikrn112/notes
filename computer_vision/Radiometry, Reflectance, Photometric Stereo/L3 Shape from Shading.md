@@ -18,7 +18,7 @@ unlike multliple shades used in photometric stereo
 
 -----
 
-## Stereographic Projection : Shape from Shading Algorithm
+## Stereographic Projection 
 ![[stereographic_projection.png]]
 ![[stereographic_projection-1.png]]
 ![[stereographic_projection-2.png]]
