@@ -1,5 +1,6 @@
 
 Lecture 6 
+![[reflection equation derivation.png]]
 ![[rendering_architecture.png]]
 ![[Rendering Lectures from Graphics CMU.png]]
 Lecture 12
