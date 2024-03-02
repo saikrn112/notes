@@ -26,3 +26,10 @@ winnograd
 im2col
 strassen's multliplication
 
+
+
+| conv type                 | URL                                                                                                       |
+| ------------------------- | --------------------------------------------------------------------------------------------------------- |
+| convolution without loops | https://medium.com/analytics-vidhya/implementing-convolution-without-for-loops-in-numpy-ce111322a7cd      |
+| different implementations | https://medium.com/@sundarramanp2000/different-implementations-of-the-ubiquitous-convolution-6a9269dbe77f |
+

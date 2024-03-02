@@ -4,6 +4,10 @@ https://duckduckgo.com/?q=fourier+transform&t=newext&atb=v341-2&iax=videos&ia=vi
 
 [Computer Vision : Fall 2022 (cmu.edu)](http://16385.courses.cs.cmu.edu/fall2022/)
 
+## Shree Nayar's course 
+https://fpcv.cs.columbia.edu/about
+
+
 
 visual learning - [visual-learning/vqa (github.com)](https://github.com/visual-learning/vqa)
 geometric - [Geometry-based Methods in Vision (geometric3d.github.io)](https://geometric3d.github.io/)
@@ -36,3 +40,10 @@ https://cvg.cit.tum.de/teaching/online/mvg
 https://www.cs.cmu.edu/~motoole2/16823-s20/
 
 http://graphics.cs.cmu.edu/courses/15-468/2023_spring/
+
+## Differentiable Rendering
+https://www.diff-render.org/
+
+https://kaolin.readthedocs.io/en/v0.9.1/notes/diff_render.html
+
+https://pytorch3d.org/docs/renderer#1
