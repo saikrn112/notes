@@ -424,4 +424,13 @@ working on tof integration with camera
 	- [ ] python cpp bindings 
 
 ## 2024.03.01
-- [ ] 
+
+
+## 2024.03.05
+- [ ] clean up the changes 
+	- [ ] savros 
+	- [ ] drone_common 
+- [ ] make sure I am able to dump the data from savloc 
+- [ ] replay that data without asw container and with pure savloc 
+- [ ] collect data 
+- [ ] push the changes 
