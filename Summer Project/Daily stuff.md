@@ -435,3 +435,6 @@ working on tof integration with camera
 - [ ] collect data 
 - [ ] push the changes 
 
+- [ ] review the changes ASAP
+- [ ] make a temporary release to AP2
+- [ ] collect data where savloc is actually working
