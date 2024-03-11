@@ -438,3 +438,9 @@ working on tof integration with camera
 - [ ] review the changes ASAP
 - [ ] make a temporary release to AP2
 - [ ] collect data where savloc is actually working
+
+
+## 2023.03.11
+
+final rotation between camera and tof 
+R_camera_to_tof = ((0,-1,0), (1,0,0), (0,0,1))T
