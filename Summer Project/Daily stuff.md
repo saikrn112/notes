@@ -450,3 +450,12 @@ R_camera_to_tof = ((0,-1,0), (1,0,0), (0,0,1))T
 
 - [ ] entire pipeline without tof 
 - [ ] entire pipeline with tof
+
+
+
+- [ ] 30 flights with worldviz
+- [ ] eye out corner cases where tof behaves weirdly
+- [ ] merge the changes in disabled everywhere 
+	- [ ] except for the starlings of interest
+- [ ] 30 flights with full aisle with AP machines
+	- [ ] analyse the flights
