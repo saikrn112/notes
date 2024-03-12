@@ -444,3 +444,9 @@ working on tof integration with camera
 
 final rotation between camera and tof 
 R_camera_to_tof = ((0,-1,0), (1,0,0), (0,0,1))T
+
+
+## 2023.03.12
+
+- [ ] entire pipeline without tof 
+- [ ] entire pipeline with tof
