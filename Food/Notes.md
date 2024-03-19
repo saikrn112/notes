@@ -40,3 +40,8 @@ let's review previous meal plans
 - stand mixer
 - immersion blender
 - mason jars
+
+## Process
+1. start with one meal at a time (Dinner)
+2. do it for 6 days a week
+3. Pick a set of themes/cuisines for each day
