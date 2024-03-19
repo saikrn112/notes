@@ -467,5 +467,42 @@ cut off date for using ToF between Mar 19th
 
 ## 2023.03.19
 
-- [ ] success_tof not reaching back in the request
-- [ ] use_tof chna
+- [x] success_tof not reaching back in the request
+- [ ] final use_tof changes 
+
+
+| enable_tof | use_tof | behaviour rest json | data store         | plotting           |
+| ---------- | ------- | ------------------- | ------------------ | ------------------ |
+| false      | false   | usual savloc        | usual savloc       | usual savloc       |
+| false      | true    | usual savloc        | usual savloc       | usual savloc       |
+| true       | false   | usual savloc        | savloc + savloctof | savloc + savloctof |
+| true       | true    | savloctof           | savloc + savloctof | savloctof          |
+
+4 scenarios 2 times 
+- [x] false,false, offline -- expected usual savloc
+- [x] false,true, offline -- expected usual savloc
+- [x] true,false offline -- savloc + tof
+- [x] true, true, offline -- savloctof
+- [x] false,false online
+- [x] false,true, online
+- [x] true, false, online
+- [x] true,true, online
+
+collision avoidance 
+- [ ] need data snippet to identify it 
+- [ ] profile the latency with pcl first 
+- [ ] who publishes map->odom frames? where is rosmaster essentially? 
+	- [ ] does it matter for transforms? 
+
+
+pipeline 
+- [ ] fetch data from the rosnode or pipe
+- [ ] undistort
+- [ ] read the camera info directly from the file like savros?
+- [ ] perspective project to the 3D world
+- [ ] filter out the stuff on the image 
+- [ ] fit plane using ransac 
+	- [ ] checkout ransac code 
+- [ ] get distance to the fit plane
+- [ ] see if that is less than certain threshold
+- [ ] if less then publish a map to odom frame transform 
