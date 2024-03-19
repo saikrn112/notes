@@ -43,5 +43,6 @@ let's review previous meal plans
 
 ## Process
 1. start with one meal at a time (Dinner)
-2. do it for 6 days a week
-3. Pick a set of themes/cuisines for each day
+2. do it for 6 days a week 
+3. Pick a set of themes/cuisines for each day - https://simmertoslimmer.com/dinner-themes/
+4. 
