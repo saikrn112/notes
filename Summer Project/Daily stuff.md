@@ -506,3 +506,14 @@ pipeline
 - [ ] get distance to the fit plane
 - [ ] see if that is less than certain threshold
 - [ ] if less then publish a map to odom frame transform 
+
+
+
+
+
+| send_request_after_mission_init | publish_poses_after_mission_start | descriptions                                |
+| ------------------------------- | --------------------------------- | ------------------------------------------- |
+| True                            | True                              | should send stuff to savloc after take off  |
+| True                            | False                             |                                             |
+| False                           | False                             |                                             |
+| False                           | True                              |                                             |
