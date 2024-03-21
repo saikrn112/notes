@@ -511,9 +511,13 @@ pipeline
 
 
 
-| send_request_after_mission_init | publish_poses_after_mission_start | descriptions                                |
-| ------------------------------- | --------------------------------- | ------------------------------------------- |
-| True                            | True                              | should send stuff to savloc after take off  |
-| True                            | False                             |                                             |
-| False                           | False                             |                                             |
-| False                           | True                              |                                             |
+| send_request_after_take_off | publish_poses_after_mission_start | descriptions                                                                                    | checked |
+| --------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------- | ------- |
+| False                       | False                             | send the savloc events on process start and also publish on process start behaviour             |         |
+| True                        | False                             | should send stuff after take off and also start publishing the data                             |         |
+| True                        | True                              | should send stuff to savloc after take off and publish poses after start_scan                   |         |
+| False                       | True                              | current behaviour:: send savloc requst only on mission start and also publish only at that time |         |
+
+
+
+sudo apt update --fix-missing && sudo apt install vim less -y
