@@ -45,4 +45,28 @@ let's review previous meal plans
 1. start with one meal at a time (Dinner)
 2. do it for 6 days a week 
 3. Pick a set of themes/cuisines for each day - https://simmertoslimmer.com/dinner-themes/
-4. 
+
+
+
+## Protein
+
+### Essential amino acids
+those which body cannot produce inherently
+- histidine
+- isoleucine
+- leucine
+- lysine
+- methionine
+- phenylalanine
+- threonine
+- trypophan
+- valine
+
+
+### complete protein
+contains all the 9 essential amino acids
+
+### incomplete protein
+
+rice/wheat is low in lysine
+but peanuts make up for it -- high in lysine
