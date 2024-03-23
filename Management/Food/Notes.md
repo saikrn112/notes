@@ -70,3 +70,11 @@ contains all the 9 essential amino acids
 
 rice/wheat is low in lysine
 but peanuts make up for it -- high in lysine
+
+## Why did I fail last few times?
+
+I tried dieting at least twice so far, once in 2019ish and another time again in 2021ish
+
+1. meal planning was hard to keep up with lazy ass 
+2. portion control was also hard 
+3. food was not interesting to follow
