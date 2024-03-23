@@ -71,6 +71,17 @@ contains all the 9 essential amino acids
 rice/wheat is low in lysine
 but peanuts make up for it -- high in lysine
 
+## Fat Loss
+
+### Visceral Fat 
+ - surrounds the body organs like stomach, liver and intenstines 
+ - easier to loose 
+ - limit trans fats, refined sugars, sodium and processed foods
+
+### Subcutaneous Fat 
+- that which is below skin
+- comparatively harder to loose
+
 ## Why did I fail last few times?
 
 I tried dieting at least twice so far, once in 2019ish and another time again in 2021ish
@@ -78,3 +89,4 @@ I tried dieting at least twice so far, once in 2019ish and another time again in
 1. meal planning was hard to keep up with lazy ass 
 2. portion control was also hard 
 3. food was not interesting to follow
+4. need to understand how to calorie count sustainbly
