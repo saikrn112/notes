@@ -90,3 +90,19 @@ I tried dieting at least twice so far, once in 2019ish and another time again in
 2. portion control was also hard 
 3. food was not interesting to follow
 4. need to understand how to calorie count sustainbly
+
+
+- finish taxes 
+- do some webscraping work 
+- robot control
+	- assignment
+	- project
+- Gym 3PM - after the meeting
+- plan for the trips
+- finalize the internship end date 
+	- presentation for that 
+	- check with Nilesh and Prasanth ofc
+	- probably have to check with Kevin and Carlos
+- Main thing food 
+	- breakfast 
+	- dinner ideas for next 2 weeks
