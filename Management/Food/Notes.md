@@ -92,17 +92,30 @@ I tried dieting at least twice so far, once in 2019ish and another time again in
 4. need to understand how to calorie count sustainbly
 
 
-- finish taxes 
-- do some webscraping work 
-- robot control
-	- assignment
-	- project
-- Gym 3PM - after the meeting
-- plan for the trips
-- finalize the internship end date 
-	- presentation for that 
-	- check with Nilesh and Prasanth ofc
-	- probably have to check with Kevin and Carlos
-- Main thing food 
-	- breakfast 
-	- dinner ideas for next 2 weeks
+
+
+Gym pre workout 
+post workout 
+timings
+
+morning breakfast 
+caffeine intake in the morning
+
+dinner plan
+
+also need to know protein distribution
+get the previous diet plans
+
+
+| Day       | Cuisine       |
+| --------- | ------------- |
+| Monday    | Indian        |
+| Tuesday   | Mexican       |
+| Wednesday | Italian       |
+| Thursday  | Indian        |
+| Friday    | Chinese       |
+| Saturday  | Indian        |
+| Sunday    | Mediterranean |
+
+effectively I need 3 indian breakfasts to make quickly
+
